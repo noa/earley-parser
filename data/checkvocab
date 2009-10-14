@@ -1,0 +1,23 @@
+#!/usr/bin/env perl
+
+# Usage: checkvocab foo.gr [foo.sen]
+# 
+# Warns about sentences that contain symbols that don't appear in the
+# grammar.  (Does not distinguish between terminals and nonterminals.)
+
+die "Usage: checkvocab foo.gr [foo.sen]\n" unless @ARGV;
+
+$grammar=shift(@ARGV);
+open(GRAMMAR, $grammar) || die "$0: can't open grammar file $grammar\n";
+while (<GRAMMAR>) {
+  foreach $sym (split) {  $seen{$sym} = 1; }
+}
+close(GRAMMAR);
+
+while (<>) {
+  chomp;
+  @bad = grep(!$seen{$_}, split);
+  $bad=1, warn join(", ", @bad)." not in $grammar; won't be able to parse: $_\n" if @bad;
+}
+
+exit($bad);

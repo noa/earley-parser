@@ -1,0 +1,14 @@
+0	ROOT	S
+0	S	NP VP
+0	NP	Det N
+0	NP	NP PP
+0	VP	V NP
+0	VP	VP PP
+0	PP	P NP
+0	NP	Papa
+0	N	caviar
+0	N	spoon
+0	V	ate
+0	P	with
+0	Det	the
+0	Det	a

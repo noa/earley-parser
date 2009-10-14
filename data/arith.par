@@ -1,0 +1,26 @@
+(ROOT (EXPR (TERM (FACTOR (Num 3)))))
+8.440001
+NONE
+(ROOT (EXPR (TERM (TERM (FACTOR (Num 3)))
+                  *
+                  (FACTOR (Num 5)))))
+15.300001
+(ROOT (EXPR (EXPR (EXPR (TERM (TERM (FACTOR (Num 3)))
+                              *
+                              (FACTOR (Num 5))))
+                  +
+                  (TERM (TERM (FACTOR (Num 6)))
+                        *
+                        (FACTOR {
+                                (EXPR (EXPR (EXPR (TERM (FACTOR (Num 5))))
+                                            -
+                                            (TERM (FACTOR (Num 3))))
+                                      -
+                                      (TERM (FACTOR (Num 2))))
+                                })))
+            +
+            (TERM (FACTOR sqrt
+                          {
+                          (EXPR (TERM (FACTOR (Num 7))))
+                          }))))
+65.40001

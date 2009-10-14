@@ -1,0 +1,40 @@
+#!/usr/bin/env perl
+
+# Usage: delfeats foo.grf > foo.gr
+#
+# Creates a "clean" version of the grammar foo.grf that has no features,
+# comments, or blank lines.  You can use that version for parsing and
+# then compute the feature values later with buildfeats.
+#
+# Also turns counts into weights.  In foo.grf, the number before each
+# rule X -> Y Z is proportional to p(Y Z | X) as in assignment 1.  
+# In foo.gr, this number is replaced by -log2 p(Y Z | X), which is
+# the "weight" of the rule.
+
+use bytes;
+
+while (<>) {
+  chomp;
+  $comment = "";
+  $comment = $& if s/#.*//; # remove and save any comment on this line
+  s/"[^"]*"//g;             # delete any quoted material (even if it contains unbalanced brackets)
+  {} while s/\[[^][]*\]//g; # repeatedly remove minimal balanced bracket pairs until all gone.  The outermost of these is the whole feature spec for a nonterminal.
+
+  @r = split;
+  next unless @r;                      # skip blank lines
+  $count = shift(@r);                  # get number from rule
+  die "invalid count $count" unless $count =~ /[0-9.]+/ && $count > 0;
+  $lhs = shift(@r);                    # get left-hand side
+  $rule = $lhs . "\t" . join(" ",@r);  # a canonical form
+  push @rules, $rule unless defined $rulecount{$rule};   # eliminate duplicate rules (rules that are identical except for features)
+  $rulecount{$rule} += $count;         # but sum counts of duplicates
+  $totalcount{$lhs} += $count;
+}
+
+# at the end, dump out all the rules and their weights
+foreach $rule (@rules) {
+  $rule =~ /^\S+/;           # get LHS into $&
+  $weight = -log($rulecount{$rule} / $totalcount{$&}) / log(2);
+  $weight = 0 if $weight==0;     # avoid annoying "-0"
+  printf "%.3g\t%s\n", $weight, $rule;
+}

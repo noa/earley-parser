@@ -1,0 +1,10668 @@
+0.0391	PUNC$	$
+7.8	PUNC$	A$
+6.72	PUNC$	C$
+9.46	PUNC$	HK$
+6.46	PUNC$	US$
+5.74	PUNC''	'
+0.0272	PUNC''	''
+2.78	PUNC-LRB-	-LCB-
+0.226	PUNC-LRB-	-LRB-
+2.75	PUNC-RRB-	-RCB-
+0.233	PUNC-RRB-	-RRB-
+9.22	PUNC.	!
+0.0191	PUNC.	.
+6.45	PUNC.	?
+6	PUNC:	-
+1.61	PUNC:	--
+4.61	PUNC:	...
+1.57	PUNC:	:
+1.84	PUNC:	;
+6.32	ADJP	PUNC$ JJ
+6.14	ADJP	ADJP PP
+8.46	ADJP	ADJP PRN
+8.32	ADJP	ADJP SBAR
+7.39	ADJP	ADVP JJ
+8.32	ADJP	ADVP VBN
+8.97	ADJP	IN JJ
+9.46	ADJP	IN NN
+3.44	ADJP	JJ
+8.61	ADJP	JJ , JJ
+4.92	ADJP	JJ JJ
+9.46	ADJP	JJ JJR
+8.46	ADJP	JJ JJS
+9.2	ADJP	JJ NN
+9.46	ADJP	JJ NP
+4.76	ADJP	JJ NP-TMP
+8.61	ADJP	JJ NP-TMP PP
+4.2	ADJP	JJ PP
+7.97	ADJP	JJ PP-TMP
+7.53	ADJP	JJ S
+8.2	ADJP	JJ SBAR
+8.61	ADJP	JJ TO JJ
+5.55	ADJP	JJR
+9.2	ADJP	JJR JJ
+8.08	ADJP	JJR PP
+9.46	ADJP	JJS
+7.61	ADJP	JJS JJ
+8.61	ADJP	NN VBN
+6.39	ADJP	NP JJ
+7.08	ADJP	NP JJR
+7.69	ADJP	NP-ADV JJR
+7.14	ADJP	NPR , JJ
+6.74	ADJP	NPR JJ
+7.39	ADJP	QP
+7.78	ADJP	QP JJ
+9.2	ADJP	QP JJ NN
+9.46	ADJP	QP JJR
+2.73	ADJP	QP NN
+2.87	ADJP	QPMONEY
+6.97	ADJP	RB
+8.08	ADJP	RB DT
+2.9	ADJP	RB JJ
+6.92	ADJP	RB JJ PP
+4.99	ADJP	RB JJR
+8.97	ADJP	RB JJS
+7.69	ADJP	RB RB JJ
+8.78	ADJP	RB RBR JJ
+8.2	ADJP	RB VBG
+4.2	ADJP	RB VBN
+8.46	ADJP	RBR
+5.24	ADJP	RBR JJ
+9.46	ADJP	RBR JJ PP
+4.58	ADJP	RBS JJ
+9.46	ADJP	RBS RB JJ
+8.78	ADJP	VBN
+9.46	ADJP	VBN NP
+8.2	ADJP	VBN PP
+8.77	ADJP-PRD	ADJP , ADJP
+7.52	ADJP-PRD	ADJP
+4.62	ADJP-PRD	ADJP PP
+9.45	ADJP-PRD	ADJP PP PP
+5.77	ADJP-PRD	ADJP SBAR
+7.38	ADJP-PRD	ADVP JJ
+9.18	ADJP-PRD	ADVP JJ PP
+1.41	ADJP-PRD	JJ
+8.18	ADJP-PRD	JJ NP
+9.18	ADJP-PRD	JJ NP-TMP
+8.31	ADJP-PRD	JJ NP-TMP PP
+3.04	ADJP-PRD	JJ PP
+8.31	ADJP-PRD	JJ PP PP
+9.45	ADJP-PRD	JJ PP-LOC
+8.45	ADJP-PRD	JJ RB S
+3.3	ADJP-PRD	JJ S
+5.24	ADJP-PRD	JJ SBAR
+5.62	ADJP-PRD	JJR
+7.86	ADJP-PRD	JJR PP
+8.31	ADJP-PRD	NN
+7.86	ADJP-PRD	NP JJ
+8.77	ADJP-PRD	NP JJR
+9.18	ADJP-PRD	NP-ADV JJR
+3.18	ADJP-PRD	RB JJ
+5.2	ADJP-PRD	RB JJ PP
+7.77	ADJP-PRD	RB JJ S
+7.07	ADJP-PRD	RB JJ SBAR
+6.56	ADJP-PRD	RB JJR
+8.18	ADJP-PRD	RB RB JJ
+8.45	ADJP-PRD	RB RBR JJ
+7.38	ADJP-PRD	RB VBN
+8.77	ADJP-PRD	RB VBN PP
+8.6	ADJP-PRD	RBR
+6.15	ADJP-PRD	RBR JJ
+8.07	ADJP-PRD	RBR JJ PP
+8.07	ADJP-PRD	RBR JJ S
+8.45	ADJP-PRD	RBS JJ
+8.96	ADJP-PRD	RP
+7.77	ADJP-PRD	VBG
+6.07	ADJP-PRD	VBN
+6.38	ADJP-PRD	VBN PP
+8.6	ADJP-PRD	VBN S
+7.68	ADJP-PRD	VBN SBAR
+9.18	ADJP-PRD	PUNC`` JJ PUNC'' PP
+8.72	ADVP	ADVP
+6.84	ADVP	ADVP PP
+8.13	ADVP	ADVP SBAR
+9.72	ADVP	DT
+7.08	ADVP	IN
+7.89	ADVP	IN DT
+6.96	ADVP	IN JJS
+9.89	ADVP	IN NN
+6.53	ADVP	IN NP
+8.57	ADVP	IN NP PP
+6.78	ADVP	IN PP
+8.72	ADVP	IN RB
+6.91	ADVP	JJ
+8.5	ADVP	JJ PP
+7.8	ADVP	JJR
+10.6	ADVP	JJR IN
+10.3	ADVP	LS
+8.72	ADVP	NN
+10.3	ADVP	NN IN
+7.98	ADVP	NP JJR
+8.72	ADVP	NP RB
+8.24	ADVP	NP RBR
+10.3	ADVP	NP-ADV RBR
+9.3	ADVP	NPR
+10.3	ADVP	QP
+9.72	ADVP	QP TO QP
+0.413	ADVP	RB
+10.3	ADVP	RB IN
+8.08	ADVP	RB JJ
+8.64	ADVP	RB JJR
+4.88	ADVP	RB NP
+7.01	ADVP	RB NP PP
+9.43	ADVP	RB NP PP-TMP
+5.07	ADVP	RB PP
+4.87	ADVP	RB RB
+8.98	ADVP	RB RB RB
+7.01	ADVP	RB RBR
+10.6	ADVP	RB S
+6.02	ADVP	RBR
+8.72	ADVP	RBR IN
+10.1	ADVP	RBR PP
+7.27	ADVP	RBR RB
+9.08	ADVP	RBS
+9.19	ADVP	RBS RB
+5.26	ADVP-LOC	IN
+5.09	ADVP-LOC	IN NP
+5.94	ADVP-LOC	IN PP
+4.8	ADVP-LOC	JJ
+5.26	ADVP-LOC	NP RB
+5.94	ADVP-LOC	NP RB PP
+0.429	ADVP-LOC	RB
+3.62	ADVP-LOC	RB PP
+5.26	ADVP-LOC	RB RB
+0.189	ADVP-LOC-PRD	RB
+3.03	ADVP-LOC-PRD	RB PP
+4.91	ADVP-PRD	IN
+3.47	ADVP-PRD	IN NP
+5.4	ADVP-PRD	IN PP
+4.91	ADVP-PRD	JJ
+1.61	ADVP-PRD	RB
+1.97	ADVP-PRD	RB NP
+3.55	ADVP-PRD	RB NP PP
+3.47	ADVP-PRD	RB PP
+5.4	ADVP-PRD	RB RB
+4.72	ADVP-PRD	RP
+7.02	ADVP-TMP	ADVP PP
+7.15	ADVP-TMP	ADVP SBAR
+8.96	ADVP-TMP	DT RB
+8.96	ADVP-TMP	DT RBR
+8.37	ADVP-TMP	IN
+7.96	ADVP-TMP	IN RB
+8.08	ADVP-TMP	JJ
+5.35	ADVP-TMP	NP IN
+7.84	ADVP-TMP	NP JJR
+3.5	ADVP-TMP	NP RB
+4.65	ADVP-TMP	NP RBR
+0.481	ADVP-TMP	RB
+8.96	ADVP-TMP	RB NP
+5.5	ADVP-TMP	RB PP
+4.36	ADVP-TMP	RB RB
+8.96	ADVP-TMP	RB RB PP
+9.22	ADVP-TMP	RB RB SBAR
+7.96	ADVP-TMP	RB RBR
+8.54	ADVP-TMP	RB SBAR
+7.22	ADVP-TMP	RBR
+8.08	ADVP-TMP	RBR NP
+8.74	ADVP-TMP	RBR PP
+9.22	ADVP-TMP	RBR RB
+5.72	CD	1
+8.79	CD	1,
+11.3	CD	1,200
+10.8	CD	1,500
+10.8	CD	1.
+9.14	CD	1.1
+10.1	CD	1.125
+11.3	CD	1.15
+11.8	CD	1.17
+11.8	CD	1.18
+9.34	CD	1.2
+11.6	CD	1.20
+9.9	CD	1.25
+11.6	CD	1.26
+9.29	CD	1.3
+11.3	CD	1.375
+11.8	CD	1.39
+9.9	CD	1.4
+8.75	CD	1.5
+10.3	CD	1.50
+11.6	CD	1.55
+9.34	CD	1.6
+9.5	CD	1.7
+11.8	CD	1.71
+11.3	CD	1.75
+9.56	CD	1.8
+11.1	CD	1.875
+9.97	CD	1.9
+5.77	CD	10
+8.75	CD	10,
+11.3	CD	10.2
+11.8	CD	10.5
+11.8	CD	10.77
+6.68	CD	100
+9.24	CD	100,
+9.97	CD	101
+10.7	CD	102
+10.3	CD	103
+11.8	CD	104
+11	CD	105
+11	CD	106
+11.1	CD	107
+11.1	CD	109
+6.92	CD	11
+11.6	CD	11.8
+10.4	CD	110
+9.97	CD	111
+11.6	CD	114
+10.8	CD	115
+10.6	CD	119
+8.79	CD	11:slash:16
+7	CD	12
+8.56	CD	12.5
+11.8	CD	12.6
+11.8	CD	12.8
+8.79	CD	120
+11.8	CD	120,
+10.1	CD	125
+11.8	CD	12:slash:32
+7.02	CD	13
+10.4	CD	13.50
+11.8	CD	13.625
+10.4	CD	13.8
+10.4	CD	130
+11.1	CD	13:slash:16
+7.9	CD	14
+11.8	CD	14.5
+10.3	CD	140
+10.8	CD	145
+10.7	CD	149
+6.29	CD	15
+10.4	CD	15,
+11.8	CD	15.6
+7.7	CD	150
+11	CD	150,
+11	CD	155
+7.79	CD	16
+11.6	CD	16,
+11.3	CD	160
+7.88	CD	17
+10.7	CD	170
+10.3	CD	179
+8.29	CD	18
+11.6	CD	18,
+11.6	CD	18.65
+8.97	CD	180
+11.3	CD	185
+8.26	CD	19
+11.8	CD	19.7
+11.3	CD	190
+11.8	CD	1906
+11.1	CD	1929
+11.8	CD	1950s
+11.8	CD	1959
+11.3	CD	1960
+11.6	CD	1962
+11.3	CD	1967
+10.2	CD	1969
+10.6	CD	1970
+10.7	CD	1970s
+10.8	CD	1971
+10.6	CD	1972
+10.1	CD	1973
+9.9	CD	1974
+11.1	CD	1975
+10.7	CD	1976
+11	CD	1977
+11.8	CD	1978
+9.56	CD	1979
+11.8	CD	198
+9.5	CD	1980
+10.1	CD	1980s
+9.75	CD	1981
+8.86	CD	1982
+9.5	CD	1983
+8.59	CD	1984
+8.19	CD	1985
+7.65	CD	1986
+6.41	CD	1987
+6.2	CD	1988
+6.34	CD	1989
+6.86	CD	1990
+11	CD	1990s
+8.59	CD	1991
+8.59	CD	1992
+9.34	CD	1993
+8.86	CD	1994
+9.97	CD	1995
+11	CD	1996
+10.6	CD	1997
+10.6	CD	1998
+9.14	CD	1999
+11.8	CD	19:slash:32
+6.67	CD	1:slash:2
+7.59	CD	1:slash:4
+7.86	CD	1:slash:8
+6.51	CD	2
+10.7	CD	2,
+10.8	CD	2.1
+9.82	CD	2.2
+10.6	CD	2.25
+10.1	CD	2.3
+10.1	CD	2.4
+8.82	CD	2.5
+11.1	CD	2.50
+11.8	CD	2.58
+10.1	CD	2.6
+11.6	CD	2.625
+9.97	CD	2.7
+11.6	CD	2.75
+9.97	CD	2.8
+10.6	CD	2.9
+6.52	CD	20
+10.4	CD	20,
+8.21	CD	200
+10.6	CD	200,
+10.1	CD	2000
+11.1	CD	2001
+11	CD	2003:slash:2007
+11.3	CD	2004
+10.7	CD	2009
+11.8	CD	2018
+11	CD	2019
+8.31	CD	21
+8.53	CD	22
+11.8	CD	22.6
+11.3	CD	220
+10.1	CD	225
+8.53	CD	23
+11.8	CD	230
+8.44	CD	24
+6.97	CD	25
+11.6	CD	25,
+9.24	CD	250
+10.4	CD	250,
+8.56	CD	26
+11.8	CD	26.23
+11.6	CD	260
+11.8	CD	2638.73
+11.8	CD	2659.22
+11.8	CD	2662.91
+11.8	CD	2683.20
+8.82	CD	27
+10.3	CD	270
+11.6	CD	275
+8.59	CD	28
+11.6	CD	280
+8.72	CD	29
+11.6	CD	2:slash:32
+7.12	CD	3
+10.2	CD	3,
+10.3	CD	3.1
+11.8	CD	3.16
+11.3	CD	3.2
+9.82	CD	3.3
+11.6	CD	3.35
+11.1	CD	3.4
+9.29	CD	3.5
+10.3	CD	3.6
+11.8	CD	3.69
+10.2	CD	3.7
+10.2	CD	3.8
+10.6	CD	3.9
+5.8	CD	30
+11.6	CD	30,
+8.47	CD	300
+11.6	CD	300,
+7.27	CD	31
+9.44	CD	32
+8.97	CD	33
+9.75	CD	34
+8.42	CD	35
+9.62	CD	350
+11.8	CD	350,
+9.68	CD	36
+9.44	CD	37
+9.82	CD	37.5
+9.75	CD	38
+11.8	CD	380
+9.97	CD	39
+11.6	CD	39.55
+11.6	CD	3:slash:32
+6.75	CD	3:slash:4
+7.9	CD	3:slash:8
+7.25	CD	4
+11.1	CD	4,
+11.3	CD	4.1
+10.2	CD	4.2
+11	CD	4.25
+11.3	CD	4.3
+11.6	CD	4.4
+9.1	CD	4.5
+9.56	CD	4.6
+10.8	CD	4.7
+11.3	CD	4.75
+10.4	CD	4.8
+10.3	CD	4.875
+11.1	CD	4.9
+7.18	CD	40
+11.6	CD	40,
+8.75	CD	400
+10.6	CD	400,
+9.82	CD	41
+9.56	CD	42
+9.29	CD	43
+8.9	CD	44
+8.17	CD	45
+10.1	CD	450
+9.68	CD	46
+10.2	CD	47
+9.75	CD	48
+11.3	CD	486
+9.56	CD	49
+7.11	CD	5
+9.29	CD	5,
+11.6	CD	5.1
+11.1	CD	5.2
+10.7	CD	5.3
+10.8	CD	5.4
+9.97	CD	5.5
+11.1	CD	5.6
+11.3	CD	5.8
+11	CD	5.9
+6.43	CD	50
+9.97	CD	50,
+7.62	CD	500
+9.82	CD	500,
+9.29	CD	51
+9.97	CD	52
+10.8	CD	53
+10.7	CD	54
+9.19	CD	55
+11.3	CD	550
+11.8	CD	550,
+10.1	CD	56
+10.1	CD	57
+10.3	CD	58
+9.82	CD	59
+11.1	CD	5:slash:16
+7.84	CD	5:slash:8
+7.5	CD	6
+11	CD	6,
+11.6	CD	6.2
+10.4	CD	6.25
+11.3	CD	6.3
+10.6	CD	6.4
+10.1	CD	6.5
+10.7	CD	6.6
+11	CD	6.7
+11.3	CD	6.79
+11.6	CD	6.8
+10.3	CD	6.9
+7.43	CD	60
+9.75	CD	600
+11.8	CD	600,
+10.8	CD	61
+11	CD	62
+9.9	CD	62.5
+9.75	CD	63
+11.8	CD	63.52
+10.8	CD	64
+9.14	CD	65
+11.8	CD	650
+10.1	CD	66
+11.8	CD	66.7
+11	CD	67
+10.3	CD	68
+10.4	CD	69
+10.8	CD	6:slash:2
+7.6	CD	7
+10.8	CD	7.10
+11.1	CD	7.2
+11.3	CD	7.20
+11.3	CD	7.3
+11.6	CD	7.37
+11.6	CD	7.42
+10.7	CD	7.5
+10.4	CD	7.50
+11.1	CD	7.52
+11.8	CD	7.6
+11.8	CD	7.60
+11.3	CD	7.7
+11.3	CD	7.75
+11.8	CD	7.80
+11.8	CD	7.82
+10.2	CD	7.875
+10.6	CD	7.88
+11.8	CD	7.9
+10.3	CD	7.90
+11.1	CD	7.92
+11.6	CD	7.93
+11	CD	7.95
+11.3	CD	7.96
+10.7	CD	7.98
+8.47	CD	70
+11.8	CD	70,
+10.4	CD	700
+11.6	CD	700,
+10.3	CD	71
+10.3	CD	72
+10.7	CD	73
+11.6	CD	74
+8.24	CD	75
+9.97	CD	750
+10.7	CD	76
+10.8	CD	77
+11.6	CD	78
+11.3	CD	79
+9.1	CD	7:slash:16
+8.29	CD	7:slash:8
+5.62	CD	8
+11.6	CD	8,
+8.53	CD	8.
+11.8	CD	8.1
+11.3	CD	8.15
+11.6	CD	8.2
+11.8	CD	8.20
+10.3	CD	8.25
+10.8	CD	8.3
+11.1	CD	8.30
+11.3	CD	8.32
+11.6	CD	8.33
+11.3	CD	8.35
+10.8	CD	8.375
+11.6	CD	8.4
+10.1	CD	8.40
+9.97	CD	8.45
+11.8	CD	8.47
+10.6	CD	8.5
+8.79	CD	8.50
+9.75	CD	8.55
+11.1	CD	8.60
+11.6	CD	8.65
+10.8	CD	8.70
+11.8	CD	8.75
+11.1	CD	8.8
+11.6	CD	8.9
+8.72	CD	80
+9.97	CD	800
+11.8	CD	800,
+9.75	CD	85
+11.3	CD	86
+11.3	CD	87
+10.7	CD	87.5
+11.1	CD	88
+9.82	CD	89
+7.14	CD	9
+11.8	CD	9.1
+11.8	CD	9.2
+11.8	CD	9.4
+10.8	CD	9.5
+11.8	CD	9.6
+11.8	CD	9.7
+11.6	CD	9.75
+8.1	CD	90
+9.62	CD	900
+11.6	CD	92
+11.6	CD	93
+10.1	CD	95
+11.3	CD	96
+10.3	CD	97
+10.1	CD	98
+9.62	CD	99
+8.97	CD	9:slash:16
+9.29	CD	One
+11	CD	Ten
+11	CD	Three
+3.84	CD	billion
+8.19	CD	eight
+6.51	CD	five
+6.91	CD	four
+11	CD	hundred
+2.89	CD	million
+7.88	CD	nine
+4.25	CD	one
+8.19	CD	seven
+6.73	CD	six
+10.8	CD	thousand
+5.66	CD	three
+8.86	CD	trillion
+4.95	CD	two
+11.9	DT	All
+12.7	DT	An
+12.5	DT	Every
+11.9	DT	No
+12.5	DT	Some
+10	DT	That
+6.86	DT	The
+11.2	DT	These
+9	DT	This
+13.2	DT	Those
+2.04	DT	a
+6.54	DT	all
+4.6	DT	an
+7.32	DT	another
+6.75	DT	any
+8.49	DT	both
+7.71	DT	each
+11.6	DT	either
+8.95	DT	every
+10.7	DT	half
+12	DT	many
+11.8	DT	neither
+6.96	DT	no
+5.71	DT	some
+5.75	DT	that
+0.788	DT	the
+7.35	DT	these
+5.14	DT	this
+7.32	DT	those
+2.39	EX	There
+0.305	EX	there
+1.68	FW	de
+3	FW	glasnost
+3.26	FW	naczelnik
+2.58	FW	perestroika
+3.26	FW	pro
+2.42	FW	vs.
+13.2	IN	After
+11.9	IN	As
+12.1	IN	At
+13.2	IN	Before
+12.3	IN	By
+12.3	IN	During
+11.7	IN	For
+12.6	IN	From
+9.14	IN	If
+9.94	IN	In
+13.2	IN	Of
+12.3	IN	On
+13.4	IN	Unless
+12.8	IN	While
+11.4	IN	With
+13.4	IN	Without
+13.4	IN	aboard
+5.93	IN	about
+9.15	IN	above
+9.96	IN	across
+6.3	IN	after
+7.63	IN	against
+9.48	IN	ago
+10.1	IN	along
+8.29	IN	although
+10.6	IN	amid
+8.15	IN	among
+9.08	IN	around
+4.82	IN	as
+4.24	IN	at
+6.45	IN	because
+7.43	IN	before
+11.3	IN	behind
+9.36	IN	below
+13	IN	beneath
+11.9	IN	besides
+10.4	IN	between
+10.5	IN	beyond
+4.51	IN	by
+12.2	IN	de
+8.61	IN	despite
+9.25	IN	down
+7.65	IN	during
+11.2	IN	except
+3.56	IN	for
+4.37	IN	from
+6.52	IN	if
+2.56	IN	in
+12.4	IN	inside
+6.79	IN	into
+7.83	IN	like
+10.4	IN	near
+10.1	IN	next
+2.14	IN	of
+9.33	IN	off
+4.17	IN	on
+11.2	IN	once
+12.4	IN	onto
+8.32	IN	out
+10.5	IN	outside
+7.1	IN	over
+13	IN	past
+10.2	IN	per
+13	IN	plus
+7.08	IN	since
+8.99	IN	so
+5.85	IN	than
+4.35	IN	that
+8.53	IN	though
+7.57	IN	through
+11	IN	throughout
+9.58	IN	toward
+7.16	IN	under
+10.2	IN	unless
+10.6	IN	unlike
+8.16	IN	until
+8.29	IN	up
+11.7	IN	upon
+9.33	IN	via
+13.2	IN	vs.
+8.71	IN	whether
+7.1	IN	while
+4.63	IN	with
+8.89	IN	within
+8.35	IN	without
+2.42	INTJ	RB
+0.752	INTJ	UH
+3.42	INTJ	UH PUNC.
+3	INTJ	VB
+9.68	JJ	10-year
+11.1	JJ	100-share
+11.5	JJ	12-year
+12.1	JJ	13th
+11.5	JJ	190-point
+11.7	JJ	190.58-point
+12.4	JJ	2-for-1
+11.9	JJ	20-year
+12.4	JJ	20th
+11.7	JJ	30-day
+11.2	JJ	30-share
+9.32	JJ	30-year
+11.5	JJ	300-a-share
+11.5	JJ	300-day
+11.9	JJ	52-week
+11	JJ	African
+7.6	JJ	American
+11.7	JJ	Angeles-based
+11.7	JJ	Arab
+11.5	JJ	Asian
+9.87	JJ	Australian
+11.7	JJ	Big
+11.7	JJ	Brazilian
+7.87	JJ	British
+12.4	JJ	Calif.-based
+8.37	JJ	Canadian
+11.7	JJ	Chicago-based
+10.5	JJ	Chinese
+12.4	JJ	Christian
+12.4	JJ	Colombian
+11.2	JJ	Communist
+9.55	JJ	Democratic
+12.4	JJ	Denver-based
+11.1	JJ	Dutch
+11	JJ	East
+11.9	JJ	Egyptian
+12.4	JJ	English
+8.77	JJ	European
+11.4	JJ	Finnish
+11.4	JJ	First
+9.25	JJ	French
+8.68	JJ	German
+12.4	JJ	Great
+11.1	JJ	High-grade
+12.4	JJ	Hispanic
+12.1	JJ	House-passed
+11.5	JJ	Hungarian
+11.7	JJ	Indian
+12.1	JJ	Irish
+12.1	JJ	Israeli
+10.7	JJ	Italian
+6.86	JJ	Japanese
+11.9	JJ	Jewish
+10.9	JJ	Korean
+12.4	JJ	Latin
+11.7	JJ	London-based
+11.1	JJ	Mexican
+11.9	JJ	Miami-based
+11.9	JJ	Nicaraguan
+11	JJ	North
+12.1	JJ	Northern
+10.9	JJ	Panamanian
+11.9	JJ	Philippine
+11.9	JJ	Polish
+10.2	JJ	Republican
+11.9	JJ	Russian
+10.9	JJ	South
+8.45	JJ	Soviet
+12.1	JJ	Spanish
+12.1	JJ	Swedish
+9.63	JJ	Swiss
+12.4	JJ	Taiwanese
+12.1	JJ	Vietnamese
+12.1	JJ	Washington-based
+9.72	JJ	West
+9.87	JJ	Western
+10.6	JJ	York-based
+8.18	JJ	able
+11.9	JJ	abrupt
+11.1	JJ	academic
+11.7	JJ	acceptable
+12.1	JJ	accepted
+11.9	JJ	accurate
+11.7	JJ	across-the-board
+8.84	JJ	active
+9.77	JJ	actual
+12.4	JJ	added
+8.08	JJ	additional
+11.5	JJ	adequate
+10.3	JJ	adjustable
+11.9	JJ	adjusted
+10.8	JJ	administrative
+11.5	JJ	advanced
+10.9	JJ	adverse
+12.4	JJ	affluent
+11.7	JJ	afraid
+10.1	JJ	after-tax
+10.1	JJ	aggressive
+11.9	JJ	agricultural
+12.4	JJ	alive
+11.9	JJ	alleged
+11.5	JJ	alternative
+11.5	JJ	ambitious
+12.4	JJ	ample
+11.1	JJ	angry
+7.58	JJ	annual
+11.7	JJ	annualized
+11.2	JJ	anti-abortion
+11.9	JJ	anti-takeover
+12.4	JJ	anticipated
+10.1	JJ	antitrust
+11.7	JJ	anxious
+10.5	JJ	apparent
+12.1	JJ	applicable
+11.2	JJ	appropriate
+12.4	JJ	architectural
+10.7	JJ	asset-backed
+10.9	JJ	assistant
+11.7	JJ	associate
+12.4	JJ	atmospheric
+10.4	JJ	attractive
+12.1	JJ	automatic
+10.5	JJ	automotive
+8.23	JJ	available
+7.47	JJ	average
+11	JJ	aware
+11.9	JJ	back
+8.47	JJ	bad
+11	JJ	bank-backed
+11.4	JJ	base
+10.2	JJ	basic
+11.2	JJ	bearish
+10.7	JJ	benchmark
+6.62	JJ	big
+12.4	JJ	bitter
+8.98	JJ	black
+11	JJ	black-and-white
+12.1	JJ	bleak
+10.4	JJ	blue
+10.6	JJ	blue-chip
+12.1	JJ	bold
+12.1	JJ	bond-equivalent
+11.4	JJ	bottom
+11.1	JJ	brief
+11.7	JJ	bright
+11.7	JJ	brisk
+10.2	JJ	broad
+12.1	JJ	budgetary
+10.7	JJ	bullish
+10.9	JJ	busy
+12.1	JJ	buy
+12.4	JJ	buy-back
+12.4	JJ	buy-out
+12.1	JJ	call
+11.5	JJ	capable
+10.9	JJ	capital-gains
+12.4	JJ	capped
+11.4	JJ	careful
+12.1	JJ	catastrophic
+10.2	JJ	cautious
+11.5	JJ	cellular
+9.43	JJ	central
+7.79	JJ	certain
+12.4	JJ	changed
+12.4	JJ	chaotic
+12.4	JJ	characteristic
+12.1	JJ	charitable
+10.8	JJ	cheap
+11.9	JJ	chemical
+7.96	JJ	chief
+9.72	JJ	civil
+12.4	JJ	class-action
+11.7	JJ	classic
+8.98	JJ	clear
+12.1	JJ	clinical
+9.51	JJ	close
+11.1	JJ	closed
+11.5	JJ	closed-end
+10.6	JJ	cold
+12.1	JJ	collective
+11.4	JJ	combined
+10.9	JJ	comfortable
+11.9	JJ	comic
+10.5	JJ	coming
+8.02	JJ	commercial
+12.4	JJ	committed
+7.02	JJ	common
+12.4	JJ	communist
+9.28	JJ	comparable
+12.4	JJ	compelling
+9.51	JJ	competitive
+10.3	JJ	complete
+10.6	JJ	complex
+7.11	JJ	composite
+12.1	JJ	comprehensive
+12.4	JJ	computer-driven
+12.4	JJ	computer-guided
+11.9	JJ	computerized
+12.4	JJ	concentrated
+10.9	JJ	concerned
+11.7	JJ	concrete
+10.3	JJ	confident
+12.1	JJ	confidential
+8.82	JJ	congressional
+9.68	JJ	consecutive
+9.39	JJ	conservative
+10.2	JJ	considerable
+11.9	JJ	consistent
+11.1	JJ	consolidated
+11.7	JJ	constant
+10	JJ	constitutional
+11.1	JJ	continued
+11.9	JJ	continuing
+12.4	JJ	contrary
+10.6	JJ	controversial
+9.22	JJ	conventional
+8.82	JJ	convertible
+12.4	JJ	convinced
+12.4	JJ	cool
+12.4	JJ	cooperative
+12.1	JJ	core
+7.51	JJ	corporate
+10.2	JJ	costly
+12.1	JJ	covert
+11.9	JJ	crazy
+10.9	JJ	creative
+12.4	JJ	credible
+9.87	JJ	criminal
+10.3	JJ	critical
+12.1	JJ	crowded
+10.4	JJ	crucial
+10.5	JJ	crude
+11.9	JJ	cubic
+12.4	JJ	cultural
+11	JJ	cumulative
+7.11	JJ	current
+11.5	JJ	cyclical
+8.79	JJ	daily
+12.4	JJ	damaged
+12.4	JJ	dangerous
+12.1	JJ	day-to-day
+10.8	JJ	dead
+12.1	JJ	decent
+12.4	JJ	deductible
+11	JJ	deep
+10.8	JJ	defensive
+11	JJ	definitive
+12.4	JJ	defunct
+10.9	JJ	democratic
+11.7	JJ	dependent
+12.4	JJ	depositary
+12.4	JJ	depository
+11.7	JJ	deputy
+11.7	JJ	derivative
+11.9	JJ	desirable
+11.9	JJ	desperate
+8.37	JJ	different
+8.89	JJ	difficult
+11.7	JJ	diplomatic
+9.77	JJ	direct
+11.9	JJ	disappointed
+10.8	JJ	disappointing
+12.4	JJ	disciplinary
+12.1	JJ	discount
+12.4	JJ	discretionary
+11.7	JJ	dismal
+12.4	JJ	disposable
+11.9	JJ	dissident
+11.5	JJ	diversified
+12.1	JJ	dizzying
+8.59	JJ	domestic
+11.7	JJ	dominant
+12.1	JJ	double
+12.4	JJ	double-digit
+12.1	JJ	doubtful
+12.1	JJ	down
+11.2	JJ	downward
+10.9	JJ	dramatic
+12.1	JJ	dry
+12.1	JJ	dual
+11.9	JJ	dubious
+7.11	JJ	due
+10.7	JJ	durable
+12.4	JJ	duty-free
+10.5	JJ	eager
+7.6	JJ	early
+12.1	JJ	east
+9.68	JJ	easy
+7.27	JJ	economic
+11.7	JJ	educational
+9.28	JJ	effective
+11.1	JJ	efficient
+11.1	JJ	elderly
+11.5	JJ	electric
+12.1	JJ	electrical
+9.47	JJ	electronic
+11.2	JJ	eligible
+12.1	JJ	else
+11.5	JJ	emotional
+12.4	JJ	empty
+10.6	JJ	enormous
+9.28	JJ	enough
+9.59	JJ	entire
+9.92	JJ	environmental
+9.92	JJ	equal
+11.4	JJ	equity-purchase
+11.1	JJ	equivalent
+11.2	JJ	essential
+10.3	JJ	estimated
+12.1	JJ	ethnic
+11.2	JJ	evident
+11.5	JJ	exact
+11.5	JJ	excellent
+10.6	JJ	excess
+11.5	JJ	excessive
+11.7	JJ	exciting
+10.7	JJ	exclusive
+8.84	JJ	executive
+10.8	JJ	exercisable
+12.4	JJ	existing
+9.98	JJ	expected
+9.92	JJ	expensive
+11.7	JJ	extensive
+12.4	JJ	external
+10.4	JJ	extra
+10.9	JJ	extraordinary
+10.4	JJ	fair
+11.2	JJ	false
+9.09	JJ	familiar
+11	JJ	famous
+12.4	JJ	fastest-growing
+12.1	JJ	fat
+10.4	JJ	favorable
+11.4	JJ	favorite
+6.56	JJ	federal
+12.1	JJ	female
+6.96	JJ	few
+12.1	JJ	fierce
+11.2	JJ	fifth
+8.92	JJ	final
+6.87	JJ	financial
+11.4	JJ	fine
+10	JJ	firm
+5.69	JJ	first
+7.76	JJ	fiscal
+10.6	JJ	five-year
+11.5	JJ	fixed
+11.9	JJ	fixed-income
+10.2	JJ	fixed-rate
+9.25	JJ	flat
+11.9	JJ	flexible
+12.4	JJ	floating-rate
+12.4	JJ	following
+7.37	JJ	foreign
+10.6	JJ	formal
+7.73	JJ	former
+11.4	JJ	four-year
+12.1	JJ	four-year-old
+8.87	JJ	fourth
+10.3	JJ	fourth-quarter
+9.12	JJ	free
+12.1	JJ	free-lance
+11.9	JJ	frequent
+10.8	JJ	fresh
+10.3	JJ	friendly
+12.4	JJ	front
+8.51	JJ	full
+11.5	JJ	full-year
+10.5	JJ	fundamental
+8.59	JJ	further
+8.79	JJ	future
+7.99	JJ	general
+12.4	JJ	generous
+10.7	JJ	genetic
+12.4	JJ	genuine
+10.7	JJ	giant
+9.82	JJ	global
+10.9	JJ	gold
+11.4	JJ	golden
+7.08	JJ	good
+11.4	JJ	grand
+12.4	JJ	gray
+8.68	JJ	great
+12.4	JJ	green
+12.1	JJ	grim
+9.98	JJ	gross
+10	JJ	guilty
+11.7	JJ	half
+12.4	JJ	handy
+10.4	JJ	happy
+8.77	JJ	hard
+12.1	JJ	health-care
+9.98	JJ	healthy
+8.59	JJ	heavy
+10.5	JJ	hefty
+11.4	JJ	held
+12.4	JJ	helpful
+7.39	JJ	high
+11.9	JJ	high-definition
+11.7	JJ	high-end
+12.1	JJ	high-priced
+11.9	JJ	high-quality
+10.7	JJ	high-risk
+11.7	JJ	high-tech
+9.82	JJ	high-yield
+12.4	JJ	historical
+12.4	JJ	horrible
+9.77	JJ	hostile
+10.5	JJ	hot
+12.4	JJ	hot-dipped
+8.7	JJ	huge
+9.77	JJ	human
+11.7	JJ	hybrid
+12.1	JJ	identical
+11.7	JJ	idle
+10.4	JJ	illegal
+9.68	JJ	immediate
+12.1	JJ	imminent
+11	JJ	immune
+12.4	JJ	impending
+8.14	JJ	important
+10.4	JJ	impossible
+11.5	JJ	improved
+12.1	JJ	incomplete
+11.9	JJ	increased
+8.7	JJ	independent
+11.5	JJ	indicated
+12.1	JJ	indirect
+9.18	JJ	individual
+8.82	JJ	industrial
+12.1	JJ	industrywide
+12.4	JJ	inevitable
+12.1	JJ	inflation-adjusted
+12.4	JJ	influential
+11.7	JJ	informal
+12.4	JJ	inherent
+8.84	JJ	initial
+12.1	JJ	innovative
+9.15	JJ	institutional
+12.1	JJ	insufficient
+11.4	JJ	insured
+10.6	JJ	intense
+12.4	JJ	interbank
+9.55	JJ	interested
+11.4	JJ	interesting
+11.5	JJ	interim
+9.72	JJ	internal
+8.3	JJ	international
+12.1	JJ	interstate
+10.9	JJ	investment-grade
+12.1	JJ	involved
+12.4	JJ	ironic
+12.1	JJ	irresponsible
+9.25	JJ	joint
+11.7	JJ	judicial
+12.4	JJ	jumbo
+12.4	JJ	junk-bond
+9.15	JJ	key
+11.2	JJ	labor-management
+11.7	JJ	lackluster
+7.84	JJ	large
+5.12	JJ	last
+12.4	JJ	last-minute
+7.54	JJ	late
+11.4	JJ	later
+11.7	JJ	lead
+11	JJ	leading
+11.9	JJ	leftist
+8.59	JJ	legal
+10.6	JJ	legislative
+11.5	JJ	legitimate
+8.92	JJ	leveraged
+12.1	JJ	liable
+11.4	JJ	liberal
+9.98	JJ	light
+11.9	JJ	like
+7.72	JJ	likely
+9.92	JJ	limited
+10.3	JJ	line-item
+12.4	JJ	liquid
+7.84	JJ	little
+11.7	JJ	loan-loss
+8.47	JJ	local
+8.37	JJ	long
+8.55	JJ	long-term
+11.9	JJ	longstanding
+12.1	JJ	longtime
+8.22	JJ	low
+12.1	JJ	low-income
+11.2	JJ	loyal
+11.9	JJ	lucky
+11.7	JJ	lucrative
+11.4	JJ	magnetic
+9.22	JJ	main
+6.21	JJ	major
+11.9	JJ	male
+11.7	JJ	mandatory
+5.81	JJ	many
+12.4	JJ	mass-market
+9.98	JJ	massive
+11.7	JJ	maximum
+12.4	JJ	meaningful
+11.9	JJ	mechanical
+10.2	JJ	medical
+11.4	JJ	mere
+9.82	JJ	metric
+11.5	JJ	metropolitan
+12.4	JJ	middle
+12.4	JJ	mild
+9.03	JJ	military
+11.5	JJ	minimal
+9.72	JJ	minimum
+10.4	JJ	minor
+10.5	JJ	mixed
+10.1	JJ	moderate
+10.7	JJ	modern
+9.47	JJ	modest
+9.82	JJ	monetary
+11.9	JJ	money-market
+9.72	JJ	monthly
+11.5	JJ	moral
+11.1	JJ	mortgage-backed
+6.94	JJ	much
+11.5	JJ	multiple
+9.68	JJ	municipal
+9.68	JJ	mutual
+10.6	JJ	narrow
+12.4	JJ	nasty
+7.57	JJ	national
+11.4	JJ	nationwide
+9.59	JJ	natural
+11.7	JJ	near
+11.7	JJ	near-term
+11.9	JJ	nearby
+10.2	JJ	necessary
+9.63	JJ	negative
+11	JJ	negotiable
+10.4	JJ	nervous
+7.08	JJ	net
+5.04	JJ	new
+12.4	JJ	new-issue
+6.39	JJ	next
+11.4	JJ	nice
+11.7	JJ	nine-month
+12.4	JJ	non-financial
+12.4	JJ	non-food
+12.1	JJ	non-interest
+11.2	JJ	noncallable
+12.4	JJ	nonexecutive
+9.39	JJ	normal
+11.4	JJ	northern
+10.1	JJ	nuclear
+10.9	JJ	numerous
+10.4	JJ	obvious
+11.9	JJ	odd
+11.1	JJ	off
+9.32	JJ	official
+7.87	JJ	old
+12.4	JJ	old-fashioned
+12.1	JJ	on-site
+11.9	JJ	one-day
+12.4	JJ	one-third
+9.87	JJ	one-time
+9.82	JJ	one-year
+12.4	JJ	ongoing
+8.11	JJ	only
+9.15	JJ	open
+11.9	JJ	operational
+11.5	JJ	optical
+10.5	JJ	optimistic
+11.9	JJ	orderly
+10.9	JJ	ordinary
+12.4	JJ	organized
+9.63	JJ	original
+5.57	JJ	other
+9.87	JJ	outside
+7.53	JJ	outstanding
+8.61	JJ	over-the-counter
+9.18	JJ	overall
+12.4	JJ	overdue
+11.1	JJ	overnight
+9.92	JJ	overseas
+11.9	JJ	overwhelming
+7.08	JJ	own
+12.1	JJ	painful
+10.9	JJ	par
+10.8	JJ	partial
+9.92	JJ	particular
+11.7	JJ	passive
+7.15	JJ	past
+9.87	JJ	payable
+12.4	JJ	peaceful
+9.59	JJ	per-share
+12.1	JJ	periodic
+10.8	JJ	permanent
+11.9	JJ	persistent
+8.39	JJ	personal
+11.9	JJ	pessimistic
+11.1	JJ	pharmaceutical
+12.4	JJ	photographic
+10.7	JJ	planned
+12.1	JJ	plastic
+12.4	JJ	pleased
+7.99	JJ	political
+9.92	JJ	poor
+9.32	JJ	popular
+12.1	JJ	portable
+9.92	JJ	positive
+8.05	JJ	possible
+12.1	JJ	post-crash
+12.4	JJ	postwar
+8.61	JJ	potential
+9.77	JJ	powerful
+12.1	JJ	practical
+11.9	JJ	pre-trial
+10.5	JJ	precious
+9.77	JJ	preferred
+11.4	JJ	pregnant
+10	JJ	preliminary
+11.1	JJ	prepared
+10.5	JJ	present
+11.5	JJ	presidential
+12.4	JJ	prestigious
+9.43	JJ	pretax
+7.82	JJ	previous
+10.5	JJ	primary
+9.68	JJ	prime
+11.1	JJ	principal
+11.4	JJ	prior
+8.55	JJ	private
+11.7	JJ	private-sector
+10.9	JJ	pro-choice
+11.7	JJ	pro-democracy
+11.5	JJ	procedural
+12.4	JJ	productive
+10.6	JJ	professional
+10.4	JJ	profitable
+11.2	JJ	program-trading
+11.4	JJ	prominent
+12.4	JJ	proper
+10.2	JJ	proposed
+11.2	JJ	prospective
+12.4	JJ	provisional
+12.4	JJ	prudent
+7.82	JJ	public
+12.1	JJ	punishable
+12.1	JJ	punitive
+8.82	JJ	quarterly
+11.9	JJ	questionable
+10.7	JJ	quick
+10.3	JJ	quiet
+11.5	JJ	racial
+12.4	JJ	radical
+11.9	JJ	random
+11.5	JJ	rapid
+10.9	JJ	rare
+11.2	JJ	raw
+9.98	JJ	ready
+7.33	JJ	real
+10.8	JJ	reasonable
+6.69	JJ	recent
+10.5	JJ	record
+10.5	JJ	red
+12.4	JJ	reduced
+9.59	JJ	regional
+9.87	JJ	regular
+9.92	JJ	regulatory
+11.4	JJ	related
+10.8	JJ	relative
+10.5	JJ	reluctant
+11.9	JJ	remaining
+11.1	JJ	remarkable
+12.1	JJ	rental
+12.4	JJ	required
+11.9	JJ	residential
+10.3	JJ	responsible
+12.1	JJ	restrictive
+9.06	JJ	retail
+11.9	JJ	revised
+11.1	JJ	rich
+12.4	JJ	rid
+9.28	JJ	right
+11.7	JJ	rigid
+10.9	JJ	risky
+11	JJ	rival
+10.8	JJ	robust
+12.1	JJ	rough
+11.7	JJ	routine
+11.2	JJ	rural
+12.4	JJ	sad
+10.2	JJ	safe
+12.4	JJ	sales
+7.19	JJ	same
+12.4	JJ	savings-and-loan
+12.1	JJ	scarce
+12.4	JJ	scary
+12.4	JJ	scheduled
+10.6	JJ	scientific
+11.1	JJ	seasonal
+7.45	JJ	second
+10.6	JJ	second-largest
+11.9	JJ	second-quarter
+10.1	JJ	secondary
+12.1	JJ	secret
+11.9	JJ	secured
+12.4	JJ	seismic
+7.71	JJ	senior
+10.6	JJ	sensitive
+9.28	JJ	separate
+11.1	JJ	serial
+9.22	JJ	serious
+10.9	JJ	seven-day
+12.4	JJ	seven-year
+11.7	JJ	seventh
+6.98	JJ	several
+10.4	JJ	severe
+12.4	JJ	shaky
+9.32	JJ	sharp
+8.59	JJ	short
+8.65	JJ	short-term
+12.1	JJ	sick
+8.68	JJ	significant
+8.14	JJ	similar
+10.8	JJ	simple
+9.18	JJ	single
+10	JJ	six-month
+11.1	JJ	sixth
+11.2	JJ	sizable
+11.1	JJ	skeptical
+11.4	JJ	slight
+12.4	JJ	slim
+10.3	JJ	slow
+10.4	JJ	sluggish
+7.2	JJ	small
+12.1	JJ	smooth
+9.77	JJ	so-called
+10.7	JJ	social
+12.4	JJ	socialist
+10.7	JJ	soft
+12.1	JJ	sole
+11.2	JJ	solid
+10.7	JJ	sophisticated
+12.4	JJ	sorry
+11.9	JJ	sound
+11.9	JJ	sour
+11.9	JJ	south
+10.5	JJ	southern
+8.34	JJ	special
+9.47	JJ	specific
+12.1	JJ	spectacular
+11.2	JJ	square
+10.9	JJ	stable
+9.59	JJ	standard
+12.4	JJ	standardized
+12.4	JJ	start-up
+11.2	JJ	state-owned
+12.1	JJ	statistical
+10.6	JJ	steady
+11	JJ	steep
+11.9	JJ	stiff
+10.4	JJ	stock-index
+11.2	JJ	straight
+11.7	JJ	strange
+10.4	JJ	strategic
+11.7	JJ	strict
+11.7	JJ	striking
+7.57	JJ	strong
+10.4	JJ	structural
+12.4	JJ	stupid
+9.39	JJ	subject
+10.2	JJ	subordinated
+9.55	JJ	substantial
+12.1	JJ	suburban
+9.82	JJ	successful
+6.07	JJ	such
+10.5	JJ	sudden
+10.9	JJ	sufficient
+11.5	JJ	superior
+9.09	JJ	sure
+10.5	JJ	surprising
+11.5	JJ	sweeping
+12.4	JJ	sweet
+12.1	JJ	sympathetic
+12.4	JJ	synthetic
+12.1	JJ	tall
+11.4	JJ	tax-exempt
+12.4	JJ	tax-free
+10.7	JJ	taxable
+10	JJ	technical
+10.3	JJ	temporary
+12.4	JJ	tentative
+10.6	JJ	thin
+7.21	JJ	third
+7.96	JJ	third-quarter
+10	JJ	three-month
+11	JJ	three-year
+11.1	JJ	tight
+11.2	JJ	tiny
+12.4	JJ	tony
+8.72	JJ	top
+8.14	JJ	total
+9.63	JJ	tough
+9.59	JJ	traditional
+11.4	JJ	tremendous
+11.9	JJ	tricky
+10.4	JJ	troubled
+11.9	JJ	troublesome
+12.4	JJ	troubling
+9.59	JJ	true
+12.1	JJ	two-day
+10.1	JJ	two-year
+9.77	JJ	typical
+11.1	JJ	ultimate
+10.3	JJ	unable
+11.9	JJ	unavailable
+10.7	JJ	uncertain
+8.47	JJ	unchanged
+11.4	JJ	unclear
+11.4	JJ	unconstitutional
+12.4	JJ	undemocratic
+11.5	JJ	underlying
+11.5	JJ	undisclosed
+12.4	JJ	unexpected
+11.4	JJ	unfair
+12.1	JJ	unfilled
+12.4	JJ	unfortunate
+12.4	JJ	unhappy
+10.7	JJ	unlikely
+12.1	JJ	unnecessary
+11.4	JJ	unprecedented
+11.4	JJ	unrelated
+9.92	JJ	unsecured
+12.1	JJ	unsettled
+12.4	JJ	unsolicited
+11.5	JJ	unspecified
+11.7	JJ	unsuccessful
+9.72	JJ	unusual
+12.4	JJ	unwanted
+11.9	JJ	unwelcome
+11.4	JJ	upper
+12.1	JJ	upscale
+11.9	JJ	upward
+11.5	JJ	urban
+12.1	JJ	used
+11.2	JJ	useful
+9.92	JJ	usual
+12.4	JJ	vacant
+12.4	JJ	valid
+11.1	JJ	valuable
+9.77	JJ	various
+10.6	JJ	vast
+10.8	JJ	very
+12.4	JJ	vicious
+12.4	JJ	vigorous
+11.2	JJ	visible
+10.2	JJ	volatile
+11.5	JJ	voluntary
+10.9	JJ	vulnerable
+11.7	JJ	wary
+9.39	JJ	weak
+10.2	JJ	weekly
+12.4	JJ	weird
+12.1	JJ	welcome
+12.4	JJ	west
+11.5	JJ	western
+12.1	JJ	when-issued
+10.6	JJ	white
+12.1	JJ	white-collar
+9.55	JJ	whole
+10.7	JJ	wholesale
+9.98	JJ	wide
+10.5	JJ	widespread
+10.7	JJ	wild
+9.35	JJ	willing
+9.82	JJ	world-wide
+10.9	JJ	worried
+9.92	JJ	worth
+11.9	JJ	would-be
+9.39	JJ	wrong
+9.72	JJ	year-ago
+8.68	JJ	year-earlier
+12.4	JJ	year-end
+12.4	JJ	yearly
+12.1	JJ	yellow
+9.09	JJ	young
+12.1	JJ	zero-coupon
+4.46	JJR	better
+5.65	JJR	bigger
+6.57	JJR	broader
+7.33	JJR	cheaper
+7.85	JJR	cleaner
+7.48	JJR	closer
+7.85	JJR	deeper
+4.7	JJR	earlier
+6.57	JJR	easier
+8.07	JJR	faster
+5.95	JJR	fewer
+5.3	JJR	greater
+7.07	JJR	harder
+2.95	JJR	higher
+5.9	JJR	larger
+3.8	JJR	less
+6.95	JJR	longer
+3.37	JJR	lower
+1.48	JJR	more
+6.33	JJR	older
+8.07	JJR	riskier
+7.33	JJR	slower
+4.95	JJR	smaller
+8.07	JJR	softer
+8.33	JJR	steeper
+6.19	JJR	stronger
+8.07	JJR	tighter
+6.75	JJR	tougher
+6.95	JJR	weaker
+8.07	JJR	wider
+6.48	JJR	worse
+6.95	JJR	younger
+6.27	JJS	Most
+3.82	JJS	best
+3.6	JJS	biggest
+7.27	JJS	busiest
+5.9	JJS	greatest
+4.49	JJS	highest
+7.49	JJS	hottest
+2.82	JJS	largest
+2.66	JJS	latest
+2.77	JJS	least
+5.82	JJS	lowest
+1.99	JJS	most
+7.75	JJS	smallest
+6.27	JJS	strongest
+5.27	JJS	worst
+0	LS	3
+1.64	LST	LS
+0.556	LST	LS PUNC.
+6.81	MD	'd
+6.29	MD	'll
+10.1	MD	Can
+5.62	MD	ca
+3.46	MD	can
+3.07	MD	could
+3.57	MD	may
+4.85	MD	might
+5.41	MD	must
+8.49	MD	ought
+4.36	MD	should
+1.74	MD	will
+5.22	MD	wo
+2.14	MD	would
+3.77	NAC	NN PP
+0.11	NAC	NPR PP
+4.39	NAC-LOC	NPR , NPR
+0.0704	NAC-LOC	NPR , NPR ,
+0	NAC-TMP	NPR , NPR QP , QP ,
+4.28	NN	%
+11.6	NN	A.
+13.7	NN	Activity
+12.3	NN	CD
+11.3	NN	Chapter
+13.4	NN	Class
+13.7	NN	Everybody
+13.2	NN	Everyone
+13	NN	HDTV
+13	NN	House
+13.7	NN	IPO
+13.7	NN	Inc.
+13.7	NN	LBO
+13.4	NN	Man
+13.2	NN	Market
+11.2	NN	No.
+13.2	NN	Nobody
+13.2	NN	Nothing
+13	NN	PC
+12.3	NN	S&L
+12.7	NN	Section
+11.9	NN	Series
+13	NN	Treasury
+12.3	NN	Volume
+13.2	NN	West
+13.2	NN	a
+12	NN	a.m.
+10.6	NN	ability
+9.94	NN	abortion
+12.3	NN	absence
+13.2	NN	abuse
+13.7	NN	acceleration
+13.7	NN	acceptance
+11.4	NN	access
+12.7	NN	accident
+11.2	NN	accord
+9.88	NN	account
+11.6	NN	accounting
+13.7	NN	achievement
+9.31	NN	acquisition
+11.4	NN	act
+9.6	NN	action
+9.92	NN	activity
+13.4	NN	actor
+9.43	NN	ad
+8.98	NN	addition
+13.4	NN	address
+12.7	NN	adjustment
+9.14	NN	administration
+13.2	NN	administrator
+13.7	NN	admission
+13.4	NN	adult
+11.3	NN	advance
+11.1	NN	advantage
+10.4	NN	advertising
+11.8	NN	advice
+11.7	NN	adviser
+12.9	NN	affair
+12	NN	affiliate
+12.2	NN	aftermath
+10.7	NN	afternoon
+10.3	NN	age
+8.81	NN	agency
+13	NN	agenda
+11.7	NN	agent
+8.64	NN	agreement
+10.9	NN	aid
+12	NN	aide
+12.9	NN	aim
+10.8	NN	air
+11.1	NN	aircraft
+9.84	NN	airline
+12.3	NN	airport
+13.7	NN	alarm
+11.9	NN	alliance
+12.9	NN	ally
+11.9	NN	alternative
+12.7	NN	aluminum
+13.4	NN	ambassador
+11.4	NN	amendment
+9.52	NN	amount
+12.2	NN	analysis
+8.85	NN	analyst
+13.4	NN	animal
+10	NN	announcement
+12.3	NN	answer
+13.4	NN	antibody
+11.9	NN	anticipation
+13.7	NN	anxiety
+11.8	NN	anybody
+10.9	NN	anyone
+10.3	NN	anything
+13.4	NN	apartheid
+12.3	NN	apartment
+12.4	NN	apparel
+11.4	NN	appeal
+12.6	NN	appearance
+13.2	NN	appetite
+12.7	NN	apple
+12.6	NN	application
+12.3	NN	appointment
+12.4	NN	appreciation
+11.2	NN	approach
+9.86	NN	approval
+10.5	NN	arbitrage
+12.9	NN	architecture
+9.5	NN	area
+11.8	NN	argument
+11.9	NN	arm
+13	NN	army
+11.9	NN	arrangement
+13	NN	array
+13	NN	arrest
+11.1	NN	art
+9.86	NN	article
+12.6	NN	artist
+11.9	NN	asbestos
+12.9	NN	aspect
+12.7	NN	assassination
+13.7	NN	assault
+12.2	NN	assembly
+10.5	NN	asset
+11.4	NN	assistance
+11.9	NN	assistant
+13.2	NN	associate
+10.9	NN	association
+12.3	NN	assumption
+12.7	NN	assurance
+12.7	NN	atmosphere
+11.9	NN	attack
+10.5	NN	attempt
+13.7	NN	attendance
+10.6	NN	attention
+12.2	NN	attitude
+10.1	NN	attorney
+9.65	NN	auction
+11.4	NN	audience
+12.3	NN	audit
+12.6	NN	author
+11.2	NN	authority
+12.9	NN	authorization
+9.9	NN	auto
+13.4	NN	automobile
+13.2	NN	autumn
+13.4	NN	availability
+9.01	NN	average
+12	NN	award
+12.9	NN	baby
+12.1	NN	back
+13.2	NN	backdrop
+13.4	NN	background
+13.2	NN	backing
+12.6	NN	backlog
+13.7	NN	bacterium
+11.4	NN	bailout
+10.9	NN	balance
+13.2	NN	ball
+13.4	NN	balloon
+12.9	NN	ballot
+11.3	NN	ban
+13.2	NN	band
+13.4	NN	bang
+8.14	NN	bank
+11.9	NN	banker
+10.3	NN	banking
+10.7	NN	bankruptcy
+12	NN	bankruptcy-law
+12.6	NN	bar
+12.3	NN	bargain
+12.7	NN	bargaining
+13.4	NN	barometer
+11.6	NN	barrel
+13.7	NN	barrier
+10.4	NN	base
+11.6	NN	baseball
+9.55	NN	basis
+12.6	NN	basket
+13.4	NN	basketball
+13.7	NN	battery
+10.7	NN	battle
+13.2	NN	bay
+13.7	NN	bear
+13.4	NN	bearing
+12.9	NN	bed
+13.4	NN	beef
+12	NN	beer
+11.6	NN	beginning
+11.9	NN	behalf
+12.2	NN	behavior
+12.4	NN	belief
+13	NN	bell
+13.7	NN	bellwether
+13	NN	bench
+11.9	NN	benchmark
+12.4	NN	benefit
+12.1	NN	bet
+13	NN	bias
+8.35	NN	bid
+13.4	NN	bidder
+11	NN	bidding
+13.2	NN	bike
+8.55	NN	bill
+13.4	NN	binge
+12.1	NN	biotechnology
+13.2	NN	birth
+11.4	NN	bit
+12.9	NN	blame
+12.2	NN	bloc
+12.3	NN	block
+12.7	NN	blood
+12.1	NN	blow
+8.61	NN	board
+13.4	NN	boat
+12.1	NN	body
+13.7	NN	boiler
+8.49	NN	bond
+13.2	NN	bonus
+10.9	NN	book
+12.2	NN	boom
+11.6	NN	boost
+13.2	NN	border
+13.7	NN	borough
+12.7	NN	borrowing
+13.2	NN	boss
+13	NN	bottle
+12	NN	bottom
+13	NN	bourbon
+13	NN	box
+13.4	NN	boy
+12.3	NN	brain
+11.5	NN	branch
+10.8	NN	brand
+12.9	NN	break
+13	NN	breakdown
+13.2	NN	breaker
+13.4	NN	breakfast
+13.7	NN	brewer
+13.4	NN	brewing
+12.3	NN	bridge
+13.2	NN	brief
+13.4	NN	broadcast
+13.4	NN	broadcasting
+11.6	NN	broker
+10.1	NN	brokerage
+9.92	NN	budget
+9.82	NN	building
+12.6	NN	bulk
+13.2	NN	bull
+13.7	NN	bullet
+12.6	NN	burden
+11.3	NN	bureau
+13.2	NN	bureaucracy
+12.7	NN	bus
+12.4	NN	bushel
+7.26	NN	business
+12.9	NN	businessman
+11.6	NN	buy
+11.8	NN	buy-back
+9.41	NN	buy-out
+11.4	NN	buyer
+10.2	NN	buying
+13.4	NN	cabinet
+11.4	NN	cable
+13.4	NN	cable-TV
+13.4	NN	calendar
+11.3	NN	call
+13.4	NN	camera
+10.1	NN	campaign
+10.5	NN	cancer
+11.7	NN	candidate
+13.4	NN	candy
+12.9	NN	cap
+13.7	NN	capability
+10	NN	capacity
+13.7	NN	capita
+8.96	NN	capital
+13.4	NN	capitalism
+9.63	NN	car
+12.7	NN	carbon
+12.1	NN	card
+11.3	NN	care
+11.8	NN	career
+12.9	NN	cargo
+13.7	NN	carpet
+13.7	NN	carpeting
+10.9	NN	carrier
+8.49	NN	case
+8.78	NN	cash
+13	NN	casino
+13.4	NN	catalog
+12.9	NN	catalyst
+13.4	NN	catastrophe
+12.6	NN	category
+11.4	NN	cause
+13.2	NN	caution
+13.4	NN	cease-fire
+11.4	NN	ceiling
+12.7	NN	cell
+13.4	NN	cement
+11.9	NN	cent
+13.2	NN	centennial
+10.2	NN	center
+13.4	NN	centerpiece
+11	NN	century
+13.7	NN	cereal
+10.7	NN	chain
+13.7	NN	chair
+8.5	NN	chairman
+11.8	NN	challenge
+13.4	NN	chamber
+13.2	NN	champion
+10.8	NN	chance
+9.57	NN	change
+12.4	NN	character
+9.38	NN	charge
+12.6	NN	charity
+12.6	NN	charter
+12.6	NN	check
+11.2	NN	chemical
+9.82	NN	chief
+11.6	NN	child
+11.7	NN	chip
+11.6	NN	choice
+13.7	NN	cholesterol
+12.7	NN	chromosome
+12.9	NN	chunk
+12.3	NN	church
+12.9	NN	cigarette
+13.4	NN	circle
+11.9	NN	circuit
+11.9	NN	circulation
+9.43	NN	city
+11.6	NN	claim
+11.9	NN	class
+13	NN	clause
+12.3	NN	cleanup
+12.9	NN	clearance
+13.4	NN	clearing
+11.1	NN	client
+12.9	NN	climate
+13.2	NN	climb
+9.78	NN	close
+10.9	NN	closing
+12.7	NN	club
+11.9	NN	coal
+12.4	NN	coalition
+13	NN	coast
+12.3	NN	cocoa
+13.7	NN	code
+12.1	NN	coffee
+13.7	NN	collaboration
+10.9	NN	collapse
+11.9	NN	collateral
+12.1	NN	collection
+11.4	NN	college
+13.4	NN	colon
+12.4	NN	colony
+12.4	NN	color
+12.6	NN	column
+13.2	NN	combat
+13	NN	combination
+13.7	NN	comeback
+13.4	NN	comedy
+13.4	NN	comfort
+13.4	NN	command
+9.74	NN	comment
+13.2	NN	commentary
+12.6	NN	commercial
+10.9	NN	commission
+12.6	NN	commissioner
+11.8	NN	commitment
+9.86	NN	committee
+11.1	NN	commodity
+12.6	NN	common
+11.3	NN	community
+5.58	NN	company
+12.3	NN	comparison
+12.7	NN	compensation
+10.1	NN	competition
+12.4	NN	competitor
+12.6	NN	complaint
+13.2	NN	completion
+13.4	NN	complex
+12.7	NN	compliance
+13.7	NN	component
+11.6	NN	composite
+12.6	NN	compound
+12	NN	compromise
+12.7	NN	comptroller
+8.57	NN	computer
+13	NN	computing
+12.1	NN	concept
+8.73	NN	concern
+13.2	NN	conclusion
+11.4	NN	condition
+10.1	NN	conference
+11.3	NN	confidence
+13	NN	confirmation
+12.9	NN	confusion
+12.6	NN	conglomerate
+13.7	NN	congress
+13.2	NN	congressman
+12.4	NN	connection
+11.6	NN	consensus
+12.4	NN	consent
+13.4	NN	conservation
+12.1	NN	consideration
+12.6	NN	consolidation
+13	NN	consortium
+13.7	NN	conspiracy
+9.82	NN	construction
+11	NN	consultant
+12.1	NN	consulting
+9.78	NN	consumer
+11.9	NN	consumption
+12.9	NN	contest
+13	NN	context
+8.36	NN	contract
+12	NN	contractor
+11.3	NN	contrast
+12.4	NN	contribution
+9.63	NN	control
+12.1	NN	controversy
+13.7	NN	convenience
+13.2	NN	convention
+13	NN	conversation
+12.2	NN	conversion
+12.1	NN	conviction
+11.9	NN	cooperation
+10.5	NN	copper
+12.9	NN	copy
+11.9	NN	core
+11	NN	corn
+13.2	NN	corner
+12.3	NN	corporation
+13.2	NN	correction
+13.7	NN	corruption
+9.34	NN	cost
+13.2	NN	cotton
+12.1	NN	council
+11.6	NN	counsel
+13	NN	count
+13.4	NN	counterpart
+8.97	NN	country
+13.7	NN	county
+11.5	NN	coup
+11.1	NN	couple
+10.6	NN	coupon
+9.86	NN	course
+8.69	NN	court
+11.9	NN	coverage
+13.7	NN	crack
+9.7	NN	crash
+12.4	NN	creation
+12	NN	credibility
+9.27	NN	credit
+12.3	NN	credit-card
+12.3	NN	creditor
+10.9	NN	crime
+11.1	NN	crisis
+11.6	NN	criticism
+11.9	NN	crop
+12.3	NN	crowd
+11.6	NN	crude
+13.4	NN	cruise
+12.3	NN	crunch
+12.3	NN	culture
+10	NN	currency
+13.7	NN	cushion
+10.9	NN	customer
+10.6	NN	cut
+11.6	NN	cycle
+12.9	NN	dam
+9.62	NN	damage
+13	NN	danger
+12.9	NN	data
+10.4	NN	date
+8.22	NN	day
+12.2	NN	deadline
+9.18	NN	deal
+12	NN	dealer
+13.4	NN	dealership
+10.6	NN	death
+12.7	NN	debacle
+11.3	NN	debate
+13.4	NN	debenture
+8.16	NN	debt
+12.7	NN	debut
+10.6	NN	decade
+9.12	NN	decision
+13.7	NN	declaration
+9.07	NN	decline
+12.1	NN	default
+12.7	NN	defendant
+9.74	NN	defense
+13.4	NN	deficiency
+10.1	NN	deficit
+12.4	NN	deficit-reduction
+13.2	NN	definition
+13.7	NN	deflator
+12	NN	degree
+12	NN	delay
+13.4	NN	delegation
+9.44	NN	delivery
+9.3	NN	demand
+13.2	NN	demise
+11.9	NN	democracy
+13.7	NN	demonstration
+9.9	NN	department
+12	NN	departure
+13.7	NN	dependence
+11.6	NN	deposit
+13	NN	depositary
+12.9	NN	depository
+11.9	NN	deputy
+13	NN	deregulation
+11.7	NN	design
+12.9	NN	designer
+12.1	NN	desire
+12.9	NN	desk
+13.4	NN	destruction
+13.7	NN	detective
+13.7	NN	detergent
+13.4	NN	deterioration
+13.4	NN	devaluation
+12	NN	developer
+10	NN	development
+11.9	NN	device
+13.2	NN	dialogue
+12.7	NN	dictator
+11.9	NN	difference
+12.2	NN	difficulty
+13.2	NN	dignity
+12.6	NN	dinner
+13.4	NN	dioxide
+10.9	NN	direction
+8.59	NN	director
+13	NN	disappointment
+10.9	NN	disaster
+12.7	NN	discipline
+12.1	NN	disclosure
+10.2	NN	discount
+13.4	NN	discounting
+12.9	NN	discovery
+13.7	NN	discrepancy
+12.7	NN	discrimination
+13.4	NN	discussion
+12.6	NN	disease
+12.1	NN	disk
+13.2	NN	dismissal
+13.4	NN	disobedience
+13	NN	display
+13.4	NN	disposal
+11.1	NN	dispute
+13.7	NN	distance
+11.6	NN	distribution
+13.4	NN	distributor
+10.6	NN	district
+13.4	NN	dive
+13	NN	diversification
+9.46	NN	dividend
+9.7	NN	division
+12.4	NN	doctor
+13.7	NN	document
+13.4	NN	dog
+8.52	NN	dollar
+11.8	NN	door
+12.6	NN	doubt
+13.4	NN	downgrade
+12.7	NN	downtown
+11.5	NN	downturn
+12	NN	dozen
+13.7	NN	draft
+13.7	NN	drag
+13.2	NN	drain
+13.2	NN	dream
+13.7	NN	dress
+13	NN	drilling
+11.7	NN	drive
+9.14	NN	drop
+12.6	NN	drought
+9.53	NN	drug
+13	NN	duty
+13.7	NN	earning
+13.7	NN	earth
+9.17	NN	earthquake
+13.7	NN	easing
+10.2	NN	economist
+8.71	NN	economy
+12.3	NN	edge
+11.3	NN	edition
+10.9	NN	editor
+12.1	NN	editorial
+11.9	NN	education
+9.4	NN	effect
+13.7	NN	effectiveness
+13	NN	efficiency
+9.72	NN	effort
+12.9	NN	egg
+11	NN	election
+13	NN	electricity
+13.4	NN	electronics
+13	NN	element
+13.7	NN	elephant
+13.7	NN	elimination
+13.7	NN	embarrassment
+13.4	NN	embryo
+11	NN	emergency
+12.3	NN	emphasis
+12.7	NN	empire
+11.6	NN	employee
+12.7	NN	employer
+11.9	NN	employment
+13.7	NN	enactment
+13.7	NN	encouragement
+8.43	NN	end
+11	NN	energy
+12	NN	enforcement
+12.4	NN	engine
+12.9	NN	engineer
+11.9	NN	engineering
+13.7	NN	enough
+12.7	NN	entertainment
+12.9	NN	enthusiasm
+13.2	NN	entity
+12.7	NN	entrepreneur
+12.1	NN	entry
+11.1	NN	environment
+13.7	NN	envy
+13	NN	epicenter
+12.9	NN	episode
+10.1	NN	equipment
+10	NN	equity
+12.9	NN	equivalent
+13.4	NN	era
+13.4	NN	error
+12.3	NN	establishment
+9.34	NN	estate
+10.1	NN	estimate
+13.4	NN	ethylene
+13.7	NN	euphoria
+13.2	NN	evaluation
+12.2	NN	evening
+11.1	NN	event
+11.6	NN	everybody
+10.9	NN	everyone
+11	NN	everything
+10.2	NN	evidence
+13	NN	evolution
+12.4	NN	examination
+8.9	NN	example
+12.9	NN	exception
+12.9	NN	excess
+8.54	NN	exchange
+13.2	NN	exclusion
+12.9	NN	excuse
+13.7	NN	execution
+8.87	NN	executive
+11.8	NN	exercise
+13.4	NN	exhibit
+13.2	NN	exhibition
+13.4	NN	existence
+13.4	NN	exodus
+11.1	NN	expansion
+13.4	NN	expectation
+12.6	NN	expense
+11	NN	experience
+12.4	NN	experiment
+12.6	NN	expert
+12.1	NN	expiration
+12.9	NN	explanation
+12.7	NN	exploration
+13.2	NN	explosion
+11.3	NN	export
+11.6	NN	exposure
+13.7	NN	expression
+12.9	NN	extension
+12.2	NN	extent
+13.7	NN	extradition
+11.3	NN	eye
+10.7	NN	face
+11.1	NN	facility
+9.35	NN	fact
+11.4	NN	factor
+11.3	NN	factory
+11.1	NN	failure
+13.7	NN	fairness
+13.7	NN	faith
+10.2	NN	fall
+13.7	NN	fallout
+10	NN	family
+13.7	NN	fan
+13.7	NN	fare
+11.7	NN	farm
+12.1	NN	farmer
+12.2	NN	fashion
+11.9	NN	fast-food
+13.7	NN	fate
+11.4	NN	father
+12.9	NN	fault
+12.2	NN	favor
+11.7	NN	fear
+12.4	NN	fee
+12.7	NN	feeling
+12.7	NN	fellow
+13.7	NN	felony
+13.7	NN	fence
+13.7	NN	fever
+10.7	NN	field
+11.4	NN	fight
+10.6	NN	figure
+11.2	NN	filing
+11.1	NN	film
+10.8	NN	finance
+11.9	NN	financier
+9.78	NN	financing
+12.9	NN	finding
+13.7	NN	fine
+11.4	NN	fire
+8.44	NN	firm
+13.7	NN	fishing
+13.4	NN	fit
+12.2	NN	flag
+13.7	NN	flagship
+13.7	NN	flavor
+12.6	NN	fleet
+12.6	NN	flexibility
+11.1	NN	flight
+13.4	NN	flood
+10.4	NN	floor
+11.3	NN	flow
+12	NN	focus
+13.4	NN	following
+10.5	NN	food
+12.2	NN	foot
+11.9	NN	football
+10.4	NN	force
+11.3	NN	forecast
+13.4	NN	forecasting
+12.7	NN	foreign-exchange
+13.4	NN	forest
+13.2	NN	forfeiture
+10.6	NN	form
+13.7	NN	format
+13.2	NN	formation
+12.3	NN	formula
+13	NN	foundation
+12.6	NN	founder
+13.4	NN	fraction
+13.4	NN	frame
+12.9	NN	franc
+11.7	NN	franchise
+11.6	NN	fraud
+12.9	NN	freedom
+12	NN	freeway
+13.7	NN	freight
+12.3	NN	friend
+13.7	NN	friendship
+11.8	NN	front
+12.9	NN	fuel
+13.2	NN	fun
+9.06	NN	fund
+11.7	NN	funding
+13.4	NN	furor
+12.4	NN	fusion
+10.6	NN	future
+9.18	NN	gain
+13.2	NN	gallery
+13.7	NN	gamble
+10.2	NN	game
+11.9	NN	gap
+12.2	NN	garden
+10.5	NN	gas
+11.9	NN	gasoline
+10.9	NN	gene
+11.9	NN	general
+11.7	NN	generation
+12.2	NN	ghost
+11.5	NN	giant
+13.4	NN	girl
+13	NN	glass
+10.9	NN	goal
+9.96	NN	gold
+13.4	NN	golf
+13.7	NN	good
+7.19	NN	government
+12.2	NN	governor
+11.6	NN	grain
+13.7	NN	greenhouse
+13.7	NN	gridlock
+13	NN	grip
+11.3	NN	ground
+7.55	NN	group
+8.34	NN	growth
+12.2	NN	guarantee
+13.2	NN	guard
+13.4	NN	guerrilla
+13.7	NN	guide
+11.8	NN	guy
+13.7	NN	habit
+9.88	NN	half
+13	NN	half-hour
+11.7	NN	halt
+10.1	NN	hand
+11.9	NN	handful
+13.4	NN	handling
+13.7	NN	hardware
+12.7	NN	harvest
+10	NN	head
+13.4	NN	headline
+11.1	NN	headquarters
+10	NN	health
+12.4	NN	health-care
+11.4	NN	hearing
+11.4	NN	heart
+12.2	NN	heat
+13.7	NN	heavy
+13	NN	helicopter
+13.4	NN	hell
+11.1	NN	help
+12.4	NN	high
+11.7	NN	highway
+9.9	NN	history
+12.1	NN	hit
+13.4	NN	hold
+12.3	NN	holder
+11.5	NN	holding
+12.6	NN	holiday
+9.17	NN	home
+13.7	NN	honor
+13.4	NN	hook
+11.6	NN	hope
+13.2	NN	horizon
+13.4	NN	horse
+11.9	NN	hospital
+12.3	NN	host
+12.3	NN	hotel
+13.7	NN	hotel-casino
+10.5	NN	hour
+10.3	NN	house
+12.2	NN	household
+11.1	NN	housing
+13.7	NN	humor
+12.9	NN	hurricane
+12.4	NN	husband
+13.7	NN	hypoglycemia
+13.4	NN	i
+13.7	NN	ice
+10.3	NN	idea
+13	NN	identity
+13.2	NN	illustration
+11.1	NN	image
+10.2	NN	impact
+12.6	NN	impeachment
+11.6	NN	import
+12.9	NN	importance
+13.4	NN	impression
+10.9	NN	improvement
+13	NN	incentive
+13.2	NN	incident
+13.4	NN	incinerator
+13.7	NN	inclination
+8.49	NN	income
+8.89	NN	increase
+13.2	NN	independence
+8.11	NN	index
+13.4	NN	index-arbitrage
+12.3	NN	indication
+12.3	NN	indicator
+13	NN	indictment
+12.6	NN	individual
+7.8	NN	industry
+9.63	NN	inflation
+11.9	NN	influence
+9.84	NN	information
+11.9	NN	initiative
+13.7	NN	injection
+12.7	NN	injunction
+12.3	NN	inquiry
+13	NN	insider
+13.4	NN	insistence
+13	NN	inspector
+10.1	NN	instance
+13	NN	institute
+11.6	NN	institution
+13.7	NN	instrument
+13	NN	insulin
+9.01	NN	insurance
+11.8	NN	insurer
+13	NN	integration
+11.8	NN	intelligence
+12.2	NN	intent
+12.6	NN	intention
+12.2	NN	interbank
+7.65	NN	interest
+11.9	NN	interest-rate
+13.2	NN	interpretation
+13	NN	intervention
+10.4	NN	interview
+13.4	NN	intraday
+12.2	NN	introduction
+12.3	NN	inventory
+10.9	NN	investigation
+12.6	NN	investing
+7.94	NN	investment
+13.7	NN	investment-banking
+9.15	NN	investor
+12.6	NN	involvement
+13.2	NN	island
+13.2	NN	issuance
+8.01	NN	issue
+13	NN	issuer
+12.6	NN	item
+12.9	NN	jail
+13.4	NN	jet
+12.7	NN	jewelry
+9.65	NN	job
+13.7	NN	joint
+13.7	NN	joke
+13.7	NN	jolt
+13	NN	journal
+13	NN	journalist
+9.7	NN	judge
+12.7	NN	judgment
+12.1	NN	jump
+9	NN	junk
+11.8	NN	junk-bond
+13.2	NN	jurisdiction
+11	NN	jury
+13.4	NN	justice
+12.2	NN	key
+10	NN	kind
+13.7	NN	king
+12.9	NN	knowledge
+13.2	NN	label
+10.6	NN	labor
+13.4	NN	labor-management
+13.7	NN	laboratory
+11.3	NN	lack
+13.4	NN	lady
+11.7	NN	land
+12.9	NN	landing
+13.7	NN	landscape
+11.8	NN	language
+12.6	NN	launch
+8.8	NN	law
+11.9	NN	lawsuit
+10.9	NN	lawyer
+11.8	NN	lead
+10.1	NN	leader
+11.6	NN	leadership
+12.1	NN	league
+13.7	NN	lease
+13.4	NN	leasing
+13.4	NN	leg
+9.78	NN	legislation
+12.4	NN	legislature
+13.7	NN	leisure
+11.3	NN	lending
+12.7	NN	lesson
+10.2	NN	letter
+8.86	NN	level
+12	NN	leverage
+11.3	NN	liability
+13.7	NN	libel
+13.7	NN	library
+12.9	NN	license
+9.5	NN	life
+13.7	NN	lifetime
+11.5	NN	light
+13.7	NN	likelihood
+11.1	NN	limit
+13.7	NN	linage
+9.13	NN	line
+13.7	NN	link
+11.1	NN	liquidity
+13.2	NN	liquor
+10.6	NN	list
+13	NN	listing
+13.7	NN	literature
+11.3	NN	litigation
+13.4	NN	living
+12.4	NN	load
+9.86	NN	loan
+13.2	NN	loan-loss
+13.7	NN	lobby
+13	NN	lobbyist
+11.6	NN	location
+13.4	NN	logic
+13.2	NN	longtime
+12.2	NN	look
+8.39	NN	loss
+9.27	NN	lot
+13.2	NN	love
+12.9	NN	low
+12	NN	loyalty
+13.2	NN	luck
+12.6	NN	lunch
+13.2	NN	lung
+11.4	NN	luxury
+12.7	NN	luxury-car
+10.3	NN	machine
+12.2	NN	machinery
+10.2	NN	magazine
+13	NN	magnitude
+11.8	NN	mail
+12.4	NN	mainframe
+13.4	NN	mainstream
+12.3	NN	maintenance
+10.1	NN	majority
+8.82	NN	maker
+13.4	NN	making
+13.7	NN	mall
+9.92	NN	man
+9.06	NN	management
+9.49	NN	manager
+13.2	NN	managing
+13.4	NN	mandate
+13	NN	maneuver
+13	NN	manner
+11.8	NN	manufacturer
+10.8	NN	manufacturing
+13.7	NN	march
+11.1	NN	margin
+11.4	NN	mark
+5.77	NN	market
+10.2	NN	marketing
+12.7	NN	marketplace
+13.2	NN	mart
+12.9	NN	massacre
+12.3	NN	massage
+12.6	NN	master
+11.9	NN	material
+10.5	NN	matter
+10.8	NN	maturity
+12.3	NN	maximum
+11.9	NN	mayor
+12.7	NN	meantime
+10.2	NN	measure
+13.7	NN	meat
+13	NN	mechanism
+13.7	NN	medicine
+9.22	NN	meeting
+10.5	NN	member
+11.4	NN	membership
+13.7	NN	memo
+12.1	NN	memory
+11.7	NN	merchandise
+12.2	NN	merchant
+10.5	NN	merger
+13.2	NN	merit
+13.2	NN	mess
+11.8	NN	message
+12.4	NN	metal
+12.2	NN	method
+13.7	NN	microprocessor
+13	NN	midday
+13.2	NN	middle
+12.9	NN	midnight
+12.2	NN	midst
+13	NN	milk
+13.7	NN	mill
+11.4	NN	mind
+11.6	NN	mine
+11.4	NN	minimum
+12.3	NN	mining
+12	NN	minister
+12.3	NN	ministry
+10.8	NN	minority
+13.2	NN	minute
+12.6	NN	missile
+12.2	NN	mission
+13	NN	mistake
+13.7	NN	mix
+11.1	NN	model
+11.2	NN	moment
+12.4	NN	momentum
+7.75	NN	money
+13.7	NN	monitoring
+7.51	NN	month
+12.6	NN	mood
+10.1	NN	morning
+13.4	NN	mortality
+9.74	NN	mortgage
+12.2	NN	mother
+12.7	NN	motion
+13.4	NN	motor
+12.2	NN	mountain
+13	NN	mountain-bike
+9.17	NN	move
+11.3	NN	movement
+11.8	NN	movie
+13.7	NN	mural
+12.6	NN	murder
+11.6	NN	music
+13.7	NN	mystery
+10.1	NN	name
+9.07	NN	nation
+12.3	NN	nature
+13.7	NN	navy
+11.1	NN	need
+13.4	NN	negotiation
+12.7	NN	neighborhood
+13.7	NN	nervousness
+10.1	NN	net
+9.6	NN	network
+8.69	NN	news
+12	NN	newsletter
+10.9	NN	newspaper
+12.4	NN	niche
+10.3	NN	night
+12	NN	nobody
+13.7	NN	nomination
+11.6	NN	none
+13.7	NN	north
+12.9	NN	nose
+10.2	NN	note
+13.7	NN	notebook
+10.4	NN	nothing
+12.6	NN	notice
+11.9	NN	notion
+12.2	NN	novel
+8.57	NN	number
+13.4	NN	objective
+11.4	NN	obligation
+12.7	NN	obstacle
+8.42	NN	offer
+9.13	NN	offering
+8.81	NN	office
+9.9	NN	officer
+9.31	NN	official
+8.84	NN	oil
+10	NN	one
+12.4	NN	one-third
+11	NN	opening
+9.9	NN	operating
+10.2	NN	operation
+11.6	NN	operator
+11.1	NN	opinion
+13.7	NN	opponent
+10.7	NN	opportunity
+11	NN	opposition
+12.7	NN	optimism
+10.2	NN	option
+9.24	NN	order
+13.7	NN	ordinance
+11.1	NN	organization
+10.4	NN	ounce
+12.7	NN	outcome
+12.4	NN	outcry
+11.3	NN	outlook
+10.8	NN	output
+13.4	NN	outside
+13.4	NN	overcapacity
+13.4	NN	overhaul
+13.7	NN	overtime
+11.2	NN	owner
+11	NN	ownership
+13.7	NN	ozone
+12.4	NN	p.m.
+13.2	NN	p53
+10.9	NN	pace
+13.4	NN	pachinko
+10.9	NN	package
+12.7	NN	packaging
+11.5	NN	pact
+12.1	NN	page
+13.7	NN	page-one
+13.2	NN	painting
+11	NN	panel
+11	NN	panic
+9.37	NN	paper
+10.7	NN	par
+9.86	NN	parent
+13	NN	park
+13	NN	parking
+13.7	NN	parliament
+7.99	NN	part
+12.6	NN	participation
+10.5	NN	partner
+11.2	NN	partnership
+10.4	NN	party
+13.2	NN	passage
+12.3	NN	passenger
+10.4	NN	past
+13.7	NN	pasta
+11.6	NN	patent
+12.7	NN	path
+13.4	NN	patient
+11.9	NN	pattern
+13.7	NN	pawn
+11.6	NN	pay
+10.6	NN	payment
+13.4	NN	payout
+13.7	NN	payroll
+12.2	NN	peace
+12.4	NN	peak
+12.6	NN	penalty
+10.8	NN	pence
+13.2	NN	penny
+10.6	NN	pension
+13	NN	percent
+9.5	NN	percentage
+12.7	NN	perception
+9.67	NN	performance
+8.63	NN	period
+11.6	NN	permission
+10.9	NN	person
+13.4	NN	personal-computer
+13.7	NN	perspective
+13.7	NN	pertussis
+13.2	NN	pesticide
+13.2	NN	petrochemical
+13	NN	petroleum
+13	NN	phase
+12.7	NN	phenomenon
+13.2	NN	philosophy
+11	NN	phone
+11.8	NN	picture
+11.3	NN	piece
+12	NN	pill
+11.8	NN	pilot
+12.1	NN	pipeline
+12.9	NN	pit
+13	NN	pitch
+9.6	NN	place
+13	NN	placement
+8	NN	plan
+12.7	NN	plane
+12.6	NN	planner
+12.1	NN	planning
+9.04	NN	plant
+12.9	NN	plastic
+13.7	NN	plate
+13.4	NN	platform
+13.7	NN	platinum
+12	NN	play
+11.5	NN	player
+13.7	NN	playing
+12.2	NN	plea
+13.7	NN	pledge
+12.9	NN	plenty
+13.2	NN	plot
+10	NN	plunge
+8.6	NN	point
+12.3	NN	poison
+12.2	NN	police
+9.06	NN	policy
+12	NN	poll
+12.7	NN	pollution
+12.7	NN	polyethylene
+12.6	NN	pool
+13.2	NN	popularity
+11.9	NN	population
+9.74	NN	portfolio
+10.9	NN	portion
+13.7	NN	portrait
+9.19	NN	position
+11.3	NN	possibility
+11	NN	post
+12.7	NN	potential
+10	NN	pound
+12.2	NN	poverty
+9.38	NN	power
+11.4	NN	practice
+13.4	NN	preamble
+13.2	NN	predecessor
+13.4	NN	preference
+13.4	NN	prelude
+10.5	NN	premium
+12.9	NN	prescription
+11.9	NN	presence
+12.9	NN	presidency
+7.36	NN	president
+10.8	NN	press
+9.84	NN	pressure
+12	NN	pretax
+7.27	NN	price
+11.5	NN	pricing
+13.4	NN	pride
+13.7	NN	prime-time
+12.9	NN	principal
+11.9	NN	principle
+13.2	NN	print
+13.7	NN	printer
+13.2	NN	printing
+12	NN	priority
+11.8	NN	prison
+13.7	NN	privatization
+12.4	NN	privilege
+12.7	NN	probe
+8.86	NN	problem
+13.7	NN	procedure
+9.96	NN	process
+13.2	NN	processing
+11.1	NN	producer
+9.32	NN	product
+9.03	NN	production
+12.7	NN	productivity
+11.6	NN	professor
+8.11	NN	profit
+13	NN	profit-taking
+12.3	NN	profitability
+7.73	NN	program
+13	NN	program-trading
+11.7	NN	programming
+11.9	NN	progress
+10	NN	project
+12.9	NN	projection
+12.1	NN	promise
+11.9	NN	promotion
+13.2	NN	proof
+10.5	NN	property
+13.2	NN	proportion
+9.03	NN	proposal
+12.7	NN	prosecution
+13.4	NN	prosecutor
+12	NN	prospect
+13.2	NN	prospectus
+13.7	NN	prosperity
+10.4	NN	protection
+13.7	NN	protein
+12.7	NN	protest
+13.7	NN	province
+10.4	NN	provision
+13.7	NN	proxy
+12.9	NN	psychology
+12.7	NN	psyllium
+11.1	NN	public
+12.7	NN	publication
+13	NN	publicity
+11.9	NN	publisher
+12.4	NN	publishing
+13.7	NN	pulp
+9.9	NN	purchase
+13.2	NN	purchasing
+12.4	NN	purpose
+13.4	NN	push
+13	NN	put
+10.5	NN	quake
+11	NN	quality
+7.22	NN	quarter
+13.2	NN	quarterly
+9.98	NN	question
+12.6	NN	quota
+12	NN	race
+12.1	NN	racketeering
+13.7	NN	radar
+11.4	NN	radio
+13.2	NN	raider
+13.7	NN	rail
+12.9	NN	railroad
+13.4	NN	rain
+13.7	NN	raise
+10.2	NN	rally
+13.4	NN	ranch
+10.3	NN	range
+13.4	NN	rash
+7.51	NN	rate
+10.9	NN	rating
+11.3	NN	ratio
+13.4	NN	re-election
+10.9	NN	reaction
+12.9	NN	reader
+11.6	NN	reading
+10.6	NN	real-estate
+12.4	NN	reality
+9.8	NN	reason
+12.7	NN	rebound
+12.3	NN	recapitalization
+10	NN	recession
+13	NN	recognition
+12.6	NN	recommendation
+12.9	NN	reconciliation
+9.03	NN	record
+13.7	NN	recording
+11	NN	recovery
+12.9	NN	red
+12.6	NN	redemption
+11.3	NN	reduction
+12.9	NN	reference
+12.6	NN	refinery
+11.2	NN	reform
+12.7	NN	refund
+11.9	NN	regime
+10.9	NN	region
+13.7	NN	registration
+12.3	NN	regulation
+13.2	NN	regulator
+13.7	NN	reinforcement
+12	NN	reinsurance
+13	NN	rejection
+11.4	NN	relationship
+11.6	NN	release
+13.7	NN	reliance
+11.2	NN	relief
+13.4	NN	reluctance
+13.7	NN	remainder
+13.4	NN	reminder
+13.7	NN	removal
+13.7	NN	renewal
+13.4	NN	rent
+10.7	NN	reorganization
+13.4	NN	repair
+13.2	NN	repeal
+12.6	NN	replacement
+8.66	NN	report
+12.4	NN	reporter
+13.4	NN	reporting
+12.6	NN	representative
+13.2	NN	repurchase
+11.8	NN	reputation
+11.2	NN	request
+13	NN	requirement
+13	NN	rescue
+9.44	NN	research
+13.2	NN	researcher
+11.6	NN	reserve
+11.6	NN	resignation
+11.9	NN	resistance
+12.3	NN	resolution
+13.2	NN	resort
+13.2	NN	respect
+10.2	NN	response
+11.4	NN	responsibility
+10.5	NN	rest
+11.6	NN	restaurant
+13.4	NN	restraint
+10.1	NN	restructuring
+9.32	NN	result
+12.4	NN	retailer
+12.2	NN	retailing
+11.2	NN	retirement
+13	NN	retreat
+9.67	NN	return
+7.72	NN	revenue
+13	NN	reversal
+12.1	NN	review
+13.4	NN	revision
+12.9	NN	revival
+13	NN	revolution
+13.4	NN	rhetoric
+12.9	NN	ride
+10	NN	right
+13.4	NN	ring
+9.94	NN	rise
+9.65	NN	risk
+12.9	NN	rival
+12.6	NN	road
+9.8	NN	role
+12.9	NN	roll
+10.6	NN	room
+11.7	NN	round
+12.9	NN	rout
+13.4	NN	route
+12.2	NN	row
+13.7	NN	rubble
+13.7	NN	ruble
+10.6	NN	rule
+10.3	NN	ruling
+11.9	NN	run
+13.7	NN	run-up
+13.4	NN	rush
+11.3	NN	safety
+12.6	NN	salary
+8.42	NN	sale
+13.4	NN	salesman
+13.7	NN	salmonella
+13	NN	sand
+13.2	NN	satellite
+13.2	NN	satisfaction
+12.3	NN	scale
+11.2	NN	scandal
+12.3	NN	scenario
+12	NN	scene
+12	NN	schedule
+12.4	NN	scheme
+10.5	NN	school
+13.4	NN	science
+13.2	NN	scientist
+12.2	NN	screen
+13.2	NN	sea
+11.9	NN	search
+11	NN	season
+11.8	NN	seat
+13.2	NN	second
+10.9	NN	secretary
+10.9	NN	section
+10.2	NN	sector
+10.7	NN	security
+13.4	NN	sedan
+13	NN	seed
+11.2	NN	segment
+13.4	NN	self-incrimination
+11.7	NN	sell
+11.3	NN	sell-off
+12.7	NN	seller
+10.2	NN	selling
+12.6	NN	semiconductor
+13.2	NN	senator
+10.6	NN	sense
+12.9	NN	sentence
+12	NN	sentiment
+9.86	NN	series
+9.4	NN	service
+9.92	NN	session
+11.9	NN	set
+12	NN	setback
+10.4	NN	settlement
+13	NN	sex
+13.4	NN	shadow
+13.7	NN	shame
+13.4	NN	shape
+6.92	NN	share
+10.2	NN	shareholder
+12.3	NN	sheet
+12.9	NN	shelf
+13.7	NN	shield
+12	NN	shift
+12.6	NN	ship
+13	NN	shipping
+12.7	NN	shipyard
+13.2	NN	shock
+12.4	NN	shop
+11.9	NN	shopping
+12.2	NN	shortage
+13	NN	shot
+13.4	NN	shoulder
+10.2	NN	show
+13.7	NN	showing
+12.9	NN	shuttle
+10.1	NN	side
+13.4	NN	sight
+10.7	NN	sign
+12.6	NN	signal
+13.7	NN	significance
+11.6	NN	silver
+13.7	NN	singer
+11.5	NN	site
+10	NN	situation
+10.3	NN	size
+13.7	NN	ski
+13.4	NN	slate
+11.1	NN	slide
+11	NN	slowdown
+13.4	NN	slowing
+12.4	NN	slump
+12.3	NN	small-business
+12.9	NN	smoking
+13.4	NN	socialism
+12.2	NN	society
+13.4	NN	soft-drink
+10.6	NN	software
+13.4	NN	soil
+12.7	NN	solution
+12.7	NN	somebody
+11.2	NN	someone
+9.86	NN	something
+12.9	NN	son
+11	NN	sort
+9.74	NN	source
+12.9	NN	soybean
+10.4	NN	space
+13.7	NN	spacecraft
+13.4	NN	speaker
+11.9	NN	specialist
+12.3	NN	specialty
+10.3	NN	speculation
+11.2	NN	speech
+13	NN	speed
+9.67	NN	spending
+12.9	NN	spill
+12.7	NN	spinoff
+13.2	NN	spirit
+13.7	NN	spite
+11.6	NN	split
+8.2	NN	spokesman
+10.1	NN	spokeswoman
+13.4	NN	sponsor
+12.9	NN	sport
+11.3	NN	spot
+11.2	NN	spread
+13.7	NN	spree
+10.4	NN	spring
+13.2	NN	spy
+13.7	NN	square
+13.2	NN	squeeze
+12.9	NN	stability
+13	NN	stadium
+10.5	NN	staff
+11.6	NN	stage
+8.54	NN	stake
+12	NN	stance
+13.2	NN	stand
+11.5	NN	standard
+12.7	NN	standing
+13.7	NN	standpoint
+12.9	NN	star
+11.1	NN	start
+8.13	NN	state
+9.58	NN	statement
+11.4	NN	station
+11.6	NN	status
+13	NN	statute
+10.1	NN	steel
+13	NN	steelmaker
+10.9	NN	step
+11.6	NN	sterling
+6.43	NN	stock
+11.2	NN	stock-index
+11.9	NN	stock-market
+12.9	NN	stop
+12.6	NN	storage
+11.3	NN	store
+12.3	NN	storm
+10.5	NN	story
+12.9	NN	strain
+12.2	NN	strategist
+9.69	NN	strategy
+13.4	NN	stream
+12.2	NN	street
+10.8	NN	strength
+13.4	NN	stress
+12.4	NN	stretch
+10.5	NN	strike
+12.9	NN	string
+13.4	NN	strip
+11.5	NN	structure
+12.9	NN	struggle
+11.9	NN	student
+12.4	NN	studio
+10.3	NN	study
+12.4	NN	stuff
+11.7	NN	style
+11.9	NN	subcommittee
+11.6	NN	subject
+9.76	NN	subsidiary
+13.7	NN	substance
+13.7	NN	substitute
+13.7	NN	suburb
+10.5	NN	success
+11.9	NN	successor
+12.2	NN	sugar
+13.2	NN	suggestion
+9.63	NN	suit
+12.9	NN	suitor
+13.2	NN	sum
+10.1	NN	summer
+13.4	NN	summit
+13.4	NN	sun
+12.6	NN	supercomputer
+13.7	NN	supermarket
+12.6	NN	supplier
+10.6	NN	supply
+9.69	NN	support
+13.4	NN	surface
+11.4	NN	surge
+13.2	NN	surgery
+12	NN	surplus
+11.8	NN	surprise
+10.6	NN	survey
+12.9	NN	survival
+12.3	NN	suspension
+12.7	NN	swap
+13.7	NN	sweep
+13.7	NN	swing
+12.2	NN	symbol
+13	NN	syndicate
+13	NN	syndrome
+8.63	NN	system
+12.2	NN	table
+8.85	NN	takeover
+13.7	NN	talent
+11.7	NN	talk
+11.9	NN	tape
+10.7	NN	target
+13.7	NN	tariff
+11.6	NN	task
+13.2	NN	taste
+8.42	NN	tax
+13.7	NN	tea
+12.6	NN	teacher
+10.1	NN	team
+12	NN	technique
+9.7	NN	technology
+13.2	NN	telecommunications
+10.5	NN	telephone
+10.2	NN	television
+13.7	NN	temptation
+13.2	NN	tendency
+10.9	NN	tender
+13.2	NN	tension
+13.2	NN	tenure
+10.3	NN	term
+13.4	NN	terminal
+13.7	NN	territory
+12.9	NN	terrorism
+10.3	NN	test
+12.7	NN	testimony
+12.7	NN	testing
+13.7	NN	textile
+12.9	NN	theater
+13.4	NN	theft
+13.2	NN	theme
+11.7	NN	theory
+13.7	NN	therapy
+9.55	NN	thing
+13.4	NN	third
+11.1	NN	third-quarter
+13	NN	thought
+11.3	NN	threat
+10.5	NN	thrift
+13.7	NN	thumb
+12.4	NN	ticket
+7.25	NN	time
+13	NN	timetable
+11.6	NN	timing
+13.2	NN	tip
+11.8	NN	title
+13	NN	tobacco
+8.43	NN	today
+13.7	NN	tolerance
+13	NN	toll
+10.8	NN	tomorrow
+12.3	NN	ton
+12.9	NN	tone
+13.7	NN	tonight
+13.4	NN	tool
+11.1	NN	top
+12.4	NN	topic
+10.4	NN	total
+13.4	NN	touch
+13.4	NN	tour
+13.2	NN	tourism
+13.2	NN	tourist
+12.9	NN	tower
+11.1	NN	town
+12.9	NN	toxin
+12.9	NN	toy
+11.9	NN	track
+8.76	NN	trade
+10	NN	trader
+6.43	NN	trading
+13.2	NN	tradition
+11.9	NN	traffic
+13.7	NN	trail
+13.4	NN	train
+11.4	NN	training
+9.3	NN	transaction
+13.2	NN	transfer
+13.2	NN	transition
+13.7	NN	transport
+11	NN	transportation
+12.3	NN	travel
+13.4	NN	treasurer
+12.4	NN	treasury
+11	NN	treatment
+12.6	NN	treaty
+13	NN	tree
+10.5	NN	trend
+10.3	NN	trial
+11.8	NN	trip
+13.7	NN	troop
+10.6	NN	trouble
+13.7	NN	trough
+11.6	NN	truck
+10.5	NN	trust
+13.7	NN	trustee
+12.7	NN	truth
+13.4	NN	tube
+12.2	NN	turmoil
+11.6	NN	turn
+12	NN	turnaround
+11.3	NN	turnover
+10.5	NN	tv
+11.3	NN	type
+11.8	NN	uncertainty
+12.2	NN	underwriter
+12.4	NN	underwriting
+12.3	NN	unemployment
+9.44	NN	union
+7.86	NN	unit
+12.2	NN	university
+13.7	NN	upscale
+13.7	NN	uptick
+10.1	NN	use
+12.7	NN	user
+11.3	NN	utility
+13.4	NN	utilization
+13.4	NN	vacancy
+12.3	NN	vaccine
+13.4	NN	valuation
+8.62	NN	value
+12	NN	variety
+11.3	NN	vehicle
+10	NN	venture
+13.4	NN	verdict
+10.5	NN	version
+13	NN	veteran
+10.7	NN	veto
+8.53	NN	vice
+12.7	NN	victim
+11.7	NN	victory
+12.7	NN	video
+10.5	NN	view
+12.7	NN	violation
+12.9	NN	virus
+13.7	NN	vision
+11.9	NN	visit
+12.1	NN	voice
+10	NN	volatility
+8.39	NN	volume
+10.4	NN	vote
+12.6	NN	voting
+10.7	NN	wage
+13.7	NN	waiver
+11.6	NN	wake
+12.9	NN	wall
+10.3	NN	war
+13.7	NN	warming
+12.1	NN	warning
+11.8	NN	warrant
+13.2	NN	waste
+13.4	NN	watch
+11.2	NN	water
+13.7	NN	waterworks
+12.6	NN	wave
+8.13	NN	way
+11.2	NN	weakness
+13	NN	wealth
+13.2	NN	weapon
+12.7	NN	weather
+7.28	NN	week
+10.6	NN	weekend
+12.4	NN	weight
+13.2	NN	well
+12.4	NN	wheat
+11.6	NN	while
+13	NN	whole
+11.9	NN	wife
+12.2	NN	will
+13.4	NN	willingness
+13.4	NN	wind
+12.9	NN	window
+13.7	NN	wine
+13.4	NN	winner
+11.9	NN	winter
+13.4	NN	wire
+12.7	NN	wisdom
+11.9	NN	withdrawal
+12.9	NN	witness
+10.8	NN	woman
+11.9	NN	word
+9.04	NN	work
+11.6	NN	worker
+8.78	NN	world
+13	NN	worm
+11.9	NN	worth
+13	NN	write-down
+13.7	NN	write-off
+11.7	NN	writer
+5.63	NN	year
+12.3	NN	year-end
+13.4	NN	yeast
+9.15	NN	yen
+7.09	NN	yesterday
+9.15	NN	yield
+12.7	NN	youth
+12.9	NNP	's
+10.4	NNP	A.
+12.1	NNP	A.P.
+11.7	NNP	AB
+12.9	NNP	ABB
+10.8	NNP	ABC
+12.7	NNP	ABM
+10.2	NNP	AG
+10.7	NNP	AMR
+11.1	NNP	ANC
+12.9	NNP	ASKO
+9.9	NNP	AT&T
+12.3	NNP	AZT
+12.9	NNP	Abramson
+11.2	NNP	Acceptance
+12.7	NNP	Accounting
+11.7	NNP	Achenbaum
+11.3	NNP	Acquisition
+10.1	NNP	Act
+12.4	NNP	Adm.
+11.3	NNP	Administration
+12.7	NNP	Advanced
+12.1	NNP	Advertising
+12.7	NNP	Aer
+12.4	NNP	Aeroflot
+11.9	NNP	Aerospace
+11.6	NNP	Aetna
+10.7	NNP	Africa
+12.7	NNP	African
+10.9	NNP	Agency
+12.1	NNP	Agnos
+12.7	NNP	Agricole
+11.3	NNP	Agriculture
+8.97	NNP	Air
+12.4	NNP	Aircraft
+10.6	NNP	Airlines
+12.4	NNP	Airport
+12.4	NNP	Airways
+11.7	NNP	Akzo
+10.6	NNP	Alan
+12.4	NNP	Albert
+12.7	NNP	Alex
+11.1	NNP	Alexander
+12.1	NNP	Alfred
+11	NNP	Allen
+12.7	NNP	Alliance
+11.1	NNP	Allianz
+12.1	NNP	Alto
+12.9	NNP	Alvin
+12.9	NNP	Ambrosiano
+11.7	NNP	Amendment
+8.74	NNP	America
+7.65	NNP	American
+11.4	NNP	Amex
+12.7	NNP	Amoco
+12.9	NNP	Analytical
+12.9	NNP	Anchor
+12.7	NNP	Anderson
+12.3	NNP	Andersson
+12.4	NNP	Andrew
+12.9	NNP	Andy
+9.19	NNP	Angeles
+12.3	NNP	Anheuser
+12.9	NNP	Anne
+12.3	NNP	Antar
+12.1	NNP	Anthony
+12.3	NNP	Antonio
+12.9	NNP	Apogee
+11.4	NNP	Apple
+12.3	NNP	Applied
+9.1	NNP	April
+12.9	NNP	Aquino
+12.7	NNP	Arabia
+12.7	NNP	Arafat
+12.9	NNP	Arbel
+11.9	NNP	Arby
+12.7	NNP	Arco
+11.9	NNP	Area
+11.6	NNP	Ariz.
+10.5	NNP	Arizona
+12.1	NNP	Arkansas
+12.7	NNP	Armonk
+12.4	NNP	Armstrong
+11.8	NNP	Army
+11.9	NNP	Arnold
+11.8	NNP	Arrow
+12.3	NNP	Art
+11.6	NNP	Arthur
+12.9	NNP	Artist
+12.4	NNP	Ashland
+11.1	NNP	Asia
+12.7	NNP	Assembly
+11.8	NNP	Asset
+12.7	NNP	Assistant
+11.7	NNP	Associates
+8.91	NNP	Association
+10.7	NNP	Atlanta
+11.3	NNP	Atlantic
+12.7	NNP	Atlantis
+11.8	NNP	Attorney
+10.1	NNP	Aug.
+7.86	NNP	August
+12.3	NNP	Austin
+10	NNP	Australia
+11.1	NNP	Authority
+12.4	NNP	Avenue
+9.19	NNP	Average
+12.7	NNP	Aviation
+12.4	NNP	Axa
+10.6	NNP	B.
+10.3	NNP	B.A.T
+12.7	NNP	BNL
+12.4	NNP	BSN
+10	NNP	Baker
+12.9	NNP	Ball
+11.9	NNP	Bally
+11.3	NNP	Baltimore
+12.1	NNP	Banc
+10.9	NNP	Banco
+11.6	NNP	Bancorp
+7.59	NNP	Bank
+11.8	NNP	BankAmerica
+12.9	NNP	Bankers
+11.6	NNP	Banking
+10.9	NNP	Bankruptcy
+12.7	NNP	Banks
+12.7	NNP	Banque
+11.9	NNP	Banxquote
+12.3	NNP	Barbara
+12.7	NNP	Barney
+12.7	NNP	Barre
+11.7	NNP	Barry
+11.6	NNP	Bartlett
+12.3	NNP	Bass
+12.7	NNP	Bates
+12.7	NNP	Batibot
+9.83	NNP	Bay
+11	NNP	Beach
+10.9	NNP	Bear
+11.7	NNP	Beatrice
+11.9	NNP	Beers
+10.7	NNP	Beijing
+12.9	NNP	Belgium
+10.2	NNP	Bell
+11.3	NNP	BellSouth
+12.1	NNP	Bennett
+12.3	NNP	Benson
+12.4	NNP	Bergsma
+12.4	NNP	Berkeley
+11	NNP	Berlin
+12.9	NNP	Berlitz
+12.4	NNP	Bernard
+12.7	NNP	Bernstein
+12.7	NNP	Berry
+11.9	NNP	Bethlehem
+11.9	NNP	Beverly
+8.33	NNP	Big
+11	NNP	Bill
+12.7	NNP	Birmingham
+10.6	NNP	Black
+12.9	NNP	Bloc
+12.4	NNP	Block
+11.8	NNP	Bloomingdale
+11.8	NNP	Blue
+12.7	NNP	Blumenfeld
+7.74	NNP	Board
+11.2	NNP	Bob
+12.7	NNP	Bobby
+10.3	NNP	Boeing
+12.9	NNP	Boesel
+12.1	NNP	Bofors
+12.4	NNP	Bogart
+12.9	NNP	Bolar
+12.9	NNP	Bombay
+10.7	NNP	Bond
+11.6	NNP	Boren
+12.4	NNP	Bork
+8.67	NNP	Boston
+12.4	NNP	Boyd
+12.9	NNP	Bozell
+12.9	NNP	Bradford
+12.7	NNP	Bradley
+10.7	NNP	Brady
+12.4	NNP	Brands
+12.9	NNP	Brawer
+11.8	NNP	Brazil
+10.9	NNP	Breeden
+12.4	NNP	Brewing
+12.4	NNP	Brian
+11.3	NNP	Bridge
+12.4	NNP	Bristol-Myers
+9.08	NNP	Britain
+8.91	NNP	British
+10.5	NNP	Broadcasting
+12.4	NNP	Bronx
+12.1	NNP	Brooklyn
+11.2	NNP	Brooks
+10.6	NNP	Brothers
+10.6	NNP	Brown
+12.7	NNP	Brussels
+12.4	NNP	Budapest
+11.9	NNP	Budget
+12.4	NNP	Buffett
+12.4	NNP	Buick
+12.9	NNP	Building
+10.5	NNP	Bureau
+12.9	NNP	Burgess
+12.9	NNP	Burlington
+12.7	NNP	Burmah
+10.3	NNP	Burnham
+12.9	NNP	Burt
+7.53	NNP	Bush
+9.67	NNP	Business
+12.4	NNP	Businessland
+12.9	NNP	Butler
+12.9	NNP	Byrd
+11.3	NNP	C.
+12.7	NNP	CBOE
+9.73	NNP	CBS
+11.8	NNP	CD
+12.9	NNP	CFCs
+12.3	NNP	CFTC
+11.8	NNP	CIA
+12.4	NNP	CMS
+11.1	NNP	CNN
+12.3	NNP	CS
+12.4	NNP	Cable
+11.9	NNP	Cabrera
+12.7	NNP	Cadillac
+11	NNP	Calif
+9.32	NNP	Calif.
+8.01	NNP	California
+12.9	NNP	Caltrans
+12.7	NNP	Cambria
+12.1	NNP	Cambridge
+10.9	NNP	Campbell
+10.1	NNP	Campeau
+12.9	NNP	Canaan
+8.83	NNP	Canada
+11.9	NNP	Canadian
+12.3	NNP	Cancer
+11.9	NNP	Candlestick
+8.79	NNP	Capital
+11.9	NNP	Capitol
+11.4	NNP	Care
+11.8	NNP	Carl
+12.7	NNP	Carlos
+11.7	NNP	Carnival
+12.9	NNP	Carol
+11.3	NNP	Carolina
+11.6	NNP	Carpenter
+12.9	NNP	Carson
+11.8	NNP	Carter
+11.2	NNP	Cathay
+12.9	NNP	Cathcart
+12.9	NNP	Catholic
+12.9	NNP	Cellular
+10.7	NNP	CenTrust
+12.9	NNP	Census
+10.7	NNP	Center
+10.3	NNP	Central
+9.28	NNP	Chairman
+11.9	NNP	Chamber
+12.3	NNP	Chan
+11.3	NNP	Chancellor
+12.7	NNP	Chancery
+12.1	NNP	Chandler
+12.3	NNP	Channel
+11.4	NNP	Chapter
+10.3	NNP	Charles
+12.4	NNP	Charleston
+12.7	NNP	Charlotte
+11.3	NNP	Chase
+12.9	NNP	Cheer
+10.6	NNP	Chemical
+12.7	NNP	Cheney
+12.9	NNP	Chevrolet
+12.9	NNP	Chevron
+8.47	NNP	Chicago
+12.7	NNP	Chief
+8.86	NNP	China
+12.3	NNP	Chinese
+12.4	NNP	Christian
+12.9	NNP	Christie
+11	NNP	Christmas
+11.1	NNP	Christopher
+11.3	NNP	Chrysler
+11.6	NNP	Church
+12.9	NNP	Cie.
+11.4	NNP	Cincinnati
+12.7	NNP	Cineplex
+12.3	NNP	Circuit
+10.8	NNP	Citicorp
+9.12	NNP	City
+12.9	NNP	CityFed
+12.9	NNP	Clara
+12.7	NNP	Clark
+12.3	NNP	Class
+12.4	NNP	Clean
+11.7	NNP	Cleveland
+12.4	NNP	Club
+9.37	NNP	Co
+7.05	NNP	Co.
+11.1	NNP	Coast
+11.6	NNP	Coca-Cola
+12.9	NNP	Cocom
+11	NNP	Code
+11.7	NNP	Cohen
+11.7	NNP	Coke
+12.7	NNP	Coleman
+11.9	NNP	Colgate
+12.4	NNP	College
+12.3	NNP	Colo.
+12.1	NNP	Colombia
+12.9	NNP	Color
+12.9	NNP	Colorado
+9.17	NNP	Columbia
+9.7	NNP	Commerce
+12.9	NNP	Commerciale
+9.93	NNP	Commission
+9.25	NNP	Committee
+11.2	NNP	Commodity
+12.4	NNP	Commodore
+11.7	NNP	Commonwealth
+11.4	NNP	Communications
+11.3	NNP	Communist
+10.7	NNP	Community
+11.9	NNP	Company
+10.6	NNP	Compaq
+12.1	NNP	Composite
+12.4	NNP	Comprehensive
+9.83	NNP	Computer
+12.9	NNP	Conference
+8	NNP	Congress
+11.9	NNP	Coniston
+12.7	NNP	Conn
+10.5	NNP	Conn.
+11.6	NNP	Connaught
+11.7	NNP	Connecticut
+12.4	NNP	Conner
+12.9	NNP	Consolidated
+11.3	NNP	Constitution
+12.9	NNP	Container
+10.7	NNP	Continental
+12.4	NNP	Contra
+11.3	NNP	Control
+11.3	NNP	Coors
+12.7	NNP	Cornell
+12.7	NNP	Corning
+8.42	NNP	Corp
+6.03	NNP	Corp.
+12.4	NNP	Corporate
+12.7	NNP	Corr
+11.2	NNP	Corry
+11.3	NNP	Cos.
+10.9	NNP	Costa
+10.6	NNP	Council
+10.1	NNP	County
+8.83	NNP	Court
+12.3	NNP	Courtaulds
+11.9	NNP	Courter
+11.7	NNP	Craig
+9.83	NNP	Cray
+10.3	NNP	Credit
+12.4	NNP	Creek
+12.1	NNP	Cross
+12.4	NNP	Cruise
+11.9	NNP	Cuba
+12.9	NNP	Cup
+12.7	NNP	Cypress
+12.7	NNP	Czechoslovakia
+9.12	NNP	D.
+11.3	NNP	D.C.
+12.4	NNP	D.T.
+12.4	NNP	DAX
+12.9	NNP	DD
+11.7	NNP	DPC
+12.7	NNP	DWG
+12.1	NNP	Daily
+12.7	NNP	Daimler-Benz
+10.9	NNP	Daiwa
+12.9	NNP	Dalkon
+10.3	NNP	Dallas
+12.4	NNP	Dan
+11.1	NNP	Daniel
+12.9	NNP	Danny
+11.6	NNP	Darman
+9.83	NNP	Data
+12.3	NNP	Datapoint
+12.7	NNP	Dataproducts
+12.9	NNP	Dave
+8.86	NNP	David
+10.9	NNP	Davis
+11.8	NNP	Day
+11.7	NNP	De
+11.3	NNP	Dean
+12.4	NNP	Deaver
+12.4	NNP	Dec
+9.06	NNP	Dec.
+8.91	NNP	December
+10.9	NNP	Defense
+12.9	NNP	Del
+11.7	NNP	Delaware
+11.9	NNP	Delicious
+12.7	NNP	Dell
+11.9	NNP	Della
+11.6	NNP	Delmed
+12.7	NNP	Deloitte
+12.9	NNP	Delta
+11.3	NNP	Democrat
+12.7	NNP	Democratic
+11.6	NNP	Dennis
+12.9	NNP	Dentsu
+12.3	NNP	Denver
+8.07	NNP	Department
+12.4	NNP	Deposit
+12.9	NNP	Detrex
+11.3	NNP	Detroit
+12.9	NNP	Deukmejian
+12.4	NNP	Deutsche
+11.3	NNP	Development
+12.9	NNP	Di
+12.9	NNP	Dick
+12.7	NNP	Diego
+12.9	NNP	Digest
+10.4	NNP	Digital
+11.8	NNP	Dingell
+9.79	NNP	Dinkins
+11.8	NNP	Director
+11.9	NNP	Disney
+10.9	NNP	District
+12.3	NNP	Division
+11.9	NNP	Dole
+12.4	NNP	Dollar
+12.9	NNP	Doman
+11.8	NNP	Don
+10.4	NNP	Donald
+12.7	NNP	Donaldson
+12.9	NNP	Donoghue
+12.9	NNP	Donuts
+12.1	NNP	Dorrance
+11.7	NNP	Douglas
+7.73	NNP	Dow
+11.9	NNP	Dozen
+9.55	NNP	Dr.
+12.7	NNP	Dresdner
+9.23	NNP	Drexel
+12.3	NNP	Dreyfus
+11.9	NNP	Du
+12.9	NNP	Dunkin
+12.4	NNP	Dutch
+12.7	NNP	Dynamics
+10.1	NNP	E.
+10.4	NNP	EC
+11.8	NNP	EDT
+11.8	NNP	EPA
+12.7	NNP	EPO
+11.7	NNP	Eagle
+12.4	NNP	Earth
+9	NNP	East
+9.7	NNP	Eastern
+12.9	NNP	Eastman
+11.3	NNP	Economic
+12.3	NNP	Economics
+12.3	NNP	Edelman
+11	NNP	Edison
+12.9	NNP	Edisto
+12.4	NNP	Education
+10.6	NNP	Edward
+11.7	NNP	Edwards
+12.7	NNP	Egg
+11.9	NNP	El
+10	NNP	Electric
+12.7	NNP	Elizabeth
+10.9	NNP	Energy
+12.1	NNP	Enfield
+11	NNP	Engelken
+12.9	NNP	Engineering
+10.4	NNP	England
+11.9	NNP	English
+12.7	NNP	Enron
+10.3	NNP	Entertainment
+11.8	NNP	Environmental
+11.6	NNP	Equipment
+12.1	NNP	Equity
+11.9	NNP	Erbamont
+12.7	NNP	Erich
+11.4	NNP	Estate
+12.9	NNP	Eugene
+12.4	NNP	Eurocom
+8.76	NNP	Europe
+10.9	NNP	European
+12.1	NNP	Evans
+6.81	NNP	Exchange
+11.8	NNP	Exchequer
+12.7	NNP	Executive
+9.64	NNP	Express
+12.9	NNP	Exterior
+10.4	NNP	Exxon
+10.6	NNP	F.
+12.4	NNP	FASB
+11.8	NNP	FBI
+11.7	NNP	FCC
+11.3	NNP	FDA
+12.9	NNP	FEMA
+11.7	NNP	FHA
+12.9	NNP	FT-SE
+12.3	NNP	FTC
+12.9	NNP	Fair
+12.9	NNP	Falcon
+12.7	NNP	Family
+10.4	NNP	Fannie
+12.9	NNP	Fantasy
+11.8	NNP	Far
+12.9	NNP	Farmers
+10.3	NNP	Fe
+11.8	NNP	Feb.
+10.2	NNP	February
+8.73	NNP	Fed
+8.18	NNP	Federal
+12.7	NNP	Federated
+12.3	NNP	Federation
+11.9	NNP	Femina
+12.7	NNP	Ferranti
+12.3	NNP	Fiat
+11	NNP	Fidelity
+12.9	NNP	Field
+11.9	NNP	Fifth
+12.1	NNP	Filipino
+10.4	NNP	Finance
+8.84	NNP	Financial
+12.9	NNP	Financiere
+12.3	NNP	Financing
+12.7	NNP	Finland
+12.9	NNP	Fireman
+8.41	NNP	First
+12.4	NNP	Fitzwater
+12.9	NNP	Fla
+11.7	NNP	Fla.
+10.3	NNP	Florida
+12.3	NNP	Florio
+12.9	NNP	Fluor
+12.3	NNP	Foods
+12.7	NNP	Football
+10.5	NNP	Force
+8.45	NNP	Ford
+11.7	NNP	Foreign
+12.7	NNP	Forest
+12.3	NNP	Fort
+12.3	NNP	Foster
+12.1	NNP	Foundation
+12.9	NNP	Fournier
+11.3	NNP	Fox
+9.67	NNP	France
+8.45	NNP	Francisco
+10.9	NNP	Frank
+10.3	NNP	Frankfurt
+11.6	NNP	Franklin
+10.3	NNP	Freddie
+12.3	NNP	Frederick
+11.8	NNP	Free
+12.4	NNP	Freeman
+12.9	NNP	Freeport-McMoRan
+12.4	NNP	French
+12.9	NNP	Fresenius
+6.71	NNP	Friday
+12.9	NNP	Friedman
+12.9	NNP	Friend
+12.4	NNP	Fromstein
+11.9	NNP	Fuji
+10.9	NNP	Fujitsu
+11.6	NNP	Fulton
+9.9	NNP	Fund
+12.1	NNP	Funding
+12.9	NNP	Futures
+11.8	NNP	G.
+12.7	NNP	G.m.b
+12.3	NNP	GAF
+10.8	NNP	GE
+8.99	NNP	GM
+12.7	NNP	GMAC
+11.8	NNP	GNP
+10.9	NNP	GOP
+12.1	NNP	GTE
+12.9	NNP	Ga.
+12.9	NNP	Gabelli
+11.6	NNP	Galileo
+12.1	NNP	Gandhi
+12.3	NNP	Garcia
+12.9	NNP	Garratt
+11.8	NNP	Gary
+12.3	NNP	Gas
+12.4	NNP	Gen-Probe
+11.8	NNP	Gen.
+8.99	NNP	General
+12.9	NNP	Generale
+12.9	NNP	Genetics
+11.4	NNP	Geneva
+9.17	NNP	George
+11.1	NNP	Georgia
+10.5	NNP	Georgia-Pacific
+12.1	NNP	Gerald
+12.1	NNP	German
+8.61	NNP	Germany
+12.7	NNP	Giant
+12.9	NNP	Giants
+12.4	NNP	Ginnie
+11.2	NNP	Giuliani
+11.7	NNP	Glass
+12.7	NNP	Glenn
+12.7	NNP	Global
+12.9	NNP	God
+12.4	NNP	Gold
+12.9	NNP	Goldberg
+12.1	NNP	Golden
+11.4	NNP	Goldman
+11.9	NNP	Goldsmith
+11.2	NNP	Gonzalez
+12.3	NNP	Goodson
+9.83	NNP	Gorbachev
+12.9	NNP	Gould
+12.7	NNP	Goupil
+11.3	NNP	Gov.
+11.8	NNP	Government
+11.4	NNP	Gramm-Rudman
+10.9	NNP	Grand
+12.4	NNP	Graphics
+12.7	NNP	Gray
+10.8	NNP	Great
+12.1	NNP	Greece
+10.9	NNP	Green
+12.7	NNP	Greenberg
+11.3	NNP	Greenspan
+11.8	NNP	Greenville
+12.3	NNP	Greenwich
+12.7	NNP	Gregory
+11.9	NNP	Grenfell
+8.2	NNP	Group
+12.4	NNP	Grumman
+12.1	NNP	Guard
+11.7	NNP	Guber
+12.9	NNP	Guinness
+10.1	NNP	Gulf
+11.9	NNP	Guzman
+12.7	NNP	H&R
+10.7	NNP	H.
+12.9	NNP	HBO
+10.6	NNP	HUD
+11.6	NNP	Hahn
+11.4	NNP	Hall
+12.9	NNP	Hammond
+10.7	NNP	Hampshire
+11.2	NNP	Hanover
+12.4	NNP	Harold
+12.4	NNP	Harris
+12.3	NNP	Harry
+12.1	NNP	Hartford
+11.8	NNP	Harvard
+11.9	NNP	Hastings
+12.7	NNP	Hatch
+12.4	NNP	Haven
+10.8	NNP	Health
+12.3	NNP	HealthVest
+12.9	NNP	Hearst
+12.1	NNP	Helmsley
+12.9	NNP	Helmut
+12.4	NNP	Henderson
+11.3	NNP	Henry
+12.3	NNP	Herald
+12.9	NNP	Herbert
+12.3	NNP	Heritage
+12.9	NNP	Hertz
+12.7	NNP	Hess
+11	NNP	Hewlett-Packard
+10.8	NNP	High
+10.7	NNP	Hill
+11	NNP	Hills
+12.3	NNP	Hilton
+12.3	NNP	Hiroshima
+12.9	NNP	Hitachi
+12.9	NNP	Hoechst
+12.9	NNP	Hoffman
+11.3	NNP	Holding
+11	NNP	Holdings
+12.9	NNP	Holiday
+12.7	NNP	Hollander
+11	NNP	Hollywood
+10.3	NNP	Home
+12.9	NNP	HomeFed
+12.1	NNP	Honda
+10.8	NNP	Honecker
+12.1	NNP	Honeywell
+8.79	NNP	Hong
+10.7	NNP	Hooker
+11.7	NNP	Hospital
+7.72	NNP	House
+12.1	NNP	House-Senate
+12.9	NNP	Housing
+10.2	NNP	Houston
+12.4	NNP	Howard
+12.7	NNP	Hoylake
+12.1	NNP	Hudson
+11.7	NNP	Hughes
+10	NNP	Hugo
+12.7	NNP	Humana
+11.8	NNP	Hungary
+11.4	NNP	Hunt
+12.9	NNP	Hunter
+10.7	NNP	Hurricane
+12.7	NNP	Hutchinson
+9.45	NNP	Hutton
+12.7	NNP	Hydro-Quebec
+8.67	NNP	IBM
+10.9	NNP	II
+12.1	NNP	III
+11.9	NNP	IMF
+10	NNP	IRS
+12.9	NNP	ISI
+11.3	NNP	ITT
+11.2	NNP	Icahn
+12.9	NNP	Ill
+11.3	NNP	Ill.
+11.3	NNP	Illinois
+12.3	NNP	Illuminating
+12.9	NNP	Imperial
+7.88	NNP	Inc
+6.16	NNP	Inc.
+12.4	NNP	Inco
+12.9	NNP	Income
+12.9	NNP	Ind.
+12.4	NNP	Independent
+9.79	NNP	Index
+10.9	NNP	India
+12.4	NNP	Indianapolis
+12.9	NNP	Individual
+9.1	NNP	Industrial
+10.4	NNP	Industries
+12.4	NNP	Industry
+12.9	NNP	Infiniti
+11.9	NNP	Information
+12.1	NNP	Ingersoll
+9.3	NNP	Institute
+10.3	NNP	Insurance
+11.3	NNP	Integrated
+10.9	NNP	Intel
+12.4	NNP	Intelligence
+12.4	NNP	Intelogic
+12.9	NNP	Intergroup
+11.6	NNP	Intermediate
+11.9	NNP	Internal
+8.21	NNP	International
+12.7	NNP	Interpublic
+10.8	NNP	Interstate
+10.1	NNP	Investment
+12.7	NNP	Investments
+12.7	NNP	Investor
+11.4	NNP	Investors
+11.9	NNP	Iowa
+12.7	NNP	Ira
+12.7	NNP	Iran
+11.8	NNP	Iran-Contra
+12.4	NNP	Ireland
+12.9	NNP	Irving
+12.7	NNP	Island
+11	NNP	Israel
+10.8	NNP	Italy
+12.3	NNP	Iverson
+9.67	NNP	J.
+12.1	NNP	J.C.
+11.1	NNP	Jack
+11.8	NNP	Jackson
+11.9	NNP	Jacobson
+8.5	NNP	Jaguar
+8.55	NNP	James
+10.7	NNP	Jan.
+9.5	NNP	January
+7.3	NNP	Japan
+11.1	NNP	Japanese
+12.4	NNP	Jay
+12.9	NNP	Jefferies
+11.4	NNP	Jeffrey
+12.1	NNP	Jerry
+10.7	NNP	Jersey
+11.2	NNP	Jim
+12.7	NNP	Joe
+8.09	NNP	John
+10.3	NNP	Johnson
+12.7	NNP	Jonathan
+7.92	NNP	Jones
+11.7	NNP	Jose
+10.7	NNP	Joseph
+9.23	NNP	Journal
+12.1	NNP	Jr
+10.3	NNP	Jr.
+9.73	NNP	Judge
+12.9	NNP	Judiciary
+8.39	NNP	July
+8.48	NNP	June
+12.9	NNP	Jupiter
+9.67	NNP	Justice
+11.8	NNP	Justin
+12.4	NNP	K.
+11.3	NNP	KKR
+12.4	NNP	Kabul
+12.1	NNP	Kaiser
+12.9	NNP	Kangyo
+12.1	NNP	Kansas
+12.9	NNP	Kao
+12.4	NNP	Kasparov
+12.1	NNP	Katz
+12.7	NNP	Kaye
+12.9	NNP	Kean
+11.4	NNP	Keating
+11.3	NNP	Kellogg
+11.8	NNP	Kemper
+12.4	NNP	Kennedy
+11.8	NNP	Kenneth
+12.7	NNP	Kent
+11.8	NNP	Kentucky
+11.9	NNP	Khmer
+9.9	NNP	Kidder
+12.9	NNP	Kinder-Care
+10.9	NNP	King
+12.1	NNP	Kingdom
+12.3	NNP	Kleinwort
+12.4	NNP	Knight-Ridder
+11.9	NNP	Kodak
+12.7	NNP	Kohl
+8.9	NNP	Kong
+11	NNP	Korea
+12.3	NNP	Korotich
+12.7	NNP	Kraft
+12.9	NNP	Krasnoyarsk
+12.9	NNP	Kremlin
+10	NNP	Krenz
+12.9	NNP	Kuala
+12.7	NNP	Kume
+12.4	NNP	Ky.
+10.9	NNP	L.
+11.6	NNP	L.J.
+11.9	NNP	LDP
+11.1	NNP	LTV
+11.4	NNP	La
+12.7	NNP	Laband
+10.5	NNP	Labor
+11.9	NNP	Laff
+11.4	NNP	Lake
+10.6	NNP	Lambert
+12.9	NNP	Land
+11.8	NNP	Lane
+10.9	NNP	Lang
+12.9	NNP	Lantos
+12.9	NNP	Larry
+11.9	NNP	Las
+12.3	NNP	Latin
+12.4	NNP	Laurel
+12.9	NNP	Law
+10.7	NNP	Lawrence
+10	NNP	Lawson
+12.3	NNP	Leader
+12.3	NNP	League
+12.7	NNP	Learning
+11.3	NNP	Lebanon
+10.9	NNP	Lee
+12.7	NNP	Legal
+9.25	NNP	Lehman
+12.9	NNP	Leigh-Pemberton
+12.9	NNP	Leipzig
+12.7	NNP	Leonard
+12.7	NNP	Lesko
+12.1	NNP	Levine
+12.4	NNP	Levy
+12.9	NNP	Lewis
+12.9	NNP	Lexington
+11.8	NNP	Lexus
+11.3	NNP	Libor
+12.9	NNP	Libya
+10.7	NNP	Life
+12.3	NNP	Lilly
+12.7	NNP	Limited
+10	NNP	Lin
+10.3	NNP	Lincoln
+11.6	NNP	Line
+12.7	NNP	Lines
+12.7	NNP	Lipper
+12.7	NNP	Litigation
+11.9	NNP	Little
+10.1	NNP	Lloyd
+11.4	NNP	Loan
+12.1	NNP	Lockheed
+7.9	NNP	London
+12.1	NNP	Lone
+12.3	NNP	Loral
+11.9	NNP	Lorenzo
+12.3	NNP	Lorin
+8.93	NNP	Los
+11.9	NNP	Lotus
+11.3	NNP	Louis
+11.9	NNP	Louisville
+10.1	NNP	Ltd
+8.52	NNP	Ltd.
+12.9	NNP	Lumpur
+12.4	NNP	Luzon
+9.17	NNP	Lynch
+12.9	NNP	Lynn
+10.8	NNP	M.
+12.1	NNP	MCA
+11.1	NNP	MCI
+12.7	NNP	MGM
+12.1	NNP	MGM:slash:UA
+12.7	NNP	MTM
+10.3	NNP	Mac
+11.7	NNP	Machines
+12.9	NNP	Mack
+12.1	NNP	Macmillan
+12.4	NNP	Madison
+10.1	NNP	Mae
+12.3	NNP	Magazine
+12.9	NNP	Maidenform
+11.3	NNP	Maine
+11.6	NNP	Major
+12.4	NNP	Majority
+11.9	NNP	Malaysia
+11.9	NNP	Malcolm
+9.9	NNP	Management
+12.3	NNP	Mancuso
+9.83	NNP	Manhattan
+12.7	NNP	Manuel
+11.9	NNP	Manufacturers
+12.9	NNP	Manufacturing
+10.7	NNP	Manville
+8.58	NNP	March
+11.4	NNP	Marcos
+12.3	NNP	Marina
+11.7	NNP	Marine
+12.9	NNP	Mario
+12.1	NNP	Mark
+10.3	NNP	Market
+12.9	NNP	Marketing
+11	NNP	Markets
+12.9	NNP	Markey
+12.7	NNP	Marlin
+11.9	NNP	Marshall
+11	NNP	Martin
+11.7	NNP	Marvin
+11.6	NNP	Mary
+12.3	NNP	Maryland
+11.3	NNP	Mason
+11.1	NNP	Mass
+10.3	NNP	Mass.
+11.3	NNP	Massachusetts
+12.9	NNP	Matra
+12.3	NNP	Max
+11.4	NNP	Maxwell
+9.45	NNP	May
+11.4	NNP	Maynard
+11.6	NNP	Mayor
+10.3	NNP	McCaw
+12.1	NNP	McDonald
+12.7	NNP	McDonough
+12.7	NNP	McDuffie
+12.9	NNP	McGovern
+12.7	NNP	McGraw-Hill
+12.7	NNP	McNamee
+12.3	NNP	Md.
+12.9	NNP	MedChem
+12.9	NNP	Media
+10.4	NNP	Medical
+12.9	NNP	Medicare
+12.7	NNP	Medicine
+12.7	NNP	Mehl
+12.9	NNP	Mellon
+12.9	NNP	Menlo
+10.9	NNP	Merc
+11.1	NNP	Mercantile
+12.1	NNP	Meredith
+12.4	NNP	Meridian
+11.7	NNP	Merieux
+11.1	NNP	Merksamer
+11.3	NNP	Merkur
+9.21	NNP	Merrill
+11.3	NNP	Mesa
+12.4	NNP	Metromedia
+12.3	NNP	Metropolitan
+9.93	NNP	Mexico
+11.3	NNP	Miami
+11.4	NNP	Mich.
+9.23	NNP	Michael
+11.9	NNP	Michigan
+12.1	NNP	Microsoft
+12.9	NNP	Middle
+12.4	NNP	Midland
+12.4	NNP	Midwest
+12.1	NNP	Mike
+12.1	NNP	Mikhail
+12.3	NNP	Milan
+11.3	NNP	Miller
+11.8	NNP	Mills
+11.7	NNP	Milton
+12.9	NNP	Milunovich
+10.5	NNP	Minister
+10.8	NNP	Ministry
+12.9	NNP	Minn.
+12.1	NNP	Minneapolis
+12.9	NNP	Minnesota
+12.7	NNP	Minpeco
+11.6	NNP	Mips
+12.7	NNP	Miss
+11.6	NNP	Mississippi
+11.6	NNP	Missouri
+10.9	NNP	Mitchell
+10.6	NNP	Mitsubishi
+12.4	NNP	Mitsui
+10.2	NNP	Mixte
+11.7	NNP	Mobil
+7.73	NNP	Monday
+11.4	NNP	Money
+11.8	NNP	Montedison
+12.4	NNP	Montgomery
+12.1	NNP	Montreal
+10.1	NNP	Moody
+12.4	NNP	Moon
+12.7	NNP	Moore
+9.52	NNP	Morgan
+12.1	NNP	Morishita
+10.7	NNP	Morris
+10.6	NNP	Mortgage
+12.9	NNP	Mosbacher
+10.1	NNP	Moscow
+9.61	NNP	Motor
+11.9	NNP	Motorola
+11.1	NNP	Motors
+4.03	NNP	Mr.
+8.81	NNP	Mrs.
+8.28	NNP	Ms.
+12.9	NNP	Mullins
+12.9	NNP	Municipal
+12.9	NNP	Murdoch
+12.3	NNP	Murray
+12.7	NNP	N.C
+12.9	NNP	N.C.
+11.9	NNP	N.J
+10.7	NNP	N.J.
+12.1	NNP	N.V.
+12.7	NNP	N.Y
+10.6	NNP	N.Y.
+12.9	NNP	NAHB
+11.2	NNP	NASA
+11.4	NNP	NATO
+10.2	NNP	NBC
+11	NNP	NCNB
+11.4	NNP	NEC
+11.8	NNP	NFL
+12.7	NNP	NIH
+12.9	NNP	NL
+12.7	NNP	NRM
+11.7	NNP	NYSE
+12.4	NNP	Nabisco
+12.9	NNP	Nadeau
+12.7	NNP	Namibia
+9.79	NNP	Nasdaq
+11.7	NNP	Nashua
+7.88	NNP	National
+10.3	NNP	Navigation
+10.5	NNP	Navy
+12.7	NNP	Neal
+12.9	NNP	Neb.
+12.7	NNP	Needham
+12.4	NNP	Neil
+10.5	NNP	Nekoosa
+12.3	NNP	Nelson
+12.3	NNP	Nestle
+12.7	NNP	Netherlands
+12.1	NNP	Network
+5.79	NNP	New
+11.1	NNP	Newport
+10	NNP	News
+12.3	NNP	Newsweek
+11.9	NNP	Next
+11.1	NNP	Nicaragua
+12.3	NNP	Nicholas
+12.9	NNP	Nielsen
+11.6	NNP	Nigel
+10.4	NNP	Nikkei
+12.9	NNP	Nippon
+10.2	NNP	Nissan
+11.2	NNP	Nixon
+12.3	NNP	Nobel
+11.2	NNP	Nomura
+11.8	NNP	Norfolk
+9.73	NNP	Noriega
+12.3	NNP	Norman
+9.93	NNP	North
+11.6	NNP	Northeast
+11.2	NNP	Northern
+12.4	NNP	Northwest
+7.93	NNP	Nov.
+9.73	NNP	November
+12.1	NNP	Nuovo
+12.4	NNP	Nynex
+12.9	NNP	O'Brien
+12.7	NNP	O'Kicki
+12.9	NNP	O.
+11	NNP	OPEC
+9.55	NNP	OTC
+10.9	NNP	Oakland
+7.62	NNP	Oct.
+12.7	NNP	Octel
+8.13	NNP	October
+12.4	NNP	Odeon
+10.3	NNP	Office
+12.3	NNP	Ogilvy
+10.4	NNP	Ohio
+11.2	NNP	Oil
+12.9	NNP	Okla.
+12.4	NNP	Oklahoma
+12.3	NNP	Old
+12.9	NNP	Oliver
+11.9	NNP	Olivetti
+12.9	NNP	Omni
+12.9	NNP	Options
+11.4	NNP	Orange
+12.3	NNP	Order
+12.9	NNP	Ore.
+12.1	NNP	Oregon
+12.1	NNP	Organization
+12.9	NNP	Orkem
+12.9	NNP	Orleans
+10.9	NNP	Ortega
+12.9	NNP	Otto
+12.9	NNP	Owen
+10.6	NNP	P&G
+11.9	NNP	P.
+12.9	NNP	PASOK
+9.55	NNP	PLC
+12.1	NNP	PLO
+11.6	NNP	PS
+11.3	NNP	Pa.
+12.7	NNP	Pace
+9	NNP	Pacific
+11.9	NNP	Packwood
+12.9	NNP	Packwood-Roth
+9.52	NNP	PaineWebber
+12.1	NNP	Palo
+12.9	NNP	Pan
+10.6	NNP	Panama
+12.3	NNP	Paper
+12.4	NNP	Paramount
+10	NNP	Paribas
+10.4	NNP	Paris
+10.7	NNP	Park
+12.1	NNP	Parker
+12.9	NNP	Parks
+11.4	NNP	Parliament
+12.7	NNP	Part
+11.1	NNP	Partners
+12.7	NNP	Partnership
+10.4	NNP	Party
+12.4	NNP	Pat
+12.9	NNP	Patrick
+12.4	NNP	Patterson
+9.45	NNP	Paul
+12.3	NNP	Peabody
+12.7	NNP	Peck
+12.4	NNP	Peladeau
+11.6	NNP	Pemex
+12.1	NNP	Penney
+12.1	NNP	Pennsylvania
+11.8	NNP	Pennzoil
+10.3	NNP	Pentagon
+11.6	NNP	Perspective
+9.97	NNP	Peter
+11.9	NNP	Peters
+12.1	NNP	Peterson
+12.1	NNP	Petrie
+10.7	NNP	Petroleum
+12.9	NNP	Peugeot
+12.9	NNP	Pfizer
+12.4	NNP	Pharmaceutical
+12.7	NNP	Pharmacia
+10.3	NNP	Phelan
+11.2	NNP	Philadelphia
+10.5	NNP	Philip
+11.3	NNP	Phillips
+11.3	NNP	Phoenix
+12.7	NNP	Pickens
+12.9	NNP	Picop
+12.4	NNP	Pictures
+11.8	NNP	Pilson
+11.8	NNP	Pinkerton
+12.4	NNP	Pinnacle
+12.9	NNP	Pioneer
+10.8	NNP	Pittsburgh
+12.4	NNP	Pizza
+12.7	NNP	Plan
+12.4	NNP	Plant
+12.9	NNP	Plaza
+9.83	NNP	Poland
+12.3	NNP	Polaroid
+12.7	NNP	Policy
+12.7	NNP	Politburo
+12.9	NNP	Polly
+11.3	NNP	Pont
+12.9	NNP	Portfolio
+12.7	NNP	Posner
+12.9	NNP	Postal
+10.5	NNP	Power
+11.6	NNP	Prebon
+8.3	NNP	President
+12.1	NNP	Press
+10.9	NNP	Price
+10.7	NNP	Prime
+12.9	NNP	Prince
+12.3	NNP	Prof.
+12.3	NNP	Professional
+12.7	NNP	Program
+12.1	NNP	Protection
+12.7	NNP	Prudential
+10.4	NNP	Prudential-Bache
+11.2	NNP	Public
+12.9	NNP	Publishing
+12.4	NNP	Puerto
+9.79	NNP	Qintex
+10.9	NNP	Quantum
+12.9	NNP	Quayle
+11.7	NNP	Quebecor
+11.7	NNP	Quotron
+10	NNP	R.
+10.7	NNP	RJR
+10.9	NNP	RTC
+12.3	NNP	RU-486
+10.9	NNP	Radio
+12.4	NNP	Rally
+11.9	NNP	Ralph
+12.3	NNP	Ratners
+12.4	NNP	Raymond
+9.67	NNP	Reagan
+12.4	NNP	Realty
+12.7	NNP	Recognition
+10.9	NNP	Red
+12.7	NNP	Redford
+11.9	NNP	Reebok
+12.7	NNP	Reed
+12.4	NNP	Regulatory
+12.9	NNP	Reinvestment
+12.9	NNP	Reliance
+11.3	NNP	Remic
+12.1	NNP	Renaissance
+9.17	NNP	Rep.
+10.7	NNP	Report
+12.3	NNP	Republic
+11.1	NNP	Republican
+9.58	NNP	Research
+9.19	NNP	Reserve
+12.1	NNP	Resolution
+11.9	NNP	Resources
+12.7	NNP	Reuters
+12.9	NNP	Rev.
+11.8	NNP	Revco
+11.8	NNP	Revenue
+12.9	NNP	Review
+11.4	NNP	Rey
+11.7	NNP	Reynolds
+11.3	NNP	Rica
+12.7	NNP	Rich
+9.32	NNP	Richard
+12.4	NNP	Richmond
+12.7	NNP	Richter
+12.7	NNP	Rick
+11.2	NNP	Rico
+12.9	NNP	Ridley
+12.9	NNP	Right
+12.9	NNP	Rights
+11.3	NNP	River
+8.73	NNP	Robert
+11.9	NNP	Roberts
+12.1	NNP	Robertson
+12.9	NNP	Robins
+11.9	NNP	Rochester
+12.1	NNP	Rock
+11.1	NNP	Rockefeller
+12.1	NNP	Rockwell
+12.7	NNP	Roderick
+12.9	NNP	Roe
+11.3	NNP	Roger
+12.9	NNP	Rogers
+12.9	NNP	Roh
+11.3	NNP	Roman
+12.3	NNP	Ron
+11.4	NNP	Ronald
+12.7	NNP	Rose
+11.9	NNP	Rosen
+11.2	NNP	Ross
+11.8	NNP	Rouge
+11.3	NNP	Rowe
+12.3	NNP	Roy
+12.4	NNP	Royal
+12.7	NNP	Rubens
+12.4	NNP	Runkel
+12.3	NNP	Russell
+12.9	NNP	Ruth
+12.9	NNP	Ryder
+12.9	NNP	S&L
+9.7	NNP	S&P
+10.7	NNP	S.
+11	NNP	S.A.
+12.1	NNP	S.p
+10.6	NNP	SCI
+9.97	NNP	SEC
+12.4	NNP	Saab
+12.9	NNP	Saab-Scania
+12.4	NNP	Saatchi
+11.9	NNP	Sachs
+12.1	NNP	Sacramento
+12.9	NNP	Salinas
+12.9	NNP	Salinger
+9.86	NNP	Salomon
+12.9	NNP	Salvador
+12.3	NNP	Sam
+11.8	NNP	Samuel
+8.04	NNP	San
+12.7	NNP	Sanford
+12.4	NNP	Sansui
+9.79	NNP	Santa
+12.7	NNP	Satellite
+10.3	NNP	Saturday
+12.7	NNP	Saudi
+12.7	NNP	Savaiko
+11	NNP	Savings
+12.9	NNP	Schaeffer
+12.4	NNP	Schering-Plough
+10.6	NNP	School
+12.7	NNP	Schwab
+12.7	NNP	Schwartz
+12.4	NNP	Schwarz
+11.3	NNP	Scott
+11.3	NNP	Sea
+12.7	NNP	Seagate
+10.4	NNP	Sears
+12.7	NNP	Seattle
+10	NNP	Secretary
+12.9	NNP	Section
+9.67	NNP	Securities
+10.3	NNP	Security
+11.2	NNP	Seidman
+9.39	NNP	Sen.
+8.41	NNP	Senate
+12.3	NNP	Senator
+12.7	NNP	Seoul
+8.55	NNP	Sept.
+7.65	NNP	September
+9.45	NNP	Series
+9.37	NNP	Service
+11.2	NNP	Services
+12.9	NNP	Shack
+12.9	NNP	Shannon
+12.9	NNP	Shaw
+8.84	NNP	Shearson
+12.4	NNP	Sherman
+11.9	NNP	Shevardnadze
+12.7	NNP	Show
+11.9	NNP	Showtime
+11.6	NNP	Sierra
+12.9	NNP	Silicon
+12.7	NNP	Sim
+11.6	NNP	Simmons
+12.7	NNP	Simon
+11.9	NNP	Singapore
+12.4	NNP	Sinyard
+10.1	NNP	Sir
+11.9	NNP	Sisulu
+12.1	NNP	Skase
+12.3	NNP	Skinner
+12.9	NNP	Sloan
+9.97	NNP	Smith
+12.9	NNP	SmithKline
+11.4	NNP	Social
+12.7	NNP	Socialist
+11.8	NNP	Societe
+11.9	NNP	Society
+12.1	NNP	Solidarity
+9.73	NNP	Sony
+12.9	NNP	Soo
+10.3	NNP	Sotheby
+12.4	NNP	Soup
+9.17	NNP	South
+12.4	NNP	Southam
+12.7	NNP	Southeast
+10.6	NNP	Southern
+9.5	NNP	Soviet
+11.6	NNP	Spain
+12.7	NNP	Speaker
+12.9	NNP	Specialized
+12.9	NNP	Sperry
+11.8	NNP	Spiegel
+12.4	NNP	Spielvogel
+12.7	NNP	Springs
+12.7	NNP	Squibb
+10.7	NNP	St.
+12.4	NNP	Stamford
+12.4	NNP	Stanford
+10.3	NNP	Stanley
+11.2	NNP	Star
+9.39	NNP	State
+12.3	NNP	States
+12.7	NNP	StatesWest
+12.9	NNP	Stateswest
+12.1	NNP	Statistics
+11	NNP	Stearns
+10.9	NNP	Steel
+12.1	NNP	Stein
+11.8	NNP	Steinberg
+10.9	NNP	Steinhardt
+10.6	NNP	Stephen
+12.9	NNP	Sterling
+11.6	NNP	Steve
+12.3	NNP	Steven
+11.9	NNP	Stevens
+12.3	NNP	Stewart
+7.04	NNP	Stock
+12.7	NNP	Stoll
+11.7	NNP	Stone
+12.9	NNP	Store
+11.9	NNP	Straszheim
+7.78	NNP	Street
+11.9	NNP	Suisse
+11.6	NNP	Sullivan
+11.9	NNP	Sun
+10.9	NNP	Sunday
+12.9	NNP	Superfund
+12.3	NNP	Supervision
+9.7	NNP	Supreme
+12.7	NNP	Susan
+12.1	NNP	Sweden
+12.9	NNP	Swedish
+12.9	NNP	Sweig
+10.2	NNP	Switzerland
+12.9	NNP	Sydney
+10.7	NNP	System
+10.3	NNP	Systems
+10.3	NNP	T.
+11.3	NNP	TVA
+12.3	NNP	TVS
+11.8	NNP	TW
+12.9	NNP	Taipei
+12.3	NNP	Taiwan
+11.8	NNP	Tandy
+12.4	NNP	Task
+11.7	NNP	Tax
+12.4	NNP	Taylor
+12.9	NNP	Technologies
+10.4	NNP	Technology
+12.9	NNP	Ted
+12.4	NNP	Teddy
+12.4	NNP	Tele-Communications
+12.9	NNP	Telecommunications
+11.7	NNP	Telephone
+9.79	NNP	Telerate
+12.7	NNP	Telesis
+12.9	NNP	Temple
+12.4	NNP	Tenn.
+12.9	NNP	Tenneco
+12.1	NNP	Tennessee
+12.1	NNP	Terry
+12.9	NNP	Tesoro
+11	NNP	Texaco
+8.36	NNP	Texas
+10.4	NNP	Thatcher
+11.1	NNP	The
+12.7	NNP	Theater
+12.7	NNP	Thi
+12.4	NNP	Third
+9.97	NNP	Thomas
+11	NNP	Thompson
+11.2	NNP	Thomson
+12.9	NNP	Three
+12.3	NNP	Thrift
+12.9	NNP	Thurmond
+8.91	NNP	Thursday
+11.7	NNP	Tiger
+12.7	NNP	Timbers
+10.2	NNP	Time
+10.3	NNP	Times
+12.1	NNP	Times-Stock
+12.9	NNP	Timothy
+12.7	NNP	Today
+8.29	NNP	Tokyo
+11.6	NNP	Tokyu
+11.7	NNP	Tom
+12.9	NNP	Tony
+10.9	NNP	Toronto
+12.9	NNP	Torrijos
+12.9	NNP	Toseland
+12.1	NNP	Toshiba
+12.4	NNP	Tower
+11.4	NNP	Toyota
+10	NNP	Trade
+12.4	NNP	Trading
+12.3	NNP	Trans
+12.7	NNP	TransCanada
+10.7	NNP	Transportation
+12.7	NNP	Travel
+7.63	NNP	Treasury
+12.9	NNP	Treaty
+11.4	NNP	Trelleborg
+12.3	NNP	Trinity
+10.6	NNP	Trump
+9.55	NNP	Trust
+12.1	NNP	Tucson
+8.19	NNP	Tuesday
+12.9	NNP	Tulsa
+11.8	NNP	Turkey
+11.7	NNP	Turner
+12.9	NNP	Turnpike
+10.1	NNP	U.K.
+11.9	NNP	U.N.
+5.37	NNP	U.S.
+11.7	NNP	U.S.A
+12.7	NNP	U.S.A.
+12.9	NNP	U.S.S.R.
+7.92	NNP	UAL
+12.3	NNP	UAW
+12.9	NNP	UNESCO
+11.9	NNP	USA
+10.4	NNP	USAir
+10.3	NNP	USX
+12.7	NNP	Unilever
+8.76	NNP	Union
+11.1	NNP	Unisys
+8.9	NNP	United
+8.93	NNP	University
+12.9	NNP	Unix
+12.3	NNP	Upjohn
+12.9	NNP	Urban
+11.7	NNP	Utah
+12.7	NNP	Utsumi
+12.9	NNP	Va
+11.4	NNP	Va.
+10.3	NNP	Valley
+11.7	NNP	Value
+11.7	NNP	Van
+12.9	NNP	Vancouver
+12.9	NNP	Vax
+12.4	NNP	Vegas
+12.3	NNP	Venice
+12.3	NNP	Vermont
+11.3	NNP	Viacom
+12.3	NNP	Vice
+12.4	NNP	Victor
+11.6	NNP	Vietnam
+12.9	NNP	View
+12.3	NNP	Vila
+12.9	NNP	Vincent
+11.1	NNP	Virginia
+12.4	NNP	Volokh
+10.4	NNP	W.
+10.9	NNP	WCRS
+12.4	NNP	WPP
+12.7	NNP	WSJ
+12.9	NNP	Wade
+11.3	NNP	Waertsilae
+7.93	NNP	Wall
+11.6	NNP	Walter
+11	NNP	Wang
+11.6	NNP	War
+11.9	NNP	Ward
+9.23	NNP	Warner
+11.4	NNP	Warren
+12.1	NNP	Warsaw
+12.9	NNP	Wash.
+8.46	NNP	Washington
+12.3	NNP	Wathen
+12.9	NNP	Wayne
+11.6	NNP	Webster
+9.06	NNP	Wednesday
+11.3	NNP	Wedtech
+12.1	NNP	Weisfield
+12.9	NNP	Weisman
+12.9	NNP	Weiss
+12.4	NNP	Wells
+8.65	NNP	West
+10.8	NNP	Western
+11.2	NNP	Westinghouse
+12.7	NNP	Westmoreland
+12.1	NNP	Whitbread
+8.86	NNP	White
+12.3	NNP	Whittle
+9.23	NNP	William
+11.3	NNP	Williams
+12.7	NNP	Wilson
+12.9	NNP	Windsor
+11.8	NNP	Wisconsin
+11.6	NNP	Witter
+12.1	NNP	Wolf
+9.37	NNP	World
+11.3	NNP	Wright
+12.7	NNP	Wyss
+12.9	NNP	Xerox
+12.1	NNP	Yale
+12.1	NNP	Yamaichi
+11.2	NNP	Yeargin
+6	NNP	York
+12.9	NNP	Young
+11.2	NNP	Zealand
+10.6	NNP	a
+10.8	NNP	aids
+11.9	NNP	apple
+12.7	NNP	assets
+11.7	NNP	association
+11.6	NNP	b
+12.4	NNP	baker
+12.4	NNP	bank
+12.9	NNP	bell
+11.3	NNP	big
+12.9	NNP	blockbuster
+12.7	NNP	c
+11.8	NNP	carnival
+12.4	NNP	chairman
+12.9	NNP	chase
+12.9	NNP	chicago
+11.4	NNP	china
+12.7	NNP	coke
+12.4	NNP	commercial
+12.4	NNP	computer
+11.1	NNP	congress
+12.1	NNP	continental
+12.1	NNP	control
+10.7	NNP	de
+12.3	NNP	des
+12.3	NNP	dig
+11.4	NNP	digital
+12.7	NNP	du
+12.1	NNP	east
+12.1	NNP	eastern
+12.4	NNP	energy
+12.9	NNP	fed
+9.52	NNP	federal
+10.7	NNP	first
+12.1	NNP	foreign
+11.7	NNP	frank
+10.8	NNP	general
+12.9	NNP	giant
+12.9	NNP	government
+12.7	NNP	great
+12.9	NNP	gulf
+11.3	NNP	home
+12.9	NNP	house
+12.7	NNP	integrated
+12.4	NNP	interbank
+11.4	NNP	international
+12.1	NNP	judge
+11.3	NNP	k
+11.6	NNP	loan
+12.1	NNP	mart
+12.4	NNP	mid-October
+12.4	NNP	money
+10.6	NNP	mortgage
+10.4	NNP	national
+9.79	NNP	new
+12.9	NNP	northeast
+12.7	NNP	paper
+12.3	NNP	pop
+11.1	NNP	president
+11.8	NNP	prime
+12.3	NNP	quantum
+12.4	NNP	rally
+12.1	NNP	rate
+11.8	NNP	ready
+12.7	NNP	royal
+12.9	NNP	secretary
+12.7	NNP	security
+11.6	NNP	senate
+12.7	NNP	senator
+12.7	NNP	separately
+12.9	NNP	silicon
+11.8	NNP	south
+12.1	NNP	sun
+11.9	NNP	time
+10.6	NNP	treasury
+11.7	NNP	trust
+10.6	NNP	tv
+12.9	NNP	union
+11.9	NNP	united
+12.9	NNP	us
+12.3	NNP	valley
+12.4	NNP	van
+11.4	NNP	wall
+11.8	NNP	west
+12.1	NNP	white
+6.72	NNPS	Affairs
+4.27	NNPS	Airlines
+5.92	NNPS	Airways
+4.52	NNPS	Americans
+7.4	NNPS	Appeals
+7.4	NNPS	Appropriations
+5.4	NNPS	Associates
+7.14	NNPS	Bankers
+7.4	NNPS	Beebes
+5.64	NNPS	Brothers
+7.4	NNPS	CDs
+5.48	NNPS	Communications
+7.4	NNPS	Communists
+6.4	NNPS	Containers
+6.14	NNPS	Contras
+6.4	NNPS	Cowboys
+7.4	NNPS	Crusaders
+7.4	NNPS	Dealers
+4.52	NNPS	Democrats
+6.92	NNPS	Dynamics
+6.4	NNPS	Enterprises
+7.14	NNPS	Facilities
+6.55	NNPS	Farmers
+7.4	NNPS	Fujis
+7.14	NNPS	Futures
+6.92	NNPS	Gardens
+7.4	NNPS	Germans
+6.92	NNPS	Giants
+7.4	NNPS	Harbors
+7.4	NNPS	Hills
+5.92	NNPS	Holdings
+4.52	NNPS	Industries
+7.4	NNPS	Investments
+6.14	NNPS	Investors
+7.14	NNPS	Issues
+5.82	NNPS	Japanese
+7.4	NNPS	Laboratories
+6.92	NNPS	Lines
+6.02	NNPS	Machines
+6.92	NNPS	Manufacturers
+5.82	NNPS	Markets
+5.27	NNPS	Motors
+7.4	NNPS	Netherlands
+7.14	NNPS	Options
+6.14	NNPS	Partners
+7.4	NNPS	Philippines
+7.14	NNPS	Pictures
+7.4	NNPS	Poles
+6.55	NNPS	Products
+5.27	NNPS	Republicans
+5.64	NNPS	Resources
+7.4	NNPS	Rights
+7.14	NNPS	Rothschilds
+6.55	NNPS	Savings
+5.82	NNPS	Sciences
+4	NNPS	Securities
+5.02	NNPS	Services
+4.92	NNPS	Soviets
+6.55	NNPS	States
+6.92	NNPS	Statistics
+6.92	NNPS	Stores
+4.55	NNPS	Systems
+7.14	NNPS	Technologies
+6.92	NNPS	Texans
+6.92	NNPS	Times
+6.27	NNPS	Treasurys
+7.14	NNPS	Utilities
+6.27	NNPS	Workers
+7.4	NNPS	assets
+7.14	NNPS	rates
+12.1	NNS	1960s
+11	NNS	1970s
+11.4	NNS	1980s
+12.1	NNS	1990s
+11.7	NNS	Americans
+12.4	NNS	Bonds
+10.2	NNS	CDs
+12.1	NNS	CFCs
+11.3	NNS	Democrats
+11.4	NNS	EURODOLLARS
+12.4	NNS	East
+11.7	NNS	Germans
+12.4	NNS	Investors
+11.9	NNS	Issues
+10.9	NNS	Japanese
+11.9	NNS	LBOs
+11.4	NNS	Notes
+9.96	NNS	People
+11.4	NNS	Republicans
+11.3	NNS	Results
+11.7	NNS	Securities
+11.1	NNS	Soviets
+12.4	NNS	Things
+11.5	NNS	abortion-rights
+11.9	NNS	abortions
+12.4	NNS	abuses
+11.1	NNS	acceptances
+9.25	NNS	accounts
+12.4	NNS	accusations
+10.3	NNS	acquisitions
+11.3	NNS	acres
+10.1	NNS	actions
+10.8	NNS	activists
+10.2	NNS	activities
+11.7	NNS	adjusters
+11.9	NNS	adjustments
+9.67	NNS	ads
+11.3	NNS	adults
+11.7	NNS	advancers
+11.4	NNS	advances
+10.3	NNS	advertisers
+10.5	NNS	advisers
+11.5	NNS	advocates
+11.3	NNS	affairs
+11.7	NNS	affiliates
+11.7	NNS	aftershocks
+9.81	NNS	agencies
+11.1	NNS	agents
+10.4	NNS	agreements
+12.1	NNS	aides
+10.6	NNS	airlines
+10.2	NNS	allegations
+11.7	NNS	alliances
+11	NNS	allies
+10.8	NNS	alternatives
+10.4	NNS	amounts
+6.46	NNS	analysts
+11.7	NNS	animals
+11.9	NNS	announcements
+11.7	NNS	answers
+9.71	NNS	appeals
+12.4	NNS	apples
+12.4	NNS	applicants
+11.3	NNS	applications
+11.9	NNS	appointments
+10.4	NNS	appropriations
+11.7	NNS	arbitragers
+9.19	NNS	areas
+11.3	NNS	arguments
+11.9	NNS	arms
+11.7	NNS	arrangements
+11.1	NNS	articles
+11	NNS	aspects
+7.42	NNS	assets
+12.1	NNS	associates
+11.1	NNS	attacks
+11.3	NNS	attempts
+11.9	NNS	attendants
+9.9	NNS	attorneys
+12.1	NNS	auctions
+9.96	NNS	authorities
+11.9	NNS	authors
+11.7	NNS	averages
+12.4	NNS	backers
+11.7	NNS	bacteria
+9.43	NNS	bankers
+7.08	NNS	banks
+11.9	NNS	bargains
+9.62	NNS	barrels
+11	NNS	barriers
+11.9	NNS	bases
+11.4	NNS	bells
+11.5	NNS	beneficiaries
+9.22	NNS	benefits
+11.3	NNS	bidders
+9.46	NNS	bids
+11.1	NNS	bikes
+12.1	NNS	billings
+10.5	NNS	billions
+8.05	NNS	bills
+10.6	NNS	blacks
+11.5	NNS	blocks
+11.5	NNS	boards
+6.24	NNS	bonds
+10.8	NNS	books
+12.1	NNS	borrowers
+11.9	NNS	borrowings
+12.1	NNS	bosses
+11.9	NNS	boxes
+11	NNS	branches
+10.2	NNS	brands
+11.4	NNS	breakers
+12.4	NNS	briefs
+12.4	NNS	broadcasts
+8.69	NNS	brokers
+12.1	NNS	brothers
+12.1	NNS	budgets
+12.4	NNS	bugs
+12.1	NNS	builders
+10.7	NNS	buildings
+11.9	NNS	bureaucrats
+11.7	NNS	bushels
+8.2	NNS	businesses
+12.1	NNS	businessmen
+10.4	NNS	buy-outs
+8.45	NNS	buyers
+11.5	NNS	calculations
+9.54	NNS	calls
+11.9	NNS	campaigns
+12.4	NNS	camps
+10.2	NNS	candidates
+12.1	NNS	cans
+9.71	NNS	capital-gains
+11	NNS	cards
+12.1	NNS	careers
+10.2	NNS	carriers
+8.76	NNS	cars
+8.62	NNS	cases
+12.1	NNS	categories
+10.9	NNS	cattle
+11.7	NNS	causes
+10.5	NNS	cells
+10.4	NNS	centers
+6.15	NNS	cents
+9.5	NNS	certificates
+10.7	NNS	chains
+12.1	NNS	challenges
+11.7	NNS	chances
+8.11	NNS	changes
+12.4	NNS	channels
+11.5	NNS	characters
+8.71	NNS	charges
+11.1	NNS	charities
+12.4	NNS	charts
+11	NNS	checks
+10.2	NNS	chemicals
+9.58	NNS	children
+9.46	NNS	chips
+12.1	NNS	choices
+12.4	NNS	cigarettes
+12.4	NNS	circuits
+10.3	NNS	circumstances
+10.7	NNS	cities
+11	NNS	citizens
+12.4	NNS	claimants
+8.69	NNS	claims
+10.5	NNS	classes
+8.76	NNS	clients
+11.7	NNS	clothes
+10.4	NNS	colleagues
+12.4	NNS	colors
+10.3	NNS	comments
+11.9	NNS	commercials
+10.6	NNS	commissions
+9.32	NNS	commitments
+12.4	NNS	committees
+10.5	NNS	commodities
+10.6	NNS	communications
+11.9	NNS	communities
+11.7	NNS	commuters
+5.94	NNS	companies
+11.9	NNS	comparisons
+9.5	NNS	competitors
+10.8	NNS	complaints
+11.5	NNS	components
+8.52	NNS	computers
+8.73	NNS	concerns
+11.4	NNS	concessions
+8.98	NNS	conditions
+11.5	NNS	conferees
+11.7	NNS	consequences
+10.9	NNS	conservatives
+11.9	NNS	considerations
+12.1	NNS	constituents
+10.7	NNS	consultants
+9.43	NNS	consumers
+12.4	NNS	contractors
+8.32	NNS	contracts
+10.5	NNS	contributions
+11.1	NNS	controls
+12.1	NNS	conversations
+10.5	NNS	copies
+9.54	NNS	corporations
+11.5	NNS	cosmetics
+7.82	NNS	costs
+8.41	NNS	countries
+11.9	NNS	couples
+12.4	NNS	courses
+10.5	NNS	courts
+12.4	NNS	credentials
+9.19	NNS	creditors
+10.7	NNS	credits
+11.4	NNS	crimes
+11.7	NNS	criminals
+10	NNS	critics
+12.1	NNS	crops
+11.9	NNS	curbs
+10.7	NNS	currencies
+8.01	NNS	customers
+12.4	NNS	cutbacks
+9.81	NNS	cuts
+11.4	NNS	cycles
+10.4	NNS	damages
+8.93	NNS	data
+6.07	NNS	days
+8.22	NNS	dealers
+10.7	NNS	dealings
+9.43	NNS	deals
+11.3	NNS	deaths
+9.32	NNS	debentures
+10.8	NNS	debts
+10.9	NNS	decades
+10.2	NNS	decisions
+11.4	NNS	decliners
+9.85	NNS	declines
+11.7	NNS	defaults
+11.9	NNS	defects
+10.3	NNS	defendants
+12.1	NNS	defenses
+10.9	NNS	delays
+12.4	NNS	deliveries
+11.1	NNS	demands
+11.7	NNS	demonstrators
+9.62	NNS	deposits
+11.7	NNS	designs
+12.4	NNS	desks
+9.43	NNS	details
+11.5	NNS	developers
+11	NNS	developments
+10.3	NNS	devices
+11.7	NNS	diabetics
+11.3	NNS	differences
+11.1	NNS	difficulties
+8.62	NNS	directors
+11.9	NNS	disasters
+11.9	NNS	discounts
+10.1	NNS	discussions
+12.4	NNS	diseases
+12.4	NNS	displays
+12.4	NNS	dissidents
+11.9	NNS	districts
+9.58	NNS	dividends
+11.4	NNS	divisions
+11.9	NNS	doctors
+10.1	NNS	documents
+8.04	NNS	dollars
+11.5	NNS	donations
+11.7	NNS	doors
+11.9	NNS	dozens
+10.5	NNS	drives
+12.4	NNS	drops
+9.81	NNS	drugs
+11.5	NNS	duties
+6.44	NNS	earnings
+11.9	NNS	earthquakes
+11.1	NNS	economics
+11.4	NNS	economies
+8.96	NNS	economists
+11.9	NNS	editions
+12.4	NNS	editors
+10.3	NNS	effects
+8.5	NNS	efforts
+10.9	NNS	eggs
+9.35	NNS	elections
+11.9	NNS	electronics
+12.4	NNS	elevators
+11.4	NNS	emissions
+8.08	NNS	employees
+11.1	NNS	employers
+11.9	NNS	engineers
+12.1	NNS	enterprises
+12.1	NNS	entities
+11.9	NNS	entrepreneurs
+12.4	NNS	environmentalists
+12.4	NNS	environments
+11.3	NNS	equities
+11.7	NNS	errors
+8.6	NNS	estimates
+12.4	NNS	ethics
+9.96	NNS	events
+9.71	NNS	exchanges
+8.05	NNS	executives
+9.54	NNS	expectations
+11.9	NNS	expenditures
+9.54	NNS	expenses
+10.9	NNS	experiments
+9.32	NNS	experts
+12.4	NNS	exporters
+9.07	NNS	exports
+12.4	NNS	exposures
+11.1	NNS	eyes
+9.9	NNS	facilities
+11.7	NNS	factories
+9.67	NNS	factors
+11.7	NNS	facts
+11.7	NNS	failures
+10.5	NNS	families
+10.8	NNS	fans
+12.1	NNS	fares
+9.85	NNS	farmers
+11.9	NNS	farms
+10.2	NNS	fears
+10.9	NNS	features
+12.1	NNS	feedlots
+12.4	NNS	feelings
+8.83	NNS	fees
+9.54	NNS	feet
+12.4	NNS	fibers
+10.6	NNS	fields
+8.25	NNS	figures
+11	NNS	filings
+12.4	NNS	films
+12.4	NNS	finances
+12.1	NNS	financial-services
+12.4	NNS	financings
+11.1	NNS	findings
+7.64	NNS	firms
+11	NNS	flights
+12.1	NNS	fluctuations
+12.4	NNS	foes
+12.1	NNS	folks
+9.46	NNS	forces
+10.4	NNS	forecasts
+10.6	NNS	foreigners
+11.3	NNS	forms
+12.4	NNS	fortunes
+10.8	NNS	franchisees
+8.56	NNS	francs
+12.1	NNS	freedoms
+11.4	NNS	friends
+12.4	NNS	fuels
+11.9	NNS	functions
+11.4	NNS	fundamentals
+6.68	NNS	funds
+12.4	NNS	furriers
+7.37	NNS	futures
+12.1	NNS	gainers
+8.13	NNS	gains
+12.4	NNS	gallons
+10.9	NNS	games
+12.4	NNS	generations
+10.6	NNS	genes
+12.1	NNS	giants
+10.9	NNS	goals
+8.96	NNS	goods
+11.4	NNS	governments
+12.4	NNS	governors
+11.5	NNS	graphics
+10.8	NNS	grounds
+8.96	NNS	groups
+10.7	NNS	guarantees
+11.9	NNS	guests
+10.1	NNS	guidelines
+11.7	NNS	guilders
+12.4	NNS	guns
+11.3	NNS	guys
+11	NNS	gyrations
+9.19	NNS	hands
+12.4	NNS	hats
+12.1	NNS	headquarters
+10.3	NNS	hearings
+12.4	NNS	heels
+11.1	NNS	highs
+11.9	NNS	hits
+8.41	NNS	holders
+9.67	NNS	holdings
+9.96	NNS	homes
+10.3	NNS	hopes
+12.4	NNS	hospitals
+12.4	NNS	hotels
+8.93	NNS	hours
+11.9	NNS	households
+9.5	NNS	houses
+10.2	NNS	hundreds
+12.4	NNS	hunters
+12.4	NNS	hurdles
+11.5	NNS	ideas
+11.4	NNS	imbalances
+11.9	NNS	implications
+8.96	NNS	imports
+11.3	NNS	improvements
+11.1	NNS	incentives
+12.1	NNS	inches
+8.69	NNS	increases
+11.9	NNS	indexes
+10.3	NNS	indications
+11.1	NNS	indicators
+9.58	NNS	individuals
+9.76	NNS	industrials
+10.1	NNS	industries
+11.7	NNS	initiatives
+11.4	NNS	injuries
+12.4	NNS	inquiries
+11.7	NNS	insiders
+12.4	NNS	installations
+8.73	NNS	institutions
+12.4	NNS	instructions
+9.96	NNS	instruments
+10.5	NNS	insurers
+8.83	NNS	interests
+12.1	NNS	interviews
+10.1	NNS	inventories
+11.4	NNS	investigations
+11.5	NNS	investigators
+8.76	NNS	investments
+6.07	NNS	investors
+11.9	NNS	issuers
+7.21	NNS	issues
+10.3	NNS	items
+12.4	NNS	jackets
+9.71	NNS	jobs
+12.4	NNS	journalists
+10.3	NNS	judges
+12.1	NNS	jurors
+11.9	NNS	justices
+11.4	NNS	kids
+11	NNS	kinds
+11.5	NNS	kronor
+9.67	NNS	lawmakers
+10	NNS	laws
+10.5	NNS	lawsuits
+8.62	NNS	lawyers
+8.9	NNS	leaders
+11.1	NNS	legislators
+10.5	NNS	lenders
+10.7	NNS	letters
+9.1	NNS	levels
+11.5	NNS	liabilities
+12.4	NNS	liberals
+11.7	NNS	licenses
+12.4	NNS	lights
+10.7	NNS	limits
+9.43	NNS	lines
+11.7	NNS	links
+10.5	NNS	lire
+11.5	NNS	lists
+11.1	NNS	lives
+7.4	NNS	loans
+11.7	NNS	locations
+11.5	NNS	losers
+7.72	NNS	losses
+11.4	NNS	lots
+11.5	NNS	lows
+9.25	NNS	machines
+11.4	NNS	machinists
+10.1	NNS	magazines
+10.7	NNS	mainframes
+8.69	NNS	makers
+8.25	NNS	managers
+9.54	NNS	manufacturers
+9.71	NNS	margins
+12.4	NNS	market-makers
+11.9	NNS	marketers
+6.98	NNS	markets
+9.43	NNS	marks
+11.5	NNS	masters
+10.5	NNS	materials
+10.8	NNS	matters
+11.4	NNS	maturities
+11.4	NNS	means
+9.43	NNS	measures
+9.22	NNS	media
+10.5	NNS	meetings
+7.82	NNS	members
+9.35	NNS	men
+12.4	NNS	merchants
+12.4	NNS	messages
+10.1	NNS	metals
+12.4	NNS	microprocessors
+11.9	NNS	middlemen
+9.96	NNS	miles
+11.5	NNS	milestones
+10.3	NNS	millions
+11.3	NNS	mines
+11.1	NNS	ministers
+9.04	NNS	minutes
+9.81	NNS	models
+11.7	NNS	moments
+5.86	NNS	months
+9.07	NNS	mortgages
+9.39	NNS	moves
+11.3	NNS	movies
+10.9	NNS	multiples
+12.4	NNS	municipalities
+10.7	NNS	municipals
+10	NNS	names
+9.96	NNS	nations
+11	NNS	needs
+9.29	NNS	negotiations
+12.1	NNS	negotiators
+11.7	NNS	neighborhoods
+12.4	NNS	neighbors
+10.6	NNS	networks
+12.1	NNS	newcomers
+10.5	NNS	newspapers
+7.73	NNS	notes
+9.43	NNS	numbers
+11.9	NNS	objections
+12.4	NNS	objectives
+12.4	NNS	obligations
+10.8	NNS	observers
+12.1	NNS	occasions
+11	NNS	odds
+11.3	NNS	offerings
+10.5	NNS	offers
+11.1	NNS	officers
+9.58	NNS	offices
+6.55	NNS	officials
+9.76	NNS	ones
+7.21	NNS	operations
+10.8	NNS	operators
+12.1	NNS	opinions
+10.5	NNS	opponents
+10.6	NNS	opportunities
+8.65	NNS	options
+7.59	NNS	orders
+11.5	NNS	organizations
+8.48	NNS	others
+10.9	NNS	ounces
+12.4	NNS	outflows
+11.9	NNS	outlays
+11.5	NNS	outlets
+12.1	NNS	outsiders
+9.71	NNS	owners
+12.4	NNS	packaged-goods
+11.3	NNS	packages
+10.3	NNS	pages
+11.1	NNS	paintings
+12.4	NNS	panels
+10.5	NNS	papers
+10.4	NNS	parents
+10.3	NNS	participants
+9.85	NNS	parties
+10.3	NNS	partners
+12.1	NNS	partnerships
+9.07	NNS	parts
+11.7	NNS	passengers
+10.5	NNS	patients
+11.9	NNS	patterns
+8.17	NNS	payments
+11.7	NNS	pence
+12.4	NNS	pencils
+6.16	NNS	people
+11.3	NNS	periods
+12.4	NNS	permits
+10.7	NNS	personnel
+12.1	NNS	pharmaceuticals
+12.4	NNS	phones
+12.4	NNS	pickers
+12.4	NNS	pictures
+11.3	NNS	pieces
+12.4	NNS	pigs
+9.07	NNS	pilots
+11.4	NNS	places
+11.3	NNS	plaintiffs
+10.7	NNS	planes
+11.5	NNS	planners
+8.03	NNS	plans
+9.19	NNS	plants
+11.3	NNS	plastics
+9.9	NNS	players
+12.4	NNS	pockets
+6.96	NNS	points
+10.9	NNS	police
+10.1	NNS	policies
+12.4	NNS	policyholders
+10.5	NNS	politicians
+10.9	NNS	politics
+11.4	NNS	polls
+10.1	NNS	portfolios
+12.1	NNS	portions
+9.46	NNS	positions
+11.5	NNS	posts
+10.6	NNS	pounds
+11.3	NNS	powers
+9.81	NNS	practices
+11.7	NNS	predictions
+12.4	NNS	preferences
+10.8	NNS	premiums
+11.5	NNS	pressures
+5.85	NNS	prices
+11.7	NNS	priorities
+12.1	NNS	prisons
+7.38	NNS	problems
+10.8	NNS	procedures
+9.96	NNS	proceedings
+9.81	NNS	proceeds
+12.4	NNS	processors
+9.32	NNS	producers
+7.3	NNS	products
+11.3	NNS	professionals
+8.52	NNS	profits
+8.17	NNS	programs
+10.7	NNS	projections
+9.13	NNS	projects
+12.4	NNS	promises
+12.4	NNS	promotions
+10.1	NNS	properties
+12.1	NNS	proponents
+9.76	NNS	proposals
+11.7	NNS	pros
+11.5	NNS	prosecutions
+9.5	NNS	prosecutors
+9.85	NNS	prospects
+11.9	NNS	proteins
+12.1	NNS	protesters
+11.4	NNS	protests
+9.54	NNS	provisions
+11.5	NNS	publications
+11.9	NNS	publishers
+12.4	NNS	punts
+11.9	NNS	purchasers
+9.58	NNS	purchases
+11.1	NNS	purposes
+12.1	NNS	puts
+12.4	NNS	quantities
+10.3	NNS	quarters
+9.22	NNS	questions
+11.4	NNS	quotas
+10.7	NNS	quotations
+12.4	NNS	raiders
+11.9	NNS	rallies
+12.4	NNS	ranks
+6.67	NNS	rates
+9.85	NNS	ratings
+12.4	NNS	ratios
+11.7	NNS	reactions
+11	NNS	readers
+9.71	NNS	reasons
+12.1	NNS	rebates
+11	NNS	rebels
+10.5	NNS	receipts
+11.3	NNS	recommendations
+10.9	NNS	records
+12.1	NNS	redemptions
+11.4	NNS	reductions
+12.4	NNS	reformers
+10.8	NNS	reforms
+11.9	NNS	refugees
+12.4	NNS	refunds
+11.4	NNS	regions
+10.3	NNS	regulations
+8.73	NNS	regulators
+10.2	NNS	relations
+12.4	NNS	relationships
+11.9	NNS	releases
+10.3	NNS	remarks
+12.1	NNS	rents
+11.9	NNS	repairs
+10.1	NNS	reporters
+8.76	NNS	reports
+10.8	NNS	representatives
+11.4	NNS	requests
+9.76	NNS	requirements
+9.67	NNS	researchers
+9.07	NNS	reserves
+9.96	NNS	residents
+11.9	NNS	resignations
+11.1	NNS	resources
+11.3	NNS	respondents
+11.9	NNS	responses
+11.5	NNS	responsibilities
+12.1	NNS	restaurants
+12.4	NNS	restraints
+9.62	NNS	restrictions
+7.47	NNS	results
+10.4	NNS	retailers
+8.98	NNS	returns
+10.3	NNS	revenues
+8.25	NNS	rights
+11.4	NNS	ringers
+10.3	NNS	risks
+10.7	NNS	rivals
+11.9	NNS	roads
+12.4	NNS	rocks
+11	NNS	rooms
+11.1	NNS	routes
+8.67	NNS	rules
+9.81	NNS	rumors
+11.9	NNS	salaries
+5.5	NNS	sales
+12.1	NNS	salesmen
+12.1	NNS	salespeople
+11	NNS	sanctions
+10.9	NNS	savings
+12.1	NNS	scandals
+12.4	NNS	scenarios
+12.1	NNS	scenes
+12.4	NNS	schedules
+10.6	NNS	schools
+9.81	NNS	scientists
+11.7	NNS	scores
+10.9	NNS	screens
+10.9	NNS	seats
+11.7	NNS	seconds
+12.4	NNS	secrets
+12.1	NNS	sections
+11.9	NNS	sectors
+6.78	NNS	securities
+12.4	NNS	seeds
+11.4	NNS	segments
+10.5	NNS	sellers
+10.3	NNS	senators
+11.9	NNS	sentences
+8.71	NNS	services
+11.9	NNS	sessions
+12.4	NNS	setbacks
+11.5	NNS	sets
+11.7	NNS	settlements
+8.14	NNS	shareholders
+4.98	NNS	shares
+11.4	NNS	sheets
+10.1	NNS	shipments
+12.4	NNS	shippers
+11	NNS	ships
+12.4	NNS	shocks
+11.4	NNS	shops
+10.1	NNS	shows
+11.5	NNS	sidelines
+9.71	NNS	sides
+11.5	NNS	signals
+9.67	NNS	signs
+12.4	NNS	sites
+12.1	NNS	skills
+12.1	NNS	soldiers
+11.5	NNS	solutions
+12.4	NNS	sorts
+9.85	NNS	sources
+9.81	NNS	specialists
+10.8	NNS	speculators
+11.9	NNS	spirits
+10	NNS	sports
+12.4	NNS	spots
+11.4	NNS	staffers
+11.9	NNS	stages
+10.7	NNS	stakes
+9.81	NNS	standards
+12.1	NNS	starts
+10.6	NNS	statements
+8.76	NNS	states
+10.4	NNS	stations
+10.5	NNS	statistics
+12.4	NNS	statutes
+11	NNS	steelmakers
+9.62	NNS	steps
+11.9	NNS	stockholders
+6.26	NNS	stocks
+12.4	NNS	stones
+8.73	NNS	stores
+11	NNS	stories
+10.1	NNS	strategies
+12.4	NNS	strategists
+12.1	NNS	streets
+11.9	NNS	structures
+9.76	NNS	students
+10.3	NNS	studies
+12.4	NNS	studios
+12.4	NNS	styles
+11.9	NNS	subjects
+10.6	NNS	subscribers
+11	NNS	subsidiaries
+10.9	NNS	subsidies
+11.4	NNS	suggestions
+10.3	NNS	suits
+12.4	NNS	superconductors
+11.5	NNS	suppliers
+10.7	NNS	supplies
+10.6	NNS	supporters
+12.4	NNS	surpluses
+11.9	NNS	surveys
+10.1	NNS	swings
+11.7	NNS	symptoms
+12.4	NNS	syndicates
+8.9	NNS	systems
+11.7	NNS	tables
+11.5	NNS	tactics
+10.3	NNS	takeovers
+8.48	NNS	talks
+12.4	NNS	tanks
+10.9	NNS	targets
+12.1	NNS	tariffs
+11.7	NNS	tasks
+9.25	NNS	taxes
+10.4	NNS	taxpayers
+11.5	NNS	teachers
+11.1	NNS	teams
+11.7	NNS	technologies
+12.1	NNS	telecommunications
+11.5	NNS	temperatures
+7.67	NNS	terms
+10.4	NNS	tests
+11.9	NNS	thanks
+11.7	NNS	thieves
+8.11	NNS	things
+9.67	NNS	thousands
+9.81	NNS	thrifts
+11.9	NNS	tickets
+11	NNS	ties
+8.17	NNS	times
+8.46	NNS	tons
+11.5	NNS	tools
+11.7	NNS	tourists
+12.4	NNS	toys
+6.9	NNS	traders
+9.5	NNS	trades
+12.4	NNS	traffickers
+9.39	NNS	transactions
+11.5	NNS	transplants
+11.7	NNS	travelers
+11.9	NNS	tremors
+10.2	NNS	trends
+11.9	NNS	trials
+11.5	NNS	troops
+10.5	NNS	troubles
+11.7	NNS	trucks
+10.5	NNS	two-thirds
+10.8	NNS	types
+10.3	NNS	underwriters
+11.4	NNS	unions
+8.13	NNS	units
+11.5	NNS	universities
+10.5	NNS	users
+12.4	NNS	uses
+10.4	NNS	utilities
+10.4	NNS	values
+10.3	NNS	vehicles
+10.2	NNS	ventures
+11.4	NNS	versions
+12.4	NNS	vessels
+10.1	NNS	victims
+10.4	NNS	viewers
+10.4	NNS	views
+11.7	NNS	violations
+11.5	NNS	visitors
+9.71	NNS	voters
+10.4	NNS	votes
+11.9	NNS	wages
+11.5	NNS	walls
+11.9	NNS	warnings
+9.58	NNS	warrants
+11.9	NNS	wars
+11.9	NNS	watchers
+12.1	NNS	waves
+9.16	NNS	ways
+10.6	NNS	weapons
+7.37	NNS	weeks
+11.1	NNS	whites
+12.1	NNS	windows
+12.1	NNS	wines
+11.4	NNS	winners
+11.5	NNS	withdrawals
+11.7	NNS	witnesses
+12.1	NNS	woes
+9.43	NNS	women
+10.1	NNS	words
+8.22	NNS	workers
+10.9	NNS	works
+12.4	NNS	workstations
+11.9	NNS	worries
+5.29	NNS	years
+7.73	NNS	yen
+8.39	NNS	yields
+14.3	NP	PUNC: NN NN NN PUNC.
+12.2	NP	PUNC: NPR PUNC.
+15	NP	ADJP ADJP JJ JJ NN NNS
+14.3	NP	ADJP DT NN
+14	NP	ADJP JJ NN
+13.9	NP	ADJP JJ NN NNS
+12.1	NP	ADJP JJ NNS
+10.7	NP	ADJP NN
+14	NP	ADJP NN NN
+11.6	NP	ADJP NN NNS
+9.77	NP	ADJP NNS
+12	NP	ADJP NPR
+15	NP	ADJP NPRS
+6.93	NP	DT
+13	NP	DT ADJP
+14.7	NP	DT ADJP , JJ NN
+14.5	NP	DT ADJP ADJP NN
+14.7	NP	DT ADJP JJ JJ NN
+11	NP	DT ADJP JJ NN
+12.9	NP	DT ADJP JJ NN NN
+14.7	NP	DT ADJP JJ NNS
+7.78	NP	DT ADJP NN
+10.3	NP	DT ADJP NN NN
+13.6	NP	DT ADJP NN NN NN
+14.7	NP	DT ADJP NN NNS
+11.1	NP	DT ADJP NNS
+14.2	NP	DT ADJP NNS NN
+12.7	NP	DT ADJP NPR
+11.5	NP	DT ADJP NPR NP
+14.7	NP	DT ADJP QP NN
+14.5	NP	DT ADJP QPMONEY
+14.7	NP	DT ADVP NN
+15	NP	DT DT
+14.7	NP	DT DT JJ NNS
+14.3	NP	DT DT NN
+14	NP	DT DT NNS
+15	NP	DT FW
+9.98	NP	DT JJ
+14.5	NP	DT JJ , JJ JJ NN
+12.1	NP	DT JJ , JJ NN
+14.3	NP	DT JJ , JJ NNS
+14.7	NP	DT JJ , JJ NPR NP
+14.3	NP	DT JJ ADJP JJ NN
+12.2	NP	DT JJ ADJP NN
+15	NP	DT JJ ADJP NN NN
+13.9	NP	DT JJ DT
+13.5	NP	DT JJ JJ
+12.4	NP	DT JJ JJ JJ NN
+15	NP	DT JJ JJ JJ NN NN
+8.49	NP	DT JJ JJ NN
+10.9	NP	DT JJ JJ NN NN
+14.5	NP	DT JJ JJ NN NN NN
+13.7	NP	DT JJ JJ NN NNS
+10.3	NP	DT JJ JJ NNS
+14.2	NP	DT JJ JJ NNS NN
+14.7	NP	DT JJ JJ NPR
+13.7	NP	DT JJ JJ NPR NP
+4.86	NP	DT JJ NN
+14.3	NP	DT JJ NN JJ NN
+7.75	NP	DT JJ NN NN
+11.4	NP	DT JJ NN NN NN
+15	NP	DT JJ NN NN NNS
+10.8	NP	DT JJ NN NNS
+15	NP	DT JJ NN NNS NN
+14	NP	DT JJ NN NPR
+11.5	NP	DT JJ NN S
+13.4	NP	DT JJ NN SBAR
+7.75	NP	DT JJ NNS
+11.3	NP	DT JJ NNS NN
+14.5	NP	DT JJ NNS NN NN
+14.5	NP	DT JJ NNS NNS
+10.2	NP	DT JJ NPR
+13.9	NP	DT JJ NPR JJ NN
+9.66	NP	DT JJ NPR NP
+13.7	NP	DT JJ NPRS
+12.2	NP	DT JJ QP
+15	NP	DT JJ QP JJ NNS
+12.2	NP	DT JJ QP NN
+14.3	NP	DT JJ QP NN NN
+9.37	NP	DT JJ QP NNS
+12.2	NP	DT JJ QPMONEY
+13.3	NP	DT JJ VBG NN
+13.9	NP	DT JJ VBN NN
+14.7	NP	DT JJR
+14.3	NP	DT JJR JJ NN
+10.2	NP	DT JJR NN
+13.9	NP	DT JJR NN NN
+12.7	NP	DT JJR NNS
+10.8	NP	DT JJS
+12.6	NP	DT JJS JJ NN
+13.1	NP	DT JJS JJ NNS
+9.49	NP	DT JJS NN
+12.2	NP	DT JJS NN NN
+13.5	NP	DT JJS NN NNS
+11.5	NP	DT JJS NNS
+14.5	NP	DT JJS QP NNS
+13.6	NP	DT NAC NN
+14.7	NP	DT NAC NPR
+14.3	NP	DT NAC-LOC JJ NN
+11.5	NP	DT NAC-LOC NN
+12.7	NP	DT NAC-LOC NN NN
+13.2	NP	DT NAC-TMP NN
+3.29	NP	DT NN
+13.9	NP	DT NN JJ
+6.12	NP	DT NN NN
+9.61	NP	DT NN NN NN
+14.2	NP	DT NN NN NN NN
+13.3	NP	DT NN NN NNS
+13.9	NP	DT NN NN NPR
+15	NP	DT NN NN S
+8.86	NP	DT NN NNS
+12.2	NP	DT NN NNS NN
+12.9	NP	DT NN NPR
+14.2	NP	DT NN NPR NP
+13.9	NP	DT NN QP
+13.4	NP	DT NN QP NN
+14	NP	DT NN QPMONEY
+14.3	NP	DT NN RB
+9.59	NP	DT NN S
+10.3	NP	DT NN SBAR
+12.5	NP	DT NN VBG NN
+13.7	NP	DT NN VBZ
+5.86	NP	DT NNS
+10	NP	DT NNS NN
+12.9	NP	DT NNS NN NN
+13.3	NP	DT NNS NNS
+14.3	NP	DT NNS S
+14.3	NP	DT NNS SBAR
+14.2	NP	DT NP NN
+14.5	NP	DT NP$ NN
+5.87	NP	DT NPR
+11	NP	DT NPR JJ NN
+13.7	NP	DT NPR JJ NN NN
+15	NP	DT NPR JJ NN NN NN
+15	NP	DT NPR JJ NNS
+6.49	NP	DT NPR NP
+14.2	NP	DT NPR NP S
+13	NP	DT NPR QP
+12.2	NP	DT NPR QP NN
+15	NP	DT NPR QP NNS
+15	NP	DT NPR QP NPR
+15	NP	DT NPR VBG NN
+9.65	NP	DT NPRS
+12.9	NP	DT NPRS NP
+14.5	NP	DT PRP
+10.8	NP	DT QP
+13.9	NP	DT QP JJ NN
+14.5	NP	DT QP JJ NN NN
+14.3	NP	DT QP JJ NN NNS
+12.1	NP	DT QP JJ NNS
+10.1	NP	DT QP NN
+12.2	NP	DT QP NN NN
+13.6	NP	DT QP NN NNS
+9.33	NP	DT QP NNS
+14.7	NP	DT QP NPR
+12.7	NP	DT QP NPR NP
+15	NP	DT QP NPRS
+11.4	NP	DT QPMONEY
+12.6	NP	DT RB JJ NN
+15	NP	DT RB JJ NN NN
+15	NP	DT RBR JJ NN
+14.5	NP	DT RBS JJ NN
+14.7	NP	DT RBS JJ NNS
+13.9	NP	DT VBG JJ NN
+9.96	NP	DT VBG NN
+12.5	NP	DT VBG NN NN
+12.1	NP	DT VBG NNS
+13.9	NP	DT VBG NPR
+13.9	NP	DT VBG NPR NP
+14.2	NP	DT VBN JJ NN
+15	NP	DT VBN JJ NN NN
+9.84	NP	DT VBN NN
+12.8	NP	DT VBN NN NN
+11.9	NP	DT VBN NNS
+13.9	NP	DT VBN NPR
+14.2	NP	DT VBN NPR NP
+15	NP	DT VBN QP
+15	NP	DT VBN QP NN
+14.7	NP	DT VBN QP NNS
+13.1	NP	DT VBN QPMONEY
+13.2	NP	DT PUNC`` JJ PUNC'' NN
+12.9	NP	DT PUNC`` JJ NN
+12.5	NP	DT PUNC`` JJ NN PUNC''
+14.7	NP	DT PUNC`` JJ NN NN PUNC''
+13	NP	DT PUNC`` NN
+13.5	NP	DT PUNC`` NN PUNC''
+14.7	NP	DT PUNC`` NN PUNC'' NN
+13.2	NP	DT PUNC`` NN NN PUNC''
+15	NP	DT PUNC`` NPR
+8.35	NP	EX
+13.1	NP	FW
+12.6	NP	IN
+13.4	NP	IN NN
+14.2	NP	IN QP
+13.6	NP	IN QP NNS
+9.26	NP	JJ
+15	NP	JJ , JJ NN
+13.6	NP	JJ , JJ NN NN NNS
+12.7	NP	JJ , JJ NNS
+15	NP	JJ ADJP NNS
+14.3	NP	JJ DT JJ NN
+12.7	NP	JJ DT NN
+14.7	NP	JJ JJ JJ NN
+15	NP	JJ JJ JJ NN NNS
+12	NP	JJ JJ JJ NNS
+9.42	NP	JJ JJ NN
+13.5	NP	JJ JJ NN NN
+11.6	NP	JJ JJ NN NNS
+14.7	NP	JJ JJ NN NPR
+8.66	NP	JJ JJ NNS
+14.7	NP	JJ JJ NNS NNS
+14	NP	JJ JJ NPR NP
+6.22	NP	JJ NN
+13.9	NP	JJ NN PUNC:
+9.2	NP	JJ NN NN
+13.4	NP	JJ NN NN NN
+11.8	NP	JJ NN NN NNS
+14.5	NP	JJ NN NN NPR
+7.87	NP	JJ NN NNS
+12	NP	JJ NN NPR
+13.9	NP	JJ NN S
+14.7	NP	JJ NN SBAR
+5.38	NP	JJ NNS
+14	NP	JJ NNS PUNC:
+13.1	NP	JJ NNS NN
+12.2	NP	JJ NNS NNS
+13.3	NP	JJ NNS S
+14.2	NP	JJ NNS SBAR
+9.44	NP	JJ NPR
+10.2	NP	JJ NPR NP
+13.6	NP	JJ NPR NP JJ NNS
+12.3	NP	JJ NPRS
+11.1	NP	JJ QP
+13.9	NP	JJ QP NNS
+14.3	NP	JJ VBG
+13.3	NP	JJ VBG NNS
+13.6	NP	JJ VBN NNS
+11.1	NP	JJR
+14.3	NP	JJR JJ NN
+13	NP	JJR JJ NNS
+10.5	NP	JJR NN
+13.5	NP	JJR NN NN
+11.9	NP	JJR NN NNS
+9.66	NP	JJR NNS
+14.2	NP	JJR NPR NP
+10.4	NP	JJS
+12.6	NP	JJS JJ NNS
+13.1	NP	JJS NN NNS
+11.1	NP	JJS NNS
+14.7	NP	JJS NPR NP
+15	NP	NAC NNS
+12.4	NP	NAC NPR
+4.11	NP	NN
+14.7	NP	NN PUNC.
+13.6	NP	NN PUNC:
+14.3	NP	NN JJ
+14	NP	NN JJ NN
+13.2	NP	NN JJ NNS
+6.78	NP	NN NN
+10.4	NP	NN NN NN
+14.7	NP	NN NN NN NN
+14	NP	NN NN NN NNS
+9.98	NP	NN NN NNS
+12	NP	NN NN NPR
+6.13	NP	NN NNS
+14.3	NP	NN NNS PUNC:
+14.2	NP	NN NNS PUNC: PUNC.
+14.3	NP	NN NNS NN
+13.5	NP	NN NNS NNS
+11.1	NP	NN NPR
+10.9	NP	NN QP
+14.2	NP	NN RB
+12.2	NP	NN S
+11.5	NP	NN SBAR
+15	NP	NN VBG
+14.3	NP	NN VBN NNS
+4.34	NP	NNS
+12.7	NP	NNS PUNC:
+11.1	NP	NNS NN
+10.1	NP	NNS NNS
+13.5	NP	NNS QP PUNC.
+11.5	NP	NNS S
+11.1	NP	NNS SBAR
+8.04	NP	NP
+12.7	NP	NP PUNC'' PP
+13.9	NP	NP PUNC'' PP-LOC
+14.3	NP	NP PUNC'' SBAR
+15	NP	NP , PUNC'' NP
+14.3	NP	NP , PUNC'' SBAR
+12.2	NP	NP , ADJP
+11.4	NP	NP , ADJP ,
+15	NP	NP , ADJP , S
+10.6	NP	NP , ADVP
+14.7	NP	NP , ADVP ,
+14	NP	NP , ADVP NP
+14.3	NP	NP , ADVP NP ,
+15	NP	NP , ADVP-LOC
+15	NP	NP , ADVP-TMP NP
+6.76	NP	NP , NP
+7.08	NP	NP , NP ,
+14.7	NP	NP , NP , PUNC''
+12.4	NP	NP , NP , NP
+14.7	NP	NP , NP , NP ,
+13.9	NP	NP , NP , NP , NP
+14.5	NP	NP , NP , PP
+15	NP	NP , NP , PP PUNC.
+12	NP	NP , NP , SBAR
+13.2	NP	NP , NP PUNC.
+14.5	NP	NP , NP PUNC:
+15	NP	NP , NP SBAR
+10.6	NP	NP , NP-LOC
+11.6	NP	NP , NP-LOC ,
+13.9	NP	NP , NP-LOC , NP , NP , NP ,
+15	NP	NP , NP-LOC , SBAR
+15	NP	NP , NP-LOC SBAR
+10.4	NP	NP , PP
+10.8	NP	NP , PP ,
+14.3	NP	NP , PP , SBAR
+13.3	NP	NP , PP PUNC.
+14.2	NP	NP , PP-LOC
+13.7	NP	NP , PP-LOC ,
+15	NP	NP , PP-TMP
+12.8	NP	NP , RB NP
+14	NP	NP , RB NP ,
+15	NP	NP , RRC
+14.7	NP	NP , RRC ,
+7.75	NP	NP , SBAR
+8.24	NP	NP , SBAR ,
+15	NP	NP , SBAR-LOC
+14.5	NP	NP , SBAR-TMP
+10.6	NP	NP , VP
+9.67	NP	NP , VP ,
+14.5	NP	NP , VP , PUNC''
+14.2	NP	NP , VP , SBAR
+15	NP	NP , PUNC`` S
+13.7	NP	NP PUNC-LRB- NP PUNC-RRB-
+14.7	NP	NP PUNC-LRB- PP PUNC-RRB-
+14.2	NP	NP PUNC:
+9.75	NP	NP PUNC: NP
+13.7	NP	NP PUNC: NP , PP PUNC.
+8.98	NP	NP PUNC: NP PUNC.
+12.7	NP	NP PUNC: NP PUNC:
+12.7	NP	NP PUNC: NP PUNC: NP
+12.9	NP	NP PUNC: NP PUNC: NP PUNC.
+13.7	NP	NP PUNC: NP PUNC: NP PUNC: NP
+12.7	NP	NP PUNC: NP PUNC: NP PUNC: NP PUNC: NP
+12.9	NP	NP PUNC: NP PUNC: NP PUNC: NP PUNC: NP PUNC: NP
+14.2	NP	NP PUNC: NP PUNC: NP PUNC: NP PUNC: NP PUNC: NP PUNC: NP
+14.7	NP	NP PUNC: RB NP PUNC.
+13	NP	NP PUNC: S
+13.1	NP	NP PUNC: S PUNC.
+14.3	NP	NP PUNC: SBAR
+14	NP	NP PUNC: SBAR PUNC:
+8.48	NP	NP ADJP
+15	NP	NP ADJP , PP
+13.2	NP	NP ADJP , VP
+14.7	NP	NP ADJP PUNC.
+13.6	NP	NP ADJP PP
+11.3	NP	NP ADVP
+11	NP	NP ADVP-LOC
+10.8	NP	NP ADVP-TMP
+15	NP	NP ADVP-TMP PP
+14.3	NP	NP NNS
+7.87	NP	NP NP
+12.1	NP	NP NP , ADVP
+13.1	NP	NP NP PUNC.
+8.15	NP	NP NP-ADV
+13.5	NP	NP NP-ADV PP
+13.1	NP	NP NP-LOC
+14	NP	NP NP-LOC PUNC.
+9.81	NP	NP NP-TMP
+12.7	NP	NP NP-TMP PP
+15	NP	NP NP-TMP PP PP
+14.3	NP	NP NP-TMP PP-LOC
+13.7	NP	NP NP-TMP SBAR
+3.48	NP	NP PP
+14.5	NP	NP PP PUNC''
+14.7	NP	NP PP , ADJP
+14.7	NP	NP PP , ADJP ,
+14.3	NP	NP PP , ADVP
+15	NP	NP PP , NP
+12	NP	NP PP , PP
+14.2	NP	NP PP , PP ,
+14.3	NP	NP PP , PP-LOC
+11.4	NP	NP PP , SBAR
+12.5	NP	NP PP , SBAR ,
+13.4	NP	NP PP , VP
+13.7	NP	NP PP , VP ,
+11.9	NP	NP PP PUNC.
+13.2	NP	NP PP ADJP
+15	NP	NP PP ADVP
+14.5	NP	NP PP ADVP-LOC
+14	NP	NP PP ADVP-TMP
+13.6	NP	NP PP NP-ADV
+11.4	NP	NP PP NP-TMP
+8.35	NP	NP PP PP
+14.5	NP	NP PP PP PUNC.
+12.9	NP	NP PP PP PP
+13.7	NP	NP PP PP PP-TMP
+9.48	NP	NP PP PP-LOC
+13.9	NP	NP PP PP-LOC PUNC.
+10.4	NP	NP PP PP-TMP
+14.3	NP	NP PP PP-TMP PP
+15	NP	NP PP PP-TMP PP-TMP
+13.3	NP	NP PP PRN
+11.3	NP	NP PP S
+9.48	NP	NP PP SBAR
+13.5	NP	NP PP SBAR-TMP
+10.5	NP	NP PP VP
+5.93	NP	NP PP-LOC
+14.7	NP	NP PP-LOC , PP
+12.7	NP	NP PP-LOC , SBAR
+15	NP	NP PP-LOC , SBAR ,
+13.2	NP	NP PP-LOC NP-TMP
+11.6	NP	NP PP-LOC PP
+15	NP	NP PP-LOC PP PP
+14.5	NP	NP PP-LOC PP-LOC
+12.2	NP	NP PP-LOC PP-TMP
+11.5	NP	NP PP-LOC SBAR
+15	NP	NP PP-LOC SBAR-TMP
+13.9	NP	NP PP-LOC VP
+8.45	NP	NP PP-TMP
+12.9	NP	NP PP-TMP PP
+14.5	NP	NP PP-TMP SBAR
+8.79	NP	NP PRN
+15	NP	NP PRN , NP ,
+15	NP	NP PRN , SBAR
+12.3	NP	NP PRN PUNC:
+14.7	NP	NP PRN PUNC: NP PUNC.
+12.9	NP	NP PRN PP
+14	NP	NP PRN SBAR
+15	NP	NP PRN VP
+15	NP	NP QP PUNC.
+13.9	NP	NP RRC
+14.2	NP	NP S
+12.6	NP	NP S-NOM
+6.06	NP	NP SBAR
+14.7	NP	NP SBAR , PP
+12.8	NP	NP SBAR PP
+14.3	NP	NP SBAR SBAR
+14.5	NP	NP SBAR-LOC
+13.2	NP	NP SBAR-PRP
+12.9	NP	NP SBAR-TMP
+6.51	NP	NP VP
+14.5	NP	NP VP , PP
+14.5	NP	NP VP , SBAR
+12.9	NP	NP VP PUNC.
+14.7	NP	NP VP PUNC:
+13.3	NP	NP VP SBAR
+14.5	NP	NP PUNC`` NP
+14.7	NP	NP PUNC`` NPR PUNC''
+15	NP	NP PUNC`` S PUNC''
+14.5	NP	NP PUNC`` SBAR
+14.3	NP	NP$ ADJP JJ NN
+11.4	NP	NP$ ADJP NN
+13.7	NP	NP$ ADJP NN NN
+14.2	NP	NP$ ADJP NNS
+14.5	NP	NP$ JJ ADJP NN
+15	NP	NP$ JJ JJ JJ NN
+11.2	NP	NP$ JJ JJ NN
+13.7	NP	NP$ JJ JJ NN NN
+13.6	NP	NP$ JJ JJ NNS
+8.32	NP	NP$ JJ NN
+10.6	NP	NP$ JJ NN NN
+11.9	NP	NP$ JJ NN NNS
+14.5	NP	NP$ JJ NN S
+9.97	NP	NP$ JJ NNS
+13.7	NP	NP$ JJ NNS NN
+14	NP	NP$ JJ NPR
+13.2	NP	NP$ JJ NPR NP
+14.7	NP	NP$ JJ QP NNS
+15	NP	NP$ JJR NN
+14.5	NP	NP$ JJS JJ NN
+11.7	NP	NP$ JJS NN
+13.1	NP	NP$ JJS NN NN
+15	NP	NP$ JJS NN NNS
+13.2	NP	NP$ JJS NNS
+14.7	NP	NP$ NAC-LOC NN
+6.76	NP	NP$ NN
+14.7	NP	NP$ NN JJ NN
+9.14	NP	NP$ NN NN
+12	NP	NP$ NN NN NN
+14	NP	NP$ NN NN NNS
+10.4	NP	NP$ NN NNS
+14.3	NP	NP$ NN NNS NN
+14.7	NP	NP$ NN NPR
+11	NP	NP$ NN S
+13.5	NP	NP$ NN SBAR
+8.08	NP	NP$ NNS
+12.6	NP	NP$ NNS NN
+14.3	NP	NP$ NNS NNS
+14	NP	NP$ NNS S
+14.3	NP	NP$ NNS SBAR
+14.2	NP	NP$ NP
+9.18	NP	NP$ NPR
+10.1	NP	NP$ NPR NP
+13.6	NP	NP$ NPRS
+15	NP	NP$ NPRS NP
+13.6	NP	NP$ QP JJ NNS
+13.6	NP	NP$ QP NN
+15	NP	NP$ QP NN NN
+14.7	NP	NP$ QP NN NNS
+12.4	NP	NP$ QP NNS
+13.1	NP	NP$ QPMONEY
+13.1	NP	NP$ VBG NN
+14.5	NP	NP$ VBG NN NN
+14.2	NP	NP$ VBG NNS
+12.6	NP	NP$ VBN NN
+14.7	NP	NP$ VBN NN NN
+15	NP	NP$ VBN NNS
+15	NP	NP$ PUNC`` NX PUNC''
+3.2	NP	NPR
+15	NP	NPR PUNC'' NPR
+15	NP	NPR ,
+13.2	NP	NPR , NPR
+15	NP	NPR , NPRS
+10.8	NP	NPR PUNC.
+12.9	NP	NPR PUNC. NPR
+10.9	NP	NPR PUNC:
+13	NP	NPR ADJP NNS
+14.2	NP	NPR FW NPR
+14.7	NP	NPR JJ
+10.2	NP	NPR JJ NN
+15	NP	NPR JJ NN NN NPR
+14.7	NP	NPR JJ NN NNS
+12	NP	NPR JJ NNS
+7.04	NP	NPR NP
+10.4	NP	NPR NP NPR
+15	NP	NPR PP
+13.2	NP	NPR PRN NPR
+8.74	NP	NPR QP
+10.9	NP	NPR QP , QP
+12.9	NP	NPR QP , QP ,
+14.3	NP	NPR QP NNS
+14.7	NP	NPR VBZ
+14.7	NP	NPR PUNC`` NPR PUNC'' NPR
+8.4	NP	NPRS
+14.3	NP	NPRS PUNC:
+14.2	NP	NPRS NP
+14.3	NP	NPRS NP NPR
+13.4	NP	PDT DT JJ NN
+14.5	NP	PDT DT JJ NNS
+11.4	NP	PDT DT NN
+14	NP	PDT DT NN NN
+14.5	NP	PDT DT NN NNS
+12.3	NP	PDT DT NNS
+4.03	NP	PRP
+14.5	NP	PRP NN
+14.7	NP	PRP NP
+13.6	NP	PRP$
+14.2	NP	PRP$ ADJP JJ NN
+11.9	NP	PRP$ ADJP NN
+13.9	NP	PRP$ ADJP NN NN
+14	NP	PRP$ ADJP NNS
+12.3	NP	PRP$ JJ
+15	NP	PRP$ JJ JJ JJ NN
+11.4	NP	PRP$ JJ JJ NN
+13.9	NP	PRP$ JJ JJ NN NN
+12.7	NP	PRP$ JJ JJ NNS
+8.5	NP	PRP$ JJ NN
+11.4	NP	PRP$ JJ NN NN
+14.2	NP	PRP$ JJ NN NN NN
+12	NP	PRP$ JJ NN NNS
+9.49	NP	PRP$ JJ NNS
+14	NP	PRP$ JJ NNS NN
+14.3	NP	PRP$ JJ NPR
+13.4	NP	PRP$ JJ NPR NP
+15	NP	PRP$ JJS JJ NN
+12.6	NP	PRP$ JJS NN
+14.7	NP	PRP$ JJS NNS
+6.78	NP	PRP$ NN
+9.47	NP	PRP$ NN NN
+13.4	NP	PRP$ NN NN NN
+14.2	NP	PRP$ NN NN NNS
+10.1	NP	PRP$ NN NNS
+14.7	NP	PRP$ NN NPR
+11.5	NP	PRP$ NN S
+14.3	NP	PRP$ NN SBAR
+7.87	NP	PRP$ NNS
+14	NP	PRP$ NNS NN
+14.7	NP	PRP$ NNS NNS
+14	NP	PRP$ NNS S
+13.1	NP	PRP$ NPR
+14.5	NP	PRP$ NPR JJ NN
+10.1	NP	PRP$ NPR NP
+14.2	NP	PRP$ NPR QP NN
+14.7	NP	PRP$ NPRS NP
+14.3	NP	PRP$ QP JJ NNS
+12.9	NP	PRP$ QP NN
+15	NP	PRP$ QP NN NN
+15	NP	PRP$ QP NN NNS
+12.6	NP	PRP$ QP NNS
+14	NP	PRP$ QPMONEY
+13.9	NP	PRP$ VBG NN
+15	NP	PRP$ VBG NNS
+13.6	NP	PRP$ VBN NN
+5.68	NP	QP
+15	NP	QP ADJP JJ JJ NN NNS
+15	NP	QP ADJP NNS
+15	NP	QP JJ
+13.5	NP	QP JJ JJ NNS
+11.3	NP	QP JJ NN
+14.3	NP	QP JJ NN NN
+12.3	NP	QP JJ NN NNS
+8.97	NP	QP JJ NNS
+13.3	NP	QP JJ NPR NP
+14.3	NP	QP JJR NNS
+5.67	NP	QP NN
+11.2	NP	QP NN NN
+12.9	NP	QP NN NN NNS
+10.6	NP	QP NN NNS
+15	NP	QP NN NPR
+5.91	NP	QP NNS
+14.5	NP	QP NNS NNS
+12.2	NP	QP NP
+13.2	NP	QP NPR
+14.7	NP	QP NPR JJ NNS
+10.6	NP	QP NPR NP
+14.5	NP	QP NPRS
+14.3	NP	QP PP
+13.2	NP	QP RB
+12.9	NP	QP RB PUNC.
+14.2	NP	QP VBN NNS
+5.6	NP	QPMONEY
+10.2	NP	RB
+12.6	NP	RB DT
+14	NP	RB DT ADJP NN
+12	NP	RB DT JJ NN
+13.2	NP	RB DT JJ NNS
+11.4	NP	RB DT NN
+14.7	NP	RB DT NN NN
+13.9	NP	RB DT NNS
+14.7	NP	RB DT NPR
+12.2	NP	RB JJ
+12.9	NP	RB JJ NN
+12.8	NP	RB JJ NNS
+13.9	NP	RB JJR
+11.7	NP	RB NN
+15	NP	RB NN NNS
+13.1	NP	RB NNS
+13.3	NP	RB NPR
+12.9	NP	RB QP
+13	NP	RB QP NN
+12.6	NP	RB QP NNS
+13.6	NP	RB RB
+15	NP	RB VBN NNS
+13.5	NP	RBR
+14.3	NP	RBS
+14.7	NP	RBS JJ NNS
+15	NP	S
+15	NP	SBAR-NOM PUNC: NP
+14	NP	SYM
+11.8	NP	VB
+15	NP	VB NN
+11.1	NP	VBG
+14.3	NP	VBG JJ NN
+13.6	NP	VBG JJ NNS
+11.3	NP	VBG NN
+15	NP	VBG NN NN
+12.6	NP	VBG NN NNS
+10.2	NP	VBG NNS
+15	NP	VBG NPR NP
+14.7	NP	VBN
+13.4	NP	VBN JJ NN
+13.6	NP	VBN JJ NNS
+11	NP	VBN NN
+14.3	NP	VBN NN NN
+12.6	NP	VBN NN NNS
+10.6	NP	VBN NNS
+14.3	NP	VBN NPR NP
+12.2	NP	WDT
+14.5	NP	PUNC`` JJ PUNC'' NN
+13.6	NP	PUNC`` JJ PUNC'' NNS
+13.4	NP	PUNC`` NP PUNC'' PP
+14.3	NP	PUNC`` NP , PUNC'' NP
+14.7	NP	PUNC`` NPR PUNC'' PRN
+14.5	NP	PUNC`` NPR , PUNC'' NP
+0	NP$	NP POS
+5.16	NP-ADV	DT
+6.94	NP-ADV	DT JJ
+5.84	NP-ADV	DT JJ NN
+0.437	NP-ADV	DT NN
+6.58	NP-ADV	DT RB
+4.75	NP-ADV	NP PP
+5.84	NP-ADV	NP SBAR
+7.43	NP-ADV	NP VP
+6.43	NP-ADV	PRP
+5.94	NP-ADV	QP
+4.14	NP-ADV	QP NN
+4.62	NP-ADV	QP NNS
+6.43	NP-ADV	QPMONEY
+2.18	NP-LOC	NP , NP
+3.49	NP-LOC	NP , NP ,
+5.44	NP-LOC	NP , NP PUNC.
+5.44	NP-LOC	NP PP
+0.951	NP-LOC	NPR
+6.12	NP-LOC	NPR , NPR
+3.64	NP-LOC	NPR PUNC.
+4.98	NP-LOC	RB
+9.38	NP-PRD	ADJP NN
+8.9	NP-PRD	DT
+9.12	NP-PRD	DT ADJP
+6.53	NP-PRD	DT ADJP NN
+8.7	NP-PRD	DT JJ
+9.12	NP-PRD	DT JJ , JJ NN
+7.31	NP-PRD	DT JJ JJ NN
+3.8	NP-PRD	DT JJ NN
+7.24	NP-PRD	DT JJ NN NN
+8.38	NP-PRD	DT JJ NN SBAR
+9.38	NP-PRD	DT JJ NNS
+9.12	NP-PRD	DT JJ NPR NP
+9.38	NP-PRD	DT JJ QP
+8.53	NP-PRD	DT JJ QP NNS
+4.05	NP-PRD	DT NN
+6.21	NP-PRD	DT NN NN
+9.38	NP-PRD	DT NN NN NN
+8.7	NP-PRD	DT NN S
+7.38	NP-PRD	DT NN SBAR
+8.53	NP-PRD	DT NNS
+8	NP-PRD	DT NPR
+7.7	NP-PRD	DT NPR NP
+8.9	NP-PRD	DT VBG NN
+9.12	NP-PRD	DT PUNC`` JJ PUNC'' NN
+9.38	NP-PRD	DT PUNC`` JJ NN PUNC''
+9.12	NP-PRD	DT PUNC`` NN
+9.12	NP-PRD	JJ
+6.15	NP-PRD	JJ NN
+9.38	NP-PRD	JJ NN NNS
+6.66	NP-PRD	JJ NNS
+8.53	NP-PRD	JJR
+5.13	NP-PRD	NN
+6.9	NP-PRD	NN NN
+6.8	NP-PRD	NN NNS
+6.53	NP-PRD	NNS
+9.12	NP-PRD	NNS SBAR
+8.9	NP-PRD	NP , ADJP
+7.8	NP-PRD	NP , ADVP
+6.18	NP-PRD	NP , NP
+8.53	NP-PRD	NP , PP
+7.06	NP-PRD	NP , SBAR
+8.7	NP-PRD	NP , VP
+7.62	NP-PRD	NP PUNC: NP
+6.85	NP-PRD	NP ADJP
+8.7	NP-PRD	NP ADVP
+9.38	NP-PRD	NP NP
+8.53	NP-PRD	NP NP-ADV
+1.64	NP-PRD	NP PP
+8.9	NP-PRD	NP PP , SBAR
+6.9	NP-PRD	NP PP PP
+7.46	NP-PRD	NP PP PP-LOC
+9.12	NP-PRD	NP PP PP-TMP
+9.12	NP-PRD	NP PP S
+6.53	NP-PRD	NP PP SBAR
+8.53	NP-PRD	NP PP VP
+4.99	NP-PRD	NP PP-LOC
+8.9	NP-PRD	NP PP-LOC PP
+7.9	NP-PRD	NP PP-LOC SBAR
+7.24	NP-PRD	NP PP-TMP
+8.9	NP-PRD	NP PRN
+3.41	NP-PRD	NP SBAR
+9.12	NP-PRD	NP SBAR-TMP
+5.09	NP-PRD	NP VP
+8.53	NP-PRD	NP$ JJ NN
+9.38	NP-PRD	NP$ JJ NN NN
+8.7	NP-PRD	NP$ JJS NN
+9.12	NP-PRD	NP$ JJS NN NN
+7.62	NP-PRD	NP$ NN
+5.49	NP-PRD	NPR
+9.12	NP-PRD	NPRS
+9.38	NP-PRD	PRP$ JJ NN
+7.31	NP-PRD	PRP$ NN
+7.31	NP-PRD	QP
+9.38	NP-PRD	QP JJ NNS
+6.24	NP-PRD	QP NN
+6.62	NP-PRD	QP NNS
+4.91	NP-PRD	QPMONEY
+8.7	NP-PRD	RB DT JJ NN
+8.9	NP-PRD	RB DT NN
+8.85	NP-TMP	ADVP DT NN
+6.31	NP-TMP	DT JJ NN
+2.95	NP-TMP	DT NN
+9.12	NP-TMP	DT NN NN
+7.05	NP-TMP	DT NNS
+6.58	NP-TMP	IN NN
+7.85	NP-TMP	IN NPR
+7.19	NP-TMP	JJ JJ NN
+2.53	NP-TMP	JJ NN
+9.12	NP-TMP	JJ NNS
+4.7	NP-TMP	JJ NPR
+8.44	NP-TMP	JJ NPR QP
+2.31	NP-TMP	NN
+8.44	NP-TMP	NN NN
+7.35	NP-TMP	NP , NP
+7.35	NP-TMP	NP , SBAR
+8.27	NP-TMP	NP ADVP
+8.27	NP-TMP	NP NP-ADV
+7.05	NP-TMP	NP PP
+7.12	NP-TMP	NP SBAR
+2.88	NP-TMP	NPR
+7.05	NP-TMP	NPR NP
+3.32	NP-TMP	NPR QP
+4.87	NP-TMP	NPR QP , QP
+9.12	NP-TMP	NPR QP , QP ,
+9.12	NP-TMP	NPR QP , QP PUNC:
+5.74	NP-TMP	QP
+8.12	NP-TMP	QP NN
+6.19	NP-TMP	QP NNS
+7.53	NP-TMP	RB
+6.44	NP-TMP	RB DT NN
+7.05	NP-TMP	RB JJ NN
+8.27	NP-TMP	RB NN
+8.27	NP-TMP	RB NPR
+5.53	NP-TMP	RBR DT NN
+12.1	NPR	DT NPR
+0.901	NPR	NNP
+1.61	NPR	NNP NNP
+3.59	NPR	NNP NNP NNP
+4.99	NPR	NNP NNP NNP NNP
+7.18	NPR	NNP NNP NNP NNP NNP
+9.35	NPR	NNP NNP NNP NNP NNP NNP
+11.9	NPR	NNP NNP NNP NNP NNP NNP NNP
+10.4	NPR	NNP NNP NNP NNPS NNP
+8.55	NPR	NNP NNP NNPS NNP
+12.5	NPR	NNP NNP NNPS NNP NNP
+7.44	NPR	NNP NNPS NNP
+9.96	NPR	NNP NNPS NNP NNP
+9.7	NPR	NNPS NNP
+10.2	NPR	NNPS NNP NNP
+12.5	NPR	NNPS NNP NNP NNP
+11	NPR	NP PP
+12.3	NPR	NPRS
+5.21	NPRS	NNP NNP NNP NNPS
+3.58	NPRS	NNP NNP NNPS
+1.23	NPRS	NNP NNPS
+1.17	NPRS	NNPS
+5.79	NPRS	NNPS NNPS
+0	NX	NPR
+0.894	PDT	all
+2.57	PDT	half
+1.77	PDT	such
+3.72	POS	'
+0.114	POS	's
+8.37	PP	ADVP IN NP
+10.1	PP	ADVP IN PP
+12.5	PP	ADVP IN S-NOM
+11.2	PP	ADVP TO NP
+12.7	PP	FW NP
+8.49	PP	IN
+12.5	PP	IN PUNC'' NP
+8.8	PP	IN ADJP
+10.5	PP	IN ADVP
+9.22	PP	IN ADVP-TMP
+0.377	PP	IN NP
+13	PP	IN NP ADVP
+8.49	PP	IN NP ADVP-TMP
+9.27	PP	IN NP NP-TMP
+12.7	PP	IN NP PP
+8.78	PP	IN NP PP-TMP
+10.8	PP	IN NP$
+11.4	PP	IN NP-LOC
+10.5	PP	IN NP-TMP
+6.72	PP	IN PP
+11.3	PP	IN PP-LOC
+10.7	PP	IN PP-TMP
+13	PP	IN PRN NP
+4.92	PP	IN S-NOM
+8.9	PP	IN SBAR
+8.52	PP	IN SBAR-NOM
+13	PP	IN PUNC`` ADJP
+9.46	PP	IN PUNC`` NP
+11.7	PP	IN PUNC`` NP PUNC''
+11.6	PP	IN PUNC`` NPR
+12.5	PP	IN PUNC`` NPR PUNC''
+8.69	PP	JJ IN NP
+12.7	PP	JJ TO NP
+11	PP	NP IN NP
+11.5	PP	NP-ADV IN NP
+13	PP	NPR NP
+12.5	PP	PP , PP
+12.7	PP	PP , RB PP
+9	PP	PP PP
+12.7	PP	RB
+12.3	PP	RB ADJP
+9.04	PP	RB IN NP
+12.3	PP	RB IN PP
+10.5	PP	RB IN S-NOM
+11.6	PP	RB PP
+12.7	PP	RP
+11.7	PP	RP NP
+12	PP	TO
+11.7	PP	TO ADJP
+2.96	PP	TO NP
+12.5	PP	TO NP NP-TMP
+10.2	PP	TO NP PP-TMP
+13	PP	TO NP$
+8.93	PP	TO S-NOM
+11.6	PP	TO SBAR-NOM
+12.7	PP	TO PUNC`` NP
+7.7	PP	VBG NP
+7.36	PP	VBG PP
+13	PP	VBG S-NOM
+11.2	PP	VBN NP
+7.88	PP	VBN PP
+12.1	PP	VBN SBAR
+7.02	PP-LOC	ADVP IN NP
+0.0329	PP-LOC	IN NP
+10	PP-LOC	IN NP PUNC:
+10.5	PP-LOC	IN NP$
+9.27	PP-LOC	IN PP
+7.05	PP-LOC	IN S-NOM
+10	PP-LOC	IN SBAR-NOM
+10.5	PP-LOC	NP IN NP
+10.3	PP-LOC	NP-ADV IN NP
+10.3	PP-LOC	RB IN NP
+10.3	PP-LOC	TO NP
+5.13	PP-LOC-PRD	ADVP IN NP
+0.0417	PP-LOC-PRD	IN NP
+4.98	PP-PRD	ADVP IN NP
+0.278	PP-PRD	IN NP
+3.98	PP-PRD	IN PP
+4.49	PP-PRD	IN S-NOM
+6.3	PP-PRD	JJ NP
+6.56	PP-PRD	RB IN NP
+6.3	PP-PRD	TO NP
+0	PP-PRD-LOC	IN NP
+6.76	PP-TMP	ADVP IN NP
+9.57	PP-TMP	ADVP IN S-NOM
+9.57	PP-TMP	IN ADJP
+7.38	PP-TMP	IN ADVP
+0.147	PP-TMP	IN NP
+6.42	PP-TMP	IN PP
+5.01	PP-TMP	IN S-NOM
+10.1	PP-TMP	IN SBAR
+8.47	PP-TMP	NP IN NP
+9.05	PP-TMP	PP , PP
+7.17	PP-TMP	PP PP
+7.85	PP-TMP	RB IN NP
+10.1	PP-TMP	RB PP
+10.1	PP-TMP	RB S-NOM
+8.79	PP-TMP	TO NP
+6.19	PP-TMP	VBG NP
+9.57	PP-TMP	VBG PP
+0	PP-TMP-PRD	IN NP
+5.61	PRN	, PUNC'' S ,
+6.61	PRN	, PUNC'' S , PUNC``
+6.75	PRN	, PUNC'' SINV ,
+7.07	PRN	, PUNC'' SINV , PUNC``
+6.61	PRN	, ADVP ,
+6.07	PRN	, NP VP ,
+5.17	PRN	, PP ,
+6.61	PRN	, S
+1.87	PRN	, S ,
+7.49	PRN	, SBAR ,
+6.61	PRN	, SBAR-ADV ,
+5.61	PRN	, SINV ,
+6.17	PRN	PUNC-LRB- ADJP PUNC-RRB-
+7.75	PRN	PUNC-LRB- ADVP PUNC-RRB-
+7.27	PRN	PUNC-LRB- JJ PUNC-RRB-
+7.49	PRN	PUNC-LRB- NN PUNC-RRB-
+7.75	PRN	PUNC-LRB- NP , NP , NP PUNC-RRB-
+5.12	PRN	PUNC-LRB- NP , NP-LOC PUNC-RRB-
+1.9	PRN	PUNC-LRB- NP PUNC-RRB-
+4.68	PRN	PUNC-LRB- NP-LOC PUNC-RRB-
+7.75	PRN	PUNC-LRB- NP-TMP PUNC-RRB-
+6.75	PRN	PUNC-LRB- NPR PUNC-RRB-
+7.27	PRN	PUNC-LRB- NPR PUNC. PUNC-RRB-
+5.83	PRN	PUNC-LRB- PP PUNC-RRB-
+5.68	PRN	PUNC-LRB- S PUNC-RRB-
+7.75	PRN	PUNC-LRB- SBAR PUNC-RRB-
+5.99	PRN	PUNC-LRB- VP PUNC-RRB-
+7.07	PRN	PUNC: NP
+4.55	PRN	PUNC: NP PUNC:
+6.07	PRN	PUNC: PP PUNC:
+5.99	PRN	PUNC: S PUNC:
+7.49	PRN	PUNC: S-ADV PUNC:
+6.07	PRN	PUNC: SBAR PUNC:
+6.49	PRN	S
+6.17	PRN	S ,
+7.49	PRN	SINV
+10.7	PRP	's
+8.01	PRP	He
+5.17	PRP	It
+10.7	PRP	She
+7.03	PRP	They
+5	PRP	We
+7.13	PRP	You
+2.26	PRP	he
+7.57	PRP	her
+9.98	PRP	herself
+5.95	PRP	him
+7.71	PRP	himself
+3.76	PRP	i
+1.71	PRP	it
+6.74	PRP	itself
+7.11	PRP	me
+10.5	PRP	myself
+8.54	PRP	one
+5.09	PRP	she
+4.89	PRP	them
+7.57	PRP	themselves
+3.08	PRP	they
+6.45	PRP	us
+4.36	PRP	we
+4.71	PRP	you
+10.5	PRP	yourself
+8.01	PRP$	My
+7.29	PRP$	Our
+9.29	PRP$	Their
+4.7	PRP$	her
+2.24	PRP$	his
+1.1	PRP$	its
+5.23	PRP$	my
+4.61	PRP$	our
+2.49	PRP$	their
+5.24	PRP$	your
+5.29	PRT	IN
+5.21	PRT	RB
+0.0777	PRT	RP
+8.24	QP	:pound: QP
+0.526	QP	CD
+2.12	QP	CD CD
+8.91	QP	DT QP
+8.51	QP	IN JJS QP
+6.35	QP	IN QP
+11.7	QP	IN QP NN PP
+10.3	QP	IN TO QP
+10.6	QP	JJ QP
+11.7	QP	JJR IN DT
+11.3	QP	JJR IN NN
+6.96	QP	JJR IN QP
+11.3	QP	QP JJR
+7.7	QP	QP NN PP
+10.6	QP	QP NNS
+6.92	QP	QP PP
+11.1	QP	RB :pound: QP
+10.5	QP	RB DT
+11.1	QP	RB DT JJ
+11.1	QP	RB IN QP
+8.36	QP	RB JJ IN QP
+11.5	QP	RB JJR IN QP
+11.7	QP	RB NN
+11.9	QP	RB PDT
+5.7	QP	RB QP
+11.9	QP	RB QP NNS
+10.3	QP	RB QP PP
+11.5	QP	RB RB
+11.3	QP	RB RB IN QP
+10.9	QP	RB RB QP
+11.7	QP	RBR IN DT
+8.87	QP	RBR IN QP
+11.9	QP	TO QP
+0.169	QPMONEY	PUNC$ QP
+8.39	QPMONEY	DT QPMONEY
+9.03	QPMONEY	IN JJS QPMONEY
+4.99	QPMONEY	IN QPMONEY
+9.03	QPMONEY	IN QPMONEY PP
+8.74	QPMONEY	IN TO QPMONEY
+5.82	QPMONEY	JJR IN QPMONEY
+6.45	QPMONEY	QPMONEY PP
+8.29	QPMONEY	RB JJ IN QPMONEY
+4.97	QPMONEY	RB QPMONEY
+9.62	QPMONEY	RB QPMONEY PP
+9.2	QPMONEY	RB TO QPMONEY
+8.62	QPMONEY	RBR IN QPMONEY
+10.6	RB	Even
+10.6	RB	Just
+11.2	RB	Maybe
+11.7	RB	Never
+10.6	RB	Not
+10.6	RB	Now
+11	RB	Obviously
+11.4	RB	Once
+11.7	RB	So
+11.4	RB	Sometimes
+11.7	RB	Then
+9.49	RB	a.m
+10.8	RB	a.m.
+5.56	RB	about
+9.84	RB	abroad
+11.7	RB	abruptly
+10.2	RB	absolutely
+11	RB	actively
+8.34	RB	actually
+11.2	RB	adequately
+10.4	RB	after
+11.7	RB	afterward
+7.19	RB	again
+10.4	RB	aggressively
+6.26	RB	ago
+8.03	RB	ahead
+9.2	RB	all
+10.6	RB	allegedly
+7.12	RB	almost
+8.43	RB	alone
+9.92	RB	along
+6.5	RB	already
+4.11	RB	also
+11.2	RB	altogether
+8.23	RB	always
+8.92	RB	annually
+11.4	RB	anymore
+11.7	RB	anytime
+10.2	RB	anyway
+10.7	RB	anywhere
+10.7	RB	apart
+11	RB	apiece
+8.31	RB	apparently
+10	RB	approximately
+8.88	RB	around
+5.63	RB	as
+9.92	RB	aside
+11	RB	automatically
+8.18	RB	away
+6.61	RB	back
+9.55	RB	badly
+9.92	RB	barely
+10.1	RB	basically
+9.49	RB	because
+8.73	RB	before
+11.7	RB	behind
+11.7	RB	below
+11.2	RB	best
+10.8	RB	better
+11.7	RB	bitterly
+11	RB	broadly
+11.2	RB	carefully
+8.73	RB	certainly
+8.65	RB	clearly
+9.69	RB	close
+8.06	RB	closely
+11.7	RB	commonly
+10.2	RB	completely
+11.7	RB	consequently
+11.2	RB	considerably
+10.3	RB	consistently
+11.2	RB	constantly
+6.91	RB	currently
+10.3	RB	daily
+11.7	RB	deeply
+11.7	RB	definitely
+11.7	RB	deliberately
+7.97	RB	directly
+11.4	RB	double
+5.9	RB	down
+11.7	RB	downward
+10.8	RB	due
+7.99	RB	earlier
+8.01	RB	early
+10.1	RB	easily
+11.7	RB	easy
+9.92	RB	effectively
+10.2	RB	either
+9.01	RB	else
+10.1	RB	elsewhere
+8.46	RB	enough
+10.7	RB	entirely
+11.7	RB	environmentally
+11.4	RB	equally
+7.74	RB	especially
+9.76	RB	essentially
+5.33	RB	even
+8.8	RB	eventually
+7.69	RB	ever
+11.4	RB	everywhere
+9.37	RB	exactly
+11.7	RB	exceptionally
+11.7	RB	exclusively
+9.26	RB	extremely
+9.15	RB	fairly
+6.66	RB	far
+10.2	RB	fast
+11.7	RB	federally
+8.84	RB	finally
+10.8	RB	financially
+7.99	RB	first
+11.4	RB	forever
+11	RB	formally
+10.1	RB	formerly
+10.3	RB	forward
+11.7	RB	fractionally
+11.4	RB	freely
+10.6	RB	frequently
+8.55	RB	fully
+9.01	RB	further
+11.7	RB	furthermore
+8.01	RB	generally
+10.8	RB	gradually
+10.6	RB	greatly
+10	RB	hard
+9.84	RB	hardly
+9.37	RB	heavily
+6.54	RB	here
+11	RB	high
+8.49	RB	highly
+11.2	RB	historically
+11.4	RB	hopefully
+5.71	RB	however
+10.6	RB	illegally
+8.8	RB	immediately
+9.15	RB	in
+11	RB	incorrectly
+8.76	RB	increasingly
+7.84	RB	indeed
+11.7	RB	indirectly
+11.4	RB	inevitably
+9.55	RB	initially
+7.76	RB	instead
+11.2	RB	jointly
+5.54	RB	just
+8.15	RB	largely
+10.8	RB	last
+8.1	RB	late
+10.6	RB	lately
+7.62	RB	later
+9.55	RB	likely
+11.4	RB	likewise
+11.7	RB	literally
+8.8	RB	little
+7.88	RB	long
+9.06	RB	longer
+9.43	RB	mainly
+9.37	RB	maybe
+7.13	RB	meanwhile
+9.55	RB	merely
+11.2	RB	moderately
+10	RB	modestly
+11.7	RB	monthly
+8.1	RB	moreover
+8.62	RB	mostly
+6.57	RB	much
+3.06	RB	n't
+11.4	RB	narrowly
+11.2	RB	nationally
+11.4	RB	naturally
+11.7	RB	nearby
+6.97	RB	nearly
+11	RB	necessarily
+11.7	RB	nervously
+7.3	RB	never
+9.2	RB	nevertheless
+9.43	RB	newly
+11.2	RB	next
+8.23	RB	no
+10.7	RB	nonetheless
+9.37	RB	normally
+4.62	RB	not
+11.2	RB	notably
+5.06	RB	now
+11.7	RB	obviously
+10.3	RB	occasionally
+8.03	RB	off
+10.2	RB	officially
+7.46	RB	often
+10.4	RB	on
+7.58	RB	once
+5.36	RB	only
+11.2	RB	openly
+11.2	RB	ordinarily
+10.6	RB	originally
+9.49	RB	otherwise
+8.52	RB	out
+10.1	RB	over
+10.6	RB	overall
+11.4	RB	overly
+10	RB	overseas
+11.4	RB	p.m
+11.2	RB	p.m.
+11.7	RB	partially
+7.99	RB	particularly
+8.31	RB	partly
+10.7	RB	perfectly
+8.18	RB	perhaps
+10.8	RB	politically
+9.62	RB	possibly
+10.1	RB	potentially
+11.4	RB	precisely
+11.7	RB	presumably
+8.97	RB	pretty
+7.55	RB	previously
+9.1	RB	primarily
+9.37	RB	prior
+9.01	RB	privately
+7.54	RB	probably
+11.2	RB	promptly
+11	RB	properly
+8.62	RB	publicly
+8.13	RB	quickly
+11.2	RB	quietly
+9.01	RB	quite
+9.62	RB	rapidly
+10.8	RB	rarely
+8.28	RB	rather
+11.7	RB	real
+7.54	RB	really
+11	RB	reasonably
+6.86	RB	recently
+10.8	RB	regardless
+8.23	RB	relatively
+11.2	RB	repeatedly
+10	RB	reportedly
+8.49	RB	right
+8.58	RB	roughly
+11.2	RB	routinely
+11.7	RB	safely
+9.76	RB	seasonally
+8.88	RB	separately
+10.6	RB	seriously
+8.26	RB	sharply
+11.2	RB	short
+9.37	RB	shortly
+9.15	RB	significantly
+10.3	RB	similarly
+7.97	RB	simply
+7.46	RB	slightly
+11.4	RB	slowly
+5.68	RB	so
+10.7	RB	solely
+10.6	RB	some
+11.2	RB	somehow
+11	RB	sometime
+8.73	RB	sometimes
+10	RB	somewhat
+10.8	RB	somewhere
+7.55	RB	soon
+11.4	RB	south
+10.3	RB	specifically
+10.3	RB	steadily
+5.81	RB	still
+10	RB	strongly
+11.7	RB	subsequently
+8.92	RB	substantially
+10.7	RB	successfully
+9.76	RB	suddenly
+11.4	RB	supposedly
+11.4	RB	sure
+11	RB	surely
+10.1	RB	surprisingly
+10.1	RB	temporarily
+11.7	RB	tenfold
+10.8	RB	tentatively
+10	RB	that
+6.47	RB	then
+8.06	RB	there
+11.4	RB	thereafter
+11.4	RB	therefore
+8.43	RB	though
+11.2	RB	through
+8.34	RB	thus
+11.4	RB	tight
+8.97	RB	together
+6.6	RB	too
+10	RB	totally
+10.6	RB	traditionally
+9.31	RB	twice
+8.92	RB	typically
+10.6	RB	ultimately
+11	RB	unanimously
+11	RB	unexpectedly
+11.4	RB	unfairly
+10.6	RB	unfortunately
+11.7	RB	unsuccessfully
+10.6	RB	unusually
+5.52	RB	up
+10.8	RB	upward
+8.58	RB	usually
+6.37	RB	very
+9.15	RB	virtually
+11.7	RB	voluntarily
+6.79	RB	well
+8.34	RB	widely
+11.4	RB	wildly
+11.2	RB	world-wide
+11.2	RB	yesterday
+7.1	RB	yet
+4.88	RBR	better
+6.66	RBR	closer
+2.03	RBR	earlier
+6.51	RBR	faster
+4.74	RBR	further
+6.83	RBR	harder
+4.88	RBR	higher
+6.02	RBR	later
+3.92	RBR	less
+5.37	RBR	longer
+4.79	RBR	lower
+1.08	RBR	more
+7.25	RBR	worse
+4.52	RBS	best
+0.0641	RBS	most
+7.23	RP	about
+7.4	RP	along
+6.81	RP	around
+7.81	RP	aside
+5.87	RP	away
+4.9	RP	back
+7.81	RP	by
+3.68	RP	down
+3.86	RP	in
+3.03	RP	off
+4.56	RP	on
+2.23	RP	out
+4.46	RP	over
+6.49	RP	through
+7.59	RP	together
+1.59	RP	up
+0.874	RRC	ADVP-TMP NP
+1.14	RRC	ADVP-TMP PP-LOC
+12.5	S	PUNC-LRB- NP PUNC-RRB- VP
+13.2	S	PUNC-LRB- NP VP PUNC.
+10.1	S	PUNC-LRB- NP VP PUNC. PUNC-RRB-
+12.5	S	PUNC-LRB- PP-TMP , NP VP PUNC. PUNC-RRB-
+13.2	S	, PP , VP
+9.08	S	ADJP-PRD
+9.08	S	ADVP VP
+13.2	S	ADVP-PRD
+9	S	ADVP-TMP VP
+7.9	S	NP-PRD
+11.9	S	NP-TMP VP
+11.4	S	PP VP
+12.9	S	PP-PRD
+11.4	S	PP-TMP VP
+13.2	S	PRN VP
+10.3	S	RB VP
+2.3	S	VP
+9.15	S	VP PUNC.
+12.7	S	VP PUNC:
+11.3	S	PUNC`` NP-PRD
+13.2	S	PUNC`` NP-PRD PUNC''
+13.2	S	PUNC`` NPR-PRD
+11.7	S	PUNC: NP VP PUNC.
+13.2	S	PUNC: SBAR-ADV , NP VP PUNC.
+13.2	S	ADJP , NP VP PUNC.
+12.3	S	ADVP , NP ADVP VP PUNC.
+12.5	S	ADVP , NP ADVP-TMP VP PUNC.
+11.3	S	ADVP , NP VP
+6.48	S	ADVP , NP VP PUNC.
+11	S	ADVP , NP VP PUNC. PUNC''
+11.4	S	ADVP , PP , NP VP PUNC.
+12.9	S	ADVP , PP-LOC , NP VP PUNC.
+13.2	S	ADVP , SBAR-TMP , NP VP PUNC.
+11.4	S	ADVP NP VP
+9.5	S	ADVP NP VP PUNC.
+11.3	S	ADVP PRN NP VP PUNC.
+11.5	S	ADVP-LOC , NP VP PUNC.
+13.2	S	ADVP-LOC NP VP PUNC.
+12	S	ADVP-TMP , ADVP , NP VP PUNC.
+12.7	S	ADVP-TMP , NP ADVP VP PUNC.
+11.3	S	ADVP-TMP , NP VP
+7.58	S	ADVP-TMP , NP VP PUNC.
+12.7	S	ADVP-TMP , NP VP PUNC. PUNC''
+12.2	S	ADVP-TMP , PP , NP VP PUNC.
+11.8	S	ADVP-TMP , PP-TMP , NP VP PUNC.
+11.4	S	ADVP-TMP NP VP
+9.08	S	ADVP-TMP NP VP PUNC.
+13.2	S	ADVP-TMP NP VP PUNC. PUNC''
+12	S	ADVP-TMP PRN NP VP PUNC.
+10.8	S	IN NP VP PUNC.
+12	S	INTJ , NP VP PUNC.
+12.3	S	LST VP PUNC.
+12.2	S	NP , ADVP , VP
+9.26	S	NP , ADVP , VP PUNC.
+11.2	S	NP , ADVP-TMP , VP PUNC.
+12.9	S	NP , NP VP PUNC.
+11	S	NP , PP , VP
+8.74	S	NP , PP , VP PUNC.
+12	S	NP , PP-LOC , VP PUNC.
+12.5	S	NP , PP-TMP , VP PUNC.
+12.7	S	NP , S-ADV , VP
+9.5	S	NP , S-ADV , VP PUNC.
+12.7	S	NP , SBAR-ADV , VP
+12.3	S	NP , SBAR-ADV , VP PUNC.
+12.5	S	NP , VP
+10.7	S	NP , VP PUNC.
+13.2	S	NP
+8.02	S	NP ADJP-PRD
+11.8	S	NP ADJP-PRD S
+11.7	S	NP ADJP-PRD SBAR
+7.82	S	NP ADVP VP
+6.18	S	NP ADVP VP PUNC.
+11	S	NP ADVP VP PUNC. PUNC''
+11.9	S	NP ADVP-PRD
+8	S	NP ADVP-TMP VP
+7.5	S	NP ADVP-TMP VP PUNC.
+12.9	S	NP ADVP-TMP VP PUNC. PUNC''
+12.9	S	NP NP VP PUNC.
+8.82	S	NP NP-PRD
+11.5	S	NP NP-TMP VP
+9.8	S	NP NP-TMP VP PUNC.
+12.9	S	NP PP VP PUNC.
+12.7	S	NP PP-LOC VP PUNC.
+11.5	S	NP PP-LOC-PRD
+10.9	S	NP PP-PRD
+12	S	NP PP-TMP VP
+11.3	S	NP PP-TMP VP PUNC.
+12	S	NP PRN VP
+8.96	S	NP PRN VP PUNC.
+11.6	S	NP PRN VP PUNC. PUNC''
+12.5	S	NP PRN PUNC`` VP PUNC.
+12.9	S	NP PRN PUNC`` VP PUNC. PUNC''
+1.85	S	NP VP
+1.88	S	NP VP PUNC.
+6.42	S	NP VP PUNC. PUNC''
+12.5	S	NP VP PUNC. PUNC'' PUNC''
+13.2	S	NP VP PUNC. PUNC-RRB-
+11.2	S	NP VP PUNC:
+11	S	NP VP PUNC: PUNC.
+12.9	S	NP VP PP
+11.2	S	NP PUNC`` ADJP-PRD
+12.9	S	NP PUNC`` NP-PRD
+9.31	S	NP PUNC`` VP
+12.9	S	NP PUNC`` VP PUNC.
+11.8	S	NP$ VP
+11.5	S	NP$ VP PUNC.
+13.2	S	NP-ADV , NP VP PUNC.
+12.7	S	NP-TMP , NP VP
+8.02	S	NP-TMP , NP VP PUNC.
+12.5	S	NP-TMP , NP VP PUNC. PUNC''
+12.9	S	NP-TMP , PP-LOC , NP VP PUNC.
+12.9	S	NP-TMP , SBAR-TMP , NP VP PUNC.
+12.3	S	NP-TMP NP VP
+10.8	S	NP-TMP NP VP PUNC.
+12.9	S	NPR VP PUNC.
+12.5	S	PP , VP
+11.2	S	PP , ADVP , NP VP PUNC.
+11	S	PP , NP ADVP VP PUNC.
+11.3	S	PP , NP ADVP-TMP VP PUNC.
+13.2	S	PP , NP NP-TMP VP PUNC.
+9.44	S	PP , NP VP
+5.92	S	PP , NP VP PUNC.
+10.9	S	PP , NP VP PUNC. PUNC''
+13.2	S	PP , PP , NP VP PUNC.
+12.7	S	PP , SBAR-ADV , NP VP PUNC.
+10.9	S	PP NP VP
+10.4	S	PP NP VP PUNC.
+11	S	PP PRN NP VP PUNC.
+12.9	S	PP-LOC , ADVP , NP VP PUNC.
+11.6	S	PP-LOC , NP ADVP VP PUNC.
+12.9	S	PP-LOC , NP ADVP-TMP VP PUNC.
+10.8	S	PP-LOC , NP VP
+6.54	S	PP-LOC , NP VP PUNC.
+10.7	S	PP-LOC , NP VP PUNC. PUNC''
+12.5	S	PP-LOC , PP , NP VP PUNC.
+13.2	S	PP-LOC PUNC: NP VP PUNC.
+11.7	S	PP-LOC NP VP
+10.2	S	PP-LOC NP VP PUNC.
+8.79	S	PP-LOC NP-TMP , NP VP PUNC.
+12.9	S	PP-LOC NP-TMP PP-LOC , NP VP PUNC.
+11.9	S	PP-LOC PP-LOC , NP VP PUNC.
+11.6	S	PP-LOC PP-LOC NP-TMP , NP VP PUNC.
+13.2	S	PP-LOC PRN NP VP PUNC.
+11.3	S	PP-TMP , ADVP , NP VP PUNC.
+12.5	S	PP-TMP , NP ADVP VP PUNC.
+12.7	S	PP-TMP , NP ADVP-TMP VP PUNC.
+10.2	S	PP-TMP , NP VP
+6.33	S	PP-TMP , NP VP PUNC.
+12	S	PP-TMP , NP VP PUNC. PUNC''
+11.7	S	PP-TMP , PP , NP VP PUNC.
+13.2	S	PP-TMP , PP-TMP , NP VP PUNC.
+12.3	S	PP-TMP , SBAR-TMP , NP VP PUNC.
+10.6	S	PP-TMP NP VP
+9.75	S	PP-TMP NP VP PUNC.
+12.7	S	PP-TMP NP-TMP , NP VP PUNC.
+11.9	S	PP-TMP PRN NP VP PUNC.
+11.7	S	RB NP VP PUNC.
+13.2	S	S , IN S
+12.2	S	S , IN S PUNC.
+11.5	S	S , NP VP PUNC.
+12.5	S	S , S PUNC.
+11.4	S	S PUNC: S
+7.25	S	S PUNC: S PUNC.
+11.7	S	S PUNC: S PUNC. PUNC''
+12.9	S	S PUNC: S PUNC: S PUNC.
+12.5	S	S PUNC: PUNC`` S PUNC. PUNC''
+12.3	S	S-ADV , NP ADVP VP PUNC.
+12.9	S	S-ADV , NP ADVP-TMP VP PUNC.
+8.17	S	S-ADV , NP VP PUNC.
+11.3	S	S-ADV , NP VP PUNC. PUNC''
+9.95	S	S-NOM VP
+9.72	S	S-NOM VP PUNC.
+9.98	S	S-PRP , NP VP PUNC.
+9.22	S	S-TPC , PUNC'' NP VP PUNC.
+12.9	S	S-TPC , NP VP
+6.24	S	S-TPC , NP VP PUNC.
+9.48	S	S-TPC NP VP PUNC.
+12.9	S	SBAR , NP VP
+11.6	S	SBAR , NP VP PUNC.
+13.2	S	SBAR-ADV , PUNC'' NP VP PUNC.
+13.2	S	SBAR-ADV , VP PUNC.
+11.4	S	SBAR-ADV , NP ADVP VP PUNC.
+12.9	S	SBAR-ADV , NP ADVP-TMP VP PUNC.
+9.11	S	SBAR-ADV , NP VP
+7.01	S	SBAR-ADV , NP VP PUNC.
+11.1	S	SBAR-ADV , NP VP PUNC. PUNC''
+13.2	S	SBAR-ADV NP VP
+12.3	S	SBAR-ADV NP VP PUNC.
+11.6	S	SBAR-ADV PRN NP VP PUNC.
+12.5	S	SBAR-NOM VP
+10.5	S	SBAR-NOM VP PUNC.
+12.3	S	SBAR-PRP , NP VP
+10.3	S	SBAR-PRP , NP VP PUNC.
+12.5	S	SBAR-SBJ VP PUNC.
+13.2	S	SBAR-TMP , NP ADVP-TMP VP PUNC.
+10.5	S	SBAR-TMP , NP VP
+8.09	S	SBAR-TMP , NP VP PUNC.
+13.2	S	SBAR-TMP , NP VP PUNC. PUNC''
+12.2	S	SBAR-TMP NP VP PUNC.
+13.2	S	PUNC`` ADVP , NP VP PUNC. PUNC''
+12.9	S	PUNC`` ADVP NP VP PUNC. PUNC''
+13.2	S	PUNC`` NP PUNC'' VP
+12.9	S	PUNC`` NP PUNC'' VP PUNC.
+13.2	S	PUNC`` NP , PUNC'' NP VP PUNC.
+13.2	S	PUNC`` NP ADVP VP PUNC. PUNC''
+12.9	S	PUNC`` NP PRN VP PUNC. PUNC''
+10.7	S	PUNC`` NP VP
+7.77	S	PUNC`` NP VP PUNC.
+7.28	S	PUNC`` NP VP PUNC. PUNC''
+13.2	S	PUNC`` NP VP PUNC:
+12.7	S	PUNC`` NPR PUNC'' VP
+12.9	S	PUNC`` NPR PUNC'' VP PUNC.
+12.5	S	PUNC`` PP , NP VP PUNC.
+11.9	S	PUNC`` PP , NP VP PUNC. PUNC''
+12.9	S	PUNC`` PP-TMP , NP VP PUNC.
+12	S	PUNC`` S , PUNC'' NP VP PUNC.
+13.2	S	PUNC`` S PUNC: S PUNC. PUNC''
+6.46	S	PUNC`` S-TPC , PUNC'' NP VP PUNC.
+11.9	S	PUNC`` S-TPC , PUNC'' VP NP PUNC.
+10.5	S	PUNC`` S-TPC , NP VP PUNC.
+13.2	S	PUNC`` SBAR-ADV , NP VP PUNC.
+11	S	PUNC`` SBAR-ADV , NP VP PUNC. PUNC''
+12.5	S	PUNC`` SBAR-TMP , NP VP PUNC. PUNC''
+4.29	S-ADV	ADJP-PRD
+5.32	S-ADV	ADVP VP
+7.95	S-ADV	ADVP-PRD
+7.46	S-ADV	ADVP-TMP VP
+6.46	S-ADV	NP-PRD
+7.69	S-ADV	PP-PRD
+0.191	S-ADV	VP
+5.52	S-ADV	NP VP
+6.67	S-NOM	ADVP VP
+8.59	S-NOM	ADVP-TMP VP
+7.91	S-NOM	RB VP
+0.142	S-NOM	VP
+3.74	S-NOM	NP VP
+8.59	S-NOM	NP$ VP
+0	S-NOM-PRD	VP
+0.0882	S-PRD	VP
+4.08	S-PRD	NP VP
+0.022	S-PRP	VP
+6.04	S-PRP	ADVP VP
+0	S-SBJ	VP
+6.89	S-TPC	VP
+6.2	S-TPC	ADVP , NP VP
+7.89	S-TPC	ADVP NP VP
+8.06	S-TPC	ADVP-TMP , NP VP
+8.47	S-TPC	ADVP-TMP NP VP
+5.13	S-TPC	NP ADVP VP
+6.53	S-TPC	NP ADVP-TMP VP
+0.404	S-TPC	NP VP
+8.47	S-TPC	NP VP ,
+7.89	S-TPC	NP VP , PUNC''
+6.01	S-TPC	NP PUNC`` VP
+7.74	S-TPC	NP PUNC`` VP , PUNC''
+7.74	S-TPC	NP-TMP , NP VP
+5.2	S-TPC	PP , NP VP
+8.74	S-TPC	PP , PUNC`` NP VP
+7.47	S-TPC	PP-LOC , NP VP
+6.36	S-TPC	PP-TMP , NP VP
+8.47	S-TPC	S , S
+7.36	S-TPC	S PUNC: S
+8.06	S-TPC	S-ADV , NP VP
+8.06	S-TPC	S-NOM VP
+5.1	S-TPC	SBAR-ADV , NP VP
+8.06	S-TPC	SBAR-NOM VP
+6.89	S-TPC	SBAR-TMP , NP VP
+8.06	S-TPC	PUNC`` NP VP
+4.99	S-TPC	PUNC`` NP VP , PUNC''
+1.34	SBAR	S
+9.8	SBAR	PUNC`` S
+2.05	SBAR	IN S
+7.14	SBAR	DT S
+9.17	SBAR	IN , S
+10.3	SBAR	IN IN S
+10.5	SBAR	IN SINV
+8.1	SBAR	IN PUNC`` S
+10.7	SBAR	RB IN S
+10	SBAR	RB S
+11.2	SBAR	SBAR , SBAR
+11.2	SBAR	WDT S
+9.8	SBAR	WHADJP S
+4.71	SBAR	WHADVP S
+9.33	SBAR	WHNP , S
+1.78	SBAR	WHNP S
+6.16	SBAR	WHPP S
+6.35	SBAR-ADV	ADVP IN S
+8.42	SBAR-ADV	IN , S
+7.28	SBAR-ADV	IN IN S
+0.203	SBAR-ADV	IN S
+6.57	SBAR-ADV	IN SINV
+4.22	SBAR-ADV	RB IN S
+8.42	SBAR-ADV	RB S
+6.74	SBAR-ADV	SINV
+7.28	SBAR-ADV	WHADVP S
+5.5	SBAR-ADV	WHNP S
+7.74	SBAR-ADV	X S
+0	SBAR-LOC	WHADVP S
+0	SBAR-LOC-PRD	WHADVP S
+5.2	SBAR-NOM	IN S
+2.49	SBAR-NOM	WHADVP S
+0.332	SBAR-NOM	WHNP S
+0	SBAR-NOM-PRD	WHNP S
+3.48	SBAR-PRD	S
+0.413	SBAR-PRD	IN S
+3.56	SBAR-PRD	WHADVP S
+3.74	SBAR-PRD	WHNP S
+4.22	SBAR-PRP	S
+4.27	SBAR-PRP	ADVP IN S
+6.32	SBAR-PRP	IN IN S
+4.37	SBAR-PRP	IN NN S
+0.329	SBAR-PRP	IN S
+5.96	SBAR-PRP	IN PUNC`` S
+5.54	SBAR-PRP	RB IN S
+0	SBAR-PRP-PRD	IN S
+0	SBAR-SBJ	IN S
+6.22	SBAR-TMP	ADVP IN S
+0.948	SBAR-TMP	IN S
+7.81	SBAR-TMP	IN S-NOM
+6.58	SBAR-TMP	NP IN S
+6.81	SBAR-TMP	NP-ADV IN S
+5.64	SBAR-TMP	RB IN S
+5.64	SBAR-TMP	RB S
+1.31	SBAR-TMP	WHADVP S
+4.36	SBARQ	RB WHNP SQ PUNC.
+1.36	SBARQ	WHADVP SQ PUNC.
+4.36	SBARQ	WHNP SQ
+1.13	SBARQ	WHNP SQ PUNC.
+4.1	SBARQ	PUNC`` WHADVP SQ PUNC.
+6.76	SINV	ADJP-PRD VP NP PUNC.
+7.76	SINV	ADVP VP VP NP PUNC.
+6.63	SINV	ADVP-LOC-PRD VP NP PUNC.
+7.5	SINV	ADVP-LOC-PRD VP NP PUNC:
+6.91	SINV	MD NP VP
+7.76	SINV	PP-LOC VP NP PUNC.
+6.18	SINV	PP-LOC-PRD VP NP PUNC.
+7.5	SINV	PP-PRD VP NP PUNC.
+7.76	SINV	S , VP NP PUNC.
+3.64	SINV	S-TPC , PUNC'' VP NP PUNC.
+3.59	SINV	S-TPC , VP NP PUNC.
+4.08	SINV	S-TPC VP NP PUNC.
+7.76	SINV	VBD NP
+6.76	SINV	VBD NP VP
+4.15	SINV	VP NP
+7.5	SINV	VP NP , PUNC`` S PUNC. PUNC''
+6.18	SINV	VP NP PUNC: PUNC`` S PUNC.
+7.08	SINV	VP NP PUNC: PUNC`` S PUNC. PUNC''
+5.69	SINV	VP VP NP PUNC.
+6.18	SINV	PUNC`` S , PUNC'' VP NP PUNC.
+7.5	SINV	PUNC`` S-TPC , PUNC'' VP NP
+6.18	SINV	PUNC`` S-TPC , PUNC'' VP NP , S-ADV PUNC.
+0.88	SINV	PUNC`` S-TPC , PUNC'' VP NP PUNC.
+5.69	SINV	PUNC`` S-TPC , VP NP PUNC.
+1.94	SQ	VP
+4.6	SQ	MD VP
+2.15	SQ	MD NP VP
+4.38	SQ	MD NP VP PUNC.
+3.87	SQ	VBD NP VP
+3.38	SQ	VBP NP VP
+4.38	SQ	VBP NP VP PUNC.
+4.87	SQ	VBZ NP NP-PRD PUNC.
+3.02	SQ	VBZ NP VP
+4.19	SQ	VBZ NP VP PUNC.
+1.94	SYM	:star:
+2.2	SYM	:star::star:
+1.72	SYM	a
+2.2	SYM	b
+7.09	TO	To
+0.0106	TO	to
+1.58	UH	no
+1.85	UH	quack
+1.36	UH	yes
+11	VB	Be
+11.3	VB	Call
+9.91	VB	Consider
+11	VB	Do
+11.3	VB	Give
+10	VB	Let
+10.6	VB	Take
+10.4	VB	abandon
+10.4	VB	absorb
+8.48	VB	accept
+10.8	VB	accommodate
+10.8	VB	account
+10.8	VB	achieve
+7.46	VB	acquire
+9.61	VB	act
+8.85	VB	add
+10.4	VB	address
+10.8	VB	adjust
+10.1	VB	adopt
+10.8	VB	advise
+8.8	VB	affect
+9.29	VB	afford
+9.15	VB	agree
+7.83	VB	allow
+11	VB	alter
+9.22	VB	announce
+9.8	VB	answer
+11.3	VB	anticipate
+10.1	VB	appeal
+9.02	VB	appear
+9.52	VB	apply
+9.44	VB	approve
+10.6	VB	argue
+11	VB	arrange
+11.3	VB	arrive
+8.48	VB	ask
+11	VB	assess
+11	VB	assist
+9.52	VB	assume
+11.3	VB	assure
+11.3	VB	attempt
+9.29	VB	attract
+11	VB	auction
+8.18	VB	avoid
+10	VB	back
+2.57	VB	be
+11.3	VB	bear
+10.1	VB	beat
+7.48	VB	become
+7.52	VB	begin
+8.91	VB	believe
+9.36	VB	benefit
+10	VB	bid
+10.4	VB	blame
+8.85	VB	block
+10.3	VB	bolster
+8.36	VB	boost
+11.3	VB	borrow
+9.29	VB	break
+8.32	VB	bring
+7.88	VB	build
+5.87	VB	buy
+8.91	VB	call
+11	VB	cancel
+10.8	VB	care
+9.44	VB	carry
+9.61	VB	catch
+9.08	VB	cause
+11	VB	challenge
+7.99	VB	change
+11	VB	check
+10.1	VB	choose
+10.8	VB	clear
+7.23	VB	close
+11.3	VB	collapse
+10.8	VB	combine
+7.16	VB	come
+7.29	VB	comment
+11.3	VB	compare
+11.3	VB	compensate
+9.8	VB	compete
+9.36	VB	complete
+10.4	VB	comply
+11	VB	concentrate
+10.6	VB	conduct
+8.4	VB	consider
+6.87	VB	continue
+10.8	VB	contribute
+9.91	VB	control
+9.8	VB	convert
+10.4	VB	cope
+10.3	VB	correct
+9.02	VB	cost
+11.3	VB	count
+8.8	VB	cover
+11	VB	crack
+8.7	VB	create
+10.1	VB	curb
+10.8	VB	curtail
+8.12	VB	cut
+9.7	VB	deal
+9.52	VB	decide
+8.91	VB	decline
+11.3	VB	decrease
+9.91	VB	defend
+9.91	VB	delay
+9.29	VB	deliver
+10.1	VB	demand
+11	VB	deny
+11	VB	depend
+11.3	VB	describe
+11	VB	design
+11	VB	destroy
+9.7	VB	determine
+8.52	VB	develop
+11.3	VB	die
+11.3	VB	differ
+9.22	VB	disclose
+11.3	VB	discover
+8.96	VB	discuss
+11.3	VB	distribute
+11.3	VB	divest
+6.14	VB	do
+10.1	VB	double
+10	VB	draw
+10.3	VB	drive
+8.96	VB	drop
+10.6	VB	dump
+9.8	VB	earn
+8.56	VB	ease
+11.3	VB	eat
+9.61	VB	elaborate
+9.91	VB	eliminate
+11.3	VB	emerge
+10.6	VB	enable
+11.3	VB	enact
+10.1	VB	encourage
+8.22	VB	end
+10.8	VB	engage
+11.3	VB	enhance
+9.91	VB	ensure
+10	VB	enter
+10.6	VB	erode
+9.15	VB	establish
+10.8	VB	estimate
+11	VB	evaluate
+10.8	VB	examine
+9.8	VB	exceed
+11.3	VB	exchange
+11.3	VB	execute
+10.6	VB	exercise
+10.6	VB	exist
+8.61	VB	expand
+8.25	VB	expect
+9.61	VB	expire
+10.1	VB	explain
+11	VB	explore
+10.8	VB	export
+10.8	VB	express
+9.36	VB	extend
+9.36	VB	face
+8.02	VB	fall
+10.8	VB	favor
+8.7	VB	feel
+9.8	VB	fend
+9.29	VB	fight
+9.36	VB	file
+9.91	VB	fill
+8.8	VB	finance
+7.61	VB	find
+10.8	VB	finish
+11.3	VB	fit
+11.3	VB	flee
+11.3	VB	float
+10.4	VB	fly
+9.91	VB	focus
+8.85	VB	follow
+9.52	VB	force
+11	VB	forget
+10.8	VB	form
+10.4	VB	fund
+9.36	VB	gain
+9.91	VB	generate
+5.75	VB	get
+6.96	VB	give
+6.71	VB	go
+9.44	VB	grow
+10.6	VB	guarantee
+11.3	VB	guess
+11	VB	halt
+9.08	VB	handle
+8.52	VB	happen
+4.26	VB	have
+10.1	VB	head
+9.61	VB	hear
+11	VB	hedge
+6.75	VB	help
+11.3	VB	hide
+11	VB	hire
+9.8	VB	hit
+8.18	VB	hold
+11	VB	honor
+9.91	VB	hurt
+9.91	VB	identify
+11	VB	imagine
+11	VB	impose
+8.7	VB	improve
+8.65	VB	include
+7.46	VB	increase
+10	VB	indicate
+10.8	VB	induce
+11	VB	insist
+11.3	VB	insure
+11.3	VB	intend
+10.6	VB	intensify
+11.3	VB	intervene
+9.29	VB	introduce
+9.44	VB	invest
+11	VB	investigate
+10.6	VB	involve
+9.15	VB	issue
+9.22	VB	join
+11.3	VB	judge
+10.3	VB	jump
+10.3	VB	justify
+7.29	VB	keep
+10.1	VB	kill
+7.3	VB	know
+10.1	VB	last
+9.15	VB	launch
+8.48	VB	lead
+9.8	VB	learn
+8.61	VB	leave
+10.8	VB	lend
+8.56	VB	let
+10.6	VB	lift
+8.32	VB	like
+9.61	VB	limit
+11.3	VB	listen
+9.8	VB	live
+8.25	VB	look
+8.48	VB	lose
+10	VB	lower
+8.8	VB	maintain
+5.5	VB	make
+10.3	VB	manage
+10.3	VB	market
+10	VB	match
+11.3	VB	maximize
+8.8	VB	mean
+11	VB	measure
+7.88	VB	meet
+10.6	VB	merge
+10.1	VB	mind
+11.3	VB	miss
+10.3	VB	monitor
+8.15	VB	move
+11	VB	name
+8.8	VB	need
+10.4	VB	negotiate
+10.8	VB	note
+11.3	VB	notify
+9.15	VB	obtain
+10	VB	occur
+7.96	VB	offer
+10	VB	offset
+8.65	VB	open
+9.61	VB	operate
+10.4	VB	oppose
+11	VB	order
+10.1	VB	oust
+10.8	VB	overcome
+11.3	VB	override
+8.91	VB	own
+9.8	VB	participate
+9.36	VB	pass
+6.47	VB	pay
+10.6	VB	perform
+10.8	VB	permit
+9.91	VB	persuade
+9.7	VB	pick
+10.1	VB	place
+11	VB	plan
+8.65	VB	play
+10.8	VB	point
+11.3	VB	pose
+9.61	VB	post
+10	VB	postpone
+10.8	VB	predict
+9.91	VB	press
+11	VB	pressure
+8.56	VB	prevent
+10	VB	proceed
+8.05	VB	produce
+11	VB	profit
+9.91	VB	promote
+11	VB	propose
+8.7	VB	protect
+9.36	VB	prove
+7.56	VB	provide
+9.91	VB	publish
+11	VB	pull
+8.22	VB	purchase
+9.02	VB	pursue
+8.85	VB	push
+7.77	VB	put
+10.8	VB	quit
+7.3	VB	raise
+10.8	VB	rally
+9.15	VB	reach
+9.61	VB	read
+9.7	VB	realize
+7.99	VB	receive
+10.8	VB	recognize
+11	VB	recommend
+11	VB	record
+10.3	VB	recover
+10.1	VB	redeem
+7.7	VB	reduce
+9.44	VB	reflect
+11	VB	reinforce
+9.91	VB	reject
+7.61	VB	remain
+10.6	VB	remember
+10.1	VB	remove
+10.8	VB	reopen
+10.1	VB	repay
+8.85	VB	replace
+7.77	VB	report
+10	VB	represent
+8.75	VB	require
+11.3	VB	rescue
+10.6	VB	reset
+10.1	VB	resolve
+9.36	VB	respond
+10.1	VB	restore
+10.6	VB	restrict
+10.8	VB	restructure
+8.85	VB	result
+9.08	VB	resume
+9.36	VB	retain
+9.7	VB	retire
+8.7	VB	return
+11.3	VB	reveal
+10	VB	review
+9.36	VB	revive
+11.3	VB	rewrite
+8.32	VB	rise
+10.8	VB	risk
+11.3	VB	roll
+9.91	VB	rule
+8.65	VB	run
+10.8	VB	satisfy
+9.02	VB	save
+7.01	VB	say
+11.3	VB	scuttle
+6.69	VB	see
+8.02	VB	seek
+9.08	VB	seem
+10.4	VB	seize
+11.3	VB	select
+5.97	VB	sell
+10.4	VB	send
+9.8	VB	serve
+8.91	VB	set
+8.7	VB	settle
+10.4	VB	share
+11	VB	shift
+10.8	VB	ship
+11	VB	shore
+8.08	VB	show
+11.3	VB	shrink
+11	VB	shut
+10.1	VB	sign
+10.4	VB	signal
+11	VB	sit
+10.8	VB	slash
+9.08	VB	slow
+10.8	VB	soar
+10.6	VB	solve
+11.3	VB	sort
+10.8	VB	sound
+10.8	VB	spark
+10.8	VB	speak
+9.91	VB	specify
+10.8	VB	speculate
+10.1	VB	speed
+8.7	VB	spend
+11.3	VB	spin
+10.6	VB	spread
+11	VB	spur
+10.3	VB	stabilize
+10.1	VB	stand
+8.61	VB	start
+8.96	VB	stay
+11	VB	steal
+10.6	VB	stem
+10.4	VB	step
+11.3	VB	stick
+10.6	VB	stock
+8.32	VB	stop
+10.6	VB	strengthen
+11	VB	strike
+10.4	VB	study
+10.8	VB	submit
+8.91	VB	succeed
+10	VB	suffer
+11.3	VB	suggest
+9.91	VB	supply
+8.56	VB	support
+9.91	VB	survive
+11	VB	suspend
+11	VB	switch
+5.91	VB	take
+9.52	VB	talk
+11.3	VB	tap
+8.7	VB	tell
+10.4	VB	test
+10.6	VB	testify
+7.44	VB	think
+10.4	VB	throw
+11.3	VB	top
+10.4	VB	total
+9.15	VB	trade
+10.3	VB	transfer
+10.8	VB	transform
+11.3	VB	travel
+11	VB	treat
+10.8	VB	trim
+11.3	VB	trust
+8.25	VB	try
+11.3	VB	tumble
+8.02	VB	turn
+9.52	VB	understand
+11.3	VB	underwrite
+10.4	VB	unveil
+7.46	VB	use
+10.4	VB	veto
+10.6	VB	violate
+10.8	VB	visit
+9.02	VB	vote
+9.8	VB	wait
+11.3	VB	walk
+7.7	VB	want
+10.4	VB	watch
+11.3	VB	wear
+11.3	VB	welcome
+8.29	VB	win
+10.6	VB	withdraw
+11	VB	withstand
+11	VB	woo
+7.75	VB	work
+10.6	VB	worry
+9.44	VB	write
+6.38	VB	yield
+11.7	VBD	'd
+11.4	VBD	abandoned
+10.1	VBD	accepted
+9.94	VBD	accounted
+10.3	VBD	accused
+10.3	VBD	acknowledged
+9.22	VBD	acquired
+11.7	VBD	acted
+6.72	VBD	added
+10.3	VBD	adopted
+9.44	VBD	advanced
+11.7	VBD	affected
+7.17	VBD	agreed
+11.2	VBD	alleged
+9.71	VBD	allowed
+11.4	VBD	amended
+10.1	VBD	amounted
+7.44	VBD	announced
+11.4	VBD	appealed
+9.07	VBD	appeared
+9.12	VBD	approved
+9.71	VBD	argued
+11.7	VBD	arose
+10.9	VBD	arrived
+8.05	VBD	asked
+10.7	VBD	asserted
+11	VBD	assumed
+10.7	VBD	attended
+10.9	VBD	attracted
+9.94	VBD	attributed
+10.3	VBD	authorized
+10.7	VBD	averaged
+11.2	VBD	awarded
+10.7	VBD	backed
+8.38	VBD	became
+7.04	VBD	began
+10.4	VBD	believed
+11.2	VBD	blamed
+9.57	VBD	boosted
+8.25	VBD	bought
+9.64	VBD	broke
+9.86	VBD	brought
+11.4	VBD	built
+7.96	VBD	called
+7.1	VBD	came
+11	VBD	capped
+10.6	VBD	carried
+11.2	VBD	caught
+9.33	VBD	caused
+9.57	VBD	changed
+11.7	VBD	charged
+11	VBD	chose
+9.33	VBD	cited
+10.1	VBD	claimed
+11.4	VBD	cleared
+8.54	VBD	climbed
+5.95	VBD	closed
+10.2	VBD	collapsed
+11.2	VBD	compared
+10	VBD	complained
+9.44	VBD	completed
+11	VBD	conceded
+10.9	VBD	concluded
+10	VBD	confirmed
+10.6	VBD	considered
+11.2	VBD	contained
+11	VBD	contended
+8.3	VBD	continued
+11.7	VBD	contracted
+8.36	VBD	contributed
+11.7	VBD	convicted
+10.9	VBD	cost
+9.86	VBD	created
+9.71	VBD	cut
+9.22	VBD	decided
+9.57	VBD	declared
+6.86	VBD	declined
+10.7	VBD	defended
+11.2	VBD	demanded
+10.3	VBD	denied
+11	VBD	described
+11.2	VBD	determined
+10	VBD	developed
+5.59	VBD	did
+9.71	VBD	died
+8.94	VBD	disclosed
+10.1	VBD	discovered
+11.4	VBD	dismissed
+11.7	VBD	dominated
+10.2	VBD	doubled
+11	VBD	drew
+7.27	VBD	dropped
+11.7	VBD	drove
+11.7	VBD	dumped
+9.27	VBD	earned
+9.64	VBD	eased
+10	VBD	edged
+11.7	VBD	elected
+10.7	VBD	emerged
+7.05	VBD	ended
+11.7	VBD	endorsed
+10.1	VBD	entered
+9.03	VBD	estimated
+10.1	VBD	exceeded
+9.27	VBD	expected
+11.2	VBD	expired
+11.4	VBD	explained
+11.4	VBD	exploded
+10.6	VBD	expressed
+10.6	VBD	extended
+8.98	VBD	failed
+11.4	VBD	fared
+11.7	VBD	feared
+5.93	VBD	fell
+9.38	VBD	felt
+11.4	VBD	figured
+8.51	VBD	filed
+9.03	VBD	finished
+11.7	VBD	fired
+11.2	VBD	fled
+11.4	VBD	flew
+9.22	VBD	followed
+10.6	VBD	forced
+8.07	VBD	found
+11	VBD	fueled
+8.03	VBD	gained
+8.38	VBD	gave
+11.7	VBD	generated
+7.47	VBD	got
+8.41	VBD	grew
+4.07	VBD	had
+11.4	VBD	halted
+11.4	VBD	handled
+9.57	VBD	happened
+11.2	VBD	heard
+8.54	VBD	held
+8.2	VBD	helped
+11.4	VBD	hinted
+11.4	VBD	hired
+9.12	VBD	hit
+10.7	VBD	hoped
+11.2	VBD	hurt
+11.4	VBD	imposed
+10.3	VBD	improved
+11.4	VBD	inched
+8.38	VBD	included
+7.88	VBD	increased
+9.17	VBD	indicated
+10.4	VBD	insisted
+11.2	VBD	intended
+9.27	VBD	introduced
+11.2	VBD	invested
+9.27	VBD	issued
+10	VBD	joined
+8.25	VBD	jumped
+9.86	VBD	kept
+11.4	VBD	kicked
+11.4	VBD	killed
+10.7	VBD	knew
+11.4	VBD	landed
+10.3	VBD	launched
+10.2	VBD	learned
+8.9	VBD	led
+8.94	VBD	left
+11.2	VBD	let
+11	VBD	lived
+10.2	VBD	looked
+8.3	VBD	lost
+11.4	VBD	loved
+10	VBD	lowered
+7.09	VBD	made
+10.4	VBD	managed
+10.6	VBD	marked
+11.4	VBD	meant
+9.71	VBD	met
+11.4	VBD	missed
+9.12	VBD	moved
+10.4	VBD	named
+11	VBD	narrowed
+9.57	VBD	needed
+7.65	VBD	noted
+11.7	VBD	observed
+9.94	VBD	occurred
+8.51	VBD	offered
+8.22	VBD	opened
+10.9	VBD	opposed
+9.78	VBD	ordered
+10.9	VBD	outnumbered
+11.7	VBD	outpaced
+11	VBD	owned
+8.94	VBD	paid
+10	VBD	passed
+11.4	VBD	picked
+10.9	VBD	placed
+10	VBD	planned
+10	VBD	played
+11.7	VBD	pleaded
+11.7	VBD	pledged
+10.1	VBD	plummeted
+8.82	VBD	plunged
+10.7	VBD	pointed
+7.98	VBD	posted
+11.7	VBD	postponed
+11.4	VBD	praised
+9.12	VBD	predicted
+11.4	VBD	preferred
+11.2	VBD	presented
+11.7	VBD	prevailed
+11.7	VBD	prevented
+9.57	VBD	produced
+11.4	VBD	projected
+10.4	VBD	promised
+10.6	VBD	prompted
+9.94	VBD	proposed
+10.9	VBD	proved
+10.1	VBD	provided
+10.7	VBD	pulled
+9.86	VBD	purchased
+10.7	VBD	pushed
+8.94	VBD	put
+11	VBD	questioned
+11.4	VBD	quit
+8.47	VBD	raised
+9.78	VBD	rallied
+10.1	VBD	ran
+10.9	VBD	ranged
+9.22	VBD	reached
+10.9	VBD	reacted
+10.7	VBD	read
+11.2	VBD	realized
+10.6	VBD	rebounded
+11.4	VBD	recalled
+7.88	VBD	received
+11.7	VBD	recommended
+11	VBD	recorded
+11.2	VBD	recovered
+10	VBD	reduced
+11.2	VBD	referred
+9.71	VBD	reflected
+10.1	VBD	refused
+9.07	VBD	rejected
+11.7	VBD	released
+8.98	VBD	remained
+10.9	VBD	replaced
+11	VBD	replied
+6.71	VBD	reported
+10.3	VBD	represented
+11.4	VBD	requested
+10.6	VBD	required
+8.6	VBD	resigned
+10	VBD	responded
+10.6	VBD	resulted
+11.7	VBD	retained
+11.4	VBD	retired
+10.6	VBD	returned
+11.7	VBD	rolled
+5.12	VBD	rose
+10.2	VBD	ruled
+11	VBD	rushed
+2.28	VBD	said
+10.6	VBD	sank
+11	VBD	sat
+9.17	VBD	saw
+11.7	VBD	scrambled
+9.03	VBD	seemed
+8.74	VBD	sent
+10.9	VBD	served
+9.51	VBD	set
+9.33	VBD	settled
+11.7	VBD	shed
+11.2	VBD	shot
+11.4	VBD	shouted
+8.3	VBD	showed
+11.2	VBD	signaled
+9.17	VBD	signed
+11.4	VBD	skidded
+9.86	VBD	slid
+9.07	VBD	slipped
+11.7	VBD	snapped
+9.22	VBD	soared
+8.01	VBD	sold
+10.7	VBD	sought
+11.2	VBD	sparked
+11.7	VBD	speculated
+9.78	VBD	spent
+11.4	VBD	spread
+11.7	VBD	staged
+8.36	VBD	started
+11.4	VBD	stated
+11.4	VBD	stayed
+10.7	VBD	stemmed
+11	VBD	stepped
+10.1	VBD	stood
+9.71	VBD	stopped
+11	VBD	stressed
+10.6	VBD	struck
+11.7	VBD	stuck
+11.7	VBD	succeeded
+10.9	VBD	sued
+9.94	VBD	suffered
+9.51	VBD	suggested
+11.4	VBD	supported
+11.4	VBD	surfaced
+8.82	VBD	surged
+11.7	VBD	surprised
+11.4	VBD	suspended
+11.2	VBD	sustained
+11.4	VBD	switched
+11.7	VBD	talked
+11.4	VBD	taught
+11.7	VBD	termed
+11.2	VBD	terminated
+11.2	VBD	testified
+8.54	VBD	thought
+11	VBD	threatened
+10.9	VBD	threw
+7.49	VBD	told
+6.95	VBD	took
+11.7	VBD	topped
+8.17	VBD	totaled
+9.57	VBD	traded
+9.64	VBD	tried
+10.3	VBD	triggered
+11.7	VBD	trimmed
+9.22	VBD	tumbled
+8.74	VBD	turned
+10.7	VBD	unveiled
+11.7	VBD	upheld
+10	VBD	urged
+8.71	VBD	used
+11.4	VBD	valued
+11.4	VBD	viewed
+10.6	VBD	violated
+11	VBD	visited
+9.64	VBD	voted
+10.7	VBD	vowed
+11.4	VBD	waited
+8.38	VBD	wanted
+9.86	VBD	warned
+2.74	VBD	was
+11.4	VBD	watched
+11.2	VBD	weakened
+11.7	VBD	weighed
+11.7	VBD	welcomed
+7.88	VBD	went
+3.93	VBD	were
+10.4	VBD	withdrew
+8.64	VBD	won
+9.51	VBD	worked
+8.86	VBD	wrote
+10.3	VBG	Excluding
+9.58	VBG	Having
+9.78	VBG	Looking
+10.3	VBG	Noting
+10.3	VBG	Reflecting
+9.58	VBG	Using
+9.58	VBG	accepting
+10.3	VBG	accompanying
+4.71	VBG	according
+8	VBG	acquiring
+9.12	VBG	acting
+7.09	VBG	adding
+10	VBG	adjusting
+10	VBG	adopting
+9.12	VBG	advancing
+10	VBG	advertising
+9.58	VBG	advising
+9.78	VBG	affecting
+9	VBG	agreeing
+10.3	VBG	alleging
+8.12	VBG	allowing
+9.41	VBG	announcing
+9.41	VBG	arguing
+10.3	VBG	arranging
+7.88	VBG	asking
+8.88	VBG	assuming
+8.78	VBG	attempting
+10	VBG	attending
+9.41	VBG	attracting
+10.3	VBG	avoiding
+10.3	VBG	awaiting
+10	VBG	backing
+10.3	VBG	banking
+9.58	VBG	banning
+8.06	VBG	becoming
+7.41	VBG	beginning
+4.72	VBG	being
+10.3	VBG	believing
+10.3	VBG	betting
+9.78	VBG	bidding
+9.58	VBG	blocking
+9.58	VBG	boosting
+10	VBG	breaking
+7.94	VBG	bringing
+7.58	VBG	building
+6	VBG	buying
+8.68	VBG	calling
+9	VBG	carrying
+10.3	VBG	catching
+8.26	VBG	causing
+10	VBG	challenging
+8.12	VBG	changing
+9	VBG	charging
+10	VBG	circulating
+7.68	VBG	citing
+9.58	VBG	claiming
+9.41	VBG	climbing
+7.83	VBG	closing
+10.3	VBG	collecting
+6.41	VBG	coming
+8.19	VBG	competing
+9.78	VBG	complaining
+10	VBG	concerning
+9.78	VBG	conducting
+10.3	VBG	confirming
+7.45	VBG	considering
+8.88	VBG	consisting
+9.58	VBG	consulting
+10.3	VBG	containing
+7.19	VBG	continuing
+9.12	VBG	contributing
+9.26	VBG	controlling
+10.3	VBG	coping
+10.3	VBG	counting
+8.58	VBG	covering
+8.33	VBG	creating
+8.26	VBG	cutting
+8.06	VBG	dealing
+9.26	VBG	deciding
+10	VBG	declaring
+7.33	VBG	declining
+9.78	VBG	defending
+9.58	VBG	delivering
+10.3	VBG	demanding
+10.3	VBG	denouncing
+9.26	VBG	depending
+10	VBG	designing
+7.49	VBG	developing
+10	VBG	discounting
+10.3	VBG	discouraging
+9.58	VBG	discussing
+7.09	VBG	doing
+10.3	VBG	doubling
+9.58	VBG	driving
+8.58	VBG	dropping
+10.3	VBG	earning
+8.78	VBG	easing
+10	VBG	eating
+9.58	VBG	eliminating
+8.88	VBG	emerging
+10	VBG	encouraging
+7.33	VBG	ending
+10	VBG	entering
+8.68	VBG	equaling
+9.78	VBG	establishing
+9.58	VBG	exceeding
+8.49	VBG	excluding
+7.68	VBG	existing
+8.06	VBG	expanding
+8.58	VBG	expecting
+10.3	VBG	experiencing
+9.26	VBG	explaining
+10.3	VBG	exploring
+9.41	VBG	extending
+8.06	VBG	facing
+9.78	VBG	failing
+7.49	VBG	falling
+9.26	VBG	featuring
+10	VBG	feeling
+9.41	VBG	fighting
+9.12	VBG	filing
+9.58	VBG	filling
+7.83	VBG	financing
+8.19	VBG	finding
+10.3	VBG	floating
+9.12	VBG	flying
+9.12	VBG	focusing
+6	VBG	following
+10	VBG	forcing
+9.58	VBG	gaining
+6.04	VBG	getting
+7.41	VBG	giving
+5	VBG	going
+9.78	VBG	granting
+6.58	VBG	growing
+9.26	VBG	handling
+9.12	VBG	happening
+6.61	VBG	having
+9.78	VBG	heading
+8.33	VBG	helping
+10.3	VBG	hiring
+9.78	VBG	hitting
+6.26	VBG	holding
+9.41	VBG	hoping
+10.3	VBG	hurting
+9.26	VBG	ignoring
+10.3	VBG	imposing
+9.41	VBG	improving
+5.28	VBG	including
+7.03	VBG	increasing
+8.19	VBG	indicating
+10.3	VBG	installing
+10.3	VBG	intensifying
+10.3	VBG	introducing
+9.26	VBG	investigating
+8.49	VBG	investing
+7.72	VBG	involving
+9.78	VBG	issuing
+8.68	VBG	joining
+7.94	VBG	keeping
+9.26	VBG	killing
+10.3	VBG	lagging
+10.3	VBG	launching
+10.3	VBG	laying
+6.75	VBG	leading
+10.3	VBG	learning
+7.88	VBG	leaving
+9.78	VBG	lending
+10	VBG	letting
+10.3	VBG	limiting
+10	VBG	listening
+8.78	VBG	living
+9.58	VBG	lobbying
+6.17	VBG	looking
+7.88	VBG	losing
+10.3	VBG	lowering
+9.78	VBG	lying
+9.78	VBG	maintaining
+5.71	VBG	making
+8.41	VBG	managing
+8.12	VBG	manufacturing
+9.78	VBG	marketing
+10	VBG	marking
+9.41	VBG	matching
+9.41	VBG	maturing
+9.58	VBG	meaning
+9	VBG	meeting
+9	VBG	missing
+10.3	VBG	mounting
+7.26	VBG	moving
+10.3	VBG	mulling
+8.41	VBG	negotiating
+9	VBG	noting
+9.78	VBG	obtaining
+7.06	VBG	offering
+10.3	VBG	offsetting
+8.68	VBG	opening
+6.61	VBG	operating
+9.78	VBG	ordering
+10.3	VBG	overseeing
+9.78	VBG	owning
+8.78	VBG	participating
+9.58	VBG	passing
+6.88	VBG	paying
+7.54	VBG	pending
+10	VBG	performing
+9.78	VBG	picking
+8.19	VBG	planning
+8.78	VBG	playing
+9.78	VBG	plunging
+9.58	VBG	posting
+10	VBG	pouring
+8.58	VBG	predicting
+8.78	VBG	preparing
+10.3	VBG	preserving
+9.58	VBG	preventing
+9.78	VBG	processing
+8.12	VBG	producing
+10.3	VBG	projecting
+10.3	VBG	promoting
+9.78	VBG	prompting
+9.26	VBG	proposing
+9.58	VBG	protecting
+9.12	VBG	providing
+9.58	VBG	publishing
+10	VBG	pulling
+8.78	VBG	purchasing
+9.41	VBG	pursuing
+8.19	VBG	pushing
+7.72	VBG	putting
+7.45	VBG	raising
+9	VBG	ranging
+9.12	VBG	reaching
+10	VBG	reacting
+9.78	VBG	reading
+8.33	VBG	receiving
+10	VBG	recovering
+8.68	VBG	reducing
+9.26	VBG	referring
+7.68	VBG	reflecting
+9	VBG	regarding
+9.78	VBG	relating
+7.45	VBG	remaining
+9.58	VBG	removing
+9.78	VBG	replacing
+8.12	VBG	reporting
+7.83	VBG	representing
+9.12	VBG	requiring
+9.58	VBG	resigning
+10.3	VBG	resisting
+9.41	VBG	responding
+8.49	VBG	resulting
+10.3	VBG	retaining
+10	VBG	retiring
+9.58	VBG	returning
+10.3	VBG	reversing
+10	VBG	reviewing
+10	VBG	riding
+7.03	VBG	rising
+9.26	VBG	ruling
+7.22	VBG	running
+10.3	VBG	rushing
+10	VBG	sacrificing
+6.17	VBG	saying
+9.58	VBG	scrambling
+9.58	VBG	searching
+8.12	VBG	seeing
+6.41	VBG	seeking
+6.26	VBG	selling
+9.58	VBG	sending
+9.12	VBG	serving
+8.12	VBG	setting
+9.26	VBG	settling
+9.78	VBG	shifting
+8.68	VBG	shipping
+7.88	VBG	showing
+10.3	VBG	shrinking
+10	VBG	signing
+10	VBG	sitting
+10.3	VBG	sliding
+9.58	VBG	slipping
+7.94	VBG	slowing
+9.26	VBG	soaring
+10.3	VBG	soliciting
+8.12	VBG	spending
+9.78	VBG	stabilizing
+10	VBG	standing
+7.94	VBG	starting
+9	VBG	stemming
+10.3	VBG	sticking
+8.78	VBG	struggling
+9	VBG	studying
+9.41	VBG	succeeding
+8.78	VBG	suggesting
+9.41	VBG	supporting
+9.41	VBG	surrounding
+9.78	VBG	surviving
+6.35	VBG	taking
+8.12	VBG	talking
+9.78	VBG	targeting
+8.78	VBG	telling
+10	VBG	testing
+8.78	VBG	thinking
+10.3	VBG	throwing
+8.33	VBG	totaling
+6.26	VBG	trading
+10.3	VBG	traveling
+5.92	VBG	trying
+10.3	VBG	tumbling
+8	VBG	turning
+10	VBG	underlying
+8.88	VBG	urging
+6.47	VBG	using
+10.3	VBG	violating
+10.3	VBG	voting
+7.63	VBG	waiting
+9.78	VBG	warning
+8.41	VBG	watching
+9.12	VBG	weakening
+9.78	VBG	wearing
+9	VBG	winning
+10.3	VBG	wondering
+6.72	VBG	working
+10.3	VBG	worrying
+10	VBG	worsening
+8.88	VBG	writing
+9.26	VBG	yielding
+9.59	VBN	Asked
+10.9	VBN	Given
+10.6	VBN	Guaranteed
+9.17	VBN	Posted
+10.2	VBN	abandoned
+10	VBN	accepted
+10.6	VBN	accompanied
+10.9	VBN	accrued
+9.85	VBN	accused
+10.4	VBN	achieved
+7.65	VBN	acquired
+10.9	VBN	adapted
+8.93	VBN	added
+8.27	VBN	adjusted
+10.6	VBN	admitted
+9.72	VBN	adopted
+10.9	VBN	advanced
+10.9	VBN	advised
+8.53	VBN	affected
+10.9	VBN	aged
+7.93	VBN	agreed
+8.27	VBN	aimed
+9.72	VBN	alleged
+8	VBN	allowed
+10.9	VBN	amended
+7.5	VBN	announced
+9.47	VBN	annualized
+9.85	VBN	anticipated
+10	VBN	applied
+9.47	VBN	appointed
+10.9	VBN	approached
+8.05	VBN	approved
+10.2	VBN	argued
+10	VBN	arrested
+10.6	VBN	arrived
+9.17	VBN	asked
+10.4	VBN	assigned
+9.09	VBN	associated
+10	VBN	assumed
+10.4	VBN	assured
+10	VBN	attached
+10.2	VBN	attributed
+10.4	VBN	authorized
+10.6	VBN	avoided
+10	VBN	awarded
+8.09	VBN	backed
+10.6	VBN	barred
+5.6	VBN	based
+7.5	VBN	become
+3.3	VBN	been
+8.47	VBN	begun
+8.53	VBN	believed
+10.6	VBN	benefited
+10.6	VBN	bid
+10	VBN	blamed
+10.9	VBN	bolstered
+9.47	VBN	boosted
+9.85	VBN	born
+9.47	VBN	borrowed
+8.27	VBN	bought
+10.9	VBN	bound
+10	VBN	broken
+8.32	VBN	brought
+7.72	VBN	built
+10.4	VBN	buoyed
+8.72	VBN	calculated
+6.56	VBN	called
+9.85	VBN	canceled
+10.9	VBN	capitalized
+9.72	VBN	capped
+10.9	VBN	captured
+10	VBN	carried
+9	VBN	caught
+7.93	VBN	caused
+10.9	VBN	challenged
+7.82	VBN	changed
+8.78	VBN	charged
+9.85	VBN	chosen
+10	VBN	cited
+9.85	VBN	claimed
+8.17	VBN	closed
+10.4	VBN	collapsed
+8.42	VBN	combined
+8.09	VBN	come
+9.37	VBN	committed
+5.84	VBN	compared
+10.6	VBN	complained
+7.72	VBN	completed
+10.9	VBN	complicated
+9	VBN	concerned
+10	VBN	concluded
+9.85	VBN	conducted
+10.4	VBN	confirmed
+10.9	VBN	connected
+7.32	VBN	considered
+8.42	VBN	continued
+9.85	VBN	contributed
+9.09	VBN	controlled
+9.37	VBN	converted
+9.47	VBN	convicted
+10.2	VBN	convinced
+10.9	VBN	cost
+10.4	VBN	counted
+10.2	VBN	coupled
+9.27	VBN	covered
+7.82	VBN	created
+10.2	VBN	criticized
+8.53	VBN	cut
+9	VBN	damaged
+10.9	VBN	dated
+9.47	VBN	decided
+10	VBN	declined
+10.9	VBN	defined
+9.72	VBN	delayed
+9.27	VBN	delivered
+9.47	VBN	denied
+10.4	VBN	depressed
+10	VBN	described
+7.65	VBN	designed
+8.85	VBN	determined
+8.59	VBN	developed
+10.9	VBN	devoted
+10.4	VBN	died
+10	VBN	diluted
+10.9	VBN	diminished
+9.85	VBN	disappointed
+6.95	VBN	disclosed
+10.6	VBN	discontinued
+10.6	VBN	discounted
+9.27	VBN	discovered
+9.72	VBN	discussed
+9.85	VBN	distributed
+10	VBN	divided
+10.9	VBN	dominated
+10.6	VBN	donated
+7.39	VBN	done
+10.4	VBN	doubled
+9.72	VBN	drawn
+10.9	VBN	driven
+8.85	VBN	dropped
+10.2	VBN	dubbed
+10	VBN	earned
+8.72	VBN	elected
+10.9	VBN	eliminated
+9.59	VBN	employed
+9.59	VBN	enacted
+10.4	VBN	encouraged
+6.83	VBN	ended
+10.6	VBN	engaged
+10.6	VBN	engineered
+10.9	VBN	enhanced
+10.2	VBN	entered
+10.9	VBN	entitled
+8.93	VBN	established
+6.75	VBN	estimated
+10.6	VBN	exercised
+10.2	VBN	expanded
+5.06	VBN	expected
+10.6	VBN	experienced
+10.4	VBN	exposed
+9.59	VBN	expressed
+10	VBN	extended
+9.59	VBN	faced
+8.59	VBN	failed
+8.65	VBN	fallen
+10.9	VBN	fed
+10.9	VBN	felt
+7.72	VBN	filed
+9.27	VBN	filled
+9.47	VBN	financed
+10.6	VBN	finished
+10.2	VBN	fired
+7.78	VBN	fixed
+10.6	VBN	focused
+8.93	VBN	followed
+7.97	VBN	forced
+10.2	VBN	forecast
+9.17	VBN	formed
+8.05	VBN	found
+10.4	VBN	fueled
+10.4	VBN	funded
+9.85	VBN	gained
+10.9	VBN	generated
+6.93	VBN	given
+8.22	VBN	gone
+8.93	VBN	got
+10	VBN	gotten
+8.47	VBN	grown
+9.47	VBN	guaranteed
+7.34	VBN	had
+10.2	VBN	halted
+10.2	VBN	hampered
+10.9	VBN	handed
+10	VBN	handled
+9.85	VBN	happened
+8.32	VBN	headed
+9.59	VBN	heard
+6.67	VBN	held
+8.59	VBN	helped
+10.4	VBN	hidden
+9.59	VBN	hired
+8.59	VBN	hit
+9.59	VBN	hoped
+8.42	VBN	hurt
+9	VBN	identified
+10	VBN	ignored
+9.72	VBN	imported
+9.85	VBN	imposed
+9	VBN	improved
+8.65	VBN	included
+7.02	VBN	increased
+10.2	VBN	incurred
+9	VBN	indicated
+10.9	VBN	initiated
+10.4	VBN	injured
+9.85	VBN	installed
+9.85	VBN	insured
+10.9	VBN	integrated
+9.72	VBN	intended
+10.4	VBN	interpreted
+10.9	VBN	interviewed
+8.42	VBN	introduced
+9.27	VBN	invested
+10.6	VBN	invited
+7.82	VBN	involved
+7.62	VBN	issued
+10.9	VBN	justified
+10.4	VBN	kept
+9.85	VBN	killed
+7.13	VBN	known
+10.6	VBN	labeled
+9.27	VBN	launched
+10	VBN	learned
+7.82	VBN	led
+8.09	VBN	left
+10.4	VBN	leveraged
+10	VBN	lifted
+8.65	VBN	limited
+10.2	VBN	linked
+10.9	VBN	liquidated
+8.32	VBN	listed
+9.59	VBN	located
+10	VBN	locked
+10.6	VBN	looked
+8.13	VBN	lost
+5.77	VBN	made
+9.72	VBN	managed
+10.6	VBN	manufactured
+10.9	VBN	matched
+10	VBN	meant
+10.4	VBN	measured
+10.4	VBN	mentioned
+9.09	VBN	met
+10.9	VBN	misstated
+9.37	VBN	mixed
+9.85	VBN	moved
+6.89	VBN	named
+10.9	VBN	narrowed
+7.72	VBN	needed
+9.59	VBN	negotiated
+10	VBN	noted
+9.85	VBN	notified
+10.2	VBN	obtained
+6.91	VBN	offered
+9	VBN	offset
+8.85	VBN	opened
+9.09	VBN	opposed
+9.59	VBN	ordered
+10.4	VBN	organized
+10.6	VBN	ousted
+10	VBN	owed
+7.89	VBN	owned
+6.97	VBN	paid
+10.6	VBN	painted
+8.53	VBN	passed
+10	VBN	performed
+9.59	VBN	permitted
+10.9	VBN	phased
+8	VBN	placed
+8.13	VBN	planned
+9.47	VBN	played
+10.6	VBN	pleased
+10.9	VBN	plummeted
+10.9	VBN	polled
+9.09	VBN	posted
+10	VBN	predicted
+8.72	VBN	preferred
+8.47	VBN	prepared
+10.6	VBN	presented
+10.6	VBN	prevented
+5.93	VBN	priced
+10.9	VBN	printed
+10.6	VBN	processed
+8.53	VBN	produced
+9.72	VBN	projected
+10.2	VBN	promised
+10	VBN	prompted
+7	VBN	proposed
+10.2	VBN	protected
+10.4	VBN	proved
+8.53	VBN	provided
+10.9	VBN	publicized
+9.37	VBN	published
+10.2	VBN	pulled
+8.53	VBN	purchased
+9.47	VBN	pushed
+8.17	VBN	put
+7.68	VBN	quoted
+7.68	VBN	raised
+10.4	VBN	rated
+7.13	VBN	reached
+10.9	VBN	read
+7.97	VBN	received
+10.2	VBN	recognized
+10.4	VBN	recommended
+9.72	VBN	recorded
+9.85	VBN	redeemed
+8.05	VBN	reduced
+10	VBN	reflected
+10.4	VBN	refused
+10.4	VBN	regarded
+10.6	VBN	registered
+9.37	VBN	rejected
+7.97	VBN	related
+8.17	VBN	released
+10.9	VBN	relieved
+10.6	VBN	remained
+9.17	VBN	renewed
+10.6	VBN	repaid
+10.2	VBN	repeated
+9.85	VBN	replaced
+6.93	VBN	reported
+10.6	VBN	represented
+10.6	VBN	requested
+7.72	VBN	required
+9.85	VBN	resolved
+10.2	VBN	restated
+10.9	VBN	restored
+10.2	VBN	restricted
+10.6	VBN	restructured
+10.6	VBN	resulted
+10.9	VBN	retained
+10.9	VBN	retired
+10	VBN	returned
+8.22	VBN	revised
+10.2	VBN	revived
+8.93	VBN	risen
+10.9	VBN	rolled
+10.2	VBN	ruled
+10.4	VBN	rumored
+8.78	VBN	run
+7.65	VBN	said
+6.91	VBN	scheduled
+9.72	VBN	secured
+7.24	VBN	seen
+9.72	VBN	selected
+8.93	VBN	sent
+10.9	VBN	sentenced
+9.59	VBN	served
+7	VBN	set
+8.85	VBN	settled
+10.9	VBN	shared
+10.2	VBN	shipped
+8.22	VBN	shown
+10.6	VBN	shut
+9.37	VBN	signed
+10.2	VBN	slated
+10.9	VBN	slowed
+10	VBN	soared
+6.09	VBN	sold
+8.85	VBN	sought
+9.85	VBN	specified
+8.59	VBN	spent
+10.9	VBN	spoken
+10.6	VBN	spooked
+10.4	VBN	spread
+10.9	VBN	spun
+10.9	VBN	squeezed
+10.6	VBN	stalled
+8.72	VBN	started
+9.59	VBN	stated
+10.2	VBN	stolen
+9.47	VBN	stopped
+10.9	VBN	struck
+10	VBN	stuck
+10.9	VBN	studied
+9.59	VBN	submitted
+9.85	VBN	subordinated
+10	VBN	succeeded
+10.6	VBN	sued
+9.59	VBN	suffered
+10	VBN	suggested
+10.9	VBN	supplied
+10	VBN	supported
+9.47	VBN	supposed
+9.47	VBN	surprised
+9.59	VBN	surveyed
+9.47	VBN	suspended
+9.85	VBN	sustained
+10.6	VBN	sweetened
+10.6	VBN	switched
+6.89	VBN	taken
+10.9	VBN	taped
+9.72	VBN	targeted
+10.9	VBN	tendered
+10.4	VBN	tested
+9.17	VBN	thought
+10	VBN	threatened
+10.4	VBN	thrown
+8.65	VBN	tied
+10.9	VBN	titled
+8.65	VBN	told
+10.4	VBN	tracked
+7.78	VBN	traded
+10.4	VBN	transferred
+10.6	VBN	treated
+9.72	VBN	tried
+9.37	VBN	triggered
+10.9	VBN	tripled
+9.37	VBN	troubled
+8.47	VBN	turned
+10.9	VBN	undervalued
+6.13	VBN	used
+7.75	VBN	valued
+9.85	VBN	viewed
+9.59	VBN	watched
+10.4	VBN	withdrawn
+10	VBN	won
+9.27	VBN	worked
+8.65	VBN	worried
+8.59	VBN	written
+6.15	VBP	'm
+4.84	VBP	're
+5.85	VBP	've
+9.91	VBP	Are
+9.17	VBP	Do
+8.49	VBP	account
+9.17	VBP	add
+9.17	VBP	agree
+9.91	VBP	ai
+8.91	VBP	allow
+7.97	VBP	am
+8.69	VBP	appear
+10.2	VBP	approve
+1.63	VBP	are
+8.41	VBP	argue
+9.03	VBP	become
+6.47	VBP	believe
+10.2	VBP	build
+9.03	VBP	buy
+8.49	VBP	call
+9.69	VBP	carry
+9.69	VBP	change
+9.17	VBP	charge
+10.2	VBP	cite
+9.49	VBP	claim
+8.25	VBP	come
+10.2	VBP	complain
+10.2	VBP	concede
+8.91	VBP	consider
+8.91	VBP	contend
+8.25	VBP	continue
+10.2	VBP	decline
+10.2	VBP	disagree
+3.97	VBP	do
+9.32	VBP	estimate
+9.69	VBP	exist
+6.19	VBP	expect
+8.79	VBP	face
+8.91	VBP	fall
+9.69	VBP	fare
+9.17	VBP	favor
+8.79	VBP	fear
+7.74	VBP	feel
+8.79	VBP	find
+7.17	VBP	get
+7.91	VBP	give
+8.1	VBP	go
+10.2	VBP	hate
+2.5	VBP	have
+9.69	VBP	help
+10.2	VBP	hit
+9.17	VBP	hold
+7.79	VBP	hope
+10.2	VBP	illustrate
+7.32	VBP	include
+9.17	VBP	indicate
+8.79	VBP	insist
+9.91	VBP	intend
+9.69	VBP	keep
+7.17	VBP	know
+9.91	VBP	lead
+9.17	VBP	leave
+9.49	VBP	like
+9.69	VBP	live
+7.91	VBP	look
+9.91	VBP	lose
+10.2	VBP	love
+9.69	VBP	maintain
+7.36	VBP	make
+10.2	VBP	mean
+10.2	VBP	meet
+9.69	VBP	move
+6.77	VBP	need
+8.59	VBP	note
+9.03	VBP	offer
+9.91	VBP	oppose
+9.03	VBP	own
+7.97	VBP	pay
+8.59	VBP	plan
+9.49	VBP	play
+9.91	VBP	point
+9.32	VBP	predict
+9.17	VBP	prefer
+8.32	VBP	provide
+9.49	VBP	put
+9.32	VBP	question
+10.2	VBP	raise
+9.03	VBP	range
+10.2	VBP	reach
+9.49	VBP	read
+9.91	VBP	realize
+9.91	VBP	receive
+8.41	VBP	reflect
+7.91	VBP	remain
+9.69	VBP	report
+9.49	VBP	represent
+8.69	VBP	require
+9.91	VBP	rise
+9.91	VBP	run
+4.23	VBP	say
+6.77	VBP	see
+9.91	VBP	seek
+7.79	VBP	seem
+9.03	VBP	sell
+7.91	VBP	show
+9.69	VBP	spend
+8.32	VBP	stand
+9.69	VBP	start
+9.91	VBP	stay
+8.25	VBP	suggest
+10.2	VBP	support
+9.91	VBP	suspect
+8.69	VBP	take
+9.91	VBP	tell
+7.97	VBP	tend
+5.59	VBP	think
+9.49	VBP	total
+9.91	VBP	trade
+8.69	VBP	try
+9.91	VBP	understand
+8.17	VBP	use
+8.59	VBP	vary
+9.32	VBP	view
+5.69	VBP	want
+9.49	VBP	wish
+9.32	VBP	wonder
+9.17	VBP	work
+9.17	VBP	worry
+3.91	VBZ	's
+10.5	VBZ	Is
+9.62	VBZ	accounts
+10.9	VBZ	acknowledges
+10.7	VBZ	acts
+7.22	VBZ	adds
+10.1	VBZ	admits
+10.9	VBZ	advises
+9.94	VBZ	agrees
+10.4	VBZ	alleges
+10.2	VBZ	allows
+11.2	VBZ	amounts
+11.2	VBZ	anticipates
+8.17	VBZ	appears
+9.36	VBZ	argues
+10.1	VBZ	asks
+10.7	VBZ	asserts
+10.5	VBZ	assumes
+11.2	VBZ	attracts
+10.5	VBZ	bears
+9.28	VBZ	becomes
+9.28	VBZ	begins
+7.8	VBZ	believes
+11.2	VBZ	belongs
+11.2	VBZ	blames
+10.7	VBZ	boasts
+11.2	VBZ	boosts
+11.2	VBZ	breaks
+10.9	VBZ	brings
+10.5	VBZ	buys
+7.72	VBZ	calls
+9.2	VBZ	carries
+10.9	VBZ	causes
+11.2	VBZ	changes
+10.1	VBZ	charges
+9.28	VBZ	claims
+7.67	VBZ	comes
+10.1	VBZ	compares
+10.9	VBZ	complains
+10.1	VBZ	concedes
+11.2	VBZ	concerns
+10.9	VBZ	concludes
+10.9	VBZ	confirms
+10.5	VBZ	considers
+10.5	VBZ	contains
+9.53	VBZ	contends
+7.69	VBZ	continues
+9.62	VBZ	controls
+9.53	VBZ	costs
+10.9	VBZ	counts
+10.1	VBZ	covers
+10.5	VBZ	cuts
+10.7	VBZ	declares
+10.1	VBZ	declines
+11.2	VBZ	demonstrates
+10.5	VBZ	denies
+9.94	VBZ	depends
+10.5	VBZ	describes
+5.38	VBZ	does
+10.9	VBZ	doubts
+10.7	VBZ	draws
+11.2	VBZ	drops
+10.7	VBZ	emerges
+10.4	VBZ	employs
+10.4	VBZ	ends
+9.07	VBZ	estimates
+10.7	VBZ	exceeds
+10.7	VBZ	exists
+6.4	VBZ	expects
+9.72	VBZ	expires
+9.36	VBZ	explains
+8.94	VBZ	faces
+10.7	VBZ	fails
+10.2	VBZ	falls
+10.5	VBZ	feels
+10.2	VBZ	figures
+10.7	VBZ	finds
+8.36	VBZ	follows
+11.2	VBZ	forces
+10.7	VBZ	generates
+8.44	VBZ	gets
+8.67	VBZ	gives
+7.97	VBZ	goes
+10.4	VBZ	grows
+11.2	VBZ	guarantees
+9.28	VBZ	happens
+2.64	VBZ	has
+9.72	VBZ	heads
+9.53	VBZ	helps
+7.91	VBZ	holds
+8.28	VBZ	hopes
+7.97	VBZ	includes
+9.62	VBZ	increases
+9.07	VBZ	indicates
+9.82	VBZ	insists
+8.82	VBZ	intends
+9.82	VBZ	involves
+1.47	VBZ	is
+11.2	VBZ	joins
+10.5	VBZ	keeps
+9	VBZ	knows
+10.9	VBZ	lacks
+10.4	VBZ	leads
+10.1	VBZ	leaves
+10.5	VBZ	lies
+10.4	VBZ	likes
+10.5	VBZ	lives
+9.28	VBZ	looks
+10.7	VBZ	maintains
+7.24	VBZ	makes
+9.72	VBZ	manages
+10.5	VBZ	marks
+11.2	VBZ	matches
+7.97	VBZ	means
+10.9	VBZ	meets
+11.2	VBZ	misses
+9.94	VBZ	moves
+11.2	VBZ	narrows
+8.36	VBZ	needs
+8.44	VBZ	notes
+10.5	VBZ	occurs
+8.88	VBZ	offers
+8.94	VBZ	operates
+10.5	VBZ	opposes
+9.82	VBZ	oversees
+10.5	VBZ	owes
+7.26	VBZ	owns
+9.94	VBZ	pays
+11.2	VBZ	permits
+10.9	VBZ	places
+6.82	VBZ	plans
+10.5	VBZ	plays
+10.2	VBZ	points
+10.2	VBZ	predicts
+10.9	VBZ	presents
+11.2	VBZ	prevails
+10.9	VBZ	prevents
+10.2	VBZ	produces
+11.2	VBZ	prohibits
+9.94	VBZ	promises
+8.53	VBZ	provides
+9.07	VBZ	puts
+11.2	VBZ	quotes
+9.94	VBZ	raises
+10.1	VBZ	reaches
+9.53	VBZ	recalls
+10.2	VBZ	receives
+10.9	VBZ	reduces
+8.48	VBZ	reflects
+11.2	VBZ	refuses
+11.2	VBZ	regains
+11.2	VBZ	relies
+7.42	VBZ	remains
+11.2	VBZ	replies
+9.82	VBZ	reports
+8.28	VBZ	represents
+8.88	VBZ	requires
+10.9	VBZ	results
+10.5	VBZ	retains
+11.2	VBZ	returns
+8.82	VBZ	runs
+3.17	VBZ	says
+9.07	VBZ	seeks
+7.53	VBZ	seems
+9	VBZ	sees
+9.07	VBZ	sells
+11.2	VBZ	serves
+9.94	VBZ	sets
+11.2	VBZ	shares
+8.13	VBZ	shows
+10.2	VBZ	sounds
+10.5	VBZ	specializes
+10.9	VBZ	spends
+9.62	VBZ	stands
+9.94	VBZ	starts
+11.2	VBZ	states
+10.5	VBZ	stems
+8.62	VBZ	succeeds
+8.77	VBZ	suggests
+11.2	VBZ	suspects
+7.85	VBZ	takes
+11.2	VBZ	talks
+9.94	VBZ	tells
+8.24	VBZ	thinks
+10.9	VBZ	throws
+10.5	VBZ	tracks
+10.5	VBZ	trades
+10.9	VBZ	tries
+9.62	VBZ	turns
+10.7	VBZ	understands
+8.94	VBZ	uses
+10.4	VBZ	values
+7.5	VBZ	wants
+11.2	VBZ	widens
+10.7	VBZ	wins
+8.88	VBZ	works
+10.7	VBZ	writes
+10.6	VP	ADVP VB NP
+12.9	VP	ADVP VB NP PP
+13.9	VP	ADVP VB S
+11.2	VP	ADVP VBD NP
+13.2	VP	ADVP VBD NP PP
+13.2	VP	ADVP VBD PP PP
+13.2	VP	ADVP VBD S
+13.9	VP	ADVP VBD SBAR
+10.6	VP	ADVP VBG NP
+13.2	VP	ADVP VBG NP PP
+13.4	VP	ADVP VBG PP
+13.9	VP	ADVP VBG S
+10.8	VP	ADVP VBN
+9.91	VP	ADVP VBN PP
+12.7	VP	ADVP VBN PP-LOC
+13.6	VP	ADVP VBN PP-TMP
+12.4	VP	ADVP VBN NP
+13.4	VP	ADVP VBN S
+12.5	VP	ADVP VBP NP
+13.6	VP	ADVP VBP SBAR
+11.7	VP	ADVP VBZ NP
+13.9	VP	ADVP-TMP VBG NP
+13.6	VP	ADVP-TMP VBG VP
+13.4	VP	ADVP-TMP VBN
+11.9	VP	ADVP-TMP VBN PP
+13.9	VP	ADVP-TMP VBN PP-LOC
+13.9	VP	IN NP
+13	VP	IN S
+12.3	VP	JJ
+11.7	VP	JJ PP
+13.2	VP	JJ NP
+11.3	VP	MD
+8.23	VP	MD ADVP VP
+9.42	VP	MD ADVP-TMP VP
+12.2	VP	MD RB ADVP VP
+13.2	VP	MD RB ADVP-TMP VP
+7.08	VP	MD RB VP
+12	VP	MD S
+4.11	VP	MD VP
+12.2	VP	MD PUNC`` VP
+12.2	VP	NN
+13.9	VP	RB VBG NP
+12.7	VP	TO
+11.6	VP	TO ADVP VP
+13.9	VP	TO ADVP-TMP VP
+3.35	VP	TO VP
+11.8	VP	TO PUNC`` VP
+6.69	VP	VB
+13.9	VP	VB PUNC'' NP
+9.31	VP	VB ADVP
+10.5	VP	VB NP-TMP
+6.44	VP	VB PP
+9.7	VP	VB PP-LOC
+9.8	VP	VB PP-TMP
+12.2	VP	VB S-PRP
+11.5	VP	VB SBAR-TMP
+12.2	VP	VB ADJP
+7.62	VP	VB ADJP-PRD
+13.9	VP	VB ADJP-PRD ADVP
+13.9	VP	VB ADJP-PRD ADVP-TMP
+13	VP	VB ADJP-PRD NP-TMP
+11.5	VP	VB ADJP-PRD PP
+13.2	VP	VB ADJP-PRD PP-LOC
+11.1	VP	VB ADJP-PRD PP-TMP
+12.7	VP	VB ADJP-PRD S
+13	VP	VB ADJP-PRD SBAR
+11.8	VP	VB ADJP-PRD SBAR-ADV
+13.6	VP	VB ADJP-PRD SBAR-PRP
+13.2	VP	VB ADJP-PRD SBAR-TMP
+11.5	VP	VB ADVP NP
+10.3	VP	VB ADVP PP
+13.2	VP	VB ADVP PP-LOC
+13.2	VP	VB ADVP PP-TMP
+13.4	VP	VB ADVP SBAR
+12.9	VP	VB ADVP VP
+13.4	VP	VB ADVP-LOC
+11.8	VP	VB ADVP-PRD
+11.1	VP	VB ADVP-TMP
+13.6	VP	VB ADVP-TMP PP
+4.2	VP	VB NP
+12.7	VP	VB NP , ADVP
+11.9	VP	VB NP , PP
+11.7	VP	VB NP , S-ADV
+12	VP	VB NP , SBAR-ADV
+9.86	VP	VB NP ADVP
+13	VP	VB NP ADVP PP
+12.3	VP	VB NP ADVP-LOC
+10.8	VP	VB NP ADVP-TMP
+9.55	VP	VB NP NP
+13.2	VP	VB NP NP PP
+13	VP	VB NP NP PP-TMP
+10.2	VP	VB NP NP-TMP
+13.9	VP	VB NP NP-TMP , PP
+13.2	VP	VB NP NP-TMP PP
+13.9	VP	VB NP NP-TMP PP-LOC
+6.21	VP	VB NP PP
+12.4	VP	VB NP PP , PP
+13.9	VP	VB NP PP , S-ADV
+13.9	VP	VB NP PP , SBAR-ADV
+13.9	VP	VB NP PP , SBAR-PRP
+13.6	VP	VB NP PP ADVP-TMP
+12.9	VP	VB NP PP NP-TMP
+9.79	VP	VB NP PP PP
+12.7	VP	VB NP PP PP-LOC
+10.8	VP	VB NP PP PP-TMP
+12.5	VP	VB NP PP S-PRP
+12.6	VP	VB NP PP SBAR-ADV
+13.2	VP	VB NP PP SBAR-PRP
+12.3	VP	VB NP PP SBAR-TMP
+8.83	VP	VB NP PP-LOC
+13	VP	VB NP PP-LOC PP
+12.9	VP	VB NP PP-LOC PP-TMP
+8.31	VP	VB NP PP-TMP
+13.9	VP	VB NP PP-TMP , PP
+12.7	VP	VB NP PP-TMP PP
+13.9	VP	VB NP PP-TMP SBAR-TMP
+12.1	VP	VB NP PRT
+10	VP	VB NP S
+10.3	VP	VB NP S-PRP
+11.7	VP	VB NP SBAR
+10.3	VP	VB NP SBAR-ADV
+11.1	VP	VB NP SBAR-PRP
+10.3	VP	VB NP SBAR-TMP
+13.6	VP	VB NP VP
+7.62	VP	VB NP-PRD
+13.9	VP	VB NP-PRD NP-TMP
+12.1	VP	VB NP-PRD PP
+13.6	VP	VB NP-PRD PP-LOC
+12.2	VP	VB NP-PRD PP-TMP
+13.6	VP	VB NP-PRD SBAR-TMP
+13.9	VP	VB NP-TMP NP
+13.9	VP	VB PP , ADVP
+13.6	VP	VB PP ADVP
+12.7	VP	VB PP ADVP-TMP
+12.2	VP	VB PP NP
+12.6	VP	VB PP NP-TMP
+10.1	VP	VB PP PP
+11.5	VP	VB PP PP-LOC
+11	VP	VB PP PP-TMP
+12.9	VP	VB PP S-PRP
+13.2	VP	VB PP SBAR
+13	VP	VB PP SBAR-ADV
+13.4	VP	VB PP SBAR-PRP
+11.7	VP	VB PP SBAR-TMP
+13.9	VP	VB PP-LOC PP-TMP
+13.9	VP	VB PP-LOC SBAR-TMP
+12.1	VP	VB PP-LOC-PRD
+11.1	VP	VB PP-PRD
+13.9	VP	VB PP-PRD PP
+13.9	VP	VB PP-PRD PP-TMP
+13.2	VP	VB PP-TMP NP
+13	VP	VB PP-TMP PP
+13.9	VP	VB PP-TMP S-PRP
+13.6	VP	VB PP-TMP SBAR
+10.9	VP	VB PRT
+8.59	VP	VB PRT NP
+11.9	VP	VB PRT NP PP
+13.2	VP	VB PRT NP PP-TMP
+13.2	VP	VB PRT NP S-PRP
+10.8	VP	VB PRT PP
+13.2	VP	VB PRT PP-LOC
+12.2	VP	VB PRT S
+13.4	VP	VB PRT SBAR
+13.4	VP	VB RB VP
+6.41	VP	VB S
+13.6	VP	VB S , SBAR-ADV
+12.3	VP	VB S PP
+12.5	VP	VB S PP-TMP
+13.6	VP	VB S S-PRP
+12.5	VP	VB S SBAR-ADV
+13.9	VP	VB S SBAR-PRP
+12.3	VP	VB S SBAR-TMP
+12.4	VP	VB S-PRD
+7.56	VP	VB SBAR
+11.7	VP	VB SBAR-ADV
+10.8	VP	VB SBAR-NOM
+13.4	VP	VB SBAR-PRD
+5.76	VP	VB VP
+13.6	VP	VB PUNC`` ADJP-PRD
+12.5	VP	VB PUNC`` NP
+5.39	VP	VBD
+12.3	VP	VBD , ADVP , SBAR
+13.6	VP	VBD , S
+11.4	VP	VBD , S-ADV
+13.6	VP	VBD , SBAR
+10.9	VP	VBD , PUNC`` S
+11.6	VP	VBD ADVP-TMP
+9.12	VP	VBD NP-TMP
+7.11	VP	VBD PP
+8.83	VP	VBD PP PP
+10.7	VP	VBD PP PP-TMP
+9.58	VP	VBD PP-LOC
+9.44	VP	VBD PP-TMP
+11.3	VP	VBD PRT PP
+12.2	VP	VBD S-PRP
+11.4	VP	VBD PUNC: PUNC`` S
+12.5	VP	VBD ADJP
+7.45	VP	VBD ADJP-PRD
+13.2	VP	VBD ADJP-PRD , PP
+13.9	VP	VBD ADJP-PRD , S-ADV
+12.7	VP	VBD ADJP-PRD NP-TMP
+10.9	VP	VBD ADJP-PRD PP
+12.3	VP	VBD ADJP-PRD PP-LOC
+11.8	VP	VBD ADJP-PRD PP-TMP
+13.6	VP	VBD ADJP-PRD SBAR
+13.4	VP	VBD ADJP-PRD SBAR-ADV
+11.9	VP	VBD ADJP-PRD SBAR-TMP
+9.97	VP	VBD ADVP
+13.9	VP	VBD ADVP , PP
+13.4	VP	VBD ADVP , S-ADV
+12.5	VP	VBD ADVP ADJP-PRD
+13.6	VP	VBD ADVP NP
+12.4	VP	VBD ADVP NP-PRD
+13.2	VP	VBD ADVP NP-TMP
+10	VP	VBD ADVP PP
+13.9	VP	VBD ADVP PP , S-ADV
+12.9	VP	VBD ADVP PP PP
+12.1	VP	VBD ADVP PP-LOC
+13.9	VP	VBD ADVP PP-PRD
+11.8	VP	VBD ADVP PP-TMP
+13.4	VP	VBD ADVP SBAR
+13.4	VP	VBD ADVP SBAR-TMP
+9.66	VP	VBD ADVP VP
+13.6	VP	VBD ADVP-LOC-PRD
+10.1	VP	VBD ADVP-PRD
+11.9	VP	VBD ADVP-PRD PP
+13.6	VP	VBD ADVP-TMP ADJP-PRD
+13.4	VP	VBD ADVP-TMP NP-PRD
+12.9	VP	VBD ADVP-TMP SBAR
+10.6	VP	VBD ADVP-TMP VP
+5.26	VP	VBD NP
+12	VP	VBD NP , ADVP
+9.95	VP	VBD NP , PP
+13.9	VP	VBD NP , PP , PP
+12.4	VP	VBD NP , PP PP
+13.6	VP	VBD NP , PP-LOC
+9.84	VP	VBD NP , S-ADV
+11.7	VP	VBD NP , SBAR-ADV
+13.9	VP	VBD NP , SBAR-TMP
+11.3	VP	VBD NP ADVP
+13.2	VP	VBD NP ADVP PP
+13.9	VP	VBD NP ADVP-LOC
+11.6	VP	VBD NP ADVP-TMP
+13.9	VP	VBD NP ADVP-TMP PP
+10.5	VP	VBD NP NP
+13.9	VP	VBD NP NP PP-TMP
+9.84	VP	VBD NP NP-TMP
+13.9	VP	VBD NP NP-TMP , PP
+12.2	VP	VBD NP NP-TMP PP
+13.6	VP	VBD NP NP-TMP PP-LOC
+13.6	VP	VBD NP NP-TMP S
+13.4	VP	VBD NP NP-TMP SBAR
+12.5	VP	VBD NP NP-TMP SBAR-TMP
+6.54	VP	VBD NP PP
+13.9	VP	VBD NP PP , NP
+11.5	VP	VBD NP PP , PP
+11.8	VP	VBD NP PP , S-ADV
+13.6	VP	VBD NP PP , SBAR-ADV
+13.9	VP	VBD NP PP ADVP-TMP
+12.7	VP	VBD NP PP NP-TMP
+7.91	VP	VBD NP PP PP
+13.4	VP	VBD NP PP PP , S-ADV
+13.9	VP	VBD NP PP PP , SBAR-ADV
+13.9	VP	VBD NP PP PP PP
+13.6	VP	VBD NP PP PP PP-TMP
+11.3	VP	VBD NP PP PP-LOC
+10.7	VP	VBD NP PP PP-TMP
+12.9	VP	VBD NP PP S
+13.4	VP	VBD NP PP S-ADV
+12.7	VP	VBD NP PP S-PRP
+13.9	VP	VBD NP PP SBAR-ADV
+12.3	VP	VBD NP PP SBAR-TMP
+9.67	VP	VBD NP PP-LOC
+13.6	VP	VBD NP PP-LOC , PP
+13.9	VP	VBD NP PP-LOC , S-ADV
+13	VP	VBD NP PP-LOC NP-TMP
+13.4	VP	VBD NP PP-LOC PP
+13.9	VP	VBD NP PP-LOC PP-TMP
+8.39	VP	VBD NP PP-TMP
+12.5	VP	VBD NP PP-TMP , ADVP
+13.6	VP	VBD NP PP-TMP , NP
+12.3	VP	VBD NP PP-TMP , PP
+12.6	VP	VBD NP PP-TMP , S-ADV
+12.7	VP	VBD NP PP-TMP , SBAR-ADV
+11.4	VP	VBD NP PP-TMP PP
+13.6	VP	VBD NP PP-TMP PP PP
+13	VP	VBD NP PP-TMP PP-TMP
+13.4	VP	VBD NP PP-TMP SBAR
+9.51	VP	VBD NP S
+12.3	VP	VBD NP S-ADV
+10.8	VP	VBD NP S-PRP
+10.1	VP	VBD NP SBAR
+12.3	VP	VBD NP SBAR-ADV
+11.2	VP	VBD NP SBAR-PRP
+10.6	VP	VBD NP SBAR-TMP
+13.9	VP	VBD NP-ADV PP
+13	VP	VBD NP-ADV PP PP
+7.2	VP	VBD NP-PRD
+11.1	VP	VBD NP-PRD , ADVP
+12.3	VP	VBD NP-PRD , PP
+12.3	VP	VBD NP-PRD , S-ADV
+13.6	VP	VBD NP-PRD , SBAR-ADV
+11.4	VP	VBD NP-PRD PP
+12	VP	VBD NP-PRD PP-LOC
+11.7	VP	VBD NP-PRD PP-TMP
+13.2	VP	VBD NP-PRD SBAR
+11.9	VP	VBD NP-TMP PP
+12.1	VP	VBD NP-TMP PP , ADVP
+13	VP	VBD NP-TMP PP , ADVP , PP-LOC
+13.2	VP	VBD NP-TMP PP-LOC
+13.6	VP	VBD NP-TMP S
+10.9	VP	VBD NP-TMP SBAR
+9.45	VP	VBD PP , ADVP
+12.7	VP	VBD PP , ADVP , PP-LOC
+11.9	VP	VBD PP , PP
+11.9	VP	VBD PP , S-ADV
+13.6	VP	VBD PP , SBAR-ADV
+13.9	VP	VBD PP ADVP
+13.9	VP	VBD PP ADVP-TMP
+12.5	VP	VBD PP NP
+12	VP	VBD PP NP-TMP
+13.2	VP	VBD PP NP-TMP PP
+13.9	VP	VBD PP PP , ADVP
+13.9	VP	VBD PP PP , PP
+13.2	VP	VBD PP PP PP-TMP
+12.4	VP	VBD PP PP-LOC
+13.9	VP	VBD PP PP-TMP PP
+12.3	VP	VBD PP S
+12.1	VP	VBD PP S-PRP
+13.2	VP	VBD PP SBAR
+13.6	VP	VBD PP SBAR-PRP
+13	VP	VBD PP SBAR-TMP
+13.4	VP	VBD PP-LOC , ADVP
+12.9	VP	VBD PP-LOC PP
+13.2	VP	VBD PP-LOC PP-TMP
+13.9	VP	VBD PP-LOC S-PRP
+11.1	VP	VBD PP-LOC SBAR
+10.6	VP	VBD PP-LOC-PRD
+13.2	VP	VBD PP-LOC-PRD SBAR-TMP
+10.2	VP	VBD PP-PRD
+12.5	VP	VBD PP-TMP PP
+11.9	VP	VBD PP-TMP SBAR
+12.7	VP	VBD PP-TMP-PRD
+12	VP	VBD PRT
+10.7	VP	VBD PRT NP
+13.9	VP	VBD PRT NP , S-ADV
+12.7	VP	VBD PRT NP PP
+13.6	VP	VBD PRT NP PP-TMP
+13.9	VP	VBD PRT NP S-PRP
+13.6	VP	VBD PRT PP-LOC
+12.9	VP	VBD PRT S
+13	VP	VBD PRT SBAR
+10.8	VP	VBD RB ADJP-PRD
+12.5	VP	VBD RB ADVP VP
+11.5	VP	VBD RB NP-PRD
+7.58	VP	VBD RB VP
+6.49	VP	VBD S
+13.6	VP	VBD S , PP
+12	VP	VBD S , S-ADV
+13.9	VP	VBD S , SBAR-ADV
+13.9	VP	VBD S NP-TMP
+12.5	VP	VBD S PP
+13.9	VP	VBD S PP-LOC
+12	VP	VBD S PP-TMP
+12.6	VP	VBD S SBAR-TMP
+13.9	VP	VBD S-ADV
+11.9	VP	VBD S-PRD
+4.89	VP	VBD SBAR
+11.8	VP	VBD SBAR , S-ADV
+13.9	VP	VBD SBAR , SBAR-ADV
+13.9	VP	VBD SBAR-ADV
+13.6	VP	VBD SBAR-NOM
+11.7	VP	VBD SBAR-PRD
+10.6	VP	VBD SBAR-TMP
+5.15	VP	VBD VP
+12.5	VP	VBD PUNC`` ADJP-PRD
+13.4	VP	VBD PUNC`` NP-PRD
+13.6	VP	VBD PUNC`` S
+13	VP	VBD PUNC`` VP
+8.34	VP	VBG
+13.6	VP	VBG , PUNC`` S
+6.91	VP	VBG PP
+13.6	VP	VBG PUNC: PUNC`` S
+10.6	VP	VBG ADJP-PRD
+10.3	VP	VBG ADVP
+13.6	VP	VBG ADVP NP
+10.6	VP	VBG ADVP PP
+12.5	VP	VBG ADVP PP-LOC
+12.6	VP	VBG ADVP PP-TMP
+13.9	VP	VBG ADVP SBAR-TMP
+13.6	VP	VBG ADVP VP
+13.6	VP	VBG ADVP-LOC
+12.7	VP	VBG ADVP-TMP
+5.14	VP	VBG NP
+12	VP	VBG NP , PP
+13.6	VP	VBG NP , S-ADV
+11.1	VP	VBG NP ADVP
+12.9	VP	VBG NP ADVP PP
+13.2	VP	VBG NP ADVP-LOC
+12.2	VP	VBG NP ADVP-TMP
+10.8	VP	VBG NP NP
+11.2	VP	VBG NP NP-TMP
+7.26	VP	VBG NP PP
+13.9	VP	VBG NP PP , SBAR-ADV
+11	VP	VBG NP PP PP
+13.2	VP	VBG NP PP PP-TMP
+12.9	VP	VBG NP PP S-PRP
+13.4	VP	VBG NP PP SBAR-TMP
+9.79	VP	VBG NP PP-LOC
+9.66	VP	VBG NP PP-TMP
+13.6	VP	VBG NP PP-TMP PP
+13.9	VP	VBG NP PRT
+10.5	VP	VBG NP S
+10.7	VP	VBG NP S-PRP
+12.5	VP	VBG NP SBAR
+13.9	VP	VBG NP SBAR-ADV
+12.4	VP	VBG NP SBAR-PRP
+11.1	VP	VBG NP SBAR-TMP
+11.1	VP	VBG NP-PRD
+11	VP	VBG NP-TMP
+13.6	VP	VBG PP , S-ADV
+13.6	VP	VBG PP ADVP
+13.4	VP	VBG PP ADVP-TMP
+12.7	VP	VBG PP NP
+12.5	VP	VBG PP NP-TMP
+10.9	VP	VBG PP PP
+12.6	VP	VBG PP PP-LOC
+12.6	VP	VBG PP PP-TMP
+13.9	VP	VBG PP S
+12.2	VP	VBG PP S-PRP
+13.6	VP	VBG PP SBAR
+9.88	VP	VBG PP-LOC
+13.9	VP	VBG PP-LOC NP-TMP
+13	VP	VBG PP-LOC PP-TMP
+11.1	VP	VBG PP-TMP
+13.9	VP	VBG PP-TMP SBAR
+11.7	VP	VBG PRT
+9.91	VP	VBG PRT NP
+12.6	VP	VBG PRT NP PP
+13.2	VP	VBG PRT NP PP-TMP
+13.9	VP	VBG PRT NP S-PRP
+11.9	VP	VBG PRT PP
+13.9	VP	VBG PRT S
+7.06	VP	VBG S
+13.2	VP	VBG S PP-TMP
+13.2	VP	VBG S-PRP
+8.11	VP	VBG SBAR
+12.6	VP	VBG SBAR-NOM
+12.7	VP	VBG SBAR-TMP
+8.54	VP	VBG VP
+13.4	VP	VBG PUNC`` NP
+6.39	VP	VBN
+13.4	VP	VBN , PP
+13.2	VP	VBN , SBAR-ADV
+9.93	VP	VBN ADVP
+10.1	VP	VBN ADVP PP
+12.4	VP	VBN ADVP PP-LOC
+11.9	VP	VBN ADVP PP-TMP
+11.9	VP	VBN ADVP-LOC
+10.6	VP	VBN ADVP-TMP
+12.4	VP	VBN ADVP-TMP PP
+6.97	VP	VBN NP
+8.76	VP	VBN NP PP
+8.84	VP	VBN NP-TMP
+11.5	VP	VBN NP-TMP PP
+12.6	VP	VBN NP-TMP PP-LOC
+5.12	VP	VBN PP
+11.4	VP	VBN PP , ADVP
+12.4	VP	VBN PP , PP
+12.7	VP	VBN PP , S-ADV
+12.7	VP	VBN PP , SBAR-ADV
+12.9	VP	VBN PP ADVP-TMP
+11.9	VP	VBN PP NP-TMP
+8.54	VP	VBN PP PP
+11.9	VP	VBN PP PP PP
+11.1	VP	VBN PP PP-LOC
+9.74	VP	VBN PP PP-TMP
+13.9	VP	VBN PP PP-TMP PP
+10.4	VP	VBN PP S
+11.9	VP	VBN PP S-PRP
+12.6	VP	VBN PP SBAR-PRP
+12.5	VP	VBN PP SBAR-TMP
+7.39	VP	VBN PP-LOC
+13.6	VP	VBN PP-LOC , S-ADV
+12.9	VP	VBN PP-LOC NP-TMP
+13.9	VP	VBN PP-LOC NP-TMP PP
+10.9	VP	VBN PP-LOC PP
+13.4	VP	VBN PP-LOC PP-LOC
+12.3	VP	VBN PP-LOC PP-TMP
+8.21	VP	VBN PP-TMP
+11.5	VP	VBN PP-TMP PP
+13.9	VP	VBN PP-TMP PP-LOC
+13.9	VP	VBN PP-TMP S-PRP
+11.1	VP	VBN PRT
+10.4	VP	VBN PRT PP
+13.6	VP	VBN PRT PP-LOC
+13.9	VP	VBN PRT PP-TMP
+6.33	VP	VBN S
+10.2	VP	VBN S-PRP
+8.66	VP	VBN SBAR
+12.2	VP	VBN SBAR-ADV
+12.3	VP	VBN SBAR-PRP
+10.5	VP	VBN SBAR-TMP
+9.55	VP	VBN ADJP-PRD
+13.9	VP	VBN ADJP-PRD , S-ADV
+12.7	VP	VBN ADJP-PRD PP
+11.5	VP	VBN ADJP-PRD PP-TMP
+13.6	VP	VBN ADJP-PRD SBAR-TMP
+13.9	VP	VBN ADVP NP-TMP
+13.2	VP	VBN ADVP VP
+13.9	VP	VBN ADVP-PRD
+12.6	VP	VBN NP , PP
+12	VP	VBN NP , S-ADV
+12.7	VP	VBN NP , SBAR-ADV
+12.7	VP	VBN NP ADVP
+13.6	VP	VBN NP ADVP PP
+12.3	VP	VBN NP ADVP-TMP
+12.1	VP	VBN NP NP
+13.6	VP	VBN NP NP-TMP
+11.9	VP	VBN NP PP PP
+13.2	VP	VBN NP PP PP-TMP
+11.5	VP	VBN NP PP-LOC
+9.95	VP	VBN NP PP-TMP
+13.4	VP	VBN NP PP-TMP , PP
+11.8	VP	VBN NP S
+12.4	VP	VBN NP S-PRP
+13.2	VP	VBN NP SBAR
+13.2	VP	VBN NP SBAR-ADV
+13.4	VP	VBN NP SBAR-PRP
+12.5	VP	VBN NP SBAR-TMP
+9.4	VP	VBN NP-PRD
+13.6	VP	VBN NP-PRD PP
+11.9	VP	VBN NP-PRD PP-TMP
+12.9	VP	VBN PP-LOC-PRD
+13.9	VP	VBN PP-LOC-PRD PP-TMP
+13	VP	VBN PP-PRD
+13.6	VP	VBN PP-PRD PP-TMP
+13.9	VP	VBN PP-TMP S
+11.1	VP	VBN PRT NP
+13.6	VP	VBN PRT NP PP
+12.6	VP	VBN S , PP
+12.5	VP	VBN S , S-ADV
+13.9	VP	VBN S , SBAR-ADV
+12.3	VP	VBN S PP
+13.4	VP	VBN S PP-LOC
+11.9	VP	VBN S PP-TMP
+12.5	VP	VBN S SBAR-ADV
+13.4	VP	VBN S SBAR-PRP
+12.5	VP	VBN S SBAR-TMP
+13.9	VP	VBN S-PRD
+7.02	VP	VBN VP
+7.79	VP	VBP
+8.66	VP	VBP PP
+11.2	VP	VBP PP-LOC
+7.56	VP	VBP ADJP-PRD
+13.9	VP	VBP ADJP-PRD , S-ADV
+13.6	VP	VBP ADJP-PRD NP-TMP
+12.4	VP	VBP ADJP-PRD PP
+12.9	VP	VBP ADJP-PRD PP-LOC
+13.9	VP	VBP ADJP-PRD SBAR-ADV
+12.6	VP	VBP ADJP-PRD SBAR-PRP
+11.3	VP	VBP ADVP
+12.5	VP	VBP ADVP ADJP-PRD
+13.9	VP	VBP ADVP NP
+11.9	VP	VBP ADVP NP-PRD
+11.8	VP	VBP ADVP PP
+9.89	VP	VBP ADVP VP
+13.9	VP	VBP ADVP-LOC
+13	VP	VBP ADVP-PRD
+13	VP	VBP ADVP-TMP ADJP-PRD
+13.2	VP	VBP ADVP-TMP NP-PRD
+13.9	VP	VBP ADVP-TMP PP-LOC-PRD
+9.88	VP	VBP ADVP-TMP VP
+13.6	VP	VBP DT VP
+6.73	VP	VBP NP
+13.9	VP	VBP NP , ADVP
+13.2	VP	VBP NP , PP
+13.2	VP	VBP NP , S-ADV
+13.4	VP	VBP NP , SBAR-ADV
+12.7	VP	VBP NP ADVP
+13.6	VP	VBP NP ADVP-TMP
+12.6	VP	VBP NP NP
+13.2	VP	VBP NP NP-TMP
+9.14	VP	VBP NP PP
+13.6	VP	VBP NP PP PP
+13.9	VP	VBP NP PP SBAR-TMP
+11.3	VP	VBP NP PP-LOC
+12.7	VP	VBP NP PP-TMP
+12.9	VP	VBP NP S
+12.7	VP	VBP NP S-PRP
+13.9	VP	VBP NP SBAR
+12.6	VP	VBP NP SBAR-PRP
+8.35	VP	VBP NP-PRD
+13.9	VP	VBP NP-PRD , PP
+12.9	VP	VBP NP-TMP
+12.1	VP	VBP PP PP
+11	VP	VBP PP-LOC-PRD
+10.6	VP	VBP PP-PRD
+13.6	VP	VBP PP-TMP VP
+12.6	VP	VBP PRT NP
+13.2	VP	VBP PRT PP
+13.9	VP	VBP RB
+10.2	VP	VBP RB ADJP-PRD
+11.8	VP	VBP RB ADVP VP
+13	VP	VBP RB ADVP-TMP VP
+12	VP	VBP RB NP-PRD
+7.48	VP	VBP RB VP
+7.37	VP	VBP S
+6.92	VP	VBP SBAR
+13.6	VP	VBP SBAR , SBAR-ADV
+12.5	VP	VBP SBAR-NOM
+5.54	VP	VBP VP
+13.9	VP	VBP PUNC`` NP
+5.65	VP	VBZ
+13.6	VP	VBZ , SBAR-PRD
+12.3	VP	VBZ , PUNC`` S
+7.87	VP	VBZ PP
+10.7	VP	VBZ PP-LOC
+6.79	VP	VBZ S
+13.4	VP	VBZ , S-ADV
+11.7	VP	VBZ PUNC: PUNC`` S
+13.9	VP	VBZ ADJP
+6.86	VP	VBZ ADJP-PRD
+12.9	VP	VBZ ADJP-PRD , PP
+11.3	VP	VBZ ADJP-PRD PP
+12.5	VP	VBZ ADJP-PRD PP-LOC
+13.4	VP	VBZ ADJP-PRD PP-TMP
+10.4	VP	VBZ ADJP-PRD S
+10.6	VP	VBZ ADJP-PRD SBAR
+13.9	VP	VBZ ADJP-PRD SBAR-ADV
+12.3	VP	VBZ ADJP-PRD SBAR-PRP
+10.9	VP	VBZ ADVP
+11.4	VP	VBZ ADVP ADJP-PRD
+13.4	VP	VBZ ADVP NP
+10.2	VP	VBZ ADVP NP-PRD
+12	VP	VBZ ADVP PP
+13.4	VP	VBZ ADVP PP-PRD
+9.26	VP	VBZ ADVP VP
+13.6	VP	VBZ ADVP-LOC
+13.6	VP	VBZ ADVP-LOC-PRD
+11.8	VP	VBZ ADVP-PRD
+13.9	VP	VBZ ADVP-TMP
+12.9	VP	VBZ ADVP-TMP ADJP-PRD
+11.4	VP	VBZ ADVP-TMP NP-PRD
+13.6	VP	VBZ ADVP-TMP S
+9.41	VP	VBZ ADVP-TMP VP
+5.74	VP	VBZ NP
+13.6	VP	VBZ NP , ADVP
+12.7	VP	VBZ NP , PP
+12.6	VP	VBZ NP , S-ADV
+12.4	VP	VBZ NP , SBAR-ADV
+11.9	VP	VBZ NP ADVP
+12.6	VP	VBZ NP ADVP-TMP
+11.7	VP	VBZ NP NP
+12.4	VP	VBZ NP NP-TMP
+8.3	VP	VBZ NP PP
+12.9	VP	VBZ NP PP PP
+10.1	VP	VBZ NP PP-LOC
+11.7	VP	VBZ NP PP-TMP
+11.9	VP	VBZ NP S
+12.4	VP	VBZ NP S-PRP
+13	VP	VBZ NP SBAR
+12.5	VP	VBZ NP SBAR-ADV
+13.2	VP	VBZ NP SBAR-PRP
+12.7	VP	VBZ NP SBAR-TMP
+5.99	VP	VBZ NP-PRD
+12.6	VP	VBZ NP-PRD , PP
+13.4	VP	VBZ NP-PRD , S-ADV
+13	VP	VBZ NP-PRD , SBAR-ADV
+13.4	VP	VBZ NP-PRD ADVP-TMP
+11.9	VP	VBZ NP-PRD PP
+11.5	VP	VBZ NP-PRD PP-LOC
+13.9	VP	VBZ NP-PRD PP-TMP
+13.6	VP	VBZ NP-PRD S
+12.4	VP	VBZ NP-PRD SBAR
+13.9	VP	VBZ NP-PRD SBAR-ADV
+13.9	VP	VBZ NP-PRD SBAR-TMP
+12.5	VP	VBZ NP-TMP
+13.9	VP	VBZ PP , SBAR-ADV
+12	VP	VBZ PP PP
+13.6	VP	VBZ PP PP-LOC
+13.2	VP	VBZ PP SBAR-TMP
+10.7	VP	VBZ PP-LOC-PRD
+9.44	VP	VBZ PP-PRD
+13.6	VP	VBZ PP-PRD PP
+13.9	VP	VBZ PP-PRD S
+11.8	VP	VBZ PP-TMP
+13.4	VP	VBZ PP-TMP VP
+12.9	VP	VBZ PP-TMP-PRD
+13.2	VP	VBZ PRT
+12	VP	VBZ PRT NP
+12.6	VP	VBZ PRT PP
+13.4	VP	VBZ PRT SBAR
+13.9	VP	VBZ RB
+10.2	VP	VBZ RB ADJP-PRD
+13	VP	VBZ RB ADJP-PRD SBAR
+11.7	VP	VBZ RB ADVP VP
+12.1	VP	VBZ RB ADVP-TMP VP
+9.72	VP	VBZ RB NP-PRD
+12.4	VP	VBZ RB PP-PRD
+7.58	VP	VBZ RB VP
+13.4	VP	VBZ S , S-ADV
+13.2	VP	VBZ S , SBAR-ADV
+13.4	VP	VBZ S PP
+13.9	VP	VBZ S PP-LOC
+13.9	VP	VBZ S-NOM-PRD
+10.1	VP	VBZ S-PRD
+6.7	VP	VBZ SBAR
+13.9	VP	VBZ SBAR-ADV
+13.6	VP	VBZ SBAR-LOC-PRD
+12.6	VP	VBZ SBAR-NOM
+12.6	VP	VBZ SBAR-NOM-PRD
+8.96	VP	VBZ SBAR-PRD
+13	VP	VBZ SBAR-PRP-PRD
+12.6	VP	VBZ SBAR-TMP
+4.78	VP	VBZ VP
+12.7	VP	VBZ PUNC`` ADJP-PRD
+13.9	VP	VBZ PUNC`` NP
+12.9	VP	VBZ PUNC`` NP-PRD
+12.7	VP	VBZ PUNC`` VP
+13.6	VP	VP , ADVP VP
+11.7	VP	VP , NP
+12.4	VP	VP , NP-ADV
+12.6	VP	VP , RB VP
+12.5	VP	VP , SBAR
+13	VP	VP , SBAR-ADV
+11.6	VP	VP , VP
+13.9	VP	VP , VP , VP
+12.9	VP	VP PUNC: NP
+13.9	VP	PUNC`` VB PUNC'' NP
+1.13	WDT	that
+7.42	WDT	what
+7.32	WDT	whatever
+0.917	WDT	which
+0	WHADJP	WRB JJ
+5.91	WHADVP	IN
+7.06	WHADVP	RB WRB
+0.0829	WHADVP	WRB
+6.32	WHADVP	WRB JJ
+5.71	WHADVP	WRB RB
+7.15	WHNP	DT
+4.36	WHNP	IN
+8.37	WHNP	NP PP
+8.5	WHNP	NP WHPP
+9.63	WHNP	RB WP
+0.778	WHNP	WDT
+7.96	WHNP	WDT NN
+8.96	WHNP	WDT NNS
+9.37	WHNP	WHADJP NN
+7.63	WHNP	WHNP PP
+7.96	WHNP	WHNP WHPP
+1.67	WHNP	WP
+8.79	WHNP	WP NN
+9.15	WHNP	WP$ JJ NN
+7.1	WHNP	WP$ NN
+7.2	WHNP	WP$ NNS
+8.05	WHNP	WRB JJ
+0.0574	WHPP	IN WHNP
+4.68	WHPP	TO WHNP
+4.94	WP	What
+7.33	WP	Who
+1.72	WP	what
+0.649	WP	who
+5.63	WP	whom
+0	WP$	whose
+7.47	WRB	How
+4.99	WRB	When
+7.69	WRB	Where
+6.27	WRB	Why
+2.59	WRB	how
+0.83	WRB	when
+7.69	WRB	whenever
+2.7	WRB	where
+4.12	WRB	why
+2.35	X	DT JJR
+2.76	X	IN
+3.61	X	PP
+1.02	X	SYM
+3.61	X	X NP
+6.02	PUNC``	`
+0.0224	PUNC``	``
+0	ROOT	S

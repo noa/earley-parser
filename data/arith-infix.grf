@@ -1,0 +1,42 @@
+# Exactly the same rules as arith.grf, but here we use infix notationn
+# in the semantics.  (Buildfeats assumes that non-alphabetic 
+# symbols like "+" or "==>" are infix operators.)
+# 
+# Even though the input to the parser is in infix notation as well,
+# the output is different: it is parenthesized in accordance with
+# order of operations.  This is because buildfeats automatically
+# inserts parentheses as necessary when substituting for x and y.  
+# (It is not like #define in C!)
+#
+# The semantics for addition and subtraction put spaces around
+# the "+" and "-" operators, so the value of the sem feature 
+# must be quoted to protect the spaces.
+
+1 EXPR[sem="x + y"]	EXPR[sem=x] + TERM[sem=y]   
+1 EXPR[sem="x - y"]	EXPR[sem=x] - TERM[sem=y]
+1 EXPR[sem=x]		TERM[sem=x]
+
+1 TERM[sem=1*3]	TERM * FACTOR
+1 TERM[sem=1/3]	TERM / FACTOR
+1 TERM[sem=1]	FACTOR
+
+1 FACTOR[sem=1]		Num
+1 FACTOR[sem=2]		{ EXPR }
+
+1 FACTOR[sem=\/3]	sqrt { EXPR }   # sem uses funky notation for sqrt
+
+1 ROOT[=1] 		EXPR
+
+1 Num	0
+1 Num	1
+1 Num	2
+1 Num	3
+1 Num	4
+1 Num	5
+1 Num	6
+1 Num	7
+1 Num	8
+1 Num	9
+1 Num	pi
+1 Num	e
+1 Num	0.5   
