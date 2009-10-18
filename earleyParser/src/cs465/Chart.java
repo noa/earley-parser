@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Set;
 import java.util.HashSet;
 
-// non-stochastic CKY parser
+// Chart for non-stochastic CKY parser
 public class Chart {
 	ArrayList<ArrayList<Set<String>>> chart = null;
 	public Chart(Integer sentlen) {

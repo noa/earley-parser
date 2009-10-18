@@ -7,6 +7,7 @@ import java.util.Set;
 public class CKYParser extends Parser {
 	Chart chart = null;
 	
+	@Override
 	public boolean recognize(Grammar gr, String[] sent) {
 		chart = new Chart(sent.length);
 		
@@ -27,6 +28,7 @@ public class CKYParser extends Parser {
 		return false;
 	}
 	
+	@Override
 	public Tree parse(Grammar gr, String[] sent) {
 		chart = new Chart(sent.length);
 		return new Tree();
