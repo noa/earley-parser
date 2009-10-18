@@ -23,7 +23,7 @@ public class CKYParser extends Parser {
 				}
 			}
 		}
-		
+				
 		return false;
 	}
 	

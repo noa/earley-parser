@@ -7,8 +7,8 @@ public class Rule {
 		// assume first token is the weight
 		this.weight = new Double(tokens[0]);
 		this.symbols = new String[tokens.length-1];  
-		for(int i = 1; i < tokens.length; i++) {
-			this.symbols[i] = tokens[i]; 
+		for(int i = 1; i < tokens.length -1 ; i++) {
+			this.symbols[i-1] = tokens[i]; 
 		}
 	}
 	// probably don't want to be creating new lists every time this is called

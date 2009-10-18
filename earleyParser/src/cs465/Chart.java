@@ -10,11 +10,13 @@ public class Chart {
 	public Chart(Integer sentlen) {
 		this.chart = new ArrayList<ArrayList<Set<String>>>(sentlen);
 		for(int i=0; i < sentlen; i++) {
+			// initialize a column
 			ArrayList<Set<String>> column = new ArrayList<Set<String>>(sentlen); 
 			for(int j=0; j < sentlen; j++) {
 				column.add(new HashSet<String>());
 			}
-			this.chart.set(i, column);
+			// add the column to the chart
+			this.chart.add(column);
 		}
 	}
 	public void initialize_cell(Integer i, Integer j, Set<String> symbols) {

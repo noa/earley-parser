@@ -16,25 +16,34 @@ import java.util.HashSet;
  */
 public class Grammar {
 	HashMap<String,ArrayList<Rule>> map = new HashMap<String,ArrayList<Rule>>();
+	
+	// For each symbol B in the grammar, what are the symbols A such that 
+	//   A -> * B *
+	// where * stands for zero or more other symbols
 	HashMap<String,Set<String>> parents = new HashMap<String,Set<String>>();
+	
 	public Grammar(String file_name) {
 		read_grammar(file_name);
 	}
+	
 	public void read_grammar(String file_name) {
+		System.err.println("Loading grammar: " + file_name);
 		File f = new File(file_name);
 		try {
 			FileInputStream fis = new FileInputStream(f);
 			BufferedReader bis = new BufferedReader(new InputStreamReader(fis));
 			String line = null;
 			while ((line = bis.readLine()) != null) {
-				System.out.println(line);
-				String[] tokens = line.split(" ");
+				System.err.println(line);
+				String[] tokens = line.split("\\s+");
 				if(tokens.length > 0) {
+					
 					// add symbol expansion
 					String key = make_key(tokens);
 					ArrayList<Rule> rules = map.containsKey(key) ? (ArrayList<Rule>) map.get(key) : new ArrayList<Rule>();
 					rules.add(new Rule(tokens));
 					map.put(key,rules);
+					
 					// add symbol parents
 					for(int i=2;i<tokens.length;i++) {
 						Set<String> curr_parents = parents.containsKey(tokens[i]) ? (Set<String>) parents.get(tokens[i]) : new HashSet<String>();
@@ -57,8 +66,10 @@ public class Grammar {
 				for(String key : this.map.keySet()) {
 					for(Rule r : this.map.get(key)) {
 						String[] rhs = r.get_rhs();
-						if(rhs[0].equals(b) && rhs[1].equals(c)) {
-							lhs.add(r.get_lhs());
+						if(rhs != null && rhs.length > 1) {
+							if(rhs[0].equals(b) && rhs[1].equals(c)) {
+								lhs.add(r.get_lhs());
+							}
 						}
 					}
 				}
