@@ -80,6 +80,7 @@ public class EarleyParser extends Parser {
 	}
 	
 	private void Enqueue(DottedRule rule, Integer column) {
+		// TODO: might need to add a comparison method to DottedRules, unless Java does some magic
 		this.chart.get(column).add(rule);
 	}
 	
