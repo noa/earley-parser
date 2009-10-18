@@ -29,7 +29,7 @@ public class EarleyParser extends Parser {
 			Iterator<DottedRule> it = chart.get(i).iterator();
 			while( it.hasNext() ) {
 				DottedRule state = it.next();
-				if(state.incomplete() && !grammar.is_preterminal(state.symbol_after_dot())) {
+				if      (state.incomplete() && !grammar.is_preterminal(state.symbol_after_dot())) {
 					this.Predictor(state, grammar);
 				}
 				else if (state.incomplete() && grammar.is_preterminal(state.symbol_after_dot())) {
