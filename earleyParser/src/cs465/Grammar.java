@@ -50,6 +50,22 @@ public class Grammar {
 			System.err.println("Problem reading grammar file:" + file_name);
 		}
 	}
+	public Set<String> rules_with_rhs(Set<String> B,Set<String> C) {
+		Set<String> lhs = new HashSet<String>();
+		for(String b : B) {
+			for(String c : C) {
+				for(String key : this.map.keySet()) {
+					for(Rule r : this.map.get(key)) {
+						String[] rhs = r.get_rhs();
+						if(rhs[0].equals(b) && rhs[1].equals(c)) {
+							lhs.add(r.get_lhs());
+						}
+					}
+				}
+			}
+		}
+		return lhs;
+	}
 	public Set<String> parents(String token) {
 		return this.parents.get(token);
 	}

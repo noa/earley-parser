@@ -15,5 +15,16 @@ public class ParserMain {
 		Tree parse = parser.parse(grammar, args[2].split(" "));
 		parse.print();
 	}
-	
+	public void recognize_sents(Grammar g, Parser p, String[] sents) {
+		for(String sent : sents) {
+			boolean grammatical = p.recognize(g, sent.split(" "));
+			System.out.println(grammatical);
+		}
+	}
+	public void parse_sents(Grammar g, Parser p, String[] sents) {
+		for(String sent : sents) {
+			Tree tree = p.parse(g, sent.split(" "));
+			tree.print(); // if no parse, return empty tree
+		}
+	}
 }
