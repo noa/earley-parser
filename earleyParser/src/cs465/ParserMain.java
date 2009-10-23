@@ -15,7 +15,7 @@ public class ParserMain {
 		// read sentences to parse
 		ArrayList<String> sents = read_sents(args[1]);
 		// read in sentences to parse
-		CKYParser parser = new CKYParser();
+		Parser parser = new EarleyParser();
 		recognize_sents(grammar,parser,sents);
 	}
 	public static void recognize_sents(Grammar g, Parser p, ArrayList<String> sents) {

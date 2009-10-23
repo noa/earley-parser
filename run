@@ -1,0 +1,5 @@
+#!/usr/local/bin/bash
+#
+
+java -classpath ./earleyParser/bin cs465.ParserMain $*
+
