@@ -22,7 +22,7 @@ public class EarleyParser extends Parser {
 	public boolean recognize(Grammar grammar, String[] sent) {
 
 		// Initialize the chart
-		this.initialize_chart(grammar,sent.length);
+		initialize_chart(grammar,sent.length);
 		
 		// For each chart column (sent.length + 1)
 		for(int i=0; i<chart.size(); i++) {
@@ -34,14 +34,14 @@ public class EarleyParser extends Parser {
 			while( entry != null) {
 				DottedRule state = entry.getValue();
 				if      (state.incomplete() && grammar.is_nonterminal(state.symbol_after_dot())) {
-					this.Predictor(state, grammar, i);
+					predict(state, grammar, i);
 				}
 				//else if (state.incomplete() && grammar.is_preterminal(state.symbol_after_dot())) {
 				else if (state.incomplete() && !grammar.is_nonterminal(state.symbol_after_dot())) {
-					this.Scanner(state, grammar, sent, i);
+					scan(state, grammar, sent, i);
 				}
 				else {
-					this.Completer(state, grammar, i);
+					complete(state, grammar, i);
 				}
 				entry = entry.getNext();
 			}
@@ -58,24 +58,24 @@ public class EarleyParser extends Parser {
 		return false;
 	}
 	
-	private void Predictor(DottedRule state, Grammar grammar, int column) {
+	private void predict(DottedRule state, Grammar grammar, int column) {
 		for(Rule r : grammar.rewrites(state.symbol_after_dot())) {
-			this.Enqueue(new DottedRule(r,0,column),column);
+			enqueue(new DottedRule(r,0,column),column);
 		}
 	}
 	
-	private void Scanner(DottedRule state, Grammar grammar, String[] sent, int column) {
+	private void scan(DottedRule state, Grammar grammar, String[] sent, int column) {
 		// if the symbol after the dot expands to the current word in the sentence
 		
 		if(sent[column].equals(state.symbol_after_dot())) {
-			this.Enqueue(new DottedRule(state.rule,state.dot+1,state.start),column+1);
+			enqueue(new DottedRule(state.rule,state.dot+1,state.start),column+1);
 		}
 		
 		/*
 		if(grammar.parents(sent[column]).contains(state.symbol_after_dot())) {
 			for(Rule r : grammar.rewrites(state.symbol_after_dot())) {
 				if(r.get_rhs()[0] == sent[state.stop]) {
-					this.Enqueue(new DottedRule(r,0,state.stop,state.stop+1),state.stop+1);
+					Enqueue(new DottedRule(r,0,state.stop,state.stop+1),state.stop+1);
 					return;
 				}
 			}
@@ -83,21 +83,21 @@ public class EarleyParser extends Parser {
 		*/
 	}
 	
-	private void Completer(DottedRule state, Grammar grammar, int column) {
+	private void complete(DottedRule state, Grammar grammar, int column) {
 		// for all states in chart[state.start] expecting a completed state ending at state.stop, advance them to chart[state.stop] with dot+=1
-		for(DottedRule r : this.chart.get(state.start)) {
+		for(DottedRule r : chart.get(state.start)) {
 			if(r.symbol_after_dot() == state.rule.get_lhs()) {
-				this.Enqueue(new DottedRule(r.rule,r.dot+1,r.start), column);
+				enqueue(new DottedRule(r.rule,r.dot+1,r.start), column);
 			}
 		}
 	}
 	
-	private void Enqueue(DottedRule rule, Integer column) {
-		this.chart.get(column).add(rule);
+	private void enqueue(DottedRule rule, Integer column) {
+		chart.get(column).add(rule);
 	}
 	
 	private void initialize_chart(Grammar grammar, Integer sent_length) {
-		this.chart = new ArrayList<OurLinkedList<DottedRule>>();
+		chart = new ArrayList<OurLinkedList<DottedRule>>();
 		for(int i=0; i<sent_length+1; i++) {
 			OurLinkedList<DottedRule> column = new OurLinkedList<DottedRule>();
 			if(i==0) {
@@ -106,7 +106,7 @@ public class EarleyParser extends Parser {
 				DottedRule start = new DottedRule(r,0,0);
 				column.add(start);
 			}
-			this.chart.add(column);
+			chart.add(column);
 		}
 	}
 }

@@ -69,16 +69,16 @@ public class Grammar {
 			
 			// build set of terminals (symbols never showing up in rule left hand sides)
 			for(String symbol : symbols) {
-				if(!this.lhs_to_rules.keySet().contains(symbol)) {
-					this.terminals.add(symbol);
+				if(!lhs_to_rules.keySet().contains(symbol)) {
+					terminals.add(symbol);
 				}
 			}
 			
 			// use terminals to figure out pre-terminals (e.g., parts of speech)
 			// NOTE: there is probably a nicer way to do this
-			for(String lhs : this.lhs_to_rules.keySet()) {
+			for(String lhs : lhs_to_rules.keySet()) {
 				boolean preterminal = true;
-				for(Rule r : this.lhs_to_rules.get(lhs)) {
+				for(Rule r : lhs_to_rules.get(lhs)) {
 					Set<String> rule_rhs = new HashSet<String>();
 					for(String token : r.get_rhs()) {
 						rule_rhs.add(token);
@@ -89,7 +89,7 @@ public class Grammar {
 					}
 				}
 				if(preterminal == true) {
-					this.preterminals.add(lhs);
+					preterminals.add(lhs);
 				}
 			}
 			
@@ -102,8 +102,8 @@ public class Grammar {
 		Set<String> lhs = new HashSet<String>();
 		for(String b : B) {
 			for(String c : C) {
-				for(String key : this.lhs_to_rules.keySet()) {
-					for(Rule r : this.lhs_to_rules.get(key)) {
+				for(String key : lhs_to_rules.keySet()) {
+					for(Rule r : lhs_to_rules.get(key)) {
 						String[] rhs = r.get_rhs();
 						if(rhs != null && rhs.length > 1) {
 							if(rhs[0].equals(b) && rhs[1].equals(c)) {
@@ -118,15 +118,15 @@ public class Grammar {
 	}
 	
 	public Set<String> parents(String token) {
-		return this.parents.get(token);
+		return parents.get(token);
 	}
 	
 	public Integer num_nonterminals() {
-		return this.lhs_to_rules.keySet().size();
+		return lhs_to_rules.keySet().size();
 	}
 	
 	public Set<String> get_nonterminals() {
-		return this.lhs_to_rules.keySet();
+		return lhs_to_rules.keySet();
 	}
 	
 	public boolean is_preterminal(String symbol) {
@@ -142,7 +142,7 @@ public class Grammar {
 	}
 	
 	public ArrayList<Rule> rewrites(String symbol) {
-		return this.lhs_to_rules.get(symbol);
+		return lhs_to_rules.get(symbol);
 	}
 
 	public Rule get_start_rule() {
