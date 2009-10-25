@@ -94,7 +94,7 @@ public class Grammar {
 			}
 			
 		} catch (IOException e) {
-			System.err.println("Problem reading grammar file:" + file_name);
+			throw new RuntimeException("Problem reading grammar file:" + file_name, e);
 		}
 	}
 	
