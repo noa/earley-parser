@@ -1,6 +1,7 @@
 package cs465;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 
 import cs465.util.LinkedListNode;
 import cs465.util.OurLinkedList;
@@ -31,18 +32,21 @@ public class EarleyParser extends Parser {
 			
 			OurLinkedList<DottedRule> column = chart.get(i);
 			LinkedListNode<DottedRule> entry = column.getFirst();
+			HashSet<String> columnPredictions = new HashSet<String>();
 			while( entry != null) {
 				DottedRule state = entry.getValue();
-				if      (state.incomplete() && grammar.is_nonterminal(state.symbol_after_dot())) {
-					predict(state, grammar, i);
-				}
-				//else if (state.incomplete() && grammar.is_preterminal(state.symbol_after_dot())) {
-				else if (state.incomplete() && !grammar.is_nonterminal(state.symbol_after_dot())) {
+				System.err.print("State: " + state);
+				if (state.complete()) {
+					System.err.println(" Action: attach");
+					attach(state, grammar, i);
+				} else if (grammar.is_nonterminal(state.symbol_after_dot())) {
+					System.err.println(" Action: predict");
+					predict(state, grammar, i, columnPredictions);
+				} else {
+					System.err.println(" Action: scan");
 					scan(state, grammar, sent, i);
 				}
-				else {
-					complete(state, grammar, i);
-				}
+				
 				entry = entry.getNext();
 			}
 			
@@ -51,15 +55,21 @@ public class EarleyParser extends Parser {
 		
 		// if the special rule exists in the last chart column with a dot at the end, this sentence is grammatical
 		for (DottedRule dr : chart.get(chart.size()-1)) {
-			if(dr.rule.get_lhs().equals(Grammar.ROOT) && !dr.incomplete()) {
+			if(dr.rule.get_lhs().equals(Grammar.ROOT) && dr.complete()) {
 				return true;
 			}
 		}
 		return false;
 	}
 	
-	private void predict(DottedRule state, Grammar grammar, int column) {
-		for(Rule r : grammar.rewrites(state.symbol_after_dot())) {
+	private void predict(DottedRule state, Grammar grammar, int column, HashSet<String> columnPredictions) {
+		String symbolAfterDot = state.symbol_after_dot();
+		if (columnPredictions.contains(symbolAfterDot)) {
+			return;
+		}
+		
+		columnPredictions.add(symbolAfterDot);
+		for(Rule r : grammar.rewrites(symbolAfterDot)) {
 			enqueue(new DottedRule(r,0,column),column);
 		}
 	}
@@ -83,7 +93,7 @@ public class EarleyParser extends Parser {
 		*/
 	}
 	
-	private void complete(DottedRule state, Grammar grammar, int column) {
+	private void attach(DottedRule state, Grammar grammar, int column) {
 		// for all states in chart[state.start] expecting a completed state ending at state.stop, advance them to chart[state.stop] with dot+=1
 		for(DottedRule r : chart.get(state.start)) {
 			if(r.symbol_after_dot() == state.rule.get_lhs()) {

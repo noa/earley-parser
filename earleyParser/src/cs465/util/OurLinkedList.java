@@ -12,14 +12,24 @@ public class OurLinkedList<T> implements Iterable<T> {
 		if (first == null || last == null) {
 			first = node;
 			last = first;
+		} else {
+			last.setNext(node);
+			last = node;
 		}
-		last.setNext(node);
 	}
 
 	public LinkedListNode<T> getFirst() {
 		return first;
 	}
 
+	@Override
+	public String toString() {
+		if (first == null) {
+			return "[]";
+		}
+		return "[" + first.toString() + "]";
+	}
+	
 	@Override
 	public Iterator<T> iterator() {
 		return new OurListIterator();

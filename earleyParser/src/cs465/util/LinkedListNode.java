@@ -25,5 +25,14 @@ public class LinkedListNode<T> {
 	public boolean hasNext() {
 		return next != null;
 	}
+	
+	@Override
+	public String toString() {
+		String str = value.toString();
+		if (hasNext()) {
+			str += "; " + next.toString();
+		}
+		return str;
+	}
 
 }
