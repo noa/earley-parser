@@ -27,12 +27,10 @@ public class EarleyParser extends Parser {
 		
 		// For each chart column (sent.length + 1)
 		for(int i=0; i<chart.size(); i++) {
-			
-			// NOTE: does this work?  can you grow a list while Iterating through it?
-			
 			OurLinkedList<DottedRule> column = chart.get(i);
 			LinkedListNode<DottedRule> entry = column.getFirst();
 			HashSet<String> columnPredictions = new HashSet<String>();
+			
 			while( entry != null) {
 				DottedRule state = entry.getValue();
 				System.err.print("State: " + state);
@@ -76,27 +74,16 @@ public class EarleyParser extends Parser {
 	
 	private void scan(DottedRule state, Grammar grammar, String[] sent, int column) {
 		// if the symbol after the dot expands to the current word in the sentence
-		
-		if(sent[column].equals(state.symbol_after_dot())) {
+		// Only scan if there is text remaining in the sentence
+		if(column < sent.length && sent[column].equals(state.symbol_after_dot())) {
 			enqueue(new DottedRule(state.rule,state.dot+1,state.start),column+1);
 		}
-		
-		/*
-		if(grammar.parents(sent[column]).contains(state.symbol_after_dot())) {
-			for(Rule r : grammar.rewrites(state.symbol_after_dot())) {
-				if(r.get_rhs()[0] == sent[state.stop]) {
-					Enqueue(new DottedRule(r,0,state.stop,state.stop+1),state.stop+1);
-					return;
-				}
-			}
-		}
-		*/
 	}
 	
 	private void attach(DottedRule state, Grammar grammar, int column) {
 		// for all states in chart[state.start] expecting a completed state ending at state.stop, advance them to chart[state.stop] with dot+=1
 		for(DottedRule r : chart.get(state.start)) {
-			if(r.symbol_after_dot() == state.rule.get_lhs()) {
+			if(r.symbol_after_dot().equals(state.rule.get_lhs())) {
 				enqueue(new DottedRule(r.rule,r.dot+1,r.start), column);
 			}
 		}
