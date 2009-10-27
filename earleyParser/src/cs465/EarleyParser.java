@@ -7,23 +7,40 @@ import cs465.util.LinkedListNode;
 import cs465.util.OurLinkedList;
 
 public class EarleyParser extends Parser {
-	//TODO: maybe remove usage of state.stop 
-	
-	// I think LinkedHashSet does what we want (preserves insertion-order and uniqueness),
-	// but does it do so efficiently?  I guess we'll find out...
 	ArrayList<OurLinkedList<DottedRule>> chart = null;
 	
 	@Override
 	public Tree parse(Grammar grammar, String[] sent) {
-		// TODO Auto-generated method stub
+		
+		// if this sentence is grammatical
+		if(recognize(grammar,sent) == true) {
+			// recover the parse from backpointers
+			for (DottedRule dr : chart.get(chart.size()-1)) {
+				if(dr.rule.get_lhs().equals(Grammar.ROOT) && dr.complete()) {
+					return new Tree(dr);
+				}
+			}
+		}
+		
 		return null;
 	}
 
 	@Override
 	public boolean recognize(Grammar grammar, String[] sent) {
 
-		// Initialize the chart
 		initialize_chart(grammar,sent.length);
+		fill_chart(grammar,sent);
+		
+		// if the special rule exists in the last chart column with a dot at the end, this sentence is grammatical
+		for (DottedRule dr : chart.get(chart.size()-1)) {
+			if(dr.rule.get_lhs().equals(Grammar.ROOT) && dr.complete()) {
+				return true;
+			}
+		}
+		return false;
+	}
+	
+	private void fill_chart(Grammar grammar, String[] sent) {
 		
 		// For each chart column (sent.length + 1)
 		for(int i=0; i<chart.size(); i++) {
@@ -35,12 +52,17 @@ public class EarleyParser extends Parser {
 				DottedRule state = entry.getValue();
 				System.err.print("State: " + state);
 				if (state.complete()) {
+					// e.g. S -> NP VP .
 					System.err.println(" Action: attach");
 					attach(state, grammar, i);
 				} else if (grammar.is_nonterminal(state.symbol_after_dot())) {
+					// e.g. S -> . NP VP
 					System.err.println(" Action: predict");
 					predict(state, grammar, i, columnPredictions);
 				} else {
+					// e.g. NP -> . Det N     (pre-terminal after dot)
+					//  or
+					// e.g. NP -> NP . and NP (terminal after dot) 
 					System.err.println(" Action: scan");
 					scan(state, grammar, sent, i);
 				}
@@ -49,17 +71,9 @@ public class EarleyParser extends Parser {
 			}
 			
 		}
-		
-		
-		// if the special rule exists in the last chart column with a dot at the end, this sentence is grammatical
-		for (DottedRule dr : chart.get(chart.size()-1)) {
-			if(dr.rule.get_lhs().equals(Grammar.ROOT) && dr.complete()) {
-				return true;
-			}
-		}
-		return false;
 	}
 	
+	// don't need to store backpointers for predictions
 	private void predict(DottedRule state, Grammar grammar, int column, HashSet<String> columnPredictions) {
 		String symbolAfterDot = state.symbol_after_dot();
 		if (columnPredictions.contains(symbolAfterDot)) {
@@ -76,15 +90,22 @@ public class EarleyParser extends Parser {
 		// if the symbol after the dot expands to the current word in the sentence
 		// Only scan if there is text remaining in the sentence
 		if(column < sent.length && sent[column].equals(state.symbol_after_dot())) {
-			enqueue(new DottedRule(state.rule,state.dot+1,state.start),column+1);
+			DottedRule scanned_rule = new DottedRule(state.rule,state.dot+1,state.start);
+			// TODO ?does this work for the rule (NP -> NP and . NP, i)
+			scanned_rule.completed_rule = null;
+			scanned_rule.previous_rule  = state;
+			scanned_rule.scan = sent[column];
+			enqueue(scanned_rule,column+1);
 		}
 	}
 	
 	private void attach(DottedRule state, Grammar grammar, int column) {
-		// for all states in chart[state.start] expecting a completed state ending at state.stop, advance them to chart[state.stop] with dot+=1
 		for(DottedRule r : chart.get(state.start)) {
 			if(r.symbol_after_dot().equals(state.rule.get_lhs())) {
-				enqueue(new DottedRule(r.rule,r.dot+1,r.start), column);
+				DottedRule completed_rule = new DottedRule(r.rule,r.dot+1,r.start);
+				completed_rule.completed_rule = state;    // e.g. VP -> V .
+				completed_rule.previous_rule  = r;	      // e.g. S  -> NP . VP
+				enqueue(completed_rule, column);
 			}
 		}
 	}

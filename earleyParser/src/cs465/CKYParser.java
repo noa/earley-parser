@@ -31,6 +31,6 @@ public class CKYParser extends Parser {
 	@Override
 	public Tree parse(Grammar gr, String[] sent) {
 		chart = new Chart(sent.length);
-		return new Tree();
+		return null;
 	}
 }

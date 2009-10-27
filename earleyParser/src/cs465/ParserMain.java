@@ -6,17 +6,25 @@ import java.util.*;
 // driver
 public class ParserMain {
 	public static void main(String[] args) throws IOException {
-		if (args.length < 2) {
-			System.err.println("Usage:\n\tjava cs465.ParserMain foo.gr foo.sen");
+		if (args.length < 3) {
+			System.err.println("Usage:\n\tjava cs465.ParserMain foo.gr foo.sen (parse|recognize)");
 			System.exit(1);
 		}
 		// initialize grammar
 		Grammar grammar = new Grammar(args[0]);
 		// read sentences to parse
 		ArrayList<String> sents = read_sents(args[1]);
+		// read mode
+		String mode = args[2];
 		// read in sentences to parse
 		Parser parser = new EarleyParser();
-		recognize_sents(grammar,parser,sents);
+		
+		if(mode.equals("recognize")) {
+			recognize_sents(grammar,parser,sents);
+		}
+		else if (mode.equals("parse")) {
+			parse_sents(grammar,parser,sents);
+		}
 	}
 	public static void recognize_sents(Grammar g, Parser p, ArrayList<String> sents) {
 		for(String sent : sents) {
@@ -24,10 +32,16 @@ public class ParserMain {
 			System.out.println("Grammatical = " + grammatical + ":\n\t" + sent);
 		}
 	}
-	public static void parse_sents(Grammar g, Parser p, String[] sents) {
+	public static void parse_sents(Grammar g, Parser p, ArrayList<String> sents) {
 		for(String sent : sents) {
 			Tree tree = p.parse(g, sent.split("\\s+"));
-			tree.print(); // if no parse, return empty tree
+			if(tree != null) {
+				System.out.println();
+				tree.print();
+				System.out.println(sent);
+			} else {
+				System.out.println("Not grammatical:" + sent);
+			}
 		}
 	}
 	public static ArrayList<String> read_sents(String sent_file) {

@@ -6,7 +6,9 @@ public class DottedRule {
 	int start;
 	int dot;
 	Rule rule = null;
-	
+	DottedRule completed_rule = null;
+	DottedRule previous_rule = null;
+	String scan = null;
 	public DottedRule(Rule rule, Integer dot, Integer start) {
 		this.dot = dot;
 		this.rule = rule;
@@ -20,6 +22,10 @@ public class DottedRule {
 	public boolean complete() {
 		// example: S NP VP .
 		return dot >= rule.symbols.length - 1;
+	}
+	
+	public Tree toTree() {
+		return new Tree(this);
 	}
 	
 	@Override 
