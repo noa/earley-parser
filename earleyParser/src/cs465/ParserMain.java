@@ -36,11 +36,11 @@ public class ParserMain {
 		for(String sent : sents) {
 			Tree tree = p.parse(g, sent.split("\\s+"));
 			if(tree != null) {
-				System.out.println();
+				System.err.println();
 				tree.print();
-				System.out.println(sent);
+				System.err.println(sent);
 			} else {
-				System.out.println("Not grammatical:" + sent);
+				System.err.println("Not grammatical:" + sent);
 			}
 		}
 	}
