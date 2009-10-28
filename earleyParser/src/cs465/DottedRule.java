@@ -6,16 +6,17 @@ public class DottedRule {
 	int start;
 	int dot;
 	Rule rule = null;
-	double probability;
+	double treeWeight;
 	// Backpointers
-	DottedRule complete_rule = null;
+	DottedRule completed_rule = null;
 	DottedRule attachee_rule = null;
 	String scan = null;
 	
-	public DottedRule(Rule rule, Integer dot, Integer start) {
+	public DottedRule(Rule rule, Integer dot, Integer start, double probability) {
 		this.dot = dot;
 		this.rule = rule;
 		this.start = start;
+		this.treeWeight = probability;
 	}
 	
 	public String symbol_after_dot() {

@@ -6,6 +6,8 @@ import java.util.HashSet;
 import cs465.util.LinkedListNode;
 import cs465.util.OurLinkedList;
 
+//TODO: add a constructor which takes the grammar as an argument
+//TODO: consider a better way of constructing DottedRules
 public class EarleyParser extends Parser {
 	ArrayList<OurLinkedList<DottedRule>> chart = null;
 	
@@ -14,12 +16,17 @@ public class EarleyParser extends Parser {
 		
 		// if this sentence is grammatical
 		if(recognize(grammar,sent) == true) {
-			// recover the parse from backpointers
+			// recover the lowest weight parse from backpointers
+			// Fill lowestDr with a dummy DottedRule
+			DottedRule lowestDr = new DottedRule(null, 0, 0, Double.MAX_VALUE);
 			for (DottedRule dr : chart.get(chart.size()-1)) {
-				if(dr.rule.get_lhs().equals(Grammar.ROOT) && dr.complete()) {
-					return new Tree(dr);
+				if(dr.rule.get_lhs().equals(Grammar.ROOT) && dr.complete() &&
+						dr.treeWeight < lowestDr.treeWeight) {
+					lowestDr = dr;
 				}
 			}
+			// recognize() == true ensures that lowestDr will not be the dummy dotted rule.
+			return new Tree(lowestDr);
 		}
 		
 		return null;
@@ -82,7 +89,7 @@ public class EarleyParser extends Parser {
 		
 		columnPredictions.add(symbolAfterDot);
 		for(Rule r : grammar.rewrites(symbolAfterDot)) {
-			enqueue(new DottedRule(r,0,column),column);
+			enqueue(new DottedRule(r,0,column, r.ruleWeight),column);
 		}
 	}
 	
@@ -90,9 +97,10 @@ public class EarleyParser extends Parser {
 		// if the symbol after the dot expands to the current word in the sentence
 		// Only scan if there is text remaining in the sentence
 		if(column < sent.length && sent[column].equals(state.symbol_after_dot())) {
-			DottedRule scanned_rule = new DottedRule(state.rule,state.dot+1,state.start);
+			// Only change the position of the dot
+			DottedRule scanned_rule = new DottedRule(state.rule,state.dot+1,state.start, state.treeWeight);
 			// TODO ?does this work for the rule (NP -> NP and . NP, i)
-			scanned_rule.complete_rule = null;
+			scanned_rule.completed_rule = null;
 			scanned_rule.attachee_rule  = state; // NP -> NP . and NP
 			scanned_rule.scan = sent[column];
 			enqueue(scanned_rule,column+1);
@@ -102,10 +110,10 @@ public class EarleyParser extends Parser {
 	private void attach(DottedRule state, Grammar grammar, int column) {
 		for(DottedRule r : chart.get(state.start)) {
 			if(!r.complete() && r.symbol_after_dot().equals(state.rule.get_lhs())) { // problem
-				DottedRule completed_rule = new DottedRule(r.rule,r.dot+1,r.start);
-				completed_rule.complete_rule = state;    // e.g. VP -> V .
-				completed_rule.attachee_rule  = r;	      // e.g. S  -> NP . VP
-				enqueue(completed_rule, column);
+				DottedRule new_rule = new DottedRule(r.rule,r.dot+1,r.start, state.treeWeight + r.treeWeight);
+				new_rule.completed_rule = state;    // e.g. VP -> V .
+				new_rule.attachee_rule  = r;	      // e.g. S  -> NP . VP
+				enqueue(new_rule, column);
 			}
 		}
 	}
@@ -121,7 +129,7 @@ public class EarleyParser extends Parser {
 			if(i==0) {
 				// Enqueue special start rule
 				for(Rule r : grammar.get_start_rules()) {
-					DottedRule start = new DottedRule(r,0,0);
+					DottedRule start = new DottedRule(r,0,0, r.ruleWeight);
 					column.add(start);
 				}
 			}
