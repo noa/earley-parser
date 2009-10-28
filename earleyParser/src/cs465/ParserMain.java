@@ -17,24 +17,24 @@ public class ParserMain {
 		// read mode
 		String mode = args[2];
 		// read in sentences to parse
-		Parser parser = new EarleyParser();
+		Parser parser = new EarleyParser(grammar);
 		
 		if(mode.equals("recognize")) {
-			recognize_sents(grammar,parser,sents);
+			recognize_sents(parser,sents);
 		}
 		else if (mode.equals("parse")) {
-			parse_sents(grammar,parser,sents);
+			parse_sents(parser,sents);
 		}
 	}
-	public static void recognize_sents(Grammar g, Parser p, ArrayList<String> sents) {
+	public static void recognize_sents(Parser p, ArrayList<String> sents) {
 		for(String sent : sents) {
-			boolean grammatical = p.recognize(g, sent.split("\\s+"));
+			boolean grammatical = p.recognize(sent.split("\\s+"));
 			System.out.println("Grammatical = " + grammatical + ":\n\t" + sent);
 		}
 	}
-	public static void parse_sents(Grammar g, Parser p, ArrayList<String> sents) {
+	public static void parse_sents(Parser p, ArrayList<String> sents) {
 		for(String sent : sents) {
-			Tree tree = p.parse(g, sent.split("\\s+"));
+			Tree tree = p.parse(sent.split("\\s+"));
 			if(tree != null) {
 				System.err.println();
 				tree.print();

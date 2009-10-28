@@ -6,16 +6,20 @@ import java.util.HashSet;
 import cs465.util.LinkedListNode;
 import cs465.util.OurLinkedList;
 
-//TODO: add a constructor which takes the grammar as an argument
 //TODO: consider a better way of constructing DottedRules
 public class EarleyParser extends Parser {
 	ArrayList<OurLinkedList<DottedRule>> chart = null;
+	private Grammar grammar;
 	
+	public EarleyParser(Grammar grammar) {
+		this.grammar = grammar;
+	}
+
 	@Override
-	public Tree parse(Grammar grammar, String[] sent) {
+	public Tree parse(String[] sent) {
 		
 		// if this sentence is grammatical
-		if(recognize(grammar,sent) == true) {
+		if(recognize(sent) == true) {
 			// recover the lowest weight parse from backpointers
 			// Fill lowestDr with a dummy DottedRule
 			DottedRule lowestDr = new DottedRule(null, 0, 0, Double.MAX_VALUE);
@@ -33,10 +37,10 @@ public class EarleyParser extends Parser {
 	}
 
 	@Override
-	public boolean recognize(Grammar grammar, String[] sent) {
+	public boolean recognize(String[] sent) {
 
-		initialize_chart(grammar,sent.length);
-		fill_chart(grammar,sent);
+		initialize_chart(sent.length);
+		fill_chart(sent);
 		
 		// if the special rule exists in the last chart column with a dot at the end, this sentence is grammatical
 		for (DottedRule dr : chart.get(chart.size()-1)) {
@@ -47,7 +51,7 @@ public class EarleyParser extends Parser {
 		return false;
 	}
 	
-	private void fill_chart(Grammar grammar, String[] sent) {
+	private void fill_chart(String[] sent) {
 		
 		// For each chart column (sent.length + 1)
 		for(int i=0; i<chart.size(); i++) {
@@ -61,17 +65,17 @@ public class EarleyParser extends Parser {
 				if (state.complete()) {
 					// e.g. S -> NP VP .
 					System.err.println(" Action: attach");
-					attach(state, grammar, i);
+					attach(state, i);
 				} else if (grammar.is_nonterminal(state.symbol_after_dot())) {
 					// e.g. S -> . NP VP
 					System.err.println(" Action: predict");
-					predict(state, grammar, i, columnPredictions);
+					predict(state, i, columnPredictions);
 				} else {
 					// e.g. NP -> . Det N     (pre-terminal after dot)
 					//  or
 					// e.g. NP -> NP . and NP (terminal after dot) 
 					System.err.println(" Action: scan");
-					scan(state, grammar, sent, i);
+					scan(state, sent, i);
 				}
 				
 				entry = entry.getNext();
@@ -81,7 +85,7 @@ public class EarleyParser extends Parser {
 	}
 	
 	// don't need to store backpointers for predictions
-	private void predict(DottedRule state, Grammar grammar, int column, HashSet<String> columnPredictions) {
+	private void predict(DottedRule state, int column, HashSet<String> columnPredictions) {
 		String symbolAfterDot = state.symbol_after_dot();
 		if (columnPredictions.contains(symbolAfterDot)) {
 			return;
@@ -93,7 +97,7 @@ public class EarleyParser extends Parser {
 		}
 	}
 	
-	private void scan(DottedRule state, Grammar grammar, String[] sent, int column) {
+	private void scan(DottedRule state, String[] sent, int column) {
 		// if the symbol after the dot expands to the current word in the sentence
 		// Only scan if there is text remaining in the sentence
 		if(column < sent.length && sent[column].equals(state.symbol_after_dot())) {
@@ -106,7 +110,7 @@ public class EarleyParser extends Parser {
 		}
 	}
 	
-	private void attach(DottedRule state, Grammar grammar, int column) {
+	private void attach(DottedRule state, int column) {
 		for(DottedRule r : chart.get(state.start)) {
 			if(!r.complete() && r.symbol_after_dot().equals(state.rule.get_lhs())) { // problem
 				DottedRule new_rule = new DottedRule(r.rule,r.dot+1,r.start, state.treeWeight + r.treeWeight);
@@ -121,7 +125,7 @@ public class EarleyParser extends Parser {
 		chart.get(column).add(rule);
 	}
 	
-	private void initialize_chart(Grammar grammar, Integer sent_length) {
+	private void initialize_chart(Integer sent_length) {
 		chart = new ArrayList<OurLinkedList<DottedRule>>();
 		for(int i=0; i<sent_length+1; i++) {
 			OurLinkedList<DottedRule> column = new OurLinkedList<DottedRule>();
