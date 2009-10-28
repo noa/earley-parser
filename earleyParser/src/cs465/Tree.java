@@ -13,15 +13,19 @@ public class Tree {
 		//	NP -> NP and NP
 		// with embedded terminals?
 		if(dr != null) {
-			if(dr.complete()) {
+			if(dr.complete()) {	              // S -> NP VP.
 				System.out.print("(" + dr.rule.get_lhs() + " ");
 			}
+		
+			print_entry(dr.previous_rule);
+			
 			if(dr.scan != null) {
 				System.out.print(dr.scan);
 
 			}
-			print_entry(dr.previous_rule);
+			
 			print_entry(dr.completed_rule);
+			
 			if(dr.complete()) {
 				System.out.print(")");
 			}
