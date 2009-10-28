@@ -21,7 +21,7 @@ public class Tree {
 		
 			print_entry(dr.attachee_rule);
 			
-			if(dr.complete_rule == null && dr.attachee_rule != null) {
+			if(dr.completed_rule == null && dr.attachee_rule != null) {
 				System.out.print(dr.attachee_rule.symbol_after_dot());
 			}
 			
