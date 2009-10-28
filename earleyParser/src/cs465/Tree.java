@@ -19,9 +19,8 @@ public class Tree {
 		
 			print_entry(dr.attachee_rule);
 			
-			if(dr.scan != null) {
-				System.out.print(dr.scan);
-
+			if(dr.complete_rule == null && dr.attachee_rule != null) {
+				System.out.print(dr.attachee_rule.symbol_after_dot());
 			}
 			
 			print_entry(dr.complete_rule);

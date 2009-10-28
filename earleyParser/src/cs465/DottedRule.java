@@ -10,7 +10,7 @@ public class DottedRule {
 	// Backpointers
 	DottedRule complete_rule = null;
 	DottedRule attachee_rule = null;
-	String scan = null;
+	//String scan = null;
 	
 	public DottedRule(Rule rule, Integer dot, Integer start) {
 		this.dot = dot;

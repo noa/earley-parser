@@ -94,7 +94,6 @@ public class EarleyParser extends Parser {
 			// TODO ?does this work for the rule (NP -> NP and . NP, i)
 			scanned_rule.complete_rule = null;
 			scanned_rule.attachee_rule  = state; // NP -> NP . and NP
-			scanned_rule.scan = sent[column];
 			enqueue(scanned_rule,column+1);
 		}
 	}
