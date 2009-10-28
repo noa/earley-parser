@@ -1,0 +1,5 @@
+(ROOT (A x))
+(ROOT (A (A x)(A x)))
+(ROOT (A (A (A x)(A x))(A x)))
+(ROOT (A (A (A (A x)(A x))(A x))(A x)))
+(ROOT (A (A (A (A (A x)(A x))(A x))(A x))(A x)))

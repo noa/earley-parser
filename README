@@ -1,6 +1,8 @@
 Earley parser
 -------------
 
-- test to understand git
-- test access to git
-- keep testing
+To parse a given sentence.sen and grammar.gr, use:
+
+   $ ./parse.sh grammar sentence
+
+You will see tree output at the end, which has been run through data/prettyprint.

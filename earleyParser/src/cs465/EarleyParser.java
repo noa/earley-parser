@@ -101,7 +101,7 @@ public class EarleyParser extends Parser {
 	
 	private void attach(DottedRule state, Grammar grammar, int column) {
 		for(DottedRule r : chart.get(state.start)) {
-			if(r.symbol_after_dot().equals(state.rule.get_lhs())) { // problem
+			if(!r.complete() && r.symbol_after_dot().equals(state.rule.get_lhs())) { // problem
 				DottedRule completed_rule = new DottedRule(r.rule,r.dot+1,r.start);
 				completed_rule.completed_rule = state;    // e.g. VP -> V .
 				completed_rule.previous_rule  = r;	      // e.g. S  -> NP . VP
@@ -120,9 +120,10 @@ public class EarleyParser extends Parser {
 			OurLinkedList<DottedRule> column = new OurLinkedList<DottedRule>();
 			if(i==0) {
 				// Enqueue special start rule
-				Rule r = grammar.get_start_rule();
-				DottedRule start = new DottedRule(r,0,0);
-				column.add(start);
+				for(Rule r : grammar.get_start_rules()) {
+					DottedRule start = new DottedRule(r,0,0);
+					column.add(start);
+				}
 			}
 			chart.add(column);
 		}
