@@ -145,11 +145,8 @@ public class Grammar {
 		return lhs_to_rules.get(symbol);
 	}
 
-	public Rule get_start_rule() {
+	public ArrayList<Rule> get_start_rules() {
 		ArrayList<Rule> start_rules = lhs_to_rules.get(ROOT);
-		if (start_rules.size() != 1) {
-			throw new RuntimeException("Either no start rules or multiple start rules");
-		}
-		return start_rules.get(0);
+		return start_rules;
 	}
 }
