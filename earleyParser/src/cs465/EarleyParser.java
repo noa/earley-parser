@@ -92,8 +92,8 @@ public class EarleyParser extends Parser {
 		if(column < sent.length && sent[column].equals(state.symbol_after_dot())) {
 			DottedRule scanned_rule = new DottedRule(state.rule,state.dot+1,state.start);
 			// TODO ?does this work for the rule (NP -> NP and . NP, i)
-			scanned_rule.completed_rule = null;
-			scanned_rule.previous_rule  = state; // NP -> NP . and NP
+			scanned_rule.complete_rule = null;
+			scanned_rule.attachee_rule  = state; // NP -> NP . and NP
 			scanned_rule.scan = sent[column];
 			enqueue(scanned_rule,column+1);
 		}
@@ -103,8 +103,8 @@ public class EarleyParser extends Parser {
 		for(DottedRule r : chart.get(state.start)) {
 			if(r.symbol_after_dot().equals(state.rule.get_lhs())) { // problem
 				DottedRule completed_rule = new DottedRule(r.rule,r.dot+1,r.start);
-				completed_rule.completed_rule = state;    // e.g. VP -> V .
-				completed_rule.previous_rule  = r;	      // e.g. S  -> NP . VP
+				completed_rule.complete_rule = state;    // e.g. VP -> V .
+				completed_rule.attachee_rule  = r;	      // e.g. S  -> NP . VP
 				enqueue(completed_rule, column);
 			}
 		}

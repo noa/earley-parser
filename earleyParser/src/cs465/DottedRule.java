@@ -6,9 +6,12 @@ public class DottedRule {
 	int start;
 	int dot;
 	Rule rule = null;
-	DottedRule completed_rule = null;
-	DottedRule previous_rule = null;
+	double probability;
+	// Backpointers
+	DottedRule complete_rule = null;
+	DottedRule attachee_rule = null;
 	String scan = null;
+	
 	public DottedRule(Rule rule, Integer dot, Integer start) {
 		this.dot = dot;
 		this.rule = rule;

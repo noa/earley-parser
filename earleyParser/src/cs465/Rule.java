@@ -1,12 +1,12 @@
 package cs465;
 
 public class Rule {
-	public Double weight;
+	public Double ruleWeight;
 	public String[] symbols;
 	
 	public Rule(String[] tokens) {
 		// assume first token is the weight
-		weight = new Double(tokens[0]);
+		ruleWeight = new Double(tokens[0]);
 		symbols = new String[tokens.length-1];  
 		for(int i = 1; i < tokens.length; i++) {
 			symbols[i-1] = tokens[i]; 
@@ -17,7 +17,7 @@ public class Rule {
 	public Rule(String rule_text) {
 		// assume first token is the weight
 		String [] tokens = rule_text.split("\\s+");
-		weight = new Double(tokens[0]);
+		ruleWeight = new Double(tokens[0]);
 		symbols = new String[tokens.length-1];  
 		for(int i = 1; i < tokens.length -1 ; i++) {
 			symbols[i-1] = tokens[i]; 

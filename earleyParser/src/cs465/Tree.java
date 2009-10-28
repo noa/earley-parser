@@ -17,14 +17,14 @@ public class Tree {
 				System.out.print("(" + dr.rule.get_lhs() + " ");
 			}
 		
-			print_entry(dr.previous_rule);
+			print_entry(dr.attachee_rule);
 			
 			if(dr.scan != null) {
 				System.out.print(dr.scan);
 
 			}
 			
-			print_entry(dr.completed_rule);
+			print_entry(dr.complete_rule);
 			
 			if(dr.complete()) {
 				System.out.print(")");
