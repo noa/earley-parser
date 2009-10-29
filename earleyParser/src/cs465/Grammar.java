@@ -125,7 +125,7 @@ public class Grammar {
 		return tokens[1];
 	}
 	
-	public ArrayList<Rule> get_rhs(String symbol) {
+	public ArrayList<Rule> get_rule_by_lhs(String symbol) {
 		return lhs_to_rules.get(symbol);
 	}
 

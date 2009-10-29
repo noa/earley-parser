@@ -92,7 +92,7 @@ public class EarleyParser extends Parser {
 		}
 		
 		columnPredictions.add(symbolAfterDot);
-		for(Rule r : grammar.get_rhs(symbolAfterDot)) {
+		for(Rule r : grammar.get_rule_by_lhs(symbolAfterDot)) {
 			enqueue(new DottedRule(r,0,column, r.ruleWeight),column);
 		}
 	}
