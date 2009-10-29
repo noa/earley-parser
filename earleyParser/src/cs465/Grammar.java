@@ -19,11 +19,6 @@ public class Grammar {
 
 	HashMap<String,ArrayList<Rule>> lhs_to_rules = new HashMap<String,ArrayList<Rule>>();
 	
-	// For each symbol B in the grammar, what are the symbols A such that 
-	//   A -> * B *
-	// where * stands for zero or more other symbols
-	HashMap<String,Set<String>> parents = new HashMap<String,Set<String>>();
-	
 	// Preterminals are handled as a special case in the Earley parser (for efficiency)
 	Set<String> preterminals = new HashSet<String>();
 	Set<String> terminals = new HashSet<String>();
@@ -54,13 +49,6 @@ public class Grammar {
 					ArrayList<Rule> rules = lhs_to_rules.containsKey(key) ? (ArrayList<Rule>) lhs_to_rules.get(key) : new ArrayList<Rule>();
 					rules.add(new Rule(tokens));
 					lhs_to_rules.put(key,rules);
-					
-					// add symbol parents
-					for(int i=2;i<tokens.length;i++) {
-						Set<String> curr_parents = parents.containsKey(tokens[i]) ? (Set<String>) parents.get(tokens[i]) : new HashSet<String>();
-						curr_parents.add(tokens[1]);
-						parents.put(tokens[i], curr_parents);
-					}
 				}
 				else {
 					System.err.println("WARNING: empty rule in grammar file");
@@ -117,10 +105,6 @@ public class Grammar {
 		return lhs;
 	}
 	
-	public Set<String> parents(String token) {
-		return parents.get(token);
-	}
-	
 	public Integer num_nonterminals() {
 		return lhs_to_rules.keySet().size();
 	}
@@ -141,7 +125,7 @@ public class Grammar {
 		return tokens[1];
 	}
 	
-	public ArrayList<Rule> rewrites(String symbol) {
+	public ArrayList<Rule> get_rhs(String symbol) {
 		return lhs_to_rules.get(symbol);
 	}
 

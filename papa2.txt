@@ -1,2 +1,0 @@
-treeWeight = 0.0
-(ROOT 0.0 (S 0.0 (NP 0.0 Papa)(VP 0.0 (V 0.0 ate)(NP 0.0 (NP 0.0 (NP 0.0 (Det 0.0 the)(N 0.0 caviar))(PP 0.0 (P 0.0 with)(NP 0.0 (Det 0.0 a)(N 0.0 spoon))))and(NP 0.0 (Det 0.0 a)(N 0.0 knife))))))

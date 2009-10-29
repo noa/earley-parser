@@ -1,1 +1,0 @@
-(ROOT (S (NP Papa)(VP (VP (V ate)(NP (Det the)(N caviar)))(PP (P with)(NP (Det a)(N spoon))))))
