@@ -61,17 +61,32 @@ public class Grammar {
 					rules.add(new Rule(tokens));
 					lhs_to_rules.put(key,rules);
 					
-					// update prefix table
-					String A = tokens[0]; String B = tokens[1];
+
+					String A = tokens[1]; String B = tokens[2];
 					Pair<String,String> pt_key = new Pair<String,String>(A,B);
-					ArrayList<Rule> pt_rules = prefix_table.containsKey(pt_key) ? prefix_table.get(pt_key) : new ArrayList<Rule>();
-					pt_rules.add(new Rule(tokens));
 					
 					// update left parent table
-					if( prefix_table.get(new Pair<String,String>(A,B)).isEmpty() == true ) {
-						HashSet<String> parents = left_parent_table.get(B);
-						parents.add(A);
+					if( ! prefix_table.containsKey(pt_key) ) { 
+			//				|| (prefix_table.containsKey(pt_key) && prefix_table.get(pt_key).isEmpty() == true) ) {
+						if( left_parent_table.containsKey(B) ) {
+							left_parent_table.get(B).add(A);
+						} else {
+							HashSet<String> new_set = new HashSet<String>();
+							new_set.add(A);
+							left_parent_table.put(B, new_set);
+						}
 					}
+					
+					// update prefix table
+					if(prefix_table.containsKey(pt_key) == true) {
+						prefix_table.get(pt_key).add(new Rule(tokens));
+					} else {
+						ArrayList<Rule> new_rule_list = new ArrayList<Rule>();
+						new_rule_list.add(new Rule(tokens));
+						prefix_table.put(pt_key, new_rule_list);
+					}
+					
+
 				}
 				else {
 					Logger.println("WARNING: empty rule in grammar file");

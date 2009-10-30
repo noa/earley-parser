@@ -37,4 +37,13 @@ public class Rule {
 		return symbols[0];
 	}
 	
+	public String toString() {
+		StringBuilder sb = new StringBuilder();
+		int i;
+	    for(i=1; i<symbols.length; i++) {
+	        sb.append(symbols[i]);
+	        sb.append(" ");
+	    }
+	    return sb.toString();
+	}
 }
