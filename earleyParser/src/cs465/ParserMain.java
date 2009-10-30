@@ -32,30 +32,30 @@ public class ParserMain {
 		Logger.println("Grammar loaded successfully.");
 		// read sentences to parse
 		ArrayList<String> sents = read_sents(args[1]);
-
-		
-		// read in sentences to parse
-		Parser parser = new EarleyParser(grammar);
 		
 		if(mode.equals("recognize")) {
-			recognize_sents(parser,sents);
+			recognize_sents(grammar,sents);
 		}
 		else if (mode.equals("parse")) {
-			parse_sents(parser,sents);
+			parse_sents(grammar,sents);
 		} else {
 			throw new RuntimeException("Unrecognized option for (parse|recognize): " + mode);
 		}
 	}
-	public static void recognize_sents(Parser p, ArrayList<String> sents) {
+	public static void recognize_sents(Grammar grammar, ArrayList<String> sents) {
+		Parser parser = new EarleyParser(grammar);
+		
 		for(String sent : sents) {
-			boolean grammatical = p.recognize(sent.split("\\s+"));
+			boolean grammatical = parser.recognize(sent.split("\\s+"));
 			System.out.println("Grammatical = " + grammatical + ":\n\t" + sent);
 		}
 	}
-	public static void parse_sents(Parser p, ArrayList<String> sents) {
+	public static void parse_sents(Grammar grammar, ArrayList<String> sents) {
+		Parser parser = new EarleyParser(grammar);
+		
 		for(String sent : sents) {
 			
-			Tree tree = p.parse(sent.split("\\s+"));
+			Tree tree = parser.parse(sent.split("\\s+"));
 			
 			Logger.println("");
 			Logger.println(sent);

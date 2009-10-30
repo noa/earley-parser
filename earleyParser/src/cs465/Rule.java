@@ -39,6 +39,7 @@ public class Rule {
 	
 	public String toString() {
 		StringBuilder sb = new StringBuilder();
+		sb.append(symbols[0]+"->");
 		int i;
 	    for(i=1; i<symbols.length; i++) {
 	        sb.append(symbols[i]);

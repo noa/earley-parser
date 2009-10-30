@@ -68,7 +68,7 @@ public class Grammar {
 					lhs_to_rules.put(key,rules);
 					
 
-					String A = tokens[1]; String B = tokens[2];
+					String A = new_rule.symbols[0]; String B = new_rule.symbols[1];
 					Pair<String,String> pt_key = new Pair<String,String>(A,B);
 					
 					// update left parent table
@@ -84,11 +84,11 @@ public class Grammar {
 					}
 					
 					// update prefix table
-					if(prefix_table.containsKey(pt_key) == true) {
-						prefix_table.get(pt_key).add(new Rule(tokens));
+					if(prefix_table.containsKey(pt_key)) {
+						prefix_table.get(pt_key).add(new_rule);
 					} else {
 						ArrayList<Rule> new_rule_list = new ArrayList<Rule>();
-						new_rule_list.add(new Rule(tokens));
+						new_rule_list.add(new_rule);
 						prefix_table.put(pt_key, new_rule_list);
 					}
 					

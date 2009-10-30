@@ -5,7 +5,7 @@ import java.io.PrintStream;
 public class Logger {
 	private static boolean debugMode = false;
 	
-	private static PrintStream out = System.err;
+	private static PrintStream out = System.out;
 	
 	public static void println(String str) {
 		if (debugMode) {
