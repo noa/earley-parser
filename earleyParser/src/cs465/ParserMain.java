@@ -1,21 +1,36 @@
 package cs465;
 
-import java.io.*;
-import java.util.*;
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
+
+import cs465.util.Logger;
 
 // driver
 public class ParserMain {
+	
 	public static void main(String[] args) throws IOException {
 		if (args.length < 3) {
-			System.err.println("Usage:\n\tjava cs465.ParserMain foo.gr foo.sen (parse|recognize)");
+			System.err.println("Usage:\n\tjava cs465.ParserMain foo.gr foo.sen [parse|recognize] [-debug] ");
 			System.exit(1);
 		}
 		// initialize grammar
 		Grammar grammar = new Grammar(args[0]);
 		// read sentences to parse
 		ArrayList<String> sents = read_sents(args[1]);
-		// read mode
-		String mode = args[2];
+		
+		// Read optional arguments
+		String mode = "parse";
+		if (args.length > 2) {
+			// read mode
+			mode = args[2];
+			if (args.length > 3 && args[3].equals("-debug")) {
+				Logger.setDebugMode(true);
+			}
+		}
+
+		
 		// read in sentences to parse
 		Parser parser = new EarleyParser(grammar);
 		
@@ -24,6 +39,8 @@ public class ParserMain {
 		}
 		else if (mode.equals("parse")) {
 			parse_sents(parser,sents);
+		} else {
+			throw new RuntimeException("Unrecognized option for (parse|recognize): " + mode);
 		}
 	}
 	public static void recognize_sents(Parser p, ArrayList<String> sents) {
@@ -34,13 +51,16 @@ public class ParserMain {
 	}
 	public static void parse_sents(Parser p, ArrayList<String> sents) {
 		for(String sent : sents) {
+			
 			Tree tree = p.parse(sent.split("\\s+"));
+			
+			Logger.println("");
+			Logger.println(sent);
 			if(tree != null) {
-				System.err.println();
 				tree.print();
-				System.err.println(sent);
 			} else {
-				System.err.println("Not grammatical:" + sent);
+				// According to spec of hw3
+				System.out.println("NONE");
 			}
 		}
 	}

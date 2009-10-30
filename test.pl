@@ -1,11 +1,12 @@
 #!/usr/bin/perl
 
-my $data = "./data";
-my $grammar = "arith.gr";
-my $sentences = "arith.sen";
+my $grammar = "wallstreet";
+my $sentences = "empty";
 
-
-my $cmd = "./run $data/$grammar $data/$sentences";
+my $cmd = "";
+$cmd .= "time ";
+$cmd .= " ./parse.sh $grammar $sentences ";
+$cmd .= " > ./output/$grammar-$sentences.out"
 print $cmd;
 system $cmd;
 

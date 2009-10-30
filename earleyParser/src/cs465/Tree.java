@@ -1,5 +1,7 @@
 package cs465;
 
+import cs465.util.Logger;
+
 // these are returned by various parsers
 // TODO: consider pushing these methods in DottedRule
 public class Tree {
@@ -15,8 +17,7 @@ public class Tree {
 		if(dr != null) {
 			if(dr.complete()) {	              // S -> NP VP.
 				System.out.print("(" + dr.rule.get_lhs() + " ");
-				// TODO: add a log method
-				System.out.printf("%.1f ", dr.treeWeight);
+				Logger.printf("%.1f ", dr.treeWeight);
 			}
 		
 			print_entry(dr.attachee_rule);
@@ -32,9 +33,8 @@ public class Tree {
 			}
 		}
 	}
-	void print() {
-		System.out.println("treeWeight = " + root.treeWeight);		
+	void print() {	
 		print_entry(root);
-		System.out.println();
+		System.out.println(root.treeWeight);	
 	}
 }
