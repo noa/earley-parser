@@ -1,0 +1,10 @@
+(ROOT (S (NP (NPR (NNP John )))(VP (VBZ is )(ADJP-PRD (JJ happy )))(PUNC. . )))
+34.2301
+(ROOT (S (NP (DT The )(ADJP (RB very )(JJS biggest ))(NNS companies ))(VP (VBP are )(RB not )(ADVP (RB likely ))(VP (TO to )(VP (VB go )(PP (IN under )))))(PUNC. . )))
+104.91270000000002
+(ROOT (S (NP (DT The )(NN market ))(VP (VBZ is )(VP (VBG wondering )(SBAR (WHNP (WP what ))(S (NP (NPRS (NNP General )(NNPS Motors )))(VP (VBZ has )(VP (VBN done )))))))(PUNC. . )))
+94.58909999999999
+(ROOT (S (PP (IN In )(NP (JJ recent )(NNS years ))), (NP (NN pay ))(VP (VBD surged )(SBAR (IN as )(S (NP (NN demand ))(VP (VBD rose )(SBAR (IN while )(S (NP (NNS workers ))(VP (VBN left )(PP (IN for )(NP (JJR easier )(NNS jobs ))))))))))(PUNC. . )))
+161.82310000000004
+(ROOT (S (S-ADV (VP (VBN caught )(PRT (RP off ))(NP (NN guard )))), (NP (NPR (NNP Ford )(NNP Motor )(NNP Co. )))(VP (VBD had )(NP (DT no )(NN choice ))(PP (IN except )(S-NOM (VP (TO to )(VP (VB follow )(NP (NN suit ))))))(PP (IN with )(NP (NN financing )(NNS deals ))))(PUNC. . )))
+191.3874
