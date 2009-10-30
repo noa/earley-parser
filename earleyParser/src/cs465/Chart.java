@@ -7,7 +7,8 @@ import cs465.util.OurLinkedList;
 
 public class Chart {
 	ArrayList<OurLinkedList<DottedRule>> columns = null;
-	HashMap<String,DottedRule> symbolAfterDotToRuleMap = new HashMap<String,DottedRule>();	
+	// List of symbolAfterDotToRuleMaps
+	ArrayList<HashMap<String,ArrayList<DottedRule>>> indexedColumns = new ArrayList<HashMap<String,ArrayList<DottedRule>>>();
 	
 	public OurLinkedList<DottedRule> getColumn(int i) {
 		return columns.get(i);
@@ -17,22 +18,40 @@ public class Chart {
 		return columns.size();
 	}
 
-	public void enqueue(DottedRule rule, Integer column) {
+	public void enqueue(final DottedRule rule, int column) {
+		//TODO: make sure we are always using this and not OurLinkedList.add()
 		getColumn(column).add(rule);
+		HashMap<String,ArrayList<DottedRule>> indexedColumn = indexedColumns.get(column);
+		
+		if (!rule.complete()) {
+			ArrayList<DottedRule> indexed_rules;
+			if (indexedColumn.containsKey(rule.symbol_after_dot())) {
+				indexed_rules = indexedColumn.get(rule.symbol_after_dot());
+			} else {
+				indexed_rules = new ArrayList<DottedRule>();
+				indexedColumn.put(rule.symbol_after_dot(), indexed_rules );
+			}
+			indexed_rules.add(rule);
+		}
 	}
 	
 	public void initialize(Grammar grammar, Integer sent_length) {
 		columns = new ArrayList<OurLinkedList<DottedRule>>();
+		
 		for(int i=0; i<sent_length+1; i++) {
 			OurLinkedList<DottedRule> column = new OurLinkedList<DottedRule>();
 			if(i==0) {
-				// Enqueue special start rule
-				for(Rule r : grammar.get_start_rules()) {
-					DottedRule start = new DottedRule(r,0,0, r.ruleWeight);
-					column.add(start);
-				}
+				
 			}
 			columns.add(column);
+			HashMap<String,ArrayList<DottedRule>> indexedColumn = new HashMap<String,ArrayList<DottedRule>>();
+			indexedColumns.add(indexedColumn);
+		}
+		
+		// Enqueue special start rule
+		for(Rule r : grammar.get_start_rules()) {
+			DottedRule start = new DottedRule(r,0,0, r.ruleWeight);
+			enqueue(start, 0);
 		}
 	}
 
@@ -41,13 +60,14 @@ public class Chart {
 	 * is the lhs of state.
 	 */
 	public ArrayList<DottedRule> getAttachableRules(DottedRule state) {
-		ArrayList<DottedRule> attachableRules = new ArrayList<DottedRule>();
-		for(DottedRule r : getColumn(state.start)) {
-			if(!r.complete() && r.symbol_after_dot().equals(state.rule.get_lhs())) { 
-				attachableRules.add(r);
-			}
+		HashMap<String,ArrayList<DottedRule>> indexedColumn = indexedColumns.get(state.start);
+		
+		ArrayList<DottedRule> indexed_rules = indexedColumn.get(state.rule.get_lhs());
+		if (indexed_rules != null) {
+			return indexed_rules;
+		} else {
+			return new ArrayList<DottedRule>();
 		}
-		return attachableRules;
 	}
 
 }

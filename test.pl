@@ -2,7 +2,7 @@
 
 my $data = "./data";
 my $grammar = "wallstreet";
-my $sentences = "two-wallstreet";
+my $sentences = "wallstreet";
 
 my $cmd = "";
 $cmd .= "time ";
