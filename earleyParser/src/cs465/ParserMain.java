@@ -33,6 +33,7 @@ public class ParserMain {
 		// read sentences to parse
 		ArrayList<String> sents = read_sents(args[1]);
 		
+		// read in sentences to parse
 		if(mode.equals("recognize")) {
 			recognize_sents(grammar,sents);
 		}
@@ -54,11 +55,11 @@ public class ParserMain {
 		Parser parser = new EarleyParser(grammar);
 		
 		for(String sent : sents) {
-			
 			Tree tree = parser.parse(sent.split("\\s+"));
 			
 			Logger.println("");
 			Logger.println(sent);
+			System.out.println(sent);
 			if(tree != null) {
 				System.out.println(tree.toString());
 			} else {
