@@ -11,14 +11,10 @@ import cs465.util.Logger;
 public class ParserMain {
 	
 	public static void main(String[] args) throws IOException {
-		if (args.length < 3) {
+		if (args.length < 2) {
 			System.err.println("Usage:\n\tjava cs465.ParserMain foo.gr foo.sen [parse|recognize] [-debug] ");
 			System.exit(1);
 		}
-		// initialize grammar
-		Grammar grammar = new Grammar(args[0]);
-		// read sentences to parse
-		ArrayList<String> sents = read_sents(args[1]);
 		
 		// Read optional arguments
 		String mode = "parse";
@@ -27,8 +23,15 @@ public class ParserMain {
 			mode = args[2];
 			if (args.length > 3 && args[3].equals("-debug")) {
 				Logger.setDebugMode(true);
+				Logger.println("Debug Mode = true");
 			}
 		}
+		
+		// initialize grammar
+		Grammar grammar = new Grammar(args[0]);
+		Logger.println("Grammar loaded successfully.");
+		// read sentences to parse
+		ArrayList<String> sents = read_sents(args[1]);
 
 		
 		// read in sentences to parse
@@ -57,7 +60,7 @@ public class ParserMain {
 			Logger.println("");
 			Logger.println(sent);
 			if(tree != null) {
-				tree.print();
+				System.out.println(tree.toString());
 			} else {
 				// According to spec of hw3
 				System.out.println("NONE");
@@ -68,8 +71,6 @@ public class ParserMain {
 		ArrayList<String> sents = new ArrayList<String>();
 		try {
 			BufferedReader in = new BufferedReader(new FileReader(sent_file));
-			if (!in.ready())
-				throw new IOException();
 			String line;
 			while ((line = in.readLine()) != null) {
 				if (line.matches("\\s*")) {
@@ -81,7 +82,7 @@ public class ParserMain {
 			in.close();
 		}
 		catch (IOException e) {
-			System.err.println(e);
+			e.printStackTrace();
 			System.exit(1);
 		}
 		return sents;

@@ -1,12 +1,15 @@
 #!/usr/bin/perl
 
+my $data = "./data";
 my $grammar = "wallstreet";
-my $sentences = "empty";
+my $sentences = "two-wallstreet";
 
 my $cmd = "";
 $cmd .= "time ";
-$cmd .= " ./parse.sh $grammar $sentences ";
-$cmd .= " > ./output/$grammar-$sentences.out"
+$cmd .= " ./run $data/$grammar.gr $data/$sentences.sen ";
+#$cmd .= " parse -debug ";
+$cmd .= " 1> ./output/$grammar-$sentences.out  2>&1";
 print $cmd;
 system $cmd;
+
 

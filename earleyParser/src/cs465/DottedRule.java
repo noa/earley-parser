@@ -1,5 +1,7 @@
 package cs465;
 
+import java.util.Arrays;
+
 // note: used with Earley parsers
 // note: might want to represent dotted rules as just lists of elements that have not yet been matched
 public class DottedRule {
@@ -12,11 +14,11 @@ public class DottedRule {
 	DottedRule attachee_rule = null;
 	//String scan = null;
 	
-	public DottedRule(Rule rule, Integer dot, Integer start, double probability) {
+	public DottedRule(Rule rule, Integer dot, Integer start, double treeWeight) {
 		this.dot = dot;
 		this.rule = rule;
 		this.start = start;
-		this.treeWeight = probability;
+		this.treeWeight = treeWeight;
 	}
 	
 	public String symbol_after_dot() {
@@ -52,5 +54,37 @@ public class DottedRule {
 	        sb.append(". ");
 	    }
 		return sb.toString();
+	}
+
+	/**
+	 * Note that we define a loose definition of hashCode that only
+	 * considers start, dot, and rule.symbols.
+	 * TODO: does this cause any other problems?
+	 */
+	@Override
+	public int hashCode() {
+		 int result = 17;
+         result = 37*result + start;
+         result = 37*result + dot;
+         result = 37*result + (rule == null ? 0 : Arrays.deepHashCode(rule.symbols));
+         return result;
+	}
+	
+	/**
+	 * Note that we define a loose definition of equals that only
+	 * considers start, dot, and rule.symbols.
+	 * TODO: does this cause any other problems?
+	 */
+	@Override
+	public boolean equals(Object o) {
+		if (o instanceof DottedRule) {
+			DottedRule other = (DottedRule)o;
+			if (start == other.start &&
+				dot == other.dot &&
+				(rule == other.rule || Arrays.deepEquals(rule.symbols, other.rule.symbols))) {
+				return true;
+			}
+		}
+		return false;
 	}
 }
