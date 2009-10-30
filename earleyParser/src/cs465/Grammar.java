@@ -1,11 +1,16 @@
 package cs465;
 
-import java.io.*;
-
-import java.util.HashMap;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
-import java.util.Set;
+import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Set;
+
+import cs465.util.Logger;
 
 import cs465.util.Pair;
 
@@ -33,7 +38,7 @@ public class Grammar {
 	}
 	
 	public void read_grammar(String file_name) {
-		System.err.println("Loading grammar: " + file_name);
+		Logger.println("Loading grammar: " + file_name);
 		File f = new File(file_name);
 		try {
 			FileInputStream fis = new FileInputStream(f);
@@ -41,7 +46,7 @@ public class Grammar {
 			String line = null;
 			Set<String> symbols = new HashSet<String>();
 			while ((line = bis.readLine()) != null) {
-				System.err.println(line);
+				Logger.println(line);
 				String[] tokens = line.split("\\s+");
 				if(tokens.length > 0) {
 					// keep track of what symbols we've found
@@ -69,7 +74,7 @@ public class Grammar {
 					}
 				}
 				else {
-					System.err.println("WARNING: empty rule in grammar file");
+					Logger.println("WARNING: empty rule in grammar file");
 				}
 			}
 			

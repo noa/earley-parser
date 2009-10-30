@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.HashSet;
 
 import cs465.util.LinkedListNode;
+import cs465.util.Logger;
 import cs465.util.OurLinkedList;
 
 //TODO: consider a better way of constructing DottedRules
@@ -65,20 +66,20 @@ public class EarleyParser extends Parser {
 			}
 			while( entry != null) {
 				DottedRule state = entry.getValue();
-				System.err.print("State: " + state);
+				Logger.print("State: " + state);
 				if (state.complete()) {
 					// e.g. S -> NP VP .
-					System.err.println(" Action: attach");
+					Logger.println(" Action: attach");
 					attach(state, i);
 				} else if (grammar.is_nonterminal(state.symbol_after_dot())) {
 					// e.g. S -> . NP VP
-					System.err.println(" Action: predict");
+					Logger.println(" Action: predict");
 					predict(state, i, columnPredictions);
 				} else {
 					// e.g. NP -> . Det N     (pre-terminal after dot)
 					//  or
 					// e.g. NP -> NP . and NP (terminal after dot) 
-					System.err.println(" Action: scan");
+					Logger.println(" Action: scan");
 					scan(state, sent, i);
 				}
 				
