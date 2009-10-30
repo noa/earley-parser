@@ -10,31 +10,40 @@ public class Tree {
 		root = dr;
 	}
 	// backpointers must be enough to extract tree
-	public static void print_entry(DottedRule dr) {
+	public static String dottedRuleToString(DottedRule dr) {
+		StringBuilder sb = new StringBuilder();
 		// how about rules like:
 		//	NP -> NP and NP
 		// with embedded terminals?
 		if(dr != null) {
 			if(dr.complete()) {	              // S -> NP VP.
-				System.out.print("(" + dr.rule.get_lhs() + " ");
-				Logger.printf("%.1f ", dr.treeWeight);
+				sb.append("(");
+				sb.append(dr.rule.get_lhs());
+				sb.append(" ");
+				if (Logger.isDebugMode()) {
+					sb.append(String.format("%.1f ", dr.treeWeight));
+				}
 			}
 		
-			print_entry(dr.attachee_rule);
+			sb.append(dottedRuleToString(dr.attachee_rule));
 			
 			if(dr.completed_rule == null && dr.attachee_rule != null) {
-				System.out.print(dr.attachee_rule.symbol_after_dot() + " ");
+				sb.append(dr.attachee_rule.symbol_after_dot());
+				sb.append(" ");
 			} 
 			
-			print_entry(dr.completed_rule);
+			sb.append(dottedRuleToString(dr.completed_rule));
 			
 			if(dr.complete()) {
-				System.out.print(")");
+				sb.append(")");
 			}
 		}
+		
+		return sb.toString();
 	}
-	void print() {	
-		print_entry(root);
-		System.out.println(root.treeWeight);	
+	
+	@Override
+	public String toString() {	
+		return dottedRuleToString(root) + "\n" + root.treeWeight;	
 	}
 }

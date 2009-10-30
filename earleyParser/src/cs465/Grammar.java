@@ -52,7 +52,13 @@ public class Grammar {
 					// add symbol expansion
 					String key = make_key(tokens);
 					ArrayList<Rule> rules = lhs_to_rules.containsKey(key) ? (ArrayList<Rule>) lhs_to_rules.get(key) : new ArrayList<Rule>();
-					rules.add(new Rule(tokens));
+					Rule new_rule = new Rule(tokens);
+					if (new_rule.symbols.length == 2 && new_rule.symbols[0].equals(new_rule.symbols[1])) {
+						// filter rules like NP --> NP
+					} else {
+						//TODO: decide whether to filter here
+					}
+					rules.add(new_rule);
 					lhs_to_rules.put(key,rules);
 				}
 				else {

@@ -1,5 +1,5 @@
 #!/usr/local/bin/bash
 #
 
-java -classpath ./earleyParser/bin cs465.ParserMain $*
+java -classpath ./earleyParser/bin -Xmx1024M cs465.ParserMain $*
 

@@ -1,27 +1,35 @@
 package cs465.util;
 
+import java.io.PrintStream;
+
 public class Logger {
 	private static boolean debugMode = false;
 	
+	private static PrintStream out = System.out;
+	
 	public static void println(String str) {
 		if (debugMode) {
-			System.err.println(str);
+			out.println(str);
 		}
 	}
 	
 	public static void print(String str) {
 		if (debugMode) {
-			System.err.print(str);
+			out.print(str);
 		}
 	}
 	
 	public static void printf(String format, Object ... args) {
 		if (debugMode) {
-			System.err.printf(format, args);
+			out.printf(format, args);
 		}
 	}
 
 	public static void setDebugMode(boolean b) {
 		debugMode = b;
+	}
+	
+	public static boolean isDebugMode() {
+		return debugMode;
 	}
 }
