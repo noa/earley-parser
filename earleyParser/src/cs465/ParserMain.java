@@ -35,13 +35,13 @@ public class ParserMain {
 
 		
 		// read in sentences to parse
-		Parser parser = new EarleyParser(grammar);
+		Parser parser = null; //new EarleyParser(grammar);
 		
 		if(mode.equals("recognize")) {
 			recognize_sents(parser,sents);
 		}
 		else if (mode.equals("parse")) {
-			parse_sents(parser,sents);
+			parse_sents(parser,sents,grammar);
 		} else {
 			throw new RuntimeException("Unrecognized option for (parse|recognize): " + mode);
 		}
@@ -52,13 +52,14 @@ public class ParserMain {
 			System.out.println("Grammatical = " + grammatical + ":\n\t" + sent);
 		}
 	}
-	public static void parse_sents(Parser p, ArrayList<String> sents) {
+	public static void parse_sents(Parser p, ArrayList<String> sents, Grammar grammar) {
 		for(String sent : sents) {
-			
-			Tree tree = p.parse(sent.split("\\s+"));
+			Parser parser = new EarleyParser(grammar);
+			Tree tree = parser.parse(sent.split("\\s+"));
 			
 			Logger.println("");
 			Logger.println(sent);
+			System.out.println(sent);
 			if(tree != null) {
 				System.out.println(tree.toString());
 			} else {
