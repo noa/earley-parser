@@ -106,7 +106,7 @@ public class EarleyParser extends Parser {
 
 			while( entry != null) {
 				DottedRule state = entry.getValue();
-				Logger.print("State: " + state);
+				Logger.print("Column " + i + ": State: " + state);
 				if (state.complete()) {
 					// e.g. S -> NP VP .
 					Logger.println(" Action: attach");
@@ -195,7 +195,7 @@ public class EarleyParser extends Parser {
 		} else { // first column of the chart (no string in sentence)
 			for(Rule r : grammar.get_rule_by_lhs(predictedSymbol)) {
 				chart.enqueue(new DottedRule(r,0,column, r.ruleWeight),column);
-				Logger.println("Predicting a new rule.");
+				Logger.println("Column " + column + ": Predicting a new rule.");
 			}
 		}
 	}
@@ -210,7 +210,7 @@ public class EarleyParser extends Parser {
 			scanned_rule.completed_rule = null;
 			scanned_rule.attachee_rule  = state; // NP -> NP . and NP
 			chart.enqueue(scanned_rule,column+1);
-			Logger.println("Adding new rule for successful scan");
+			Logger.println("Column " + column + ": Adding new rule for successful scan");
 		}
 	}
 	
@@ -244,6 +244,7 @@ public class EarleyParser extends Parser {
 				
 				columnAttachments.put(new_rule, new_rule);
 				chart.enqueue(new_rule, column);
+				Logger.printf("Column " + column + ": Attaching new_rule=%s completed_rule=%s attachee_rule=%s\n", new_rule, state, r);
 				Logger.printf("Attaching new_rule=%s completed_rule=%s attachee_rule=%s\n", new_rule, state, r);
 			}
 		}

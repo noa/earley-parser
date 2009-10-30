@@ -16,3 +16,6 @@ caught off guard , Ford Motor Co. had no choice except to follow suit with finan
 data show that pay was flat for the third consecutive quarter after a rash of 4 % to 5 % annualized increases .
 (ROOT (S (NP (DT The )(JJ recent )(NNS years )), (VP (VBD was )(ADVP (RB not )(PP (IN for )(NP (DT the )(JJ third )(JJ consecutive )(NN quarter ))))(PP (TO to )(NP (DT a )(QP (QP (JJR easier )(IN of )(QP (CD 4 )))(NN % )(PP (TO to )(NP (QP (CD 5 ))(NN % ))))(JJ annualized )(NNS increases ))))(PUNC. . )))
 190.5473
+running the combined companies , projected to have nearly 22 million subscribers by the time the deal is slated to close in a year , is likely to pose extraordinary management questions , according to Wall Street analysts .
+(ROOT (S (NP (DT The )(NN market ))(VP (VBZ is )(NP (NNS companies )), (SBAR-ADV (RB not )(IN for )(S (NP (NP (NP (DT the )(JJ third )(QP (CD 22 )(CD million ))(NNS subscribers ))(PP (IN for )(NP (DT the ))))(PP (IN of )(NP (DT the )(NN deal ))))(VP (TO to )(VP (VBN slated )(PP (TO to )(NP (ADJP (ADJP (JJ close )(PP (IN in )(NP (NP (DT a )(NN year )), (VP (VBZ is )(RB likely )(VP (TO to )(VP (VB pose )(NP (JJ extraordinary )(NN management )(NNS questions ))))), )))(PP (VBG according )(PP (TO to )(NP (NPR (NNP Wall )(NNP Street ))))))(NNS analysts )))))(PUNC. . ))))))
+325.57949999999994
