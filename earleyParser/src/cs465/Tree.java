@@ -23,8 +23,8 @@ public class Tree {
 			print_entry(dr.attachee_rule);
 			
 			if(dr.completed_rule == null && dr.attachee_rule != null) {
-				System.out.print(dr.attachee_rule.symbol_after_dot());
-			}
+				System.out.print(dr.attachee_rule.symbol_after_dot() + " ");
+			} 
 			
 			print_entry(dr.completed_rule);
 			

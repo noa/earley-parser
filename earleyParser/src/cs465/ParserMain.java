@@ -72,7 +72,11 @@ public class ParserMain {
 				throw new IOException();
 			String line;
 			while ((line = in.readLine()) != null) {
-				sents.add(line);
+				if (line.matches("\\s*")) {
+					// Ignore empty lines since arith.par does so.
+				} else {
+					sents.add(line);
+				}
 			}
 			in.close();
 		}
