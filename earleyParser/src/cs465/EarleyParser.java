@@ -218,23 +218,34 @@ public class EarleyParser extends Parser {
 
 		ArrayList<DottedRule> attachableRules = chart.getAttachableRules(state);
 		
-		for(DottedRule r : attachableRules) {
-			DottedRule new_rule = new DottedRule(r.rule,r.dot+1,r.start, state.treeWeight + r.treeWeight);
-			new_rule.completed_rule = state;    // e.g. VP -> V .
-			new_rule.attachee_rule  = r;	      // e.g. S  -> NP . VP
-			
-			if (columnAttachments.containsKey(new_rule)) {
-				// TODO: remove this debug code and switch back to HashSet
+		if (attachableRules != null) {
+			for(DottedRule r : attachableRules) {
+				DottedRule new_rule = new DottedRule(r.rule,r.dot+1,r.start, state.treeWeight + r.treeWeight);
+				new_rule.completed_rule = state;    // e.g. VP -> V .
+				new_rule.attachee_rule  = r;	      // e.g. S  -> NP . VP
+				
 				DottedRule existingRule = columnAttachments.get(new_rule);
-				if (existingRule.treeWeight <= new_rule.treeWeight) {
-					//Logger.println("Not adding equivalent higher weight rule: " + new_rule);
+				if (existingRule != null) {
+					// TODO: remove this debug code and switch back to HashSet
+					if (existingRule.treeWeight > new_rule.treeWeight) {
+						//Logger.println("Not adding equivalent higher weight rule: " + new_rule);
+						// TODO: figure out what to do with this bug
+						existingRule.treeWeight = new_rule.treeWeight;
+						existingRule.completed_rule = new_rule.completed_rule;
+						existingRule.attachee_rule = new_rule.attachee_rule;
+					} else {
+						// Either the new_rule has higher weight or we've hit the lower weight completed
+						// consistuent bug.
+						// TODO: resolve this for extra credit
+						
+					}
 					continue;
 				}
+				
+				columnAttachments.put(new_rule, new_rule);
+				chart.enqueue(new_rule, column);
+				Logger.printf("Attaching new_rule=%s completed_rule=%s attachee_rule=%s\n", new_rule, state, r);
 			}
-			
-			columnAttachments.put(new_rule, new_rule);
-			chart.enqueue(new_rule, column);
-			Logger.printf("Attaching new_rule=%s completed_rule=%s attachee_rule=%s\n", new_rule, state, r);
 		}
 	}
 

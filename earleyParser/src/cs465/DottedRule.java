@@ -66,7 +66,7 @@ public class DottedRule {
 		 int result = 17;
          result = 37*result + start;
          result = 37*result + dot;
-         result = 37*result + (rule == null ? 0 : Arrays.deepHashCode(rule.symbols));
+         result = 37*result + (rule == null ? 0 : rule.symbolsHashCode);
          return result;
 	}
 	
@@ -81,7 +81,8 @@ public class DottedRule {
 			DottedRule other = (DottedRule)o;
 			if (start == other.start &&
 				dot == other.dot &&
-				(rule == other.rule || Arrays.deepEquals(rule.symbols, other.rule.symbols))) {
+				rule == other.rule) {
+				//(rule == other.rule || Arrays.deepEquals(rule.symbols, other.rule.symbols))) {
 				return true;
 			}
 		}

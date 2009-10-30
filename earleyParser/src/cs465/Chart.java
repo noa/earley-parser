@@ -62,12 +62,7 @@ public class Chart {
 	public ArrayList<DottedRule> getAttachableRules(DottedRule state) {
 		HashMap<String,ArrayList<DottedRule>> indexedColumn = indexedColumns.get(state.start);
 		
-		ArrayList<DottedRule> indexed_rules = indexedColumn.get(state.rule.get_lhs());
-		if (indexed_rules != null) {
-			return indexed_rules;
-		} else {
-			return new ArrayList<DottedRule>();
-		}
+		return indexedColumn.get(state.rule.get_lhs());
 	}
 
 }

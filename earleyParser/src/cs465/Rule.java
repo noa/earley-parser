@@ -1,8 +1,11 @@
 package cs465;
 
+import java.util.Arrays;
+
 public class Rule {
 	public Double ruleWeight;
 	public String[] symbols;
+	public int symbolsHashCode;
 	
 	public Rule(String[] tokens) {
 		// assume first token is the weight
@@ -11,17 +14,7 @@ public class Rule {
 		for(int i = 1; i < tokens.length; i++) {
 			symbols[i-1] = tokens[i]; 
 		}
-	}
-	
-	//TODO: remove unused constructor?
-	public Rule(String rule_text) {
-		// assume first token is the weight
-		String [] tokens = rule_text.split("\\s+");
-		ruleWeight = new Double(tokens[0]);
-		symbols = new String[tokens.length-1];  
-		for(int i = 1; i < tokens.length -1 ; i++) {
-			symbols[i-1] = tokens[i]; 
-		}
+		symbolsHashCode = Arrays.deepHashCode(symbols);
 	}
 	
 	//TODO: probably don't want to be creating new lists every time this is called
