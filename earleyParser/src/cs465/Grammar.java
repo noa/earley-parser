@@ -7,6 +7,8 @@ import java.util.ArrayList;
 import java.util.Set;
 import java.util.HashSet;
 
+import cs465.util.Pair;
+
 /* Read a .gr grammar file and hash its contents like:
  * 
  * Key       Value
@@ -18,6 +20,9 @@ public class Grammar {
 	static final String ROOT = "ROOT";
 
 	HashMap<String,ArrayList<Rule>> lhs_to_rules = new HashMap<String,ArrayList<Rule>>();
+	// TODO: need to index into the rules; this will duplicate them
+	HashMap<Pair<String,String>,ArrayList<Rule>> prefix_table = new HashMap<Pair<String,String>,ArrayList<Rule>>();
+	HashMap<String,HashSet<String>> left_parent_table = new HashMap<String,HashSet<String>>();
 	
 	// Preterminals are handled as a special case in the Earley parser (for efficiency)
 	Set<String> preterminals = new HashSet<String>();
@@ -44,11 +49,24 @@ public class Grammar {
 						symbols.add(tokens[i]);
 					}
 					
-					// add symbol expansion
+					// add rule to hash keyed on its left hand side
+					// e.g. for "A -> B C", A will be the key 
 					String key = make_key(tokens);
 					ArrayList<Rule> rules = lhs_to_rules.containsKey(key) ? (ArrayList<Rule>) lhs_to_rules.get(key) : new ArrayList<Rule>();
 					rules.add(new Rule(tokens));
 					lhs_to_rules.put(key,rules);
+					
+					// update prefix table
+					String A = tokens[0]; String B = tokens[1];
+					Pair<String,String> pt_key = new Pair<String,String>(A,B);
+					ArrayList<Rule> pt_rules = prefix_table.containsKey(pt_key) ? prefix_table.get(pt_key) : new ArrayList<Rule>();
+					pt_rules.add(new Rule(tokens));
+					
+					// update left parent table
+					if( prefix_table.get(new Pair<String,String>(A,B)).isEmpty() == true ) {
+						HashSet<String> parents = left_parent_table.get(B);
+						parents.add(A);
+					}
 				}
 				else {
 					System.err.println("WARNING: empty rule in grammar file");

@@ -58,7 +58,11 @@ public class EarleyParser extends Parser {
 			OurLinkedList<DottedRule> column = chart.get(i);
 			LinkedListNode<DottedRule> entry = column.getFirst();
 			HashSet<String> columnPredictions = new HashSet<String>();
-			
+			HashSet<String> left_ancestor_pair_table = null;
+			// there is no word corresponding to the first column of the chart
+			if(i>0) {
+				left_ancestor_pair_table = create_ancestor_pair_table(grammar,sent[i+1]);
+			}
 			while( entry != null) {
 				DottedRule state = entry.getValue();
 				System.err.print("State: " + state);
@@ -84,7 +88,16 @@ public class EarleyParser extends Parser {
 		}
 	}
 	
-	// don't need to store backpointers for predictions
+	private HashSet<String> create_ancestor_pair_table(Grammar grammar, String Y) {
+		HashSet<String> ancestors = new HashSet<String>();
+		HashSet<String> parents = grammar.left_parent_table.get(Y);
+		
+		
+		
+		return ancestors;
+	}
+
+	// don't need to store back-pointers for predictions
 	private void predict(DottedRule state, int column, HashSet<String> columnPredictions) {
 		String symbolAfterDot = state.symbol_after_dot();
 		if (columnPredictions.contains(symbolAfterDot)) {
