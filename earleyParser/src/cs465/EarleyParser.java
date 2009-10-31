@@ -1,8 +1,6 @@
 package cs465;
 
 import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.HashSet;
 
 import cs465.util.LinkedListNode;
 import cs465.util.Logger;
@@ -13,17 +11,23 @@ import cs465.util.Pair;
 public class EarleyParser extends Parser {
 	private Chart chart;
 	private Grammar grammar;
+	private double threshold;
+	private int numAttachments;
 	
 	public EarleyParser(Grammar grammar) {
 		this.grammar = grammar;
-		chart = new Chart();
+		numAttachments = 0;
 	}
 
 	@Override
 	public Tree parse(String[] sent) {
+		threshold = sent.length * 7;
+		chart = new Chart(grammar, sent);
 		
 		// if this sentence is grammatical
-		if(recognize(sent) == true) {
+		if(recognize(sent)) {
+			System.out.println("# numAttachments = " + numAttachments);
+			
 			// recover the lowest weight parse from backpointers
 			// Fill lowestDr with a dummy DottedRule
 			DottedRule lowestDr = new DottedRule(null, 0, 0, Double.MAX_VALUE);
@@ -44,22 +48,33 @@ public class EarleyParser extends Parser {
 		return null;
 	}
 
-	@Override
-	public boolean recognize(String[] sent) {
-
-		chart.initialize(grammar, sent.length);
-		fill_chart(sent);
-		
-		// if the special rule exists in the last chart column with a dot at the end, this sentence is grammatical
-		for (DottedRule dr : chart.getColumn(chart.getNumColumns()-1)) {
-			if(dr.rule.get_lhs().equals(Grammar.ROOT) && dr.complete()) {
-				return true;
+	private boolean recognize(String[] sent) {
+		int numPruned;
+		do {
+			numPruned = fill_chart(sent);
+			System.out.println("# Threshold = " + threshold);  //TODO: switch to Logger
+			System.out.println("# numPruned = " + numPruned); //TODO: switch to Logger
+			
+			// if the special rule exists in the last chart column with a dot at the end, this sentence is grammatical
+			for (DottedRule dr : chart.getColumn(chart.getNumColumns()-1)) {
+				if(dr.rule.get_lhs().equals(Grammar.ROOT) && dr.complete()) {
+					return true;
+				}
 			}
-		}
+			
+			updateThreshold(sent);
+		} while (numPruned > 0);
 		return false;
 	}
+
+	private void updateThreshold(String[] sent) {
+		threshold += sent.length;
+	}
 	
-	private void fill_chart(String[] sent) {
+	/**
+	 * Returns the number of rules that were pruned because they were over the threshold.
+	 */
+	private int fill_chart(String[] sent) {
 		
 		/* DEBUG */
 		Logger.println("Prefix table:");
@@ -80,116 +95,88 @@ public class EarleyParser extends Parser {
 		}
 		/* DEBUG */
 		
+		int numPrunedRules = 0;
 		// For each chart column (sent.length + 1)
 		for(int i=0; i<chart.getNumColumns(); i++) {
 			Logger.println("Processing column: " + i);
 			OurLinkedList<DottedRule> column = chart.getColumn(i);
 			LinkedListNode<DottedRule> entry = column.getFirst();
-			HashSet<String> columnPredictions = new HashSet<String>();
-			HashMap<DottedRule,DottedRule> columnAttachments = new HashMap<DottedRule,DottedRule>();
-
-			HashMap<String,HashSet<String>> left_ancestor_pair_table = null;
-						
-			// there is no word corresponding to the first column of the chart
-			if(i < sent.length ) {
-				left_ancestor_pair_table = create_ancestor_pair_table(grammar,sent[i]);
-				
-				/* DEBUG */
-				for(String key : left_ancestor_pair_table.keySet()) {
-					Logger.print("A_" + i + "(" + key + ")={");
-					for(String ancestor : left_ancestor_pair_table.get(key) )
-						Logger.print(ancestor + ", ");
-					Logger.println("}");
-				}
-				/* DEBUG */
-			}
-
+			
 			// while there are states in the linked list
 			while( entry != null) {
 				DottedRule state = entry.getValue();
+				
 				Logger.print("Column " + i + ": State: " + state);
+				
+				if (state.treeWeight > threshold) {
+					// TODO: this might not be right: we end up processing each high
+					// weight entry once per iteration until it is below the threshold
+					// this seems like it might break the O(n^3) bound).
+					
+					// skip
+					Logger.println("Action: pruning");
+					numPrunedRules++;
+					entry = entry.getNext();
+					continue;
+				}
+
+				LinkedListNode<DottedRule> nextEntry;
 				if (state.complete()) {
 					// e.g. S -> NP VP .
 					Logger.println(" Action: attach");
-					attach(state, i, columnAttachments);
+					numPrunedRules += attach(state, i);
+					nextEntry = entry.getNext();
 				} else if (grammar.is_nonterminal(state.symbol_after_dot())) {
 					// e.g. S -> . NP VP
 					Logger.println(" Action: predict");
-					predict(state, i, columnPredictions, left_ancestor_pair_table);
+					predict(state, i);
+					// Once a predict entry has been processed we keep it in the 
+					// indexed columns (making it available for attachment), but remove
+					// it from the queue so that it is not reprocessed.
+					nextEntry = entry.getNext();
+					chart.dequeue(entry, i);
 				} else {
 					// e.g. NP -> . Det N     (pre-terminal after dot)
 					//  or
 					// e.g. NP -> NP . and NP (terminal after dot) 
 					Logger.println(" Action: scan");
 					scan(state, sent, i);
+					// Once a predict entry has been processed we keep it in the 
+					// indexed columns (making it available for attachment), but remove
+					// it from the queue so that it is not reprocessed.
+					nextEntry = entry.getNext();
+					chart.dequeue(entry, i);
 				}
-				
-				entry = entry.getNext();
+				entry = nextEntry;
 			}
-			
 		}
+		return numPrunedRules;
 	}
 	
-	// create ancestor pair table, starting from word Y in the sentence
-	private HashMap<String,HashSet<String>> create_ancestor_pair_table(Grammar grammar, String Y) {
-		//TODO: consider not using a HashSet?
-		HashMap<String,HashSet<String>> ancestors = new HashMap<String,HashSet<String>>();
-		HashSet<String> processed_symbols = new HashSet<String>();
-		
-		// DFS
-		process_Y(grammar,ancestors,processed_symbols,Y);
-		
-		return ancestors;
-	}
-
-	// recursively populate left ancestor pair table 
-	private void process_Y(Grammar grammar, HashMap<String,HashSet<String>> ancestors, HashSet<String> processed_symbols, String Y) {
-		processed_symbols.add(Y); // don't process any symbol more than once
-		HashSet<String> parents = grammar.left_parent_table.get(Y);
-
-		if(parents != null) {
-			// for each parent X of Y
-			for(String X : parents) {
-				
-				// either create the hash of ancestors for this symbol or add to it
-				if(ancestors.containsKey(X)) {
-					ancestors.get(X).add(Y);
-				} else {
-					HashSet<String> ancestors_of_X = new HashSet<String>();
-					ancestors_of_X.add(Y);
-					ancestors.put(X, ancestors_of_X);
-				}
-				
-				if(!processed_symbols.contains(X)) {
-					process_Y(grammar,ancestors,processed_symbols,X);
-				}
-			}
-		}
-	}
-
 	// don't need to store back-pointers for predictions
-	private void predict(DottedRule state, int column, HashSet<String> columnPredictions, HashMap<String,HashSet<String>> left_ancestor_pair_table) {
-		String predictedSymbol = state.symbol_after_dot();
-		if (columnPredictions.contains(predictedSymbol)) { // don't predict the same symbol twice
+	private void predict(DottedRule state, int column) {
+		String symbolToPredict = state.symbol_after_dot();
+		 // don't predict the same symbol twice
+		if (chart.columnPredictions[column].contains(symbolToPredict)) {
 			return;
 		}
 		
-		columnPredictions.add(predictedSymbol);
+		chart.columnPredictions[column].add(symbolToPredict);
 		
 		// constrain predictions using the left ancestor pair table
-		if(left_ancestor_pair_table != null) {
-			if(left_ancestor_pair_table.containsKey(predictedSymbol)) {
-				for(String B : left_ancestor_pair_table.get(predictedSymbol)) {
-					Pair<String,String> key = new Pair<String,String>(predictedSymbol,B);
+		if(chart.left_ancestor_pair_tables[column] != null) {
+			if(chart.left_ancestor_pair_tables[column].containsKey(symbolToPredict)) {
+				for(String B : chart.left_ancestor_pair_tables[column].get(symbolToPredict)) {
+					Pair<String,String> key = new Pair<String,String>(symbolToPredict,B);
 					for(Rule r : grammar.prefix_table.get(key)) {
 						chart.enqueue(new DottedRule(r,0,column, r.ruleWeight),column);
 						Logger.println("Predicting a new rule.");
 					}
 				}
-				left_ancestor_pair_table.put(predictedSymbol, null);
+				chart.left_ancestor_pair_tables[column].put(symbolToPredict, null);
 			}
 		} else { // first column of the chart (no string in sentence)
-			for(Rule r : grammar.get_rule_by_lhs(predictedSymbol)) {
+			for(Rule r : grammar.get_rule_by_lhs(symbolToPredict)) {
 				chart.enqueue(new DottedRule(r,0,column, r.ruleWeight),column);
 				Logger.println("Column " + column + ": Predicting a new rule.");
 			}
@@ -211,17 +198,27 @@ public class EarleyParser extends Parser {
 	}
 	
 	// attach completed constituent to customers
-	private void attach(DottedRule state, int column, HashMap<DottedRule,DottedRule> columnAttachments) {
-
+	private int attach(DottedRule state, int column) {
 		ArrayList<DottedRule> attachableRules = chart.getAttachableRules(state);
 		
+		int numPruned = 0;
 		if (attachableRules != null) {
 			for(DottedRule r : attachableRules) {
-				DottedRule new_rule = new DottedRule(r.rule,r.dot+1,r.start, state.treeWeight + r.treeWeight);
+				double newWeight = state.treeWeight + r.treeWeight;
+				
+				if (newWeight > threshold) {
+					numPruned++;
+					continue;
+				}
+				
+				DottedRule new_rule = new DottedRule(r.rule,r.dot+1,r.start, newWeight);
 				new_rule.completed_rule = state;    // e.g. VP -> V .
 				new_rule.attachee_rule  = r;	      // e.g. S  -> NP . VP
 				
-				DottedRule existingRule = columnAttachments.get(new_rule);
+				
+				numAttachments++;
+				
+				DottedRule existingRule = chart.columnAttachments[column].get(new_rule);
 				if (existingRule != null) {
 					// TODO: remove this debug code and switch back to HashSet
 					if (existingRule.treeWeight > new_rule.treeWeight) {
@@ -239,12 +236,14 @@ public class EarleyParser extends Parser {
 					continue;
 				}
 				
-				columnAttachments.put(new_rule, new_rule);
+				chart.columnAttachments[column].put(new_rule, new_rule);
 				chart.enqueue(new_rule, column);
 				Logger.printf("Column " + column + ": Attaching new_rule=%s completed_rule=%s attachee_rule=%s\n", new_rule, state, r);
 				Logger.printf("Attaching new_rule=%s completed_rule=%s attachee_rule=%s\n", new_rule, state, r);
 			}
 		}
+		
+		return numPruned;
 	}
 
 }

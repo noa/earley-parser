@@ -12,19 +12,14 @@ public class ParserMain {
 	
 	public static void main(String[] args) throws IOException {
 		if (args.length < 2) {
-			System.err.println("Usage:\n\tjava cs465.ParserMain foo.gr foo.sen [parse|recognize] [-debug] ");
+			System.err.println("Usage:\n\tjava cs465.ParserMain foo.gr foo.sen [-debug] ");
 			System.exit(1);
 		}
 		
 		// Read optional arguments
-		String mode = "parse";
-		if (args.length > 2) {
-			// read mode
-			mode = args[2];
-			if (args.length > 3 && args[3].equals("-debug")) {
-				Logger.setDebugMode(true);
-				Logger.println("Debug Mode = true");
-			}
+		if (args.length > 2 && args[2].equals("-debug")) {
+			Logger.setDebugMode(true);
+			Logger.println("Debug Mode = true");
 		}
 		
 		// initialize grammar
@@ -34,31 +29,14 @@ public class ParserMain {
 		ArrayList<String> sents = read_sents(args[1]);
 		
 		// read in sentences to parse
-		if(mode.equals("recognize")) {
-			recognize_sents(grammar,sents);
-		}
-		else if (mode.equals("parse")) {
-			parse_sents(grammar,sents);
-		} else {
-			throw new RuntimeException("Unrecognized option for (parse|recognize): " + mode);
-		}
-	}
-	
-	// make grammaticality judgments on list of sentences
-	public static void recognize_sents(Grammar grammar, ArrayList<String> sents) {
-		Parser parser = new EarleyParser(grammar);
-		
-		for(String sent : sents) {
-			boolean grammatical = parser.recognize(sent.split("\\s+"));
-			System.out.println("Grammatical = " + grammatical + ":\n\t" + sent);
-		}
+		parse_sents(grammar,sents);
 	}
 	
 	// return parse trees or NONE for each sentence
 	public static void parse_sents(Grammar grammar, ArrayList<String> sents) {
-		Parser parser = new EarleyParser(grammar);
 		
 		for(String sent : sents) {
+			Parser parser = new EarleyParser(grammar);
 			Tree tree = parser.parse(sent.split("\\s+"));
 			
 			Logger.println("");

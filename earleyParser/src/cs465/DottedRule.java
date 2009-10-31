@@ -1,6 +1,5 @@
 package cs465;
 
-import java.util.Arrays;
 
 // note: used with Earley parsers
 // note: might want to represent dotted rules as just lists of elements that have not yet been matched

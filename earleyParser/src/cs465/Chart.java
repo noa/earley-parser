@@ -2,13 +2,24 @@ package cs465;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.HashSet;
 
+import cs465.util.LinkedListNode;
+import cs465.util.Logger;
 import cs465.util.OurLinkedList;
 
 public class Chart {
 	ArrayList<OurLinkedList<DottedRule>> columns = null;
 	// List of symbolAfterDotToRuleMaps
 	ArrayList<HashMap<String,ArrayList<DottedRule>>> indexedColumns = new ArrayList<HashMap<String,ArrayList<DottedRule>>>();
+
+	HashSet<String>[] columnPredictions;
+	HashMap<DottedRule,DottedRule>[] columnAttachments;
+	HashMap<String,HashSet<String>>[] left_ancestor_pair_tables;
+	
+	public Chart(Grammar grammar, String[] sent) {
+		initialize(grammar, sent);
+	}
 	
 	public OurLinkedList<DottedRule> getColumn(int i) {
 		return columns.get(i);
@@ -34,12 +45,19 @@ public class Chart {
 			indexed_rules.add(rule);
 		}
 	}
+
+	public void dequeue(LinkedListNode<DottedRule> entry, int column) {
+		columns.get(column).remove(entry);
+	}
 	
 	// initialize the chart based on the length of the sentence being parsed
-	public void initialize(Grammar grammar, Integer sent_length) {
+	private void initialize(Grammar grammar, String[] sent) {
+		int numColumns = sent.length + 1;
 		columns = new ArrayList<OurLinkedList<DottedRule>>();
-		
-		for(int i=0; i<sent_length+1; i++) {
+		columnPredictions = new HashSet[numColumns];
+		columnAttachments = new HashMap[numColumns];
+		left_ancestor_pair_tables = new HashMap[numColumns];
+		for(int i=0; i<numColumns; i++) {
 			OurLinkedList<DottedRule> column = new OurLinkedList<DottedRule>();
 			if(i==0) {
 				
@@ -47,6 +65,22 @@ public class Chart {
 			columns.add(column);
 			HashMap<String,ArrayList<DottedRule>> indexedColumn = new HashMap<String,ArrayList<DottedRule>>();
 			indexedColumns.add(indexedColumn);
+			columnPredictions[i] = new HashSet<String>();
+			columnAttachments[i] = new HashMap<DottedRule,DottedRule>();
+						
+			// there is no word corresponding to the first column of the chart
+			if(i < sent.length ) {
+				left_ancestor_pair_tables[i] = create_ancestor_pair_table(grammar,sent[i]);
+				
+				/* DEBUG */
+				for(String key : left_ancestor_pair_tables[i].keySet()) {
+					Logger.print("A_" + i + "(" + key + ")={");
+					for(String ancestor : left_ancestor_pair_tables[i].get(key) )
+						Logger.print(ancestor + ", ");
+					Logger.println("}");
+				}
+				/* DEBUG */
+			}
 		}
 		
 		// Enqueue special start rule
@@ -64,6 +98,92 @@ public class Chart {
 		HashMap<String,ArrayList<DottedRule>> indexedColumn = indexedColumns.get(state.start);
 		
 		return indexedColumn.get(state.rule.get_lhs());
+	}
+	
+	// create ancestor pair table, starting from word Y in the sentence
+	private HashMap<String,HashSet<String>> create_ancestor_pair_table(Grammar grammar, String Y) {
+		//TODO: consider not using a HashSet?
+		HashMap<String,HashSet<String>> ancestors = new HashMap<String,HashSet<String>>();
+		HashSet<String> processed_symbols = new HashSet<String>();
+		
+		// DFS
+		process_Y(grammar,ancestors,processed_symbols,Y);
+		
+		return ancestors;
+	}
+
+	// recursively populate left ancestor pair table 
+	private void process_Y(Grammar grammar, HashMap<String,HashSet<String>> ancestors, HashSet<String> processed_symbols, String Y) {
+		processed_symbols.add(Y); // don't process any symbol more than once
+		HashSet<String> parents = grammar.left_parent_table.get(Y);
+
+		if(parents != null) {
+			// for each parent X of Y
+			for(String X : parents) {
+				
+				// either create the hash of ancestors for this symbol or add to it
+				if(ancestors.containsKey(X)) {
+					ancestors.get(X).add(Y);
+				} else {
+					HashSet<String> ancestors_of_X = new HashSet<String>();
+					ancestors_of_X.add(Y);
+					ancestors.put(X, ancestors_of_X);
+				}
+				
+				if(!processed_symbols.contains(X)) {
+					process_Y(grammar,ancestors,processed_symbols,X);
+				}
+			}
+		}
+	}
+	
+	@Override
+	public String toString() {
+		StringBuilder sb = new StringBuilder();
+		
+//		sb.append("column sizes:\t");
+//		for(int i=0; i<columns.size(); i++) {
+//			sb.append(columns.get(i).size());
+//			sb.append("\t");
+//		}
+//		sb.append("\n");
+		
+		int sum;
+		
+		sum = 0;
+		sb.append("    indexedColumn sizes:\t");
+		for(int i=0; i<columns.size(); i++) {
+			sb.append(indexedColumns.get(i).size());
+			sb.append("\t");
+			sum += indexedColumns.get(i).size();
+		}
+		sb.append("\t[");
+		sb.append(sum);
+		sb.append("]");
+		sb.append("\n");
+		
+		sb.append("columnPredictions sizes:\t");
+		for(int i=0; i<columns.size(); i++) {
+			sb.append(columnPredictions[i].size());
+			sb.append("\t");
+		}
+		sb.append("\n");
+		
+		sb.append("columnAttachments sizes:\t");
+		for(int i=0; i<columns.size(); i++) {
+			sb.append(columnAttachments[i].size());
+			sb.append("\t");
+		}
+		sb.append("\n");
+		
+		sb.append("left_ancestor_pair sizes:\t");
+		for(int i=0; i<columns.size() - 1; i++) {
+			sb.append(left_ancestor_pair_tables[i].size());
+			sb.append("\t");
+		}
+		sb.append("\n");
+		
+		return sb.toString();
 	}
 
 }

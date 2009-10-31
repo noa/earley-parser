@@ -7,15 +7,48 @@ public class OurLinkedList<T> implements Iterable<T> {
 	private LinkedListNode<T> first;
 	private LinkedListNode<T> last;
 	
+	/**
+	 * Adds a new LinkedListNode<T> to the end of the list
+	 * with the value passed in.
+	 */
 	public void add(T value) {
 		LinkedListNode<T> node = new LinkedListNode<T>(value);
 		if (first == null || last == null) {
 			first = node;
-			last = first;
+			last = node;
 		} else {
 			last.setNext(node);
+			node.setPrev(last);
 			last = node;
 		}
+	}
+	
+	/**
+	 * Removes the specified node from this list.
+	 * 
+	 * If LinkedListNode<T> is not contained in this linked list,
+	 * the behavior of this method is undefined.
+	 */
+	public void remove(LinkedListNode<T> node) {
+		LinkedListNode<T> prev = node.getPrev();
+		LinkedListNode<T> next = node.getNext();
+		
+		if (node == first) {
+			first = next;
+		}
+		if (node == last) {
+			last = prev;
+		}
+		
+		if (prev != null) {
+			prev.setNext(next);
+		}
+		if (next != null) {
+			next.setPrev(prev);
+		}
+		
+		node.setNext(null);
+		node.setPrev(null);
 	}
 
 	public LinkedListNode<T> getFirst() {
