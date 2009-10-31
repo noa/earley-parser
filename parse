@@ -1,0 +1,5 @@
+./run $1 $2 parse -debug > /tmp/$2.txt; cat /tmp/$2.txt | data/prettyprint;
+
+rm /tmp/$2.txt;
+
+
