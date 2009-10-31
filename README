@@ -1,8 +1,129 @@
+Authors: Matthew Gormley, Nicholas Andrews
+--------
+
 Earley parser
 -------------
 
 To parse a given sentence.sen and grammar.gr, use:
 
-   $ ./parse.sh grammar sentence
+   $ ./parse2 path/to/grammar.gr path/to/sentences.sen
 
 You will see tree output at the end, which has been run through data/prettyprint.
+
+NOTE: We are just submitting the optimized version of our parser.
+
+Problems asked to comment on
+----------------------------
+
+a) 	Chart columns are indexed for efficient O(1) duplicate checks.  A further optimization is to pre-compute
+	the hash code for rules so that it doesn't need to be calculated repeatedly online.
+	
+	The grammar rules are stored once in a hash map.  Additional references point to entries in this map.
+	
+	In each column, we store the current best parse for each constituent rather than keeping unlikely
+	duplicates.  We use a left corner method to avoid any unnecessary PREDICTions.
+	
+b)	Each column of our chart is implemented as a linked list for efficient insertion as we traverse it,
+	therefore we can efficiently add rules in O(1).  Since Java doesn't support modifying a list while
+	iterating over it, we implemented our own linked list class for this purpose.
+
+c)	We update the best parse of a constituent and the its back-pointers in our ATTACH method.  In particular, 
+	we keep a hash map of column attachments and if a better constituent is found we update the existing
+	entry in the hash table.  Using a hash map, we have O(1) access to the current best parse for a 
+	constituent in a given column.
+
+Speed-ups used
+--------------
+
+1) 	We keep track of which categories have already been PREDICTed for the current column 
+	with a set of already predicted symbols, which gives O(1) checks.
+
+2)	When ATTACHing, we often need to find all entries with a certain symbol after the dot.  We implement
+	this by indexing each column with a hash table of symbol to dotted rules, which can be retrieved in O(1).
+
+3)  We implemented the left corner method to constrain PREDICTions.  Our grammar is represented by two hash
+	tables, the prefix table R(A,B) and the parent table P(B) (both implemented as hash maps).  When parsing 
+	a sentence, for each word we build a left ancestor pair table represented as a set by depth first search 
+	(as the function predictY(...)).  When predicting, we add exactly the rules stored in R(A,B), where A is 
+	fixed to be the predicted symbol and for all B in the ancestor hash map.  Once a symbol has been predicted,
+	we set its entry in the ancestor table to be empty since we only predict each symbol once per column.
+	
+Comments on parser output on wallstreet.sen
+-------------------------------------------
+
+1. John is happy .
+
+This parse appears correct.
+
+2. The very biggest companies are not likely to go under .
+
+This parse appears correct.
+
+3. The market is wondering what General Motors has done .
+
+We don't have a definition for VBZ for:
+
+                      (VP (VBZ has)
+
+but we'll assume it's correct.
+
+4. In recent years , pay surged as demand rose while workers left for easier jobs .
+
+This parse seems fine.
+
+5. caught off guard , Ford Motor Co. had no choice except to follow suit with financing deals .
+
+TMP = when, how often, how long
+
+             (SBAR-TMP (IN except)
+                       (S-NOM (VP (TO to)
+                                  (VP (VB follow)
+                                      (NP (NN suit))
+                                      (PP (IN with)
+                                          (NP (NN financing)
+                                              (NNS deals))))))))
+         (PUNC. .)))
+
+6. data show that pay was flat for the third consecutive quarter after a rash of 4 % to 5 % annualized increases .
+
+NOM = Constituent used like a noun, but
+
+*data show that NOUN of 4 % to 5 % annualized increases .
+
+isn't grammatical.
+
+                 (S-NOM (VP (VB pay)
+                            (VP (VBD was)
+                                (ADJP-PRD (JJ flat)
+                                          (PP (IN for)
+                                              (NP (DT the)
+                                                  (JJ third)
+                                                  (JJ consecutive)
+                                                  (NN quarter))))
+                                (PP (IN after)
+                                    (NP (DT a)
+                                        (NN rash))))))
+
+7. running the combined companies , projected to have nearly 22 million subscribers by the time the deal is slated to close in a year , is likely to pose extraordinary management questions , according to Wall Street analysts .
+
+The constituent:
+    
+    [projected to have nearly 22 million subscribers by the time the deal is slated to close in a year]
+
+is marked as S-ADV.  But it is not clearly modifying a verb.
+
+8. a senior intelligence official said the administration considered how strongly it was criticized for issuing a similar less than specific warning on Oct. 11 , then decided the information was too serious to keep under cover .
+
+TMP is defined as "When, how often, how long" -- the constituent below does not express any of these. 
+
+                     (SBAR-TMP (WHADVP (WRB how)
+                                       (RB strongly))
+                               (S (NP (PRP it))
+                                  (VP (VBD was)
+                                      (VP (VBN criticized))))))
+
+9. `` It 's very real , otherwise we would n't be doing it , '' this official said .
+
+This parse seems fine.
+
+
