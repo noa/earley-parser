@@ -35,6 +35,7 @@ public class Chart {
 		}
 	}
 	
+	// initialize the chart based on the length of the sentence being parsed
 	public void initialize(Grammar grammar, Integer sent_length) {
 		columns = new ArrayList<OurLinkedList<DottedRule>>();
 		

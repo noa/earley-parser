@@ -43,6 +43,8 @@ public class ParserMain {
 			throw new RuntimeException("Unrecognized option for (parse|recognize): " + mode);
 		}
 	}
+	
+	// make grammaticality judgments on list of sentences
 	public static void recognize_sents(Grammar grammar, ArrayList<String> sents) {
 		Parser parser = new EarleyParser(grammar);
 		
@@ -51,6 +53,8 @@ public class ParserMain {
 			System.out.println("Grammatical = " + grammatical + ":\n\t" + sent);
 		}
 	}
+	
+	// return parse trees or NONE for each sentence
 	public static void parse_sents(Grammar grammar, ArrayList<String> sents) {
 		Parser parser = new EarleyParser(grammar);
 		
@@ -68,6 +72,8 @@ public class ParserMain {
 			}
 		}
 	}
+	
+	// read sentences in the supplies .sen file
 	public static ArrayList<String> read_sents(String sent_file) {
 		ArrayList<String> sents = new ArrayList<String>();
 		try {

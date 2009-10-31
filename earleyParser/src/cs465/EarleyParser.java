@@ -104,6 +104,7 @@ public class EarleyParser extends Parser {
 				/* DEBUG */
 			}
 
+			// while there are states in the linked list
 			while( entry != null) {
 				DottedRule state = entry.getValue();
 				Logger.print("Column " + i + ": State: " + state);
@@ -129,6 +130,7 @@ public class EarleyParser extends Parser {
 		}
 	}
 	
+	// create ancestor pair table, starting from word Y in the sentence
 	private HashMap<String,HashSet<String>> create_ancestor_pair_table(Grammar grammar, String Y) {
 		//TODO: consider not using a HashSet?
 		HashMap<String,HashSet<String>> ancestors = new HashMap<String,HashSet<String>>();
@@ -139,24 +141,17 @@ public class EarleyParser extends Parser {
 		
 		return ancestors;
 	}
-	
+
+	// recursively populate left ancestor pair table 
 	private void process_Y(Grammar grammar, HashMap<String,HashSet<String>> ancestors, HashSet<String> processed_symbols, String Y) {
 		processed_symbols.add(Y); // don't process any symbol more than once
 		HashSet<String> parents = grammar.left_parent_table.get(Y);
-		/*
-		Logger.println("Parents of " + Y + ":");
-		if(parents != null) {
-			for(String X : parents) {
-				Logger.println("\t"+X);
-			}
-		} else {
-			Logger.println("\t no parents");
-		}
-		*/
+
 		if(parents != null) {
 			// for each parent X of Y
 			for(String X : parents) {
 				
+				// either create the hash of ancestors for this symbol or add to it
 				if(ancestors.containsKey(X)) {
 					ancestors.get(X).add(Y);
 				} else {
@@ -181,6 +176,7 @@ public class EarleyParser extends Parser {
 		
 		columnPredictions.add(predictedSymbol);
 		
+		// constrain predictions using the left ancestor pair table
 		if(left_ancestor_pair_table != null) {
 			if(left_ancestor_pair_table.containsKey(predictedSymbol)) {
 				for(String B : left_ancestor_pair_table.get(predictedSymbol)) {
@@ -214,6 +210,7 @@ public class EarleyParser extends Parser {
 		}
 	}
 	
+	// attach completed constituent to customers
 	private void attach(DottedRule state, int column, HashMap<DottedRule,DottedRule> columnAttachments) {
 
 		ArrayList<DottedRule> attachableRules = chart.getAttachableRules(state);

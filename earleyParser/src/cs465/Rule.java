@@ -4,8 +4,8 @@ import java.util.Arrays;
 
 public class Rule {
 	public Double ruleWeight;
-	public String[] symbols;
-	public int symbolsHashCode;
+	public String[] symbols;	// symbols appearing in the rule, including the left hand side
+	public int symbolsHashCode;	// pre-computed hash code for quick comparison
 	
 	public Rule(String[] tokens) {
 		// assume first token is the weight

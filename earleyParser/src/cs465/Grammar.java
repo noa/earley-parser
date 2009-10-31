@@ -14,18 +14,16 @@ import cs465.util.Logger;
 
 import cs465.util.Pair;
 
-/* Read a .gr grammar file and hash its contents like:
+/* Read a .gr grammar file and store rules as:
  * 
  * Key       Value
  * ----------------------
  * String -> List<Rule>
- 
  */
 public class Grammar {
 	static final String ROOT = "ROOT";
 
 	HashMap<String,ArrayList<Rule>> lhs_to_rules = new HashMap<String,ArrayList<Rule>>();
-	// TODO: need to index into the rules; this will duplicate them
 	HashMap<Pair<String,String>,ArrayList<Rule>> prefix_table = new HashMap<Pair<String,String>,ArrayList<Rule>>();
 	HashMap<String,HashSet<String>> left_parent_table = new HashMap<String,HashSet<String>>();
 	
@@ -66,7 +64,6 @@ public class Grammar {
 					}
 					rules.add(new_rule);
 					lhs_to_rules.put(key,rules);
-					
 
 					String A = new_rule.symbols[0]; String B = new_rule.symbols[1];
 					Pair<String,String> pt_key = new Pair<String,String>(A,B);
@@ -91,8 +88,6 @@ public class Grammar {
 						new_rule_list.add(new_rule);
 						prefix_table.put(pt_key, new_rule_list);
 					}
-					
-
 				}
 				else {
 					Logger.println("WARNING: empty rule in grammar file");
@@ -130,6 +125,7 @@ public class Grammar {
 		}
 	}
 	
+	// picks out rules with given right hand side symbol
 	public Set<String> rules_with_rhs(Set<String> B,Set<String> C) {
 		Set<String> lhs = new HashSet<String>();
 		for(String b : B) {
@@ -149,30 +145,37 @@ public class Grammar {
 		return lhs;
 	}
 	
+	// returns number of nonterminals in the grammar
 	public Integer num_nonterminals() {
 		return lhs_to_rules.keySet().size();
 	}
 	
+	// returns the set of all nonterminals in the grammar
 	public Set<String> get_nonterminals() {
 		return lhs_to_rules.keySet();
 	}
 	
+	// checks if given symbol is a preterminal
 	public boolean is_preterminal(String symbol) {
 		return preterminals.contains(symbol);
 	}
 	
+	// checks if given symbol is a nonterminal
 	public boolean is_nonterminal(String symbol) {
 		return !terminals.contains(symbol);
 	}
 	
+	// given a string of tokens, pick out one to use as a hash key
 	private String make_key(String[] tokens) {
 		return tokens[1];
 	}
 	
+	// return rule by the left hand side, e.g. symbol -> ...
 	public ArrayList<Rule> get_rule_by_lhs(String symbol) {
 		return lhs_to_rules.get(symbol);
 	}
 
+	// return rules that signal the root of the parse tree
 	public ArrayList<Rule> get_start_rules() {
 		ArrayList<Rule> start_rules = lhs_to_rules.get(ROOT);
 		return start_rules;
