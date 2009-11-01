@@ -46,9 +46,9 @@ public class ParserMain {
 	
 	// make grammaticality judgments on list of sentences
 	public static void recognize_sents(Grammar grammar, ArrayList<String> sents) {
-		Parser parser = new EarleyParser(grammar);
 		
 		for(String sent : sents) {
+			Parser parser = new EarleyParser(grammar);
 			boolean grammatical = parser.recognize(sent.split("\\s+"));
 			System.out.println("Grammatical = " + grammatical + ":\n\t" + sent);
 		}
@@ -56,9 +56,10 @@ public class ParserMain {
 	
 	// return parse trees or NONE for each sentence
 	public static void parse_sents(Grammar grammar, ArrayList<String> sents) {
-		Parser parser = new EarleyParser(grammar);
 		
 		for(String sent : sents) {
+			
+			Parser parser = new EarleyParser(grammar);
 			Tree tree = parser.parse(sent.split("\\s+"));
 			
 			Logger.println("");
