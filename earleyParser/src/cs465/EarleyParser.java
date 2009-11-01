@@ -182,10 +182,9 @@ public class EarleyParser extends Parser {
 		
 		// constrain predictions using the left ancestor pair table
 		if(left_ancestor_pair_table != null) {
-	//		if(left_ancestor_pair_table.containsKey(predictedSymbol)) {
-				HashSet<String> left_ancestors = left_ancestor_pair_table.get(predictedSymbol);
-				if(left_ancestors != null) {
-				for(String B : left_ancestor_pair_table.get(predictedSymbol)) {
+			HashSet<String> left_ancestors = left_ancestor_pair_table.get(predictedSymbol);
+			if(left_ancestors != null) {
+				for(String B : left_ancestors) {
 					Pair<String,String> key = new Pair<String,String>(predictedSymbol,B);
 					for(Rule r : grammar.prefix_table.get(key)) {
 						chart.enqueue(new DottedRule(r,0,column, r.ruleWeight),column);
