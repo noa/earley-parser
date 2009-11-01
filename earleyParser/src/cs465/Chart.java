@@ -9,30 +9,40 @@ import cs465.util.Logger;
 import cs465.util.OurLinkedList;
 
 public class Chart {
-	ArrayList<OurLinkedList<DottedRule>> columns = null;
-	// List of symbolAfterDotToRuleMaps
-	ArrayList<HashMap<String,ArrayList<DottedRule>>> indexedColumns = new ArrayList<HashMap<String,ArrayList<DottedRule>>>();
+	//private Column[] columns;
+	
+	//private static class Column {
+		OurLinkedList<DottedRule>[] belowThreshColumns;
+		private OurLinkedList<DottedRule>[] aboveThreshColumns;
+		// List of symbolAfterDotToRuleMaps
+		private HashMap<String,ArrayList<DottedRule>>[] indexedColumns;
 
-	HashSet<String>[] columnPredictions;
-	HashMap<DottedRule,DottedRule>[] columnAttachments;
-	HashMap<String,HashSet<String>>[] left_ancestor_pair_tables;
+		HashSet<String>[] columnPredictions;
+		HashMap<DottedRule,DottedRule>[] columnAttachments;
+		HashMap<String,HashSet<String>>[] left_ancestor_pair_tables;
+		
+	//}
 	
 	public Chart(Grammar grammar, String[] sent) {
 		initialize(grammar, sent);
 	}
 	
 	public OurLinkedList<DottedRule> getColumn(int i) {
-		return columns.get(i);
+		return belowThreshColumns[i];
 	}
 	
 	public int getNumColumns() {
-		return columns.size();
+		return belowThreshColumns.length;
 	}
 
 	public void enqueue(final DottedRule rule, int column) {
 		//TODO: make sure we are always using this and not OurLinkedList.add()
 		getColumn(column).add(rule);
-		HashMap<String,ArrayList<DottedRule>> indexedColumn = indexedColumns.get(column);
+		indexRule(rule, column);
+	}
+
+	private void indexRule(final DottedRule rule, int column) {
+		HashMap<String,ArrayList<DottedRule>> indexedColumn = indexedColumns[column];
 		
 		if (!rule.complete()) {
 			ArrayList<DottedRule> indexed_rules;
@@ -47,24 +57,19 @@ public class Chart {
 	}
 
 	public void dequeue(LinkedListNode<DottedRule> entry, int column) {
-		columns.get(column).remove(entry);
+		belowThreshColumns[column].remove(entry);
 	}
 	
 	// initialize the chart based on the length of the sentence being parsed
 	private void initialize(Grammar grammar, String[] sent) {
 		int numColumns = sent.length + 1;
-		columns = new ArrayList<OurLinkedList<DottedRule>>();
+		belowThreshColumns = new OurLinkedList[numColumns];
 		columnPredictions = new HashSet[numColumns];
 		columnAttachments = new HashMap[numColumns];
 		left_ancestor_pair_tables = new HashMap[numColumns];
 		for(int i=0; i<numColumns; i++) {
-			OurLinkedList<DottedRule> column = new OurLinkedList<DottedRule>();
-			if(i==0) {
-				
-			}
-			columns.add(column);
-			HashMap<String,ArrayList<DottedRule>> indexedColumn = new HashMap<String,ArrayList<DottedRule>>();
-			indexedColumns.add(indexedColumn);
+			belowThreshColumns[i] = new OurLinkedList<DottedRule>();
+			indexedColumns[i] = new HashMap<String,ArrayList<DottedRule>>();
 			columnPredictions[i] = new HashSet<String>();
 			columnAttachments[i] = new HashMap<DottedRule,DottedRule>();
 						
@@ -95,7 +100,7 @@ public class Chart {
 	 * is the lhs of state.
 	 */
 	public ArrayList<DottedRule> getAttachableRules(DottedRule state) {
-		HashMap<String,ArrayList<DottedRule>> indexedColumn = indexedColumns.get(state.start);
+		HashMap<String,ArrayList<DottedRule>> indexedColumn = indexedColumns[state.start];
 		
 		return indexedColumn.get(state.rule.get_lhs());
 	}
@@ -152,10 +157,10 @@ public class Chart {
 		
 		sum = 0;
 		sb.append("    indexedColumn sizes:\t");
-		for(int i=0; i<columns.size(); i++) {
-			sb.append(indexedColumns.get(i).size());
+		for(int i=0; i<belowThreshColumns.length; i++) {
+			sb.append(indexedColumns[i].size());
 			sb.append("\t");
-			sum += indexedColumns.get(i).size();
+			sum += indexedColumns[i].size();
 		}
 		sb.append("\t[");
 		sb.append(sum);
@@ -163,21 +168,21 @@ public class Chart {
 		sb.append("\n");
 		
 		sb.append("columnPredictions sizes:\t");
-		for(int i=0; i<columns.size(); i++) {
+		for(int i=0; i<belowThreshColumns.length; i++) {
 			sb.append(columnPredictions[i].size());
 			sb.append("\t");
 		}
 		sb.append("\n");
 		
 		sb.append("columnAttachments sizes:\t");
-		for(int i=0; i<columns.size(); i++) {
+		for(int i=0; i<belowThreshColumns.length; i++) {
 			sb.append(columnAttachments[i].size());
 			sb.append("\t");
 		}
 		sb.append("\n");
 		
 		sb.append("left_ancestor_pair sizes:\t");
-		for(int i=0; i<columns.size() - 1; i++) {
+		for(int i=0; i<belowThreshColumns.length - 1; i++) {
 			sb.append(left_ancestor_pair_tables[i].size());
 			sb.append("\t");
 		}
