@@ -1,0 +1,7 @@
+Authors: Matthew Gormley, Nicholas Andrews
+--------
+
+To compile our project run the following ./build.sh command from the same directory in which this HOW-TO file occurs.
+
+./build.sh
+

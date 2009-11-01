@@ -1,0 +1,6 @@
+#!/usr/local/bin/bash
+#
+# Authors: Matt Gormley and Nicholas Andrews
+#
+java -classpath ./earleyParser/bin -Xmx1024M cs465.ParserMain $*
+

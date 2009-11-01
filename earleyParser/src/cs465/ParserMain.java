@@ -12,19 +12,14 @@ public class ParserMain {
 	
 	public static void main(String[] args) throws IOException {
 		if (args.length < 2) {
-			System.err.println("Usage:\n\tjava cs465.ParserMain foo.gr foo.sen [parse|recognize] [-debug] ");
+			System.err.println("Usage:\n\tjava cs465.ParserMain foo.gr foo.sen [-debug] ");
 			System.exit(1);
 		}
 		
 		// Read optional arguments
-		String mode = "parse";
-		if (args.length > 2) {
-			// read mode
-			mode = args[2];
-			if (args.length > 3 && args[3].equals("-debug")) {
-				Logger.setDebugMode(true);
-				Logger.println("Debug Mode = true");
-			}
+		if (args.length > 2 && args[2].equals("-debug")) {
+			Logger.setDebugMode(true);
+			Logger.println("Debug Mode = true");
 		}
 		
 		// initialize grammar
@@ -32,16 +27,8 @@ public class ParserMain {
 		Logger.println("Grammar loaded successfully.");
 		// read sentences to parse
 		ArrayList<String> sents = read_sents(args[1]);
-		
-		// read in sentences to parse
-		if(mode.equals("recognize")) {
-			recognize_sents(grammar,sents);
-		}
-		else if (mode.equals("parse")) {
-			parse_sents(grammar,sents);
-		} else {
-			throw new RuntimeException("Unrecognized option for (parse|recognize): " + mode);
-		}
+		// parse sentences
+		parse_sents(grammar,sents);
 	}
 	
 	// make grammaticality judgments on list of sentences
@@ -64,7 +51,7 @@ public class ParserMain {
 			
 			Logger.println("");
 			Logger.println(sent);
-			//System.out.println(sent);
+
 			if(tree != null) {
 				System.out.println(tree.toString());
 			} else {

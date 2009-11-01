@@ -57,11 +57,6 @@ public class Grammar {
 					String key = make_key(tokens);
 					ArrayList<Rule> rules = lhs_to_rules.containsKey(key) ? (ArrayList<Rule>) lhs_to_rules.get(key) : new ArrayList<Rule>();
 					Rule new_rule = new Rule(tokens);
-					if (new_rule.symbols.length == 2 && new_rule.symbols[0].equals(new_rule.symbols[1])) {
-						// filter rules like NP --> NP
-					} else {
-						//TODO: decide whether to filter here
-					}
 					rules.add(new_rule);
 					lhs_to_rules.put(key,rules);
 
@@ -123,26 +118,6 @@ public class Grammar {
 		} catch (IOException e) {
 			throw new RuntimeException("Problem reading grammar file:" + file_name, e);
 		}
-	}
-	
-	// picks out rules with given right hand side symbol
-	public Set<String> rules_with_rhs(Set<String> B,Set<String> C) {
-		Set<String> lhs = new HashSet<String>();
-		for(String b : B) {
-			for(String c : C) {
-				for(String key : lhs_to_rules.keySet()) {
-					for(Rule r : lhs_to_rules.get(key)) {
-						String[] rhs = r.get_rhs();
-						if(rhs != null && rhs.length > 1) {
-							if(rhs[0].equals(b) && rhs[1].equals(c)) {
-								lhs.add(r.get_lhs());
-							}
-						}
-					}
-				}
-			}
-		}
-		return lhs;
 	}
 	
 	// returns number of nonterminals in the grammar

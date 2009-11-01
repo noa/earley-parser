@@ -10,7 +10,6 @@ public class DottedRule {
 	// Backpointers
 	DottedRule completed_rule = null;
 	DottedRule attachee_rule = null;
-	//String scan = null;
 	
 	public DottedRule(Rule rule, Integer dot, Integer start, double treeWeight) {
 		this.dot = dot;
@@ -57,7 +56,6 @@ public class DottedRule {
 	/**
 	 * Note that we define a loose definition of hashCode that only
 	 * considers start, dot, and rule.symbols.
-	 * TODO: does this cause any other problems?
 	 */
 	@Override
 	public int hashCode() {
@@ -71,7 +69,6 @@ public class DottedRule {
 	/**
 	 * Note that we define a loose definition of equals that only
 	 * considers start, dot, and rule.symbols.
-	 * TODO: does this cause any other problems?
 	 */
 	@Override
 	public boolean equals(Object o) {
