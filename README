@@ -15,45 +15,46 @@ NOTE: We are just submitting the optimized version of our parser.
 Problems asked to comment on
 ----------------------------
 
-a) 	Chart columns are indexed for efficient O(1) duplicate checks.  A further optimization is to pre-compute
-	the hash code for rules so that it doesn't need to be calculated repeatedly online.
-	
-	The grammar rules are stored once in a hash map.  Additional references point to entries in this map.
-	
-	In each column, we store the current best parse for each constituent rather than keeping unlikely
-	duplicates.  We use a left corner method to avoid any unnecessary PREDICTions.
-	
-b)	Each column of our chart is implemented as a linked list for efficient insertion as we traverse it,
-	therefore we can add rules in O(1).  Since Java doesn't support modifying a list while
-	iterating over it, we implemented our own light-weight linked list class for this purpose.
+a)  Chart columns are indexed for efficient O(1) duplicate checks.  A further optimization is to pre-compute
+    the hash code for rules so that it doesn't need to be calculated repeatedly online.
+    
+    The grammar rules are stored once in a hash map.  Additional references point to entries in this map.
+    
+    In each column, we store the current best parse for each constituent rather than keeping unlikely
+    duplicates.  We use a left corner method to avoid any unnecessary PREDICTions.
+    
+b)  Each column of our chart is also implemented as a linked list for efficient insertion as we traverse it,
+    therefore we can add rules in O(1) and iterate through them as a queue of work.  Since Java doesn't support 
+    modifying a list while iterating over it, we implemented our own light-weight linked list class for this 
+    purpose.
 
-c)	We update the best parse of a constituent and the its back-pointers in our ATTACH method.  In particular, 
-	we keep a hash map of column attachments and if a better constituent is found we update the existing
-	entry in the hash table (making sure to update the back-pointers to recover the parse).  Using a hash map, 
-	we have O(1) access to the current best parse for a constituent in a given column.
+c)  We update the best parse of a constituent and the its back-pointers in our ATTACH method.  In particular, 
+    we keep a hash map of column attachments and if a better constituent is found we update the existing
+    entry in the hash table (making sure to update the back-pointers to recover the parse).  Using a hash map, 
+    we have O(1) access to the current best parse for a constituent in a given column.
 
 Speed-ups used
 --------------
 
 Using the following optimizations, we parse the sentences in wallstreet.sen in about 100 seconds.
 
-1) 	We keep track of which categories have already been PREDICTed for the current column 
-	with a set of already predicted symbols, which gives O(1) checks.
+1)  The first optimization we implemented was to keep track of which categories have already been 
+    PREDICTed for the current column with a set of already predicted symbols, which gives O(1) checks.
 
-2)	When ATTACHing, we often need to find all entries with a certain symbol after the dot.  We implement
-	this by indexing each column with a hash table of symbol to dotted rules, which can be retrieved in O(1).
+2)  When ATTACHing, we often need to find all entries with a certain symbol after the dot.  We implement
+    this by indexing each column with a hash table of symbol to dotted rules, which can be retrieved in O(1).
 
 3)  We implemented the left corner method to constrain PREDICTions.  Our grammar is represented by two hash
-	tables, the prefix table R(A,B) and the parent table P(B) (both implemented as hash maps).  When parsing 
-	a sentence, for each word we build a left ancestor pair table represented as a set by depth first search 
-	(as the function predictY(...)).  When predicting, we add exactly the rules stored in R(A,B), where A is 
-	fixed to be the predicted symbol and for all B in the ancestor hash map.  Once a symbol has been predicted,
-	we set its entry in the ancestor table to be empty since we only predict each symbol once per column.
-	
-4) 	We use the suggested trick of setting the ancestors A_j(B) = null for already predicted symbols;
-	this means that (1) is no longer necessary (our implementation only includes this trick to keep
-	track of PREDICTed symbols.
-	
+    tables, the prefix table R(A,B) and the parent table P(B) (both implemented as hash maps).  When parsing 
+    a sentence, for each word we build a left ancestor pair table represented as a set by depth first search 
+    (as the function predictY(...)).  When predicting, we add exactly the rules stored in R(A,B), where A is 
+    fixed to be the predicted symbol and for all B in the ancestor hash map.  Once a symbol has been predicted,
+    we set its entry in the ancestor table to be empty since we only predict each symbol once per column.
+    
+4)  We use the suggested trick of setting the ancestors A_j(B) = null for already predicted symbols;
+    this means that (1) is no longer necessary (our implementation only includes this trick to keep
+    track of PREDICTed symbols.
+    
 Comments on parser output on wallstreet.sen
 -------------------------------------------
 
