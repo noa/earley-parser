@@ -7,7 +7,7 @@ import cs465.util.OurLinkedList;
 
 public class Chart {
 	ArrayList<OurLinkedList<DottedRule>> columns = null;
-	// List of symbolAfterDotToRuleMaps
+	// List of symbols after the dot to dotted rules maps
 	ArrayList<HashMap<String,ArrayList<DottedRule>>> indexedColumns = new ArrayList<HashMap<String,ArrayList<DottedRule>>>();
 	
 	public OurLinkedList<DottedRule> getColumn(int i) {
@@ -18,8 +18,10 @@ public class Chart {
 		return columns.size();
 	}
 
+	/**
+	 * This method should always be used to add DottedRules to the columns LinkedLists.
+	 */
 	public void enqueue(final DottedRule rule, int column) {
-		//TODO: make sure we are always using this and not OurLinkedList.add()
 		getColumn(column).add(rule);
 		HashMap<String,ArrayList<DottedRule>> indexedColumn = indexedColumns.get(column);
 		

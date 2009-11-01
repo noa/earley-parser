@@ -9,7 +9,6 @@ import cs465.util.Logger;
 import cs465.util.OurLinkedList;
 import cs465.util.Pair;
 
-//TODO: consider a better way of constructing DottedRules
 public class EarleyParser extends Parser {
 	private Chart chart;
 	private Grammar grammar;
@@ -60,25 +59,9 @@ public class EarleyParser extends Parser {
 	}
 	
 	private void fill_chart(String[] sent) {
-		
-		/* DEBUG */
-		Logger.println("Prefix table:");
-		for(Pair<String,String> key : grammar.prefix_table.keySet()) {
-			Logger.print("R("+key.get1()+","+key.get2()+")={");
-			for(Rule r : grammar.prefix_table.get(key)) {
-				Logger.print(r.toString()+", ");
-			}
-			Logger.println("}");
+		if (Logger.isDebugMode()) {
+			print_left_parent_table();
 		}
-		Logger.println("\nLeft parent table:");
-		for(String key : grammar.left_parent_table.keySet()) {
-			Logger.print("P("+key+")={");
-			for(String parent : grammar.left_parent_table.get(key)) {
-				Logger.print(parent+" ");
-			}
-			Logger.println("}");
-		}
-		/* DEBUG */
 		
 		// For each chart column (sent.length + 1)
 		for(int i=0; i<chart.getNumColumns(); i++) {
@@ -127,6 +110,28 @@ public class EarleyParser extends Parser {
 				entry = entry.getNext();
 			}
 			
+		}
+	}
+
+	/**
+	 * For debug only.
+	 */
+	private void print_left_parent_table() {
+		Logger.println("Prefix table:");
+		for(Pair<String,String> key : grammar.prefix_table.keySet()) {
+			Logger.print("R("+key.get1()+","+key.get2()+")={");
+			for(Rule r : grammar.prefix_table.get(key)) {
+				Logger.print(r.toString()+", ");
+			}
+			Logger.println("}");
+		}
+		Logger.println("\nLeft parent table:");
+		for(String key : grammar.left_parent_table.keySet()) {
+			Logger.print("P("+key+")={");
+			for(String parent : grammar.left_parent_table.get(key)) {
+				Logger.print(parent+" ");
+			}
+			Logger.println("}");
 		}
 	}
 	
@@ -202,7 +207,7 @@ public class EarleyParser extends Parser {
 		if(column < sent.length && sent[column].equals(state.symbol_after_dot())) {
 			// Only change the position of the dot
 			DottedRule scanned_rule = new DottedRule(state.rule,state.dot+1,state.start, state.treeWeight);
-			// TODO ?does this work for the rule (NP -> NP and . NP, i)
+			// For the scanned_rule (NP -> NP and . NP, i)
 			scanned_rule.completed_rule = null;
 			scanned_rule.attachee_rule  = state; // NP -> NP . and NP
 			chart.enqueue(scanned_rule,column+1);
@@ -221,20 +226,20 @@ public class EarleyParser extends Parser {
 				new_rule.completed_rule = state;    // e.g. VP -> V .
 				new_rule.attachee_rule  = r;	      // e.g. S  -> NP . VP
 				
+				// This will only match rules with the same symbols, dot position, and start position.
 				DottedRule existingRule = columnAttachments.get(new_rule);
 				if (existingRule != null) {
-					// TODO: remove this debug code and switch back to HashSet
 					if (existingRule.treeWeight > new_rule.treeWeight) {
-						//Logger.println("Not adding equivalent higher weight rule: " + new_rule);
-						// TODO: figure out what to do with this bug
+						// The new_rule has lower weight, so update the higher weight 
+						// rule of the same type
+						// Note that we do not reprocess these rules when they are completed consistuents
+						// and should be attached.
+						// TODO: resolve this for extra credit
 						existingRule.treeWeight = new_rule.treeWeight;
 						existingRule.completed_rule = new_rule.completed_rule;
 						existingRule.attachee_rule = new_rule.attachee_rule;
 					} else {
-						// Either the new_rule has higher weight or we've hit the lower weight completed
-						// consistuent bug.
-						// TODO: resolve this for extra credit
-						
+						// The new_rule has higher weight, so do nothing
 					}
 					continue;
 				}
