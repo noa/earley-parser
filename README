@@ -35,6 +35,8 @@ c)	We update the best parse of a constituent and the its back-pointers in our AT
 Speed-ups used
 --------------
 
+Using the following optimizations, we parse the sentences in wallstreet.sen in about 100 seconds.
+
 1) 	We keep track of which categories have already been PREDICTed for the current column 
 	with a set of already predicted symbols, which gives O(1) checks.
 
