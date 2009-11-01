@@ -64,7 +64,7 @@ public class ParserMain {
 			
 			Logger.println("");
 			Logger.println(sent);
-			System.out.println(sent);
+			//System.out.println(sent);
 			if(tree != null) {
 				System.out.println(tree.toString());
 			} else {

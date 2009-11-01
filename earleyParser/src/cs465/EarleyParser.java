@@ -85,13 +85,12 @@ public class EarleyParser extends Parser {
 			Logger.println("Processing column: " + i);
 			OurLinkedList<DottedRule> column = chart.getColumn(i);
 			LinkedListNode<DottedRule> entry = column.getFirst();
-			HashSet<String> columnPredictions = new HashSet<String>();
 			HashMap<DottedRule,DottedRule> columnAttachments = new HashMap<DottedRule,DottedRule>();
 
 			HashMap<String,HashSet<String>> left_ancestor_pair_table = null;
 						
-			// there is no word corresponding to the first column of the chart
-			if(i < sent.length ) {
+			if( i < sent.length ) {
+				Logger.println("Creating left ancestor pair table for: " + sent[i]);
 				left_ancestor_pair_table = create_ancestor_pair_table(grammar,sent[i]);
 				
 				/* DEBUG */
@@ -108,15 +107,20 @@ public class EarleyParser extends Parser {
 			while( entry != null) {
 				DottedRule state = entry.getValue();
 				Logger.print("Column " + i + ": State: " + state);
+				// ATTACH if we encounter a complete state
 				if (state.complete()) {
 					// e.g. S -> NP VP .
 					Logger.println(" Action: attach");
 					attach(state, i, columnAttachments);
-				} else if (grammar.is_nonterminal(state.symbol_after_dot())) {
+				} 
+				// PREDICT if we hit a nonterminal that isn't in the very last column
+				else if (grammar.is_nonterminal(state.symbol_after_dot()) && i < chart.getNumColumns() - 1 ) {
 					// e.g. S -> . NP VP
 					Logger.println(" Action: predict");
-					predict(state, i, columnPredictions, left_ancestor_pair_table);
-				} else {
+					predict(state, i, left_ancestor_pair_table);
+				} 
+				// otherwise SCAN
+				else {
 					// e.g. NP -> . Det N     (pre-terminal after dot)
 					//  or
 					// e.g. NP -> NP . and NP (terminal after dot) 
@@ -168,17 +172,14 @@ public class EarleyParser extends Parser {
 	}
 
 	// don't need to store back-pointers for predictions
-	private void predict(DottedRule state, int column, HashSet<String> columnPredictions, HashMap<String,HashSet<String>> left_ancestor_pair_table) {
+	private void predict(DottedRule state, int column, HashMap<String,HashSet<String>> left_ancestor_pair_table) {
 		String predictedSymbol = state.symbol_after_dot();
-		if (columnPredictions.contains(predictedSymbol)) { // don't predict the same symbol twice
-			return;
-		}
-		
-		columnPredictions.add(predictedSymbol);
 		
 		// constrain predictions using the left ancestor pair table
 		if(left_ancestor_pair_table != null) {
-			if(left_ancestor_pair_table.containsKey(predictedSymbol)) {
+	//		if(left_ancestor_pair_table.containsKey(predictedSymbol)) {
+				HashSet<String> left_ancestors = left_ancestor_pair_table.get(predictedSymbol);
+				if(left_ancestors != null) {
 				for(String B : left_ancestor_pair_table.get(predictedSymbol)) {
 					Pair<String,String> key = new Pair<String,String>(predictedSymbol,B);
 					for(Rule r : grammar.prefix_table.get(key)) {
@@ -187,8 +188,11 @@ public class EarleyParser extends Parser {
 					}
 				}
 				left_ancestor_pair_table.put(predictedSymbol, null);
+			} else {
+				Logger.println(predictedSymbol + " is not in the left ancestor pair table; not predicting.");
 			}
 		} else { // first column of the chart (no string in sentence)
+			Logger.println("No ancestor pair table; predicting naively");
 			for(Rule r : grammar.get_rule_by_lhs(predictedSymbol)) {
 				chart.enqueue(new DottedRule(r,0,column, r.ruleWeight),column);
 				Logger.println("Column " + column + ": Predicting a new rule.");

@@ -24,13 +24,13 @@ a) 	Chart columns are indexed for efficient O(1) duplicate checks.  A further op
 	duplicates.  We use a left corner method to avoid any unnecessary PREDICTions.
 	
 b)	Each column of our chart is implemented as a linked list for efficient insertion as we traverse it,
-	therefore we can efficiently add rules in O(1).  Since Java doesn't support modifying a list while
-	iterating over it, we implemented our own linked list class for this purpose.
+	therefore we can add rules in O(1).  Since Java doesn't support modifying a list while
+	iterating over it, we implemented our own light-weight linked list class for this purpose.
 
 c)	We update the best parse of a constituent and the its back-pointers in our ATTACH method.  In particular, 
 	we keep a hash map of column attachments and if a better constituent is found we update the existing
-	entry in the hash table.  Using a hash map, we have O(1) access to the current best parse for a 
-	constituent in a given column.
+	entry in the hash table (making sure to update the back-pointers to recover the parse).  Using a hash map, 
+	we have O(1) access to the current best parse for a constituent in a given column.
 
 Speed-ups used
 --------------
@@ -47,6 +47,10 @@ Speed-ups used
 	(as the function predictY(...)).  When predicting, we add exactly the rules stored in R(A,B), where A is 
 	fixed to be the predicted symbol and for all B in the ancestor hash map.  Once a symbol has been predicted,
 	we set its entry in the ancestor table to be empty since we only predict each symbol once per column.
+	
+4) 	We use the suggested trick of setting the ancestors A_j(B) = null for already predicted symbols;
+	this means that (1) is no longer necessary (our implementation only includes this trick to keep
+	track of PREDICTed symbols.
 	
 Comments on parser output on wallstreet.sen
 -------------------------------------------
